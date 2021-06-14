@@ -1,5 +1,4 @@
-- Sodium:
-    names:
-      - sodium
-    variants:
-      - CaffeineMC.Sodium
+- names:
+    - sodium
+  variants:
+    - CaffeineMC.Sodium
