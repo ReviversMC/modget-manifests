@@ -1,11 +1,10 @@
 publisher: CaffeineMC
 name: Modget
 id: modget
-version: 0.1.0
 home: https://github.com/CaffeineMC/sodium-fabric
 issues: https://github.com/CaffeineMC/sodium-fabric/issues
 modType: JAR
-download:
+downloads:
   - version: 0.1.0
     minecraftVersions:
       - 1.16.3
