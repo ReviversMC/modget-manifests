@@ -1,6 +1,6 @@
 publisher: CaffeineMC
-name: Modget
-id: modget
+name: Sodium
+id: sodium
 home: https://github.com/CaffeineMC/sodium-fabric
 issues: https://github.com/CaffeineMC/sodium-fabric/issues
 modType: JAR
