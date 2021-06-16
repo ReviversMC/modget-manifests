@@ -13,17 +13,19 @@ YAML Specification
 
 ## YAML file name and folder structure
 YAML files shall be added to the repository with the following folder structure:<br>
-`manifests / P / Publisher / Package / Publisher.Package.yaml`
+`manifests / P / Publisher / ModID / Publisher.ModID.yaml`
 
 Example:<br>
 `manifests / R / ReviversMC / Modget / ReviversMC.Modget.yaml`
 
 - Manifests are partitioned by the first letter of the publisher name (in upper case). For example: `R`. (The partitioning scheme was added to help with GitHub's UX. Folders with thousands of children do not render well in the browser.)
 - Publisher folder is the name of the individual or group that publishes the tool. For example: `ReviversMC`.
-- The child folder `Package` is the capitalized ID of the mod.  For example: `Modget`.
-- The filename must be a combination of the publisher and the mod name. For example: `ReviversMC.Modget.yaml`.
+- The child folder `ModID` is the capitalized ID of the corresponding mod. For example: `Modget`.
+- The filename must be a combination of the publisher and the mod id. For example: `ReviversMC.Modget.yaml`.
 
-The publisher and mod folders **must** match the values used in the lookup table. See the [lookup table spec](https://github.com/ReviversMC/modget-manifests/tree/master/doc/lookup-table-spec-v1.md). They must also match the values defined in the manifest itself.
+The publisher and modid folders **must** match the values used in the lookup table. See the [lookup table spec](https://github.com/ReviversMC/modget-manifests/tree/master/doc/lookup-table-spec-v1.md). They must also match the values defined in the manifest itself.
+
+**Neither the publisher nor the mod id strings are allowed to contain periods, spaces or non-ASCII characters!**
 
 ## YAML Syntax
 Each field in the file must be camelCased and cannot be duplicated.
@@ -63,7 +65,7 @@ support: https://jellysquid.me/discord
 
 
 ## Best Practices
-The package identifier (`Publisher.Modname`) must be unique. Only one pull request per package version is allowed.
+The package identifier (`Publisher.ModID`) must be unique. Only one pull request per package version is allowed.
 
 Avoid creating multiple publisher folders. For example, do not create a `JellySquid3` if there is already a `JellySquid` folder.
 
