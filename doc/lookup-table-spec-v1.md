@@ -10,7 +10,7 @@ YAML Specification
 # YAML Specification
 
 ## YAML Syntax
-Each field in the file must be camelCased and cannot be duplicated.
+Each field in the file must be `camelCase`d and cannot be duplicated.
 
 ## Lookup table mod examples
 
