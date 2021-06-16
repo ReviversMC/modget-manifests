@@ -20,8 +20,8 @@ Example:<br>
 
 - Manifests are partitioned by the first letter of the publisher name (in upper case). For example: `R`. (The partitioning scheme was added to help with GitHub's UX. Folders with thousands of children do not render well in the browser.)
 - A `Publisher` is the name of the individual or group that publishes the tool. For example: `ReviversMC`.
-- The child folder `ModID` is the capitalized ID of the corresponding mod. For example: `Modget`.
-- The filename must be a combination of the publisher and the mod ID. For example: `ReviversMC.Modget.yaml`.
+- The child folder `ModID` is the capitalized id of the corresponding mod. For example: `Modget`.
+- The filename must be a combination of the publisher and the mod id. For example: `ReviversMC.Modget.yaml`.
 
 The `publisher` and `modID` folders **must** match the values used in the lookup table. See the [lookup table spec](https://github.com/ReviversMC/modget-manifests/tree/master/doc/lookup-table-spec-v1.md). They must also match the values defined in the manifest itself.
 
@@ -69,5 +69,5 @@ The package identifier (`Publisher.ModID`) must be unique. Only one pull request
 
 Avoid creating multiple publisher folders. For example, do not create a `JellySquid3` if there is already a `JellySquid` folder.
 
-Provide as many fields as possible. The more metadata you provide the better the user experience will be. In some cases, the fields may not yet be supported
+Provide as many fields as possible. The more metadata you provide, the better the user experience will be. In some cases, the fields may not yet be supported
 by Modget, but support for them will be added in the future.
