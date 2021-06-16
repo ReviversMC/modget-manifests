@@ -45,7 +45,7 @@ downloads:
       - 1.16.3
       - 1.16.4
       - 1.16.5
-	md5: 12fe6974813ae5d514af57c3ac679966
+    md5: 12fe6974813ae5d514af57c3ac679966
     urls:
       - https://media.forgecdn.net/files/3067/101/sodium-fabric-mc1.16.3-0.1.0.jar
       - https://cdn.modrinth.com/data/AANobbMI/versions/mc1.16.3-0.1.0/sodium-fabric-mc1.16.3-0.1.0.jar
