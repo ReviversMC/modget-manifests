@@ -21,7 +21,7 @@ Each field in the file must be `camelCase`d and cannot be duplicated.
   packages:
     - CaffeineMC.Sodium
     - IrisShaders.Sodium
-    - Indium.Sodium
+    - Comp500.Sodium
 - id: computercraft
   names:
     - cc-r
