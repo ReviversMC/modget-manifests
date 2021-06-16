@@ -19,7 +19,7 @@ Example:<br>
 `manifests / R / ReviversMC / Modget / ReviversMC.Modget.yaml`
 
 - Manifests are partitioned by the first letter of the publisher name (in upper case). For example: `R`. (The partitioning scheme was added to help with GitHub's UX. Folders with thousands of children do not render well in the browser.)
-- Publisher folder is the name of the individual or group that publishes the tool. For example: `ReviversMC`.
+- A `Publisher` is the name of the individual or group that publishes the tool. For example: `ReviversMC`.
 - The child folder `ModID` is the capitalized ID of the corresponding mod. For example: `Modget`.
 - The filename must be a combination of the publisher and the mod id. For example: `ReviversMC.Modget.yaml`.
 
