@@ -1,8 +1,13 @@
+manifestSpecVersion: 1.0
 publisher: CaffeineMC
 name: Sodium
 id: sodium
-home: https://github.com/CaffeineMC/sodium-fabric
+license: LGPL-3.0
+description: A Minecraft mod designed to improve frame rates and reduce micro-stutter
+home: https://jellysquid.me/projects
+source: https://github.com/CaffeineMC/sodium-fabric
 issues: https://github.com/CaffeineMC/sodium-fabric/issues
+support: https://jellysquid.me/discord
 modType: JAR
 downloads:
   - version: 0.1.0
@@ -10,6 +15,7 @@ downloads:
       - 1.16.3
       - 1.16.4
       - 1.16.5
+    md5: 12fe6974813ae5d514af57c3ac679966
     urls:
       - https://media.forgecdn.net/files/3067/101/sodium-fabric-mc1.16.3-0.1.0.jar
       - https://cdn.modrinth.com/data/AANobbMI/versions/mc1.16.3-0.1.0/sodium-fabric-mc1.16.3-0.1.0.jar
