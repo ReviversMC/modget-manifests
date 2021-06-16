@@ -32,7 +32,7 @@ Each field in the file must be `camelCase`d and cannot be duplicated.
     - cc-tweaked-fabric
     - computercraft
     - computercraft-restitched
-      - computercraft-tweaked-fabric
+    - computercraft-tweaked-fabric
   packages:
     - Merith-TK.Computercraft
     - Zundrel.Computercraft
