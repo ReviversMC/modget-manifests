@@ -1,5 +1,7 @@
 - id: sodium
   names:
     - sodium
-  variants:
+  tags:
+    - performance
+  packages:
     - CaffeineMC.Sodium
