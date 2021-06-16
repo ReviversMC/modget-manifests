@@ -20,19 +20,19 @@ Each field in the file must be camelCased and cannot be duplicated.
     - sodium
   packages:
     - CaffeineMC.Sodium
-	- IrisShaders.Sodium
-	- Indium.Sodium
+    - IrisShaders.Sodium
+    - Indium.Sodium
 - id: computercraft
   names:
-	- cc-r
-	- cc-tf
-	- cc-t-f
-	- cc-restitched
-	- cc-tweakedfabric
-	- cc-tweaked-fabric
-	- computercraft
-	- computercraft-restitched
-	- computercraft-tweaked-fabric
+    - cc-r
+    - cc-tf
+    - cc-t-f
+    - cc-restitched
+    - cc-tweakedfabric
+    - cc-tweaked-fabric
+    - computercraft
+    - computercraft-restitched
+      - computercraft-tweaked-fabric
   packages:
     - Merith-TK.Computercraft
     - Zundrel.Computercraft
@@ -43,12 +43,12 @@ Each field in the file must be camelCased and cannot be duplicated.
 ```YAML
   tags:
     - adventure
-	- armor
-	- tools
-	- weapons
-	- cosmetic
-	- magic
-	- ...
+      - armor
+      - tools
+      - weapons
+      - cosmetic
+      - magic
+      - ...
 ```
 
 
