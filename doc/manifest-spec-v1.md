@@ -21,9 +21,9 @@ Example:<br>
 - Manifests are partitioned by the first letter of the publisher name (in upper case). For example: `R`. (The partitioning scheme was added to help with GitHub's UX. Folders with thousands of children do not render well in the browser.)
 - A `Publisher` is the name of the individual or group that publishes the tool. For example: `ReviversMC`.
 - The child folder `ModID` is the capitalized ID of the corresponding mod. For example: `Modget`.
-- The filename must be a combination of the publisher and the mod id. For example: `ReviversMC.Modget.yaml`.
+- The filename must be a combination of the publisher and the mod ID. For example: `ReviversMC.Modget.yaml`.
 
-The publisher and modid folders **must** match the values used in the lookup table. See the [lookup table spec](https://github.com/ReviversMC/modget-manifests/tree/master/doc/lookup-table-spec-v1.md). They must also match the values defined in the manifest itself.
+The `publisher` and `modID` folders **must** match the values used in the lookup table. See the [lookup table spec](https://github.com/ReviversMC/modget-manifests/tree/master/doc/lookup-table-spec-v1.md). They must also match the values defined in the manifest itself.
 
 **Neither the publisher nor the mod id strings are allowed to contain periods, spaces or non-ASCII characters!**
 
