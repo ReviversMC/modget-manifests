@@ -43,12 +43,12 @@ Each field in the file must be camelCased and cannot be duplicated.
 ```YAML
   tags:
     - adventure
-      - armor
-      - tools
-      - weapons
-      - cosmetic
-      - magic
-      - ...
+    - armor
+    - tools
+    - weapons
+    - cosmetic
+    - magic
+    - ...
 ```
 
 
