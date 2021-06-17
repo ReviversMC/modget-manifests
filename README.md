@@ -10,8 +10,9 @@ To submit a package to this repository, you should follow these steps:
 1. Follow the [Contributing](#contributing) guidelines below.
 2. [Author](#authoring-a-manifest) a manifest.
 3. [Test](#testing-your-manifest) your manifest.
-4. [Submit](#submitting-your-pr) your pull request (PR).
-5. Respond to any feedback in your PR.
+4. [Add](#adding-your-package-to-the-lookup-table) your manifest to the lookup table.
+5. [Submit](#submitting-your-pr) your pull request (PR).
+6. Respond to any feedback in your PR.
 
 > Note: Please check the package's manifest you intend to submit does not already exist in the repository, and there are no open PRs for it in order to avoid duplicates.
 
@@ -36,8 +37,11 @@ modget install -m <manifest-name>
 ```
 The manifests have to be located inside the `.minecraft/config/modget/custom-manifests/` folder.
 
+## Adding your package to the lookup table
+With the manifest verified, you have to now add some basic metadata to the [lookup table](./lookup-table.yaml). See the [lookup table spec](./doc/lookup-table-spec-v1.md) on how to do this.
+
 ## Submitting your PR
-With the manifest verified, you will need to submit a PR. Your manifest should be located in the folder path matching `manifests / <first upper case letter of publisher> / <Publisher> / <ModID> / Publisher.ModID.yaml`
+With all of this out of the way, you will finally need to submit a PR. Your manifest should be located in the folder path matching `manifests / <first upper case letter of publisher> / <Publisher> / <ModID> / Publisher.ModID.yaml` (see the [YAML file name and folder structure](./doc/manifest-spec-v1.md#yaml-file-name-and-folder-structure)).
 
 ### Validation Process
 The PR request will go through a validation process. During the process, the core team or (in the future) the Modget bot will use [labels](https://docs.microsoft.com/windows/package-manager/package/winget-validation#pull-request-labels) to help. In the event of a failure, the bot will suggest where the problem is with the submission and assign the PR back to you.
