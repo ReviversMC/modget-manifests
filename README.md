@@ -8,7 +8,7 @@ This repository contains the manifest files for the **Modget** default source. Y
 # Submitting a Package
 To submit a package to this repository, you should follow these steps:
 1. Follow the [Contributing](#contributing) guidelines below.
-2. [Author](#authoring-a-manifest) a Manifest.
+2. [Author](#authoring-a-manifest) a manifest.
 3. [Test](#testing-your-manifest) your manifest.
 4. [Submit](#submitting-your-pr) your pull request (PR).
 5. Respond to any feedback in your PR.
