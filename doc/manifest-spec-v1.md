@@ -23,7 +23,7 @@ Example:<br>
 - The child folder `ModID` is the capitalized id of the corresponding mod. For example: `Modget`.
 - The filename must be a combination of the publisher and the mod id. For example: `ReviversMC.Modget.yaml`.
 
-The `publisher` and `modID` folders **must** match the values used in the lookup table. See the [lookup table spec](./doc/lookup-table-spec-v1.md). They must also match the values defined in the manifest itself.
+The `publisher` and `modID` folders **must** match the values used in the lookup table. See the [lookup table spec](./lookup-table-spec-v1.md). They must also match the values defined in the manifest itself.
 
 **Neither the publisher nor the mod id strings are allowed to contain periods, spaces or non-ASCII characters!**
 
