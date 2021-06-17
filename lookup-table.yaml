@@ -5,3 +5,10 @@
     - performance
   packages:
     - CaffeineMC.Sodium
+- id: lithium
+  names:
+    - lithium
+  tags:
+    - performance
+  packages:
+    - CaffeineMC.Lithium
