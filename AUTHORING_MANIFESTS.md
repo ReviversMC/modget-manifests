@@ -15,7 +15,7 @@ Package versions are associated with a specific release. In some cases you will 
 
 
 ## Understanding the directory structure
-Once you have determined the mod publisher and id, it is possible to know the proper location for the manifest. See [YAML file name and folder structure](./doc/manifest-spec-v1.md#yaml-file-name-and-folder-structure)
+Once you have determined the mod publisher and id, it is possible to know the proper location for the manifest. See [YAML file name and folder structure](./doc/manifest-spec-v1.md#yaml-file-name-and-folder-structure).
 
 
 ## First steps
