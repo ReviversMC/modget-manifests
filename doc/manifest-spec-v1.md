@@ -31,7 +31,7 @@ The `publisher` and `modID` folders **must** match the values used in the lookup
 Each field in the file must be camelCased and cannot be duplicated.
 
 ## YAML file example
-Path: [`manifests / C / CaffeineMC / Sodium / CaffeineMC.Sodium.yaml`](./manifests/C/CaffeineMC/Sodium/CaffeineMC.Sodium.yaml)
+Path: [`manifests / C / CaffeineMC / Sodium / CaffeineMC.Sodium.yaml`](../manifests/C/CaffeineMC/Sodium/CaffeineMC.Sodium.yaml)
 
 ```YAML
 manifestSpecVersion: 1.0
