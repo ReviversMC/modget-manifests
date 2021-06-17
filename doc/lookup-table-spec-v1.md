@@ -53,7 +53,7 @@ Each field in the file must be `camelCase`d and cannot be duplicated.
 
 
 ## Best Practices
-The package identifier (`Publisher.ModID`) must be unique (see the [manifest spec](https://github.com/ReviversMC/modget-manifests/tree/master/doc/manifest-spec-v1.md)). Only one pull request per package is allowed.
+The package identifier (`Publisher.ModID`) must be unique (see the [manifest spec](./doc/manifest-spec-v1.md)). Only one pull request per package is allowed.
 
 **Apart from packages, all values have to be lower case!**
 
@@ -63,5 +63,4 @@ Packages should be sorted according to relevance. If multiple forks exist, the o
 
 Avoid creating redundant tags. Tags should be very short and descriptive! We will add a list with accepted ones later on; for now please resort to the tags used above or CurseForge/Modrinth ones. Note that each tag has to be one-word only and, if necessary, has to be `kebab-case` formatted.
 
-Provide as many fields as possible. The more metadata you provide the better the user experience will be. In some cases, the fields may not yet be supported
-by Modget, but support for them will be added in the future.
+Provide as many fields as possible. The more metadata you provide the better the user experience will be. In some cases, the fields may not yet be supported by Modget, but support for them will be added in the future.

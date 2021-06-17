@@ -23,7 +23,7 @@ Example:<br>
 - The child folder `ModID` is the capitalized id of the corresponding mod. For example: `Modget`.
 - The filename must be a combination of the publisher and the mod id. For example: `ReviversMC.Modget.yaml`.
 
-The `publisher` and `modID` folders **must** match the values used in the lookup table. See the [lookup table spec](https://github.com/ReviversMC/modget-manifests/tree/master/doc/lookup-table-spec-v1.md). They must also match the values defined in the manifest itself.
+The `publisher` and `modID` folders **must** match the values used in the lookup table. See the [lookup table spec](./doc/lookup-table-spec-v1.md). They must also match the values defined in the manifest itself.
 
 **Neither the publisher nor the mod id strings are allowed to contain periods, spaces or non-ASCII characters!**
 
@@ -31,7 +31,7 @@ The `publisher` and `modID` folders **must** match the values used in the lookup
 Each field in the file must be camelCased and cannot be duplicated.
 
 ## YAML file example
-Path: [`manifests / C / CaffeineMC / Sodium / CaffeineMC.Sodium.yaml`](https://github.com/ReviversMC/modget-manifests/tree/master/manifests/C/CaffeineMC/Sodium/CaffeineMC.Sodium.yaml)
+Path: [`manifests / C / CaffeineMC / Sodium / CaffeineMC.Sodium.yaml`](./manifests/C/CaffeineMC/Sodium/CaffeineMC.Sodium.yaml)
 
 ```YAML
 manifestSpecVersion: 1.0
@@ -69,5 +69,4 @@ The package identifier (`Publisher.ModID`) must be unique. Only one pull request
 
 Avoid creating multiple publisher folders. For example, do not create a `JellySquid3` if there is already a `JellySquid` folder.
 
-Provide as many fields as possible. The more metadata you provide, the better the user experience will be. In some cases, the fields may not yet be supported
-by Modget, but support for them will be added in the future.
+Provide as many fields as possible. The more metadata you provide, the better the user experience will be. In some cases, the fields may not yet be supported by Modget, but support for them will be added in the future.
