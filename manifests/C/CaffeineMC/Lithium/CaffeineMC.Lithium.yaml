@@ -10,14 +10,14 @@ issues: https://github.com/CaffeineMC/lithium-fabric/issues
 support: https://jellysquid.me/discord
 modType: JAR
 downloads:
-  - version: 0.7.1
+  - version: 0.7.2
     minecraftVersions:
       - 1.17.0
-    md5: 3fb024ab1966d6a8806e91366e50c51b
+    md5: a2e966bfe3173327c3874236a23fa6e5
     urls:
-      - https://media.forgecdn.net/files/3354/305/lithium-fabric-mc1.17-0.7.1.jar
-      - https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.17-0.7.1/lithium-fabric-mc1.17-0.7.1.jar
-      - https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.17-0.7.1/lithium-fabric-mc1.17-0.7.1.jar
+      - https://media.forgecdn.net/files/3359/899/lithium-fabric-mc1.17-0.7.2.jar
+      - https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.17-0.7.2/lithium-fabric-mc1.17-0.7.2.jar
+      - https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.17-0.7.2/lithium-fabric-mc1.17-0.7.2.jar
   - version: 0.6.6
     minecraftVersions:
       - 1.16.2
