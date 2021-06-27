@@ -34,7 +34,7 @@ Each field in the file must be camelCased and cannot be duplicated.
 Path: [`manifests / C / CaffeineMC / Sodium / CaffeineMC.Sodium.yaml`](../manifests/C/CaffeineMC/Sodium/CaffeineMC.Sodium.yaml)
 
 ```YAML
-manifestSpecVersion: 1.0
+manifestSpecVersion: 1
 publisher: CaffeineMC
 name: Sodium
 id: sodium
