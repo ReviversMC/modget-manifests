@@ -15,7 +15,7 @@ Package versions are associated with a specific release. In some cases you will 
 
 
 ## Understanding the directory structure
-Once you have determined the mod publisher and id, it is possible to know the proper location for the manifest. See [YAML file name and folder structure](./doc/manifest-spec-v1.md#yaml-file-name-and-folder-structure).
+Once you have determined the mod publisher and id, it is possible to know the proper location for the manifest. See [YAML file name and folder structure](./doc/manifest-spec-v2.md#yaml-file-name-and-folder-structure).
 
 
 ## First steps
@@ -23,4 +23,4 @@ Before you invest the time to generate and submit a manifest, you should check t
 
 
 ## What next?
-You should take a look at our [v1 manifest specification](./doc/manifest-spec-v1.md). Don't worry. If this is starting to look too complicated you can create a new issue and select [Mod Request/Submission](https://github.com/ReviversMC/modget-manifests/issues/new/choose).
+You should take a look at our [manifest specification](./doc/manifest-spec-v2.md). Don't worry. If this is starting to look too complicated you can create a new issue and select [Mod Request/Submission](https://github.com/ReviversMC/modget-manifests/issues/new/choose).

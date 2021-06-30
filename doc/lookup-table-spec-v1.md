@@ -53,7 +53,7 @@ Each field in the file must be `camelCase`d and cannot be duplicated.
 
 
 ## Best Practices
-The package identifier (`Publisher.ModID`) must be unique (see the [manifest spec](./manifest-spec-v1.md)). Only one pull request per package is allowed.
+The package identifier (`Publisher.ModID`) must be unique (see the [manifest spec](./manifest-spec-v2.md)). Only one pull request per package is allowed.
 
 **Apart from packages, all values have to be lower case!**
 

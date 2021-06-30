@@ -41,7 +41,7 @@ The manifests have to be located inside the `.minecraft/config/modget/custom-man
 With the manifest verified, you have to now add some basic metadata to the [lookup table](./lookup-table.yaml). See the [lookup table spec](./doc/lookup-table-spec-v1.md) on how to do this.
 
 ## Submitting your PR
-With all of this out of the way, you will finally need to submit a PR. Your manifest should be located in the folder path matching `manifests / <first upper case letter of publisher> / <Publisher> / <ModID> / Publisher.ModID.yaml` (see the [YAML file name and folder structure](./doc/manifest-spec-v1.md#yaml-file-name-and-folder-structure)).
+With all of this out of the way, you will finally need to submit a PR. Your manifest should be located in the folder path matching `manifests / <first upper case letter of publisher> / <Publisher> / <ModID> / Publisher.ModID.yaml` (see the [YAML file name and folder structure](./doc/manifest-spec-v2.md#yaml-file-name-and-folder-structure)).
 
 ### Validation Process
 The PR request will go through a validation process. During the process, the core team or (in the future) the Modget bot will use [labels](https://docs.microsoft.com/windows/package-manager/package/winget-validation#pull-request-labels) to help. In the event of a failure, the bot will suggest where the problem is with the submission and assign the PR back to you.
