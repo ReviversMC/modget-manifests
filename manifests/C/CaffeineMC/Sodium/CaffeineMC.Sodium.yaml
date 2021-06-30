@@ -1,14 +1,18 @@
-manifestSpecVersion: 1
+manifestSpecVersion: 2
 publisher: CaffeineMC
 name: Sodium
 id: sodium
+thirdPartyIds:
+  curseforge: 394468
+  modrinth: AANobbMI
 license: LGPL-3.0
 description: A Minecraft mod designed to improve frame rates and reduce micro-stutter
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/sodium-fabric
 issues: https://github.com/CaffeineMC/sodium-fabric/issues
 support: https://jellysquid.me/discord
-modType: JAR
+modType: jar
+side: client
 downloads:
   - version: 0.2.0
     minecraftVersions:
@@ -17,17 +21,13 @@ downloads:
       - 1.16.4
       - 1.16.5
     md5: 98914f22cfe2d0ea5d8007ae8ff96062
-    urls:
-      - https://cdn.modrinth.com/data/AANobbMI/versions/mc1.16.5-0.2.0/sodium-fabric-mc1.16.5-0.2.0+build.4.jar
-      - https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.16.5-0.2.0/sodium-fabric-mc1.16.5-0.2.0+build.4.jar
-  - version: 0.1.0
-    minecraftVersions:
-      - 1.16.2
-      - 1.16.3
-      - 1.16.4
-      - 1.16.5
-    md5: 12fe6974813ae5d514af57c3ac679966
-    urls:
-      - https://media.forgecdn.net/files/3067/101/sodium-fabric-mc1.16.3-0.1.0.jar
-      - https://cdn.modrinth.com/data/AANobbMI/versions/mc1.16.3-0.1.0/sodium-fabric-mc1.16.3-0.1.0.jar
-      - https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.16.3-0.1.0/sodium-fabric-mc1.16.3-0.1.0.jar
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/sodium/version/YAGZ1cCS
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/tag/mc1.16.5-0.2.0
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/AANobbMI/versions/mc1.16.5-0.2.0/sodium-fabric-mc1.16.5-0.2.0+build.4.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.16.5-0.2.0/sodium-fabric-mc1.16.5-0.2.0+build.4.jar

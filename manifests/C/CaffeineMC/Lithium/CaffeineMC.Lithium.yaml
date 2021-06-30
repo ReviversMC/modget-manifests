@@ -1,23 +1,37 @@
-manifestSpecVersion: 1
+manifestSpecVersion: 2
 publisher: CaffeineMC
 name: Lithium
 id: lithium
+thirdPartyIds:
+  curseforge: 360438
+  modrinth: gvQqBUqZ
 license: LGPL-3.0
 description: An optimization mod for Minecraft which improves server performance significantly
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/lithium-fabric
 issues: https://github.com/CaffeineMC/lithium-fabric/issues
 support: https://jellysquid.me/discord
-modType: JAR
+modType: jar
+side: client
 downloads:
   - version: 0.7.2
     minecraftVersions:
       - 1.17.0
     md5: a2e966bfe3173327c3874236a23fa6e5
-    urls:
-      - https://media.forgecdn.net/files/3359/899/lithium-fabric-mc1.17-0.7.2.jar
-      - https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.17-0.7.2/lithium-fabric-mc1.17-0.7.2.jar
-      - https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.17-0.7.2/lithium-fabric-mc1.17-0.7.2.jar
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lithium/files/3359899
+      - name: Modrinth
+        url: https://modrinth.com/mod/lithium/version/aZ0JFf08
+      - name: GitHub
+        url: https://github.com/CaffeineMC/lithium-fabric/releases/tag/mc1.17-0.7.2
+    fileUrls:
+      - name: CurseForge
+        url: https://media.forgecdn.net/files/3359/899/lithium-fabric-mc1.17-0.7.2.jar
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.17-0.7.2/lithium-fabric-mc1.17-0.7.2.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.17-0.7.2/lithium-fabric-mc1.17-0.7.2.jar
   - version: 0.6.6
     minecraftVersions:
       - 1.16.2
@@ -25,7 +39,17 @@ downloads:
       - 1.16.4
       - 1.16.5
     md5: 19f9a82b0753ae21430761a8916f0533
-    urls:
-      - https://media.forgecdn.net/files/3344/974/lithium-fabric-mc1.16.5-0.6.6.jar
-      - https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.16.5-0.6.6/lithium-fabric-mc1.16.5-0.6.6.jar
-      - https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.16.5-0.6.6/lithium-fabric-mc1.16.5-0.6.6.jar
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lithium/files/3344974
+      - name: Modrinth
+        url: https://modrinth.com/mod/lithium/version/rvsW1zhb
+      - name: GitHub
+        url: https://github.com/CaffeineMC/lithium-fabric/releases/tag/mc1.16.5-0.6.6
+    fileUrls:
+      - name: CurseForge
+        url: https://media.forgecdn.net/files/3344/974/lithium-fabric-mc1.16.5-0.6.6.jar
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.16.5-0.6.6/lithium-fabric-mc1.16.5-0.6.6.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.16.5-0.6.6/lithium-fabric-mc1.16.5-0.6.6.jar
