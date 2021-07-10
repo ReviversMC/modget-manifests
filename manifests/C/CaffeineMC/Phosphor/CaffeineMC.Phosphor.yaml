@@ -1,0 +1,37 @@
+manifestSpecVersion: 2
+publisher: CaffeineMC
+name: Phosphor
+id: phosphor
+thirdPartyIds:
+  curseforge: 372124
+  modrinth: hEOCdOgW
+license: LGPL-3.0
+description: An optimization mod for Minecraft which optimizes the lighting engine
+home: https://jellysquid.me/projects
+source: https://github.com/CaffeineMC/phosphor-fabric
+issues: https://github.com/CaffeineMC/phosphor-fabric/issues
+support: https://jellysquid.me/discord
+modType: jar
+side: both
+downloads:
+  - version: 0.7.2
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: c20213b0f2b9e7769d7cdcc922960f9c
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/files/3294303
+      - name: Modrinth
+        url: https://modrinth.org/mod/phosphor/version/1mUlojUQ
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/tag/mc1.16.2-v0.7.2
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/download/3294303/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/hEOCdOgW/versions/mc1.16.2-0.7.2/phosphor-fabric-mc1.16.3-0.7.2+build.12.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc1.16.2-v0.7.2/phosphor-fabric-mc1.16.3-0.7.2+build.12.jar
