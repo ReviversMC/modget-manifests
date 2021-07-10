@@ -6,14 +6,32 @@ thirdPartyIds:
   curseforge: 360438
   modrinth: gvQqBUqZ
 license: LGPL-3.0
-description: An optimization mod for Minecraft which improves server performance significantly
+description: An optimization mod for Minecraft which improves performance significantly
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/lithium-fabric
 issues: https://github.com/CaffeineMC/lithium-fabric/issues
 support: https://jellysquid.me/discord
 modType: jar
-side: client
+side: both
 downloads:
+  - version: 0.7.3
+    minecraftVersions:
+      - 1.17.1
+    md5: 5a14d732e8d5111e184e26807c1c8eb3
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lithium/files/3380166
+      - name: Modrinth
+        url: https://modrinth.com/mod/lithium/version/cTZv31gu
+      - name: GitHub
+        url: https://github.com/CaffeineMC/lithium-fabric/releases/tag/mc1.17.1-0.7.3
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lithium/download/3380166/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.17.1-0.7.3/lithium-fabric-mc1.17.1-0.7.3.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.17.1-0.7.3/lithium-fabric-mc1.17.1-0.7.3.jar
   - version: 0.7.2
     minecraftVersions:
       - 1.17.0
