@@ -1,14 +1,28 @@
 - id: sodium
   names:
-    - sodium
+    - Sodium
   tags:
     - performance
   packages:
     - CaffeineMC.Sodium
 - id: lithium
   names:
-    - lithium
+    - Lithium
   tags:
     - performance
   packages:
     - CaffeineMC.Lithium
+- id: phosphor
+  names: 
+    - Phosphor
+  tags:
+    - performance
+  packages:
+    - CaffeineMC.Phosphor
+- id: starlight
+  names:
+    - Starlight
+  tags:
+    - performance
+  packages:
+    - Tuinity.Starlight
