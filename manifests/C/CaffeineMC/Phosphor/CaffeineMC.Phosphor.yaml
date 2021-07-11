@@ -5,7 +5,7 @@ id: phosphor
 thirdPartyIds:
   curseforge: 372124
   modrinth: hEOCdOgW
-license: LGPL-3.0
+license: LGPL-3.0-only
 description: An optimization mod for Minecraft which optimizes the lighting engine
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/phosphor-fabric

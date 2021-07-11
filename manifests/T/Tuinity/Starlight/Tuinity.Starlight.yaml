@@ -2,7 +2,7 @@ manifestSpecVersion: 2
 publisher: Tuinity
 name: Starlight
 id: starlight
-license: LGPL-3.0
+license: LGPL-3.0-only
 description: Fabric mod for completely rewriting the vanilla light engine.
 home: https://github.com/Tuinity
 source: https://github.com/Tuinity/Starlight

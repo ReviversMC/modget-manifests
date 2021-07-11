@@ -5,7 +5,7 @@ id: lithium
 thirdPartyIds:
   curseforge: 360438
   modrinth: gvQqBUqZ
-license: LGPL-3.0
+license: LGPL-3.0-only
 description: An optimization mod for Minecraft which improves performance significantly
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/lithium-fabric

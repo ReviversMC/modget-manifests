@@ -5,7 +5,7 @@ id: sodium
 thirdPartyIds:
   curseforge: 394468
   modrinth: AANobbMI
-license: LGPL-3.0
+license: LGPL-3.0-only
 description: A Minecraft mod designed to improve frame rates and reduce micro-stutter
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/sodium-fabric
