@@ -14,7 +14,9 @@ To submit a package to this repository, you should follow these steps:
 5. [Submit](#submitting-your-pr) your pull request (PR).
 6. Respond to any feedback in your PR.
 
-> Note: Please check the package's manifest you intend to submit does not already exist in the repository, and there are no open PRs for it in order to avoid duplicates.
+> Note: 
+> - Only submit mods which are considered stable. This disallows all mods which are marked as `Alpha` on CurseForge/Modrinth and mods, which haven't been published to these platforms yet if the reasoning behind this is that they're too unstable (see C2ME for example).
+> - Please check the package's manifest you intend to submit does not already exist in the repository, and there are no open PRs for it in order to avoid duplicates.
 
 ## Authoring a Manifest
 In the future, you will be able to use the [Modget Manifest Creator](https://github.com/ReviversMC/modget-create). Currently, you have to craft a manifest manually following our [authoring guidelines](AUTHORING_MANIFESTS.md).
