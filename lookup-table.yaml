@@ -1,35 +1,40 @@
 - id: sodium
   names:
-    - Sodium
+    - sodium
+    - sodium-fabric
   tags:
     - performance
   packages:
     - CaffeineMC.Sodium
 - id: lithium
   names:
-    - Lithium
+    - lithium
+    - lithium-fabric
   tags:
     - performance
   packages:
     - CaffeineMC.Lithium
 - id: phosphor
   names: 
-    - Phosphor
+    - phosphor
+    - phosphor-fabric
   tags:
     - performance
   packages:
     - CaffeineMC.Phosphor
 - id: starlight
   names:
-    - Starlight
+    - starlight
   tags:
     - performance
   packages:
     - Tuinity.Starlight
 - id: fabric
   names:
-    - Fabric API
+    - fabric
+    - fabric-api
   tags:
     - essential
   packages:
-    - FabricMC.fabric
+    - FabricMC.Fabric
+
