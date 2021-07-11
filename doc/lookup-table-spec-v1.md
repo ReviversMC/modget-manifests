@@ -57,7 +57,7 @@ The package identifier (`Publisher.ModID`) must be unique (see the [manifest spe
 
 **Apart from packages, all values have to be lower case!**
 
-Names should contain the actual mod name (listed in the mod's `fabric.mod.json`), different variations of that and, if applicable, a differing CurseForge/Modrinth url name. If one of the aforementioned versions consists of multiple words, it must be `kebab-case`d.
+Names should contain the actual, lower-cased mod name (listed in the mod's `fabric.mod.json`), different variations of that and, if applicable, a differing CurseForge/Modrinth url name. If one of the aforementioned versions consists of multiple words, it must be `kebab-case`d.
 
 Packages should be sorted according to relevance. If multiple forks exist, the original mod (if still maintained, of course), should be listed at the top. If multiple packages have the same relevance, sort them alphabetically.
 
