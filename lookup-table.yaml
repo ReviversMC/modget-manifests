@@ -26,3 +26,10 @@
     - performance
   packages:
     - Tuinity.Starlight
+- id: fabric
+  names:
+    - Fabric API
+  tags:
+    - essential
+  packages:
+    - FabricMC.fabric
