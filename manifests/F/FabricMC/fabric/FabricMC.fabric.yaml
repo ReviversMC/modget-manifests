@@ -16,7 +16,9 @@ side: both
 downloads:
   - version: 0.36.1+1.17
     minecraftVersions:
+      - 1.17.1-rc
       - 1.17.1-rc2
+      - 1.17.1
     md5: 9c00ce37c3c7ab590d793f155c1c48df
     downloadPageUrls:
       - name: CurseForge
@@ -35,6 +37,7 @@ downloads:
   - version: 0.36.0+1.17
     minecraftVersions:
       - 1.17.0
+      - 1.17.1
     md5: 919cf187e3b5963d74c140203ad9a65c
     downloadPageUrls:
       - name: CurseForge
@@ -52,8 +55,6 @@ downloads:
         url: https://github.com/FabricMC/fabric/releases/download/0.36.0%2B1.17/fabric-api-0.36.0+1.17.jar
   - version: 0.36.0+1.16
     minecraftVersions:
-      - 1.16.0
-      - 1.16.1
       - 1.16.2
       - 1.16.3
       - 1.16.4
