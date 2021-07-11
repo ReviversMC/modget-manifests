@@ -16,6 +16,9 @@ side: client
 downloads:
   - version: 0.2.0
     minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
       - 1.16.5
     md5: 98914f22cfe2d0ea5d8007ae8ff96062
     downloadPageUrls:
