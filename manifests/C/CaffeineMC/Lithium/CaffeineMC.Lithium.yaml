@@ -6,7 +6,7 @@ thirdPartyIds:
   curseforge: 360438
   modrinth: gvQqBUqZ
 license: LGPL-3.0-only
-description: An optimization mod for Minecraft which improves performance significantly
+description: A Fabric mod designed to improve the general performance of Minecraft without breaking things 
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/lithium-fabric
 issues: https://github.com/CaffeineMC/lithium-fabric/issues
