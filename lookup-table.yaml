@@ -45,3 +45,10 @@
     - CaffeineMC.Hydrogen
   tags:
     - performance
+- id: ferritecore
+  names:
+    - ferritecore
+  packages:
+    - malte0811.FerriteCore
+  tags:
+    - performance
