@@ -1,0 +1,35 @@
+manifestSpecVersion: 2
+publisher: ReviversMC
+name: 
+id: lithium
+thirdPartyIds:
+  curseforge: unknown
+  modrinth: unknown
+license: LGPL-3.0
+description: Minecraft Mod Package Manager! Searches for updates, installs them etc.
+home: https://github.com/ReviversMC
+source: https://github.com/ReviversMC/modget
+issues: https://github.com/ReviversMC/modget/issues
+support: https://discord.gg/nVDXfCRyMk
+modType: jar
+side: both
+downloads:
+  - version: latest
+    minecraftVersions:
+      - 1.16.4
+      - 1.16.5
+    md5: 
+    downloadPageUrls:
+      - name: CurseForge
+        url: 
+      - name: Modrinth
+        url: 
+      - name: GitHub
+        url: 
+    fileUrls:
+      - name: CurseForge
+        url: 
+      - name: Modrinth
+        url: 
+      - name: GitHub
+        url: 
