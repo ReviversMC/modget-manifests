@@ -1,0 +1,29 @@
+manifestSpecVersion: 2
+publisher: CaffeineMC
+name: Hydrogen
+id: hydrogen
+thirdPartyIds:
+  modrinth: AZomiSrC
+license: LGPL-3.0-only
+description: An optimization mod for Minecraft which improves performance significantly
+home: https://jellysquid.me/projects
+source: https://github.com/CaffeineMC/hydrogen-fabric
+issues: https://github.com/CaffeineMC/hydrogen-fabric/issues
+support: https://jellysquid.me/discord
+modType: jar
+side: both
+downloads:
+  - version: mc1.17-0.3.0
+    minecraftVersions:
+      - 1.17.0
+    md5: 5a14d732e8d5111e184e26807c1c8eb3
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.org/mod/hydrogen/version/nc84mXki
+      - name: GitHub
+        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/tag/mc1.17-0.3.0
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.17-v0.3.0/hydrogen-fabric-mc1.17-0.3.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/download/mc1.17-0.3.0/hydrogen-fabric-mc1.17-0.3.jar

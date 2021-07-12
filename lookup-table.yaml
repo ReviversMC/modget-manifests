@@ -37,3 +37,11 @@
     - Tuinity.Starlight
   tags:
     - performance
+- id: hydrogen
+  names:
+    - hydrogen
+    - hydrogen-fabric
+  packages:
+    - CaffeineMC.Hydrogen
+  tags:
+    - performance
