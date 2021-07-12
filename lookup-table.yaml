@@ -1,40 +1,39 @@
-- id: sodium
-  names:
-    - sodium
-    - sodium-fabric
-  tags:
-    - performance
-  packages:
-    - CaffeineMC.Sodium
-- id: lithium
-  names:
-    - lithium
-    - lithium-fabric
-  tags:
-    - performance
-  packages:
-    - CaffeineMC.Lithium
-- id: phosphor
-  names: 
-    - phosphor
-    - phosphor-fabric
-  tags:
-    - performance
-  packages:
-    - CaffeineMC.Phosphor
-- id: starlight
-  names:
-    - starlight
-  tags:
-    - performance
-  packages:
-    - Tuinity.Starlight
 - id: fabric
   names:
     - fabric
     - fabric-api
-  tags:
-    - essential
   packages:
     - FabricMC.Fabric
-
+  tags:
+    - essential
+- id: lithium
+  names:
+    - lithium
+    - lithium-fabric
+  packages:
+    - CaffeineMC.Lithium
+  tags:
+    - performance
+- id: phosphor
+  names: 
+    - phosphor
+    - phosphor-fabric
+  packages:
+    - CaffeineMC.Phosphor
+  tags:
+    - performance
+- id: sodium
+  names:
+    - sodium
+    - sodium-fabric
+  packages:
+    - CaffeineMC.Sodium
+  tags:
+    - performance
+- id: starlight
+  names:
+    - starlight
+  packages:
+    - Tuinity.Starlight
+  tags:
+    - performance
