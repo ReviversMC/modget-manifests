@@ -80,3 +80,10 @@
     - TerraformersMC.ModMenu
   tags:
     - utility
+- id: okzoomer
+  names:
+    - okzoomer
+  packages:
+    - EnnuiL.OkZoomer
+  tags:
+    - utility
