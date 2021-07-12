@@ -52,3 +52,10 @@
     - malte0811.FerriteCore
   tags:
     - performance
+- id: krypton
+  names:
+    - krypton
+  packages:
+    - astei.Krypton
+  tags:
+    - performance

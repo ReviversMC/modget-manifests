@@ -1,0 +1,35 @@
+manifestSpecVersion: 2
+publisher: astei
+name: Krypton
+id: krypton
+thirdPartyIds:
+  curseforge: 428912
+  modrinth: fQEb0iXm
+license: GPL-3.0
+description: A Fabric mod that optimizes the Minecraft networking stack and entity tracker. 
+home: https://github.com/astei
+source: https://github.com/astei/krypton
+issues: https://github.com/astei/krypton/issues
+support: https://discord.gg/RUGArxEQ8J
+modType: jar
+side: both
+downloads:
+  - version: 0.1.4
+    minecraftVersions:
+      - 1.17.1
+      # >=1.17.1 in fabric.mod.json
+    md5: 9ed7dbe7b0803fc3f463f5ae099e2961
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/krypton/files/3378767
+      - name: Modrinth
+        url: https://modrinth.org/mod/krypton/version/PGovBIXq
+      - name: GitHub
+        url: https://github.com/astei/krypton/releases/tag/v0.1.4
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/krypton/download/3378767/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/fQEb0iXm/versions/0.1.4/krypton-0.1.4.jar
+      - name: GitHub
+        url: https://github.com/astei/krypton/releases/download/v0.1.4/krypton-0.1.4.jar
