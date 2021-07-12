@@ -73,3 +73,10 @@
     - biom4st3r.RecipeCache
   tags:
     - performance
+- id: modmenu
+  names:
+    - modmenu
+  packages:
+    - TerraformersMC.ModMenu
+  tags:
+    - utility
