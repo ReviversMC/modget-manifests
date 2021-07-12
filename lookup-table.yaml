@@ -6,6 +6,13 @@
     - FabricMC.Fabric
   tags:
     - essential
+- id: modget
+  names:
+    - modget
+  packages:
+    - ReviversMC.Modget
+  tags:
+    - updater
 - id: lithium
   names:
     - lithium
