@@ -5,7 +5,7 @@ id: hydrogen
 thirdPartyIds:
   modrinth: AZomiSrC
 license: LGPL-3.0-only
-description: An optimization mod for Minecraft which improves performance significantly
+description: Things of which are too dangerous to put in Lithium. 
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/hydrogen-fabric
 issues: https://github.com/CaffeineMC/hydrogen-fabric/issues
