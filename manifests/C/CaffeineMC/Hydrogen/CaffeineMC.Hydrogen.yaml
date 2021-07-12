@@ -16,7 +16,7 @@ downloads:
   - version: mc1.17-0.3.0
     minecraftVersions:
       - 1.17.0
-    md5: 5a14d732e8d5111e184e26807c1c8eb3
+    md5: 9165d6cc0b5f60f5ad94eebfdb86d493
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/hydrogen/version/nc84mXki
