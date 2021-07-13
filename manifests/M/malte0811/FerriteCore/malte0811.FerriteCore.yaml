@@ -6,7 +6,7 @@ thirdPartyIds:
   curseforge: 459857
   modrinth: uXXizFIs
 license: MIT
-description: A coremod to save RAM.
+description: Reduces memory usage
 home: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric
 source: https://github.com/malte0811/FerriteCore
 issues: https://github.com/malte0811/FerriteCore/issues
