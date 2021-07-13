@@ -87,3 +87,12 @@
     - EnnuiL.OkZoomer
   tags:
     - utility
+- id: lambdynlights
+  names:
+    - lambdynlights
+    - lambdynamiclights
+  packages:
+    - LambdAurora.LambDynamicLights
+  tags:
+    - decoration
+    - utility
