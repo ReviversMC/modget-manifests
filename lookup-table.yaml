@@ -96,3 +96,12 @@
   tags:
     - decoration
     - utility
+- id: dashloader
+  names:
+    - dashloader
+  packages:
+    - QuantumFusion.DashLoader
+  tags:
+    - utility
+    - library
+    - misc

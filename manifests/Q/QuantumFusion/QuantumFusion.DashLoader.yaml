@@ -1,0 +1,46 @@
+manifestSpecVersion: 2
+publisher: QuantumFusion
+name: DashLoader
+id: dashloader
+thirdPartyIds:
+  curseforge: 472772
+  modrinth: ZfQ3kTvR
+license: LGPLv2.1
+description: Launch at the speed of light.
+home: https://www.curseforge.com/minecraft/mc-mods/dashloader
+source: https://github.com/alphaqu/DashLoader
+issues: https://github.com/alphaqu/DashLoader/issues
+support: https://discord.gg/ERw86gDGdg
+modType: jar
+side: client
+downloads:
+  - version: 2.0
+    minecraftVersions:
+      - 1.14.0
+      - 1.14.1
+      - 1.14.2
+      - 1.14.3
+      - 1.14.4
+      - 1.15.0
+      - 1.15.1
+      - 1.15.2
+      - 1.16.0
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+      - 1.17.0
+      - 1.17.1
+      # * in fabric.mod.json
+    md5: b443fcb092342ca01da5d1932aad4ed0
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3383467
+      - name: Modrinth
+        url: https://modrinth.org/mod/dashloader/version/k9vsytTC
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3383467/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/2.0/dashloader-2.0.jar
