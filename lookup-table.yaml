@@ -105,3 +105,11 @@
     - utility
     - library
     - misc
+- id: smoothboot
+  names:
+    - smoothboot
+  packages:
+    - UltimateBoomer.SmoothBoot
+  tags:
+    - utility
+    - misc
