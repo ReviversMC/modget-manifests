@@ -6,7 +6,7 @@ thirdPartyIds:
   curseforge: 372124
   modrinth: hEOCdOgW
 license: LGPL-3.0-only
-description: An optimization mod for Minecraft which optimizes the lighting engine
+description: A Fabric mod designed to dramatically improve the performance of Minecraft's lighting engine while fixing many bugs 
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/phosphor-fabric
 issues: https://github.com/CaffeineMC/phosphor-fabric/issues
