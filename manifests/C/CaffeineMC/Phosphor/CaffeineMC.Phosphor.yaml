@@ -6,7 +6,7 @@ thirdPartyIds:
   curseforge: 372124
   modrinth: hEOCdOgW
 license: LGPL-3.0-only
-description: A Fabric mod designed to dramatically improve the performance of Minecraft's lighting engine while fixing many bugs 
+description: Phosphor is a free and open-source optimization mod for Minecraft which improves the performance of the lighting engine, resulting in significantly reduced world generation times and improved server tick rates. You can help feed me and support development on Patreon, gaining some special perks in the process! Any amount of support helps a ton. https://www.patreon.com/jellysquid
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/phosphor-fabric
 issues: https://github.com/CaffeineMC/phosphor-fabric/issues
@@ -14,12 +14,13 @@ support: https://jellysquid.me/discord
 modType: jar
 side: both
 downloads:
-  - version: 0.7.2
+  - version: mc1.16.2-v0.7.2
     minecraftVersions:
       - 1.16.2
       - 1.16.3
       - 1.16.4
       - 1.16.5
+      # >= 1.16.2 in fabric.mod.json
     md5: c20213b0f2b9e7769d7cdcc922960f9c
     downloadPageUrls:
       - name: CurseForge
@@ -35,3 +36,25 @@ downloads:
         url: https://cdn.modrinth.com/data/hEOCdOgW/versions/mc1.16.2-0.7.2/phosphor-fabric-mc1.16.3-0.7.2+build.12.jar
       - name: GitHub
         url: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc1.16.2-v0.7.2/phosphor-fabric-mc1.16.3-0.7.2+build.12.jar
+  - version: mc1.16.2-v0.7.1
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+      # >=1.16.2 in fabric.mod.json
+    md5: dc00c550ee486edeacc670b0f8d3e9ab
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/files/3202749
+      - name: Modrinth
+        url: https://modrinth.org/mod/phosphor/version/C9Witfc8
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/tag/mc1.16.2-v0.7.1
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/download/3202749/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/hEOCdOgW/versions/mc1.16.2-0.7.1/phosphor-fabric-mc1.16.3-0.7.1+build.11.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc1.16.2-v0.7.1/phosphor-fabric-mc1.16.3-0.7.1+build.11.jar
