@@ -6,7 +6,7 @@ thirdPartyIds:
   curseforge: 394468
   modrinth: AANobbMI
 license: LGPL-3.0-only
-description: A Minecraft mod designed to improve frame rates and reduce micro-stutter
+description: Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/sodium-fabric
 issues: https://github.com/CaffeineMC/sodium-fabric/issues

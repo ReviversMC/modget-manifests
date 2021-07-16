@@ -12,7 +12,7 @@ support: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues/service_desk
 modType: jar
 side: both
 downloads:
-  - version: 0.2.0
+  - version: 0.2.0-1.17.1
     minecraftVersions:
       - 1.17.1
     md5: 36e74c104abee8763249d8e3475acb05
@@ -22,3 +22,24 @@ downloads:
     fileUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3369522/file
+  - version: 0.2.0
+    minecraftVersions:
+      - 1.17.0
+    md5: 2c6b6f29defdb471c2732aaaf69a0f8f
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3348298
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3348298/file
+  - version: 0.1.0
+    minecraftVersions:
+      - 1.16.4
+      - 1.16.5
+    md5: f6828aa7f1f872bf3141db9d4b85ff48
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3281223
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3281223/file
