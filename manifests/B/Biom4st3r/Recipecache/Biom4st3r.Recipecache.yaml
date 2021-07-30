@@ -4,6 +4,7 @@ name: RecipeCache
 id: recipecache
 thirdPartyIds:
   curseforge: 473492
+license: MIT
 description: Caches the previous recipe to dramatically increase performance of crafting
 home: https://gitlab.com/biom4st3r
 source: https://gitlab.com/biom4st3r/optimizedcrafting
