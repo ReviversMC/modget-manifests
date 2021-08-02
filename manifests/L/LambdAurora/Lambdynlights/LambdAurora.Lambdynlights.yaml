@@ -14,6 +14,26 @@ support: https://discord.gg/abEbzzv
 modType: jar
 side: client
 downloads:
+  - version: 2.0.2+1.17
+    minecraftVersions:
+      - 1.17.0
+      - 1.17.1
+      # >=1.17 in fabric.mod.json
+    md5: 36310f6881094c364dcbd48f475f8b44
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/files/3409038
+      - name: Modrinth
+        url: https://modrinth.com/mod/lambdynamiclights/version/GiwO5rBh
+      - name: GitHub
+        url: https://github.com/LambdAurora/LambDynamicLights/releases/tag/2.0.2%2B1.17
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/download/3409038/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/yBW8D80W/versions/2.0.2+1.17/lambdynamiclights-2.0.2+1.17.jar
+      - name: GitHub
+        url: https://github.com/LambdAurora/LambDynamicLights/releases/download/2.0.2%2B1.17/lambdynamiclights-2.0.2+1.17.jar
   - version: 2.0.1+1.17
     minecraftVersions:
       - 1.17.0
