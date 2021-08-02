@@ -5,7 +5,8 @@
   packages:
     - FabricMC.Fabric
   tags:
-    - essential
+    - library
+    - api
 - id: lithium
   names:
     - lithium
@@ -14,6 +15,7 @@
     - CaffeineMC.Lithium
   tags:
     - performance
+    - utility
 - id: phosphor
   names: 
     - phosphor
@@ -22,6 +24,8 @@
     - CaffeineMC.Phosphor
   tags:
     - performance
+    - utility
+    - worldgen
 - id: sodium
   names:
     - sodium
@@ -30,6 +34,7 @@
     - CaffeineMC.Sodium
   tags:
     - performance
+    - utility
 - id: starlight
   names:
     - starlight
@@ -37,6 +42,8 @@
     - Tuinity.Starlight
   tags:
     - performance
+    - utility
+    - worldgen
 - id: hydrogen
   names:
     - hydrogen
@@ -45,6 +52,7 @@
     - CaffeineMC.Hydrogen
   tags:
     - performance
+    - utility
 - id: ferritecore
   names:
     - ferritecore
@@ -52,6 +60,7 @@
     - malte0811.FerriteCore
   tags:
     - performance
+    - utility
 - id: krypton
   names:
     - krypton
@@ -59,6 +68,7 @@
     - astei.Krypton
   tags:
     - performance
+    - utility
 - id: lazydfu
   names:
     - lazydfu
@@ -66,6 +76,7 @@
    - astei.LazyDFU
   tags:
     - performance
+    - utility
 - id: recipecache
   names:
     - recipecache
@@ -73,6 +84,7 @@
     - biom4st3r.RecipeCache
   tags:
     - performance
+    - utility
 - id: modmenu
   names:
     - modmenu
@@ -94,8 +106,9 @@
   packages:
     - LambdAurora.LambDynamicLights
   tags:
-    - decoration
+    - cosmetic
     - utility
+    - adventure
 - id: dashloader
   names:
     - dashloader
@@ -104,7 +117,7 @@
   tags:
     - utility
     - library
-    - misc
+    - api
 - id: smoothboot
   names:
     - smoothboot
@@ -112,4 +125,5 @@
     - UltimateBoomer.SmoothBoot
   tags:
     - utility
-    - misc
+    - library
+    - api

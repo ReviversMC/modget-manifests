@@ -1,5 +1,5 @@
 manifestSpecVersion: 2
-publisher: malte0811
+publisher: Malte0811
 name: FerriteCore
 id: ferritecore
 thirdPartyIds:
@@ -20,6 +20,7 @@ downloads:
       - 1.16.5
       - 1.17.0
       - 1.17.1
+      # >=1.16.4 in minecraft.mod.json
     md5: 58354b44afef6c347c6ffb79d255d967
     downloadPageUrls:
       - name: CurseForge
