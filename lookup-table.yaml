@@ -127,3 +127,12 @@
     - utility
     - library
     - api
+- id: terra
+  names:
+    - terra
+  packages:
+    - Dfsek.Terra
+  tags:
+    - adventure
+    - utility
+    - worldgen
