@@ -19,10 +19,32 @@ downloads:
       - 1.17.0
       - 1.17.1
       # 1.17.x in fabric.mod.json
-    md5: 
+    md5: a9ed16e69d41d19fb7bc2a3da0129db8
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/terra/version/i38N6tkR
     fileUrls:
       - name: Modrinth
         url: https://cdn.modrinth.com/data/FIlZB9L0/versions/5.4.1-BETA+40e95073/Terra-fabric-5.4.1-BETA+40e95073-shaded-mapped.jar
+  - version: 5.3.3-BETA+6027c282
+    minecraftVersions:
+      - 1.17.0
+      # 1.17 listed on modrinth; version released before 1.17.1
+    md5: 3e16479da10f02a1fb794dbf921794ad
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/terra/version/z4dIPu75
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/FIlZB9L0/versions/fabric-5.3.3-BETA+6027c282/Terra-fabric-5.3.3-BETA+6027c282-shaded-mapped.jar
+  - version: 5.3.3-BETA+5dd00db8
+    minecraftVersions:
+      - 1.16.4
+      - 1.16.5
+    md5: c8b5cebb3725a055c9082130410efb9b
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/terra/version/9DWPUHbr
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/FIlZB9L0/versions/fabric-5.3.3-BETA+5dd00db8/Terra-fabric-5.3.3-BETA+5dd00db8-shaded-mapped.jar
