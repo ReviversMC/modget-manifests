@@ -1,0 +1,26 @@
+manifestSpecVersion: 2
+publisher: ReviversMC
+name: Modget
+id: modget
+thirdPartyIds:
+  modrinth: 2NpFE0R3
+license: LGPL-3.0
+description: The Minecraft Mod Package Manager! Can install mods via commands, search for updates and much more. 
+home: https://github.com/ReviversMC
+source: https://github.com/ReviversMC/modget
+issues: https://github.com/ReviversMC/modget/issues
+support: https://discord.gg/nVDXfCRyMk
+modType: jar
+side: both
+downloads:
+  - version: 0.0.1
+    minecraftVersions:
+      - 1.16.4
+      - 1.16.5
+    md5: 3d8d0002fb394e19b3351dc0c39c9c44
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/modget/version/D4Zrji5i
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.0.1/modget-0.0.1.jar
