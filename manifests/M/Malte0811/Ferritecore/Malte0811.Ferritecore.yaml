@@ -1,0 +1,34 @@
+manifestSpecVersion: 2
+publisher: Malte0811
+name: FerriteCore
+id: ferritecore
+thirdPartyIds:
+  curseforge: 459857
+  modrinth: uXXizFIs
+license: MIT
+description: Reduces memory usage
+home: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric
+source: https://github.com/malte0811/FerriteCore
+issues: https://github.com/malte0811/FerriteCore/issues
+support: https://github.com/malte0811/FerriteCore/discussions
+modType: jar
+side: both
+downloads:
+  - version: 3.0.1
+    minecraftVersions:
+      - 1.16.4
+      - 1.16.5
+      - 1.17.0
+      - 1.17.1
+      # >=1.16.4 in minecraft.mod.json
+    md5: 58354b44afef6c347c6ffb79d255d967
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3373736
+      - name: Modrinth
+        url: https://modrinth.org/mod/ferrite-core/version/hjsymojR
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3373736/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/uXXizFIs/versions/3.0.1/ferritecore-3.0.1-fabric.jar

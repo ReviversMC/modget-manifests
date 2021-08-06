@@ -3,7 +3,7 @@ publisher: Tuinity
 name: Starlight
 id: starlight
 license: LGPL-3.0-only
-description: Fabric mod for completely rewriting the vanilla light engine.
+description: Rewrites the light engine to fix lighting performance and lighting errors
 home: https://github.com/Tuinity
 source: https://github.com/Tuinity/Starlight
 issues: https://github.com/Tuinity/Starlight/issues
@@ -15,6 +15,7 @@ downloads:
     minecraftVersions:
       - 1.17.0
       - 1.17.1
+      # >=1.17.0 in fabric.mod.json
     md5: 6b6cd1aa6e4400ef8fe61c1cfce52f20
     downloadPageUrls:
       - name: GitHub
@@ -40,6 +41,7 @@ downloads:
       - 1.16.3
       - 1.16.4
       - 1.16.5
+      # >=1.16.0 in fabric.mod.json
     md5: d19207042c3a22c553ec053cc483c978
     downloadPageUrls:
       - name: GitHub

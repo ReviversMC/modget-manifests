@@ -1,0 +1,50 @@
+manifestSpecVersion: 2
+publisher: Tuxed
+name: LazyDFU
+id: lazydfu
+thirdPartyIds:
+  curseforge: 433518
+  modrinth: hvFnDODi
+license: MIT
+description: Makes Minecraft DataFixerUpper initialization lazy
+home: https://github.com/astei
+source: https://github.com/astei/lazydfu
+issues: https://github.com/astei/lazydfu/issues
+support: https://discord.gg/RUGArxEQ8J
+modType: jar
+side: both
+downloads:
+  - version: 0.1.2
+    minecraftVersions:
+      - 1.14.0
+      - 1.14.1
+      - 1.14.2
+      - 1.14.3
+      - 1.14.4
+      - 1.15.0
+      - 1.15.1
+      - 1.15.2
+      - 1.16.0
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+      - 1.17.0
+      - 1.17.1
+      # >=1.14 in fabric.mod.json
+    md5: b2597e901c05673ef2834dad32da8824
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lazydfu/files/3209972
+      - name: Modrinth
+        url: https://modrinth.org/mod/lazydfu/version/C6e265zK
+      - name: GitHub
+        url: https://github.com/astei/lazydfu/releases/tag/0.1.2
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lazydfu/download/3209972/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/hvFnDODi/versions/0.1.2/lazydfu-0.1.2.jar
+      - name: GitHub
+        url: https://github.com/astei/lazydfu/releases/download/0.1.2/lazydfu-0.1.2.jar
