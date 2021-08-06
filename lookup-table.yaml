@@ -5,8 +5,15 @@
   packages:
     - FabricMC.Fabric
   tags:
-    - library
-    - api
+      - library
+      - api
+- id: modget
+  names:
+    - modget
+  packages:
+    - ReviversMC.Modget
+  tags:
+    - utility
 - id: lithium
   names:
     - lithium
@@ -127,3 +134,12 @@
     - utility
     - library
     - api
+- id: terra
+  names:
+    - terra
+  packages:
+    - Dfsek.Terra
+  tags:
+    - adventure
+    - utility
+    - worldgen
