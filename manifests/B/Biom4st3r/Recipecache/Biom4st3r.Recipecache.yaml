@@ -34,6 +34,7 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3348298/file
   - version: 0.1.0
+  # gitlabTag: 0.1.0
     minecraftVersions:
       - 1.16.4
       - 1.16.5

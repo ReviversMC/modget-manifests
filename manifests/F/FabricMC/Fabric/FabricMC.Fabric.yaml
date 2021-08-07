@@ -15,6 +15,7 @@ modType: jar
 side: both
 downloads:
   - version: 0.37.1+1.17
+  # githubTag: 0.37.1+1.17
     minecraftVersions:
       - 1.17.1-rc1
       - 1.17.1-rc2
@@ -35,6 +36,7 @@ downloads:
       - name: GitHub
         url: https://github.com/FabricMC/fabric/releases/download/0.37.1%2B1.17/fabric-api-0.37.1+1.17.jar
   - version: 0.37.1+1.16
+  # githubTag: 0.37.1+1.16
     minecraftVersions:
       - 1.16.2
       - 1.16.3
@@ -56,6 +58,7 @@ downloads:
       - name: GitHub
         url: https://github.com/FabricMC/fabric/releases/download/0.37.1%2B1.16/fabric-api-0.37.1+1.16.jar
   - version: 0.37.2+1.18_experimental
+  # githubTag: 0.37.2+1.18_experimental
     minecraftVersions:
       - 1.18.0_experimental-snapshot-1
       - 1.18.0_experimental-snapshot-2
@@ -75,6 +78,7 @@ downloads:
       - name: GitHub
         url: https://github.com/FabricMC/fabric/releases/download/0.37.2%2B1.18_experimental/fabric-api-0.37.2+1.18_experimental.jar
   - version: 0.37.0+1.17
+  # githubTag: 0.37.0+1.17
     minecraftVersions:
       - 1.17.1-rc1
       - 1.17.1-rc2
@@ -95,6 +99,7 @@ downloads:
       - name: GitHub
         url: https://github.com/FabricMC/fabric/releases/download/0.37.0%2B1.17/fabric-api-0.37.0+1.17.jar
   - version: 0.37.0+1.16
+  # githubTag: 0.37.0+1.16
     minecraftVersions:
       - 1.16.2
       - 1.16.3
@@ -116,6 +121,7 @@ downloads:
       - name: GitHub
         url: https://github.com/FabricMC/fabric/releases/download/0.37.0%2B1.16/fabric-api-0.37.0+1.16.jar
   - version: 0.36.1+1.17
+  # githubTag: 0.36.1+1.17
     minecraftVersions:
       - 1.17.1-rc1
       - 1.17.1-rc2
@@ -136,6 +142,7 @@ downloads:
       - name: GitHub
         url: https://github.com/FabricMC/fabric/releases/download/0.36.1%2B1.17/fabric-api-0.36.1+1.17.jar
   - version: 0.36.0+1.17
+  # githubTag: 0.36.0+1.17
     minecraftVersions:
       - 1.17.0
       - 1.17.1
@@ -155,6 +162,7 @@ downloads:
       - name: GitHub
         url: https://github.com/FabricMC/fabric/releases/download/0.36.0%2B1.17/fabric-api-0.36.0+1.17.jar
   - version: 0.36.0+1.16
+  # githubTag: 0.36.0+1.16
     minecraftVersions:
       - 1.16.2
       - 1.16.3

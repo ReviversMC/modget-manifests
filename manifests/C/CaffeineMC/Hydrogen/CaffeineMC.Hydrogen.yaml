@@ -14,6 +14,7 @@ modType: jar
 side: both
 downloads:
   - version: mc1.17.1-0.3.1
+  # githubTag: mc1.17.1-0.3.1
     minecraftVersions:
       - 1.17.0
       - 1.17.1
@@ -29,6 +30,7 @@ downloads:
       - name: GitHub
         url: https://github.com/CaffeineMC/hydrogen-fabric/releases/download/mc1.17.1-0.3.1/hydrogen-fabric-mc1.17.1-0.3.jar
   - version: mc1.17-0.3.0
+  # githubTag: mc1.17-0.3.0
     minecraftVersions:
       - 1.17.0
     md5: 9165d6cc0b5f60f5ad94eebfdb86d493
@@ -43,6 +45,7 @@ downloads:
       - name: GitHub
         url: https://github.com/CaffeineMC/hydrogen-fabric/releases/download/mc1.17-0.3.0/hydrogen-fabric-mc1.17-0.3.jar
   - version: mc1.16.5-v0.2.0
+  # githubTag: mc1.16.5-v0.2.0
     minecraftVersions:
       - 1.16.5
     md5: 86d48d7adc588922661ba0d1cde156d5

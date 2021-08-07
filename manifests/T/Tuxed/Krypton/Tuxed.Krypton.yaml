@@ -15,6 +15,7 @@ modType: jar
 side: both
 downloads:
   - version: 0.1.4
+  # githubTag: v0.1.4
     minecraftVersions:
       - 1.17.1
       # >=1.17.1 in fabric.mod.json
