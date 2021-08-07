@@ -59,3 +59,15 @@ downloads:
         url: https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.16.5-v0.2.0/hydrogen-fabric-mc1.16.5-0.2.jar
       - name: GitHub
         url: https://github.com/CaffeineMC/hydrogen-fabric/releases/download/mc1.16.5-v0.2.0/hydrogen-fabric-mc1.16.5-0.2.jar
+# PRERELEASE
+#  - version: mc1.16.2-v0.1.1
+#  # githubTag: mc1.16.2-v0.1.1
+#    minecraftVersions:
+#      - 1.16.2
+#    md5: 86d48d7adc588922661ba0d1cde156d5
+#    downloadPageUrls:
+#      - name: GitHub
+#        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/tag/mc1.16.2-0.1.1
+#    fileUrls:
+#      - name: GitHub
+#        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/download/mc1.16.2-0.1.1/hydrogen-fabric-mc1.16.2-0.1.1.jar
