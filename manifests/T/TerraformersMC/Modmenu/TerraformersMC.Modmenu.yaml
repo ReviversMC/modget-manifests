@@ -14,7 +14,8 @@ support: https://discord.gg/jEGF5fb
 modType: jar
 side: client
 downloads:
-  - version: v2.0.4
+  - version: 2.0.4
+  # githubTag: v2.0.4
     minecraftVersions:
       - 1.17.0
       - 1.17.1
@@ -34,7 +35,8 @@ downloads:
         url: https://cdn.modrinth.com/data/mOgUt4GM/versions/2.0.4/modmenu-2.0.4.jar
       - name: GitHub
         url: https://github.com/TerraformersMC/ModMenu/releases/download/v2.0.4/modmenu-2.0.4.jar
-  - version: v1.16.11
+  - version: 1.16.11
+  # githubTag: v1.16.11
     minecraftVersions:
       - 1.16.0
       - 1.16.1
@@ -58,7 +60,8 @@ downloads:
         url: https://cdn.modrinth.com/data/mOgUt4GM/versions/1.16.11/modmenu-1.16.11.jar
       - name: GitHub
         url: https://github.com/TerraformersMC/ModMenu/releases/download/v1.16.11/modmenu-1.16.11.jar
-  - version: v2.0.3
+  - version: 2.0.3
+  # githubTag: v2.0.3
     minecraftVersions:
       - 1.17.0
       - 1.17.1
@@ -78,7 +81,8 @@ downloads:
         url: https://cdn.modrinth.com/data/mOgUt4GM/versions/2.0.3/modmenu-2.0.3.jar
       - name: GitHub
         url: https://github.com/TerraformersMC/ModMenu/releases/download/v2.0.3/modmenu-2.0.3.jar
-  - version: v1.16.10
+  - version: 1.16.10
+  # githubTag: v1.16.10
     minecraftVersions:
       - 1.16.0
       - 1.16.1
@@ -102,7 +106,8 @@ downloads:
         url: https://cdn.modrinth.com/data/mOgUt4GM/versions/1.16.10/modmenu-1.16.10.jar
       - name: GitHub
         url: https://github.com/TerraformersMC/ModMenu/releases/download/v1.16.10/modmenu-1.16.10.jar
-  - version: v2.0.2
+  - version: 2.0.2
+  # githubTag: v2.0.2
     minecraftVersions:
       - 1.17.0
       - 1.17.1

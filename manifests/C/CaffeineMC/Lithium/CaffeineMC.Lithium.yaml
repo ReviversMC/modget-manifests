@@ -14,7 +14,8 @@ support: https://jellysquid.me/discord
 modType: jar
 side: both
 downloads:
-  - version: mc1.17.1-0.7.3
+  - version: 0.7.3
+  # githubTag: mc1.17.1-0.7.3
     minecraftVersions:
       - 1.17.0
       - 1.17.1
@@ -33,7 +34,8 @@ downloads:
         url: https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.17.1-0.7.3/lithium-fabric-mc1.17.1-0.7.3.jar
       - name: GitHub
         url: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.17.1-0.7.3/lithium-fabric-mc1.17.1-0.7.3.jar
-  - version: mc1.17-0.7.2
+  - version: 0.7.2
+  # githubTag: mc1.17-0.7.2
     minecraftVersions:
       - 1.17.0
     md5: a2e966bfe3173327c3874236a23fa6e5
@@ -52,6 +54,7 @@ downloads:
       - name: GitHub
         url: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.17-0.7.2/lithium-fabric-mc1.17-0.7.2.jar
   - version: 0.7.1
+  # githubTag: mc1.17-0.7.1
     minecraftVersions:
       - 1.17.0
     md5: 3fb024ab1966d6a8806e91366e50c51b
@@ -69,7 +72,8 @@ downloads:
         url: https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.17-0.7.1/lithium-fabric-mc1.17-0.7.1.jar
       - name: GitHub
         url: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.17-0.7.1/lithium-fabric-mc1.17-0.7.1.jar
-  - version: mc1.16.5-0.6.6
+  - version: 0.6.6
+  # githubTag: mc1.16.5-0.6.6
     minecraftVersions:
       - 1.16.2
       - 1.16.3
@@ -90,7 +94,8 @@ downloads:
         url: https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.16.5-0.6.6/lithium-fabric-mc1.16.5-0.6.6.jar
       - name: GitHub
         url: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.16.5-0.6.6/lithium-fabric-mc1.16.5-0.6.6.jar
-  - version: mc1.17-0.7.0
+  - version: 0.7.0
+  # githubTag: mc1.17-0.7.0
     minecraftVersions:
       - 1.17.0
     md5: 7b3609a8cdc41b679160381d0e94b2e8

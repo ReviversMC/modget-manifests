@@ -14,7 +14,8 @@ support: https://jellysquid.me/discord
 modType: jar
 side: both
 downloads:
-  - version: mc1.16.2-v0.7.2
+  - version: 0.7.2
+  # githubTag: mc1.16.2-v0.7.2
     minecraftVersions:
       - 1.16.2
       - 1.16.3
@@ -36,7 +37,8 @@ downloads:
         url: https://cdn.modrinth.com/data/hEOCdOgW/versions/mc1.16.2-0.7.2/phosphor-fabric-mc1.16.3-0.7.2+build.12.jar
       - name: GitHub
         url: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc1.16.2-v0.7.2/phosphor-fabric-mc1.16.3-0.7.2+build.12.jar
-  - version: mc1.16.2-v0.7.1
+  - version: 0.7.1
+  # githubTag: mc1.16.2-v0.7.1
     minecraftVersions:
       - 1.16.2
       - 1.16.3
