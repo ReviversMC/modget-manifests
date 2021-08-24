@@ -14,6 +14,52 @@ support: https://discord.gg/jEGF5fb
 modType: jar
 side: client
 downloads:
+  - version: 2.0.5
+  # githubTag: v2.0.5
+    minecraftVersions:
+      - 1.17.0
+      - 1.17.1
+      # >=1.17- in fabric.mod.json
+    md5: 8d57961369cff906d5c9c645d06a7d3b
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3431313
+      - name: Modrinth
+        url: https://modrinth.com/mod/modmenu/version/E4QBMVtO
+      - name: GitHub
+        url: https://github.com/TerraformersMC/ModMenu/releases/tag/v2.0.5
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/download/3431313/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/mOgUt4GM/versions/2.0.5/modmenu-2.0.5.jar
+      - name: GitHub
+        url: https://github.com/TerraformersMC/ModMenu/releases/download/v2.0.5/modmenu-2.0.5.jar
+  - version: 1.16.12
+  # githubTag: v1.16.12
+    minecraftVersions:
+      - 1.16.0
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+      # >=1.16- in fabric.mod.json
+    md5: 231c0de26769a03a84b2d80d13c7390f
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3431312
+      - name: Modrinth
+        url: https://modrinth.com/mod/modmenu/version/u955lyFM
+      - name: GitHub
+        url: https://github.com/TerraformersMC/ModMenu/releases/tag/v1.16.12
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/download/3431312/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/mOgUt4GM/versions/1.16.12/modmenu-1.16.12.jar
+      - name: GitHub
+        url: https://github.com/TerraformersMC/ModMenu/releases/download/v1.16.12/modmenu-1.16.12.jar
   - version: 2.0.4
   # githubTag: v2.0.4
     minecraftVersions:
