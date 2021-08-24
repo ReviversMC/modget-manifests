@@ -9,7 +9,7 @@ source: https://github.com/Tuinity/Starlight
 issues: https://github.com/Tuinity/Starlight/issues
 support: https://discord.gg/tuinity
 modType: jar
-side: both
+side: server
 downloads:
   - version: 1.0.0-RC3
   # githubTag: 1.0.0-RC3

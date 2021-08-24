@@ -12,7 +12,7 @@ source: https://github.com/PolyhedralDev/Terra
 issues: https://github.com/PolyhedralDev/Terra/issues
 support: https://discord.gg/PXUEbbF
 modType: jar
-side: both
+side: server
 downloads:
   - version: 5.4.1-BETA+40e95073
     minecraftVersions:

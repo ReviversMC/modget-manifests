@@ -12,7 +12,7 @@ source: https://github.com/astei/lazydfu
 issues: https://github.com/astei/lazydfu/issues
 support: https://discord.gg/RUGArxEQ8J
 modType: jar
-side: both
+side: server
 downloads:
   - version: 0.1.2
   # githubTag: 0.1.2

@@ -11,7 +11,7 @@ source: https://github.com/ReviversMC/modget
 issues: https://github.com/ReviversMC/modget/issues
 support: https://discord.gg/nVDXfCRyMk
 modType: jar
-side: both
+side: server
 downloads:
   - version: 0.0.1
     minecraftVersions:
