@@ -14,6 +14,36 @@ support: https://jellysquid.me/discord
 modType: jar
 side: client
 downloads:
+  - version: 0.3.2
+  # githubTag: mc1.17.1-0.3.2
+    minecraftVersions:
+      - 1.17.1
+    md5: b88cf07d124c5b96b82ab27e51fdff04
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/sodium/version/xuWxRZPd
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/tag/mc1.17.1-0.3.2
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/AANobbMI/versions/mc1.17.1-0.3.2/sodium-fabric-mc1.17.1-0.3.2+build.7.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.17.1-0.3.2/sodium-fabric-mc1.17.1-0.3.2+build.7.jar
+  - version: 0.3.1
+  # githubTag: mc1.17.1-0.3.1
+    minecraftVersions:
+      - 1.17.1
+    md5: 0b2d97030c00f211fe195e9ae245f75c
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/sodium/version/80jYkEVr
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/tag/mc1.17.1-0.3.1
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/AANobbMI/versions/mc1.17.1-0.3.1/sodium-fabric-mc1.17.1-0.3.1+build.6.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.17.1-0.3.1/sodium-fabric-mc1.17.1-0.3.1+build.6.jar
   - version: 0.3.0
   # githubTag: mc1.17.1-0.3.0
     minecraftVersions:
