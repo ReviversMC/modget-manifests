@@ -1,0 +1,274 @@
+manifestSpecVersion: 2
+publisher: FabricMC
+name: Fabric API
+id: fabric
+thirdPartyIds:
+  curseforge: 306612
+  modrinth: P7dR8mSH
+license: Apache-2.0
+description: Essential hooks for modding with Fabric.
+home: https://github.com/FabricMC
+source: https://github.com/FabricMC/fabric
+issues: https://github.com/FabricMC/fabric/issues
+support: https://discord.gg/v6v4pMv
+modType: jar
+side: both
+downloads:
+  - version: 0.38.2+1.17
+  # githubTag: 0.38.2+1.17
+    minecraftVersions:
+      - 1.17.1-rc1
+      - 1.17.1-rc2
+      - 1.17.1
+    md5: 78339921b19e6817a124be5e7a55702c
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3433598
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-api/version/h0HoxKBz
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.38.2%2B1.17
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3433598/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.38.2+1.17/fabric-api-0.38.2+1.17.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.38.2%2B1.17/fabric-api-0.38.2+1.17.jar
+
+  - version: 0.38.2+1.16
+  # githubTag: 0.38.2+1.16
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: 8b76103b1f695f31e041d5d28fd9050a
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3433587
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-api/version/Vr6Eq12L
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.38.2%2B1.16
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3433587/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.38.2+1.16/fabric-api-0.38.2+1.16.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.38.2%2B1.16/fabric-api-0.38.2+1.16.jar
+  - version: 0.37.2+1.17
+  # githubTag: 0.37.2+1.17
+    minecraftVersions:
+      - 1.17.1-rc1
+      - 1.17.1-rc2
+      - 1.17.1
+    md5: dc074e47a412ef984378fb301d08e823
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3419363
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-api/version/avb6CBpt
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.37.2%2B1.17
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3419363/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.37.2+1.17/fabric-api-0.37.2+1.17.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.37.2%2B1.17/fabric-api-0.37.2+1.17.jar
+  - version: 0.37.2+1.16
+  # githubTag: 0.37.2+1.16
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: a80bc7a81b3264780e75175e506d6de0
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3419346
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-api/version/KXxIfJ4K
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.37.2%2B1.16
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3419346/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.37.2+1.16/fabric-api-0.37.2+1.16.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.37.2%2B1.16/fabric-api-0.37.2+1.16.jar
+  - version: 0.37.1+1.17
+  # githubTag: 0.37.1+1.17
+    minecraftVersions:
+      - 1.17.1-rc1
+      - 1.17.1-rc2
+      - 1.17.1
+    md5: d05fb78fb3c7fe9a95840197a8b2d4bc
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3398557
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-api/version/Fk7dLlzZ
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.37.1%2B1.17
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3398557/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.37.1+1.17/fabric-api-0.37.1+1.17.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.37.1%2B1.17/fabric-api-0.37.1+1.17.jar
+  - version: 0.37.1+1.16
+  # githubTag: 0.37.1+1.16
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: f0d9b6e0fcb246c2c0972e9803cfa757
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3398544
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-api/version/JXjDyWqh
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.37.1%2B1.16
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3398544/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.37.1+1.16/fabric-api-0.37.1+1.16.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.37.1%2B1.16/fabric-api-0.37.1+1.16.jar
+  - version: 0.37.2+1.18_experimental
+  # githubTag: 0.37.2+1.18_experimental
+    minecraftVersions:
+      - 1.18.0_experimental-snapshot-1
+      - 1.18.0_experimental-snapshot-2
+      - 1.18.0_experimental-snapshot-3
+      - 1.18.0_experimental-snapshot-4
+    md5: 0cc2c95def2d096527fcc92b5e315d58
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3387688
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-api/version/wNNNnSQB
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.37.2%2B1.18_experimental
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3387688/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.37.2+1.18_experimental/fabric-api-0.37.2+1.18_experimental.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.37.2%2B1.18_experimental/fabric-api-0.37.2+1.18_experimental.jar
+  - version: 0.37.0+1.17
+  # githubTag: 0.37.0+1.17
+    minecraftVersions:
+      - 1.17.1-rc1
+      - 1.17.1-rc2
+      - 1.17.1
+    md5: 4a892e0016cd6f06ee9f53edc24ba829
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3386484
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-api/version/b3GuijTJ
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.37.0%2B1.17
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3386484/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.37.0+1.17/fabric-api-0.37.0+1.17.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.37.0%2B1.17/fabric-api-0.37.0+1.17.jar
+  - version: 0.37.0+1.16
+  # githubTag: 0.37.0+1.16
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: 43b8ff661e92721495d290e693253a90
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3386463
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-api/version/II8sVuAK
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.37.0%2B1.16
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3386463/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.37.0+1.16/fabric-api-0.37.0+1.16.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.37.0%2B1.16/fabric-api-0.37.0+1.16.jar
+  - version: 0.36.1+1.17
+  # githubTag: 0.36.1+1.17
+    minecraftVersions:
+      - 1.17.1-rc1
+      - 1.17.1-rc2
+      - 1.17.1
+    md5: 9c00ce37c3c7ab590d793f155c1c48df
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3377591
+      - name: Modrinth
+        url: https://modrinth.org/mod/fabric-api/version/o68l3pK3
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.36.1%2B1.17
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3377591/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.36.1+1.17/fabric-api-0.36.1+1.17.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.36.1%2B1.17/fabric-api-0.36.1+1.17.jar
+  - version: 0.36.0+1.17
+  # githubTag: 0.36.0+1.17
+    minecraftVersions:
+      - 1.17.0
+      - 1.17.1
+    md5: 919cf187e3b5963d74c140203ad9a65c
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3358619
+      - name: Modrinth
+        url: https://modrinth.org/mod/fabric-api/version/nSk00F5M
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.36.0%2B1.17
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3358619/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.36.0+1.17/fabric-api-0.36.0+1.17.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.36.0%2B1.17/fabric-api-0.36.0+1.17.jar
+  - version: 0.36.0+1.16
+  # githubTag: 0.36.0+1.16
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: 568650412f69186b4af87817a4018bcc
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3358614
+      - name: Modrinth
+        url: https://modrinth.org/mod/fabric-api/version/oAVHz54U
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.36.0%2B1.16
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3358614/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.36.0+1.16/fabric-api-0.36.0+1.16.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.36.0%2B1.16/fabric-api-0.36.0+1.16.jar

@@ -1,0 +1,103 @@
+manifestSpecVersion: 2
+publisher: Malte0811
+name: FerriteCore
+id: ferritecore
+thirdPartyIds:
+  curseforge: 459857
+  modrinth: uXXizFIs
+license: MIT
+description: Reduces memory usage
+home: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric
+source: https://github.com/malte0811/FerriteCore
+issues: https://github.com/malte0811/FerriteCore/issues
+support: https://github.com/malte0811/FerriteCore/discussions
+modType: jar
+side: both
+downloads:
+  - version: 3.0.3
+  # githubTag: build-3.0.3
+    minecraftVersions:
+      - 1.17.1
+      # >=1.17.1 in fabric.mod.json
+    md5: 4311d15d69c822fa788e7cf56cd03200
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3435174
+      - name: Modrinth
+        url: https://modrinth.com/mod/ferrite-core/version/HjttFjoa
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3435174/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/uXXizFIs/versions/3.0.3/ferritecore-3.0.3-fabric.jar
+  - version: 2.0.7
+  # githubTag: build-2.0.7
+    minecraftVersions:
+      - 1.16.5
+      - 1.17.0
+      - 1.17.1
+      # >=1.16.5 in fabric.mod.json
+    md5: cbd77610f71444bffc3ab41e297ae913
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3435173
+      - name: Modrinth
+        url: https://modrinth.com/mod/ferrite-core/version/2XHUVaPQ
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3435173/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/uXXizFIs/versions/2.0.7/ferritecore-2.0.7-fabric.jar
+  - version: 3.0.2
+  # githubTag: build-3.0.2
+    minecraftVersions:
+      - 1.17.1
+      # >=1.17.1 in fabric.mod.json
+    md5: 0236bd63279257b1ff120c17c6802d67
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3434170
+      - name: Modrinth
+        url: https://modrinth.com/mod/ferrite-core/version/5rLOvzfo
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3434170/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/uXXizFIs/versions/3.0.2/ferritecore-3.0.2-fabric.jar
+  - version: 2.0.6
+  # githubTag: build-2.0.6
+    minecraftVersions:
+      - 1.16.5
+      - 1.17.0
+      - 1.17.1
+      # >=1.16.5 in fabric.mod.json
+    md5: 81d981ad9ab3dd354d2a3c7bc38200d2
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3434138
+      - name: Modrinth
+        url: https://modrinth.com/mod/ferrite-core/version/LG5zF5LP
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3434138/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/uXXizFIs/versions/2.0.6/ferritecore-2.0.6-fabric.jar
+  - version: 3.0.1
+  # githubTag: build-3.0.1
+    minecraftVersions:
+      - 1.16.4
+      - 1.16.5
+      - 1.17.0
+      - 1.17.1
+      # >=1.16.4 in fabric.mod.json
+    md5: 58354b44afef6c347c6ffb79d255d967
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3373736
+      - name: Modrinth
+        url: https://modrinth.org/mod/ferrite-core/version/hjsymojR
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3373736/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/uXXizFIs/versions/3.0.1/ferritecore-3.0.1-fabric.jar

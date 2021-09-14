@@ -1,14 +1,145 @@
-- id: sodium
+- id: fabric
   names:
-    - sodium
-  tags:
-    - performance
+    - fabric
+    - fabric-api
   packages:
-    - CaffeineMC.Sodium
+    - FabricMC.Fabric
+  tags:
+      - library
+      - api
+- id: modget
+  names:
+    - modget
+  packages:
+    - ReviversMC.Modget
+  tags:
+    - utility
 - id: lithium
   names:
     - lithium
-  tags:
-    - performance
+    - lithium-fabric
   packages:
     - CaffeineMC.Lithium
+  tags:
+    - performance
+    - utility
+- id: phosphor
+  names: 
+    - phosphor
+    - phosphor-fabric
+  packages:
+    - CaffeineMC.Phosphor
+  tags:
+    - performance
+    - utility
+    - worldgen
+- id: sodium
+  names:
+    - sodium
+    - sodium-fabric
+  packages:
+    - CaffeineMC.Sodium
+  tags:
+    - performance
+    - utility
+- id: starlight
+  names:
+    - starlight
+  packages:
+    - Tuinity.Starlight
+  tags:
+    - performance
+    - utility
+    - worldgen
+- id: hydrogen
+  names:
+    - hydrogen
+    - hydrogen-fabric
+  packages:
+    - CaffeineMC.Hydrogen
+  tags:
+    - performance
+    - utility
+- id: ferritecore
+  names:
+    - ferritecore
+  packages:
+    - malte0811.FerriteCore
+  tags:
+    - performance
+    - utility
+- id: krypton
+  names:
+    - krypton
+  packages:
+    - astei.Krypton
+  tags:
+    - performance
+    - utility
+- id: lazydfu
+  names:
+    - lazydfu
+  packages:
+   - astei.LazyDFU
+  tags:
+    - performance
+    - utility
+- id: recipecache
+  names:
+    - recipecache
+  packages:
+    - biom4st3r.RecipeCache
+  tags:
+    - performance
+    - utility
+- id: modmenu
+  names:
+    - modmenu
+  packages:
+    - TerraformersMC.ModMenu
+  tags:
+    - utility
+- id: okzoomer
+  names:
+    - okzoomer
+  packages:
+    - EnnuiL.OkZoomer
+  tags:
+    - utility
+- id: lambdynlights
+  names:
+    - lambdynlights
+    - lambdynamiclights
+  packages:
+    - LambdAurora.LambDynamicLights
+  tags:
+    - cosmetic
+    - utility
+    - adventure
+- id: dashloader
+  names:
+    - dashloader
+  packages:
+    - QuantumFusion.DashLoader
+  tags:
+    - utility
+    - library
+    - api
+- id: smoothboot
+  names:
+    - smoothboot
+  packages:
+    - UltimateBoomer.SmoothBoot
+  tags:
+    - utility
+    - library
+    - api
+- id: terra
+  names:
+    - terra
+  packages:
+    - Dfsek.Terra
+  tags:
+    - adventure
+    - utility
+    - worldgen

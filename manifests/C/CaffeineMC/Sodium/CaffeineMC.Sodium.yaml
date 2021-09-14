@@ -5,8 +5,8 @@ id: sodium
 thirdPartyIds:
   curseforge: 394468
   modrinth: AANobbMI
-license: LGPL-3.0
-description: A Minecraft mod designed to improve frame rates and reduce micro-stutter
+license: LGPL-3.0-only
+description: Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.
 home: https://jellysquid.me/projects
 source: https://github.com/CaffeineMC/sodium-fabric
 issues: https://github.com/CaffeineMC/sodium-fabric/issues
@@ -14,12 +14,59 @@ support: https://jellysquid.me/discord
 modType: jar
 side: client
 downloads:
+  - version: 0.3.2
+  # githubTag: mc1.17.1-0.3.2
+    minecraftVersions:
+      - 1.17.1
+    md5: b88cf07d124c5b96b82ab27e51fdff04
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/sodium/version/xuWxRZPd
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/tag/mc1.17.1-0.3.2
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/AANobbMI/versions/mc1.17.1-0.3.2/sodium-fabric-mc1.17.1-0.3.2+build.7.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.17.1-0.3.2/sodium-fabric-mc1.17.1-0.3.2+build.7.jar
+  - version: 0.3.1
+  # githubTag: mc1.17.1-0.3.1
+    minecraftVersions:
+      - 1.17.1
+    md5: 0b2d97030c00f211fe195e9ae245f75c
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/sodium/version/80jYkEVr
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/tag/mc1.17.1-0.3.1
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/AANobbMI/versions/mc1.17.1-0.3.1/sodium-fabric-mc1.17.1-0.3.1+build.6.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.17.1-0.3.1/sodium-fabric-mc1.17.1-0.3.1+build.6.jar
+  - version: 0.3.0
+  # githubTag: mc1.17.1-0.3.0
+    minecraftVersions:
+      - 1.17.1
+    md5: b8268bd28ae415948b08e57cc76a7b92
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/sodium/version/1b0GhKHj
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/tag/mc1.17.1-0.3.0
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/AANobbMI/versions/mc1.17.1-0.3.0/sodium-fabric-mc1.17.1-0.3.0+build.5.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.17.1-0.3.0/sodium-fabric-mc1.17.1-0.3.0+build.5.jar
   - version: 0.2.0
+  # githubTag: mc1.16.5-0.2.0
     minecraftVersions:
       - 1.16.2
       - 1.16.3
       - 1.16.4
       - 1.16.5
+   # Although versions 1.16.2-4 aren't oficially compatible, they have been tested by NebelNidas and confirmed working by CaffeineMc's discord server.
     md5: 98914f22cfe2d0ea5d8007ae8ff96062
     downloadPageUrls:
       - name: Modrinth
