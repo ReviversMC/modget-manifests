@@ -7,7 +7,6 @@ thirdPartyIds:
   modrinth: mOgUt4GM
 license: MIT
 description: Adds a mod menu to view the list of mods you have installed.
-home: https://minecraft.curseforge.com/projects/modmenu
 source: https://github.com/TerraformersMC/ModMenu
 issues: https://github.com/TerraformersMC/ModMenu/issues
 support: https://discord.gg/jEGF5fb

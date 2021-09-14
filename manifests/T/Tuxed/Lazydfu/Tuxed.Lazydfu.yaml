@@ -7,7 +7,6 @@ thirdPartyIds:
   modrinth: hvFnDODi
 license: MIT
 description: Makes Minecraft DataFixerUpper initialization lazy
-home: https://github.com/astei
 source: https://github.com/astei/lazydfu
 issues: https://github.com/astei/lazydfu/issues
 support: https://discord.gg/RUGArxEQ8J

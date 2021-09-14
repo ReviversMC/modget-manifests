@@ -7,7 +7,6 @@ thirdPartyIds:
   modrinth: uXXizFIs
 license: MIT
 description: Reduces memory usage
-home: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric
 source: https://github.com/malte0811/FerriteCore
 issues: https://github.com/malte0811/FerriteCore/issues
 support: https://github.com/malte0811/FerriteCore/discussions

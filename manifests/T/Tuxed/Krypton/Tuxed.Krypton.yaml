@@ -7,7 +7,6 @@ thirdPartyIds:
   modrinth: fQEb0iXm
 license: GPL-3.0
 description: A Fabric mod that optimizes the Minecraft networking stack and entity tracker. 
-home: https://github.com/astei
 source: https://github.com/astei/krypton
 issues: https://github.com/astei/krypton/issues
 support: https://discord.gg/RUGArxEQ8J
