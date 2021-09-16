@@ -8,14 +8,14 @@ First, we want to say thank you. Your contribution is highly valued. And we appr
 Manifests are the YAML files in this repository containing the metadata used by Modget to install and upgrade mods. There are hundreds of these files partitioned under the [manifests](./manifests) directory. We've had to partition the directory structure so you don't have to scroll as much on GitHub when you are looking for a manifest.
 
 ### What is a package?
-A package in Modget's case is basically just a mod. It is identified by the `Publisher.ModID` notation.
+A package in Modget's case is basically just a mod. It is identified by the `publisher.modid` notation.
 
 ### What is a version?
 Package versions are associated with a specific release. In some cases you will see a perfectly formed [semantic](https://semver.org) version number, and in other cases you might see something different. These may be date driven, or they might have other characters with some package specific meaning. The YAML key for a package version is simply `version`.
 
 
 ## Understanding the directory structure
-Once you have determined the mod publisher and id, it is possible to know the proper location for the manifest. See [YAML file name and folder structure](./doc/manifest-spec-v2.md#yaml-file-name-and-folder-structure).
+Once you have determined the mod publisher and id, it is possible to know the proper location for the manifest. See [YAML file name and folder structure](./doc/manifest-spec-v3.md#yaml-file-name-and-folder-structure).
 
 
 ## First steps
@@ -23,4 +23,4 @@ Before you invest the time to generate and submit a manifest, you should check t
 
 
 ## What next?
-You should take a look at our [manifest specification](./doc/manifest-spec-v2.md). Don't worry. If this is starting to look too complicated you can create a new issue and select [Mod Request/Submission](https://github.com/ReviversMC/modget-manifests/issues/new/choose).
+You should take a look at our [manifest specification](./doc/manifest-spec-v3.md). Don't worry. If this is starting to look too complicated you can create a new issue and select [Mod Request/Submission](https://github.com/ReviversMC/modget-manifests/issues/new/choose).
