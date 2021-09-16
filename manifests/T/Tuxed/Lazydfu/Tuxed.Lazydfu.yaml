@@ -1,5 +1,5 @@
-manifestSpecVersion: 2
-publisher: Tuxed
+manifestSpecVersion: 3
+publisher: tuxed
 name: LazyDFU
 id: lazydfu
 thirdPartyIds:

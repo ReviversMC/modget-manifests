@@ -1,5 +1,5 @@
-manifestSpecVersion: 2
-publisher: Dfsek
+manifestSpecVersion: 3
+publisher: dfsek
 name: Terra
 id: terra
 thirdPartyIds:

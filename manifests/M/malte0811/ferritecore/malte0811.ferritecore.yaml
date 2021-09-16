@@ -1,5 +1,5 @@
-manifestSpecVersion: 2
-publisher: Malte0811
+manifestSpecVersion: 3
+publisher: malte0811
 name: FerriteCore
 id: ferritecore
 thirdPartyIds:
