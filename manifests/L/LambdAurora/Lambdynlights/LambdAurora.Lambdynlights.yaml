@@ -13,7 +13,7 @@ support: https://discord.gg/abEbzzv
 modType: jar
 side: client
 downloads:
-  - version: 2.0.2
+  - version: 2.0.2+1.17
     minecraftVersions:
       - 1.17.0
       - 1.17.1

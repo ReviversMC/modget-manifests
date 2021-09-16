@@ -13,7 +13,7 @@ support: https://github.com/UltimateBoomer/mc-smoothboot/issues
 modType: jar
 side: both
 downloads:
-  - version: 1.6.0
+  - version: 1.16.5-1.6.0
     minecraftVersions:
       - 1.16.1
       - 1.16.2

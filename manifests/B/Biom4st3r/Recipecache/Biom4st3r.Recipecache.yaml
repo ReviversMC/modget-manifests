@@ -12,7 +12,7 @@ support: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues/service_desk
 modType: jar
 side: server
 downloads:
-  - version: 0.2.0
+  - version: 0.2.0-1.17.1
     minecraftVersions:
       - 1.17.1
     md5: 36e74c104abee8763249d8e3475acb05

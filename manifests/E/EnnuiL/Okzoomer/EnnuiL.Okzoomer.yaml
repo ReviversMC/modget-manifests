@@ -13,7 +13,7 @@ support: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer
 modType: jar
 side: client
 downloads:
-  - version: 5.0.0-beta.2
+  - version: 5.0.0-beta.2+1.17
     minecraftVersions:
       - 1.17.0
       - 1.17.1

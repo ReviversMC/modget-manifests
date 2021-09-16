@@ -13,7 +13,7 @@ support: https://discord.gg/PXUEbbF
 modType: jar
 side: server
 downloads:
-  - version: 5.4.1
+  - version: 5.4.1-BETA+40e95073
     minecraftVersions:
       - 1.17.0
       - 1.17.1
@@ -25,7 +25,7 @@ downloads:
     fileUrls:
       - name: Modrinth
         url: https://cdn.modrinth.com/data/FIlZB9L0/versions/5.4.1-BETA+40e95073/Terra-fabric-5.4.1-BETA+40e95073-shaded-mapped.jar
-  - version: 5.3.3
+  - version: 5.3.3-BETA+5dd00db8
     minecraftVersions:
       - 1.16.4
       - 1.16.5
