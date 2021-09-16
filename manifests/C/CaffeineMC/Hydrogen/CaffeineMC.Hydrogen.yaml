@@ -13,8 +13,7 @@ support: https://jellysquid.me/discord
 modType: jar
 side: server
 downloads:
-  - version: mc1.17.1-0.3.1
-  # githubTag: mc1.17.1-0.3.1
+  - version: 0.3.1
     minecraftVersions:
       - 1.17.0
       - 1.17.1
@@ -29,23 +28,7 @@ downloads:
         url: https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.17.1-0.3.1/hydrogen-fabric-mc1.17.1-0.3.jar
       - name: GitHub
         url: https://github.com/CaffeineMC/hydrogen-fabric/releases/download/mc1.17.1-0.3.1/hydrogen-fabric-mc1.17.1-0.3.jar
-  - version: mc1.17-0.3.0
-  # githubTag: mc1.17-0.3.0
-    minecraftVersions:
-      - 1.17.0
-    md5: 9165d6cc0b5f60f5ad94eebfdb86d493
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.org/mod/hydrogen/version/nc84mXki
-      - name: GitHub
-        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/tag/mc1.17-0.3.0
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.17-v0.3.0/hydrogen-fabric-mc1.17-0.3.jar
-      - name: GitHub
-        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/download/mc1.17-0.3.0/hydrogen-fabric-mc1.17-0.3.jar
-  - version: mc1.16.5-v0.2.0
-  # githubTag: mc1.16.5-v0.2.0
+  - version: 0.2.0
     minecraftVersions:
       - 1.16.5
     md5: 86d48d7adc588922661ba0d1cde156d5

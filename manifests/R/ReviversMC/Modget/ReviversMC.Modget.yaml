@@ -4,7 +4,7 @@ name: Modget
 id: modget
 thirdPartyIds:
   modrinth: 2NpFE0R3
-license: LGPL-3.0
+license: LGPL-3.0-only
 description: The Minecraft Mod Package Manager! Can install mods via commands, search for updates and much more. 
 source: https://github.com/ReviversMC/modget
 issues: https://github.com/ReviversMC/modget/issues

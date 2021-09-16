@@ -14,10 +14,8 @@ modType: jar
 side: both
 downloads:
   - version: 0.1.4
-  # githubTag: v0.1.4
     minecraftVersions:
       - 1.17.1
-      # >=1.17.1 in fabric.mod.json
     md5: 9ed7dbe7b0803fc3f463f5ae099e2961
     downloadPageUrls:
       - name: CurseForge

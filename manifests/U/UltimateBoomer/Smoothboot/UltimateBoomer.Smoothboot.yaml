@@ -14,7 +14,6 @@ modType: jar
 side: both
 downloads:
   - version: 1.6.0
-  # githubTag: 1.16.5-1.6.0
     minecraftVersions:
       - 1.16.1
       - 1.16.2
@@ -22,8 +21,7 @@ downloads:
       - 1.16.4
       - 1.16.5
       - 1.17.0
-      # 1.17.0 confirmed working on the github issues page by a mod user
-      # 1.17.1 confirmed working by me
+      - 1.17.1
     md5: da89743801b0847b0975b21c84a7d63d
     downloadPageUrls:
       - name: CurseForge

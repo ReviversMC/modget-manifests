@@ -11,7 +11,6 @@ modType: jar
 side: server
 downloads:
   - version: 1.0.0-RC3
-  # githubTag: 1.0.0-RC3
     minecraftVersions:
       - 1.17.0
       - 1.17.1
@@ -24,18 +23,6 @@ downloads:
       - name: GitHub
         url: https://github.com/Tuinity/Starlight/releases/download/1.0.0-RC3/starlight-1.0.0-RC3+fabric.1.17.x.jar
   - version: 1.0.0-RC2
-  # githubTag: 1.0.0-RC2
-    minecraftVersions:
-      - 1.17.0
-    md5: 60d01c89a3bcec140044a7ad5bba3212
-    downloadPageUrls:
-      - name: GitHub
-        url: https://github.com/Tuinity/Starlight/releases/tag/1.0.0-RC2
-    fileUrls:
-      - name: GitHub
-        url: https://github.com/Tuinity/Starlight/releases/download/1.0.0-RC2/starlight-fabric-1.0.0-RC2-1.17.x.jar
-  - version: 1.0.0-RC2
-  # githubTag: 1.0.0-RC2
     minecraftVersions:
       - 1.16.0
       - 1.16.1
