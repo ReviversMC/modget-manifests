@@ -3,15 +3,15 @@
     - fabric
     - fabric-api
   packages:
-    - FabricMC.Fabric
+    - FabricMC.fabric
   tags:
-      - library
-      - api
+    - library
+    - api
 - id: modget
   names:
     - modget
   packages:
-    - ReviversMC.Modget
+    - ReviversMC.modget
   tags:
     - utility
 - id: lithium
@@ -19,7 +19,7 @@
     - lithium
     - lithium-fabric
   packages:
-    - CaffeineMC.Lithium
+    - CaffeineMC.lithium
   tags:
     - performance
     - utility
@@ -28,7 +28,7 @@
     - phosphor
     - phosphor-fabric
   packages:
-    - CaffeineMC.Phosphor
+    - CaffeineMC.phosphor
   tags:
     - performance
     - utility
@@ -38,7 +38,7 @@
     - sodium
     - sodium-fabric
   packages:
-    - CaffeineMC.Sodium
+    - CaffeineMC.sodium
   tags:
     - performance
     - utility
@@ -46,7 +46,7 @@
   names:
     - starlight
   packages:
-    - Tuinity.Starlight
+    - Tuinity.starlight
   tags:
     - performance
     - utility
@@ -56,7 +56,7 @@
     - hydrogen
     - hydrogen-fabric
   packages:
-    - CaffeineMC.Hydrogen
+    - CaffeineMC.hydrogen
   tags:
     - performance
     - utility
@@ -64,7 +64,7 @@
   names:
     - ferritecore
   packages:
-    - Malte0811.Ferritecore
+    - malte0811.ferritecore
   tags:
     - performance
     - utility
@@ -72,7 +72,7 @@
   names:
     - krypton
   packages:
-    - Tuxed.Krypton
+    - tuxed.krypton
   tags:
     - performance
     - utility
@@ -80,7 +80,7 @@
   names:
     - lazydfu
   packages:
-   - Tuxed.Lazydfu
+   - tuxed.lazydfu
   tags:
     - performance
     - utility
@@ -88,7 +88,7 @@
   names:
     - recipecache
   packages:
-    - Biom4st3r.Recipecache
+    - Biom4st3r.recipecache
   tags:
     - performance
     - utility
@@ -96,14 +96,14 @@
   names:
     - modmenu
   packages:
-    - TerraformersMC.Modmenu
+    - TerraformersMC.modmenu
   tags:
     - utility
 - id: okzoomer
   names:
     - okzoomer
   packages:
-    - EnnuiL.Okzoomer
+    - EnnuiL.okzoomer
   tags:
     - utility
 - id: lambdynlights
@@ -111,7 +111,7 @@
     - lambdynlights
     - lambdynamiclights
   packages:
-    - LambdAurora.Lambdynlights
+    - LambdAurora.lambdynlights
   tags:
     - cosmetic
     - utility
@@ -120,7 +120,7 @@
   names:
     - dashloader
   packages:
-    - QuantumFusion.Dashloader
+    - QuantumFusion.dashloader
   tags:
     - utility
     - library
@@ -129,7 +129,7 @@
   names:
     - smoothboot
   packages:
-    - UltimateBoomer.Smoothboot
+    - UltimateBoomer.smoothboot
   tags:
     - utility
     - library
@@ -138,7 +138,7 @@
   names:
     - terra
   packages:
-    - Dfsek.Terra
+    - dfsek.terra
   tags:
     - adventure
     - utility
