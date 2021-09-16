@@ -64,7 +64,7 @@
   names:
     - ferritecore
   packages:
-    - malte0811.FerriteCore
+    - Malte0811.Ferritecore
   tags:
     - performance
     - utility
@@ -72,7 +72,7 @@
   names:
     - krypton
   packages:
-    - astei.Krypton
+    - Tuxed.Krypton
   tags:
     - performance
     - utility
@@ -80,7 +80,7 @@
   names:
     - lazydfu
   packages:
-   - astei.LazyDFU
+   - Tuxed.Lazydfu
   tags:
     - performance
     - utility
@@ -88,7 +88,7 @@
   names:
     - recipecache
   packages:
-    - biom4st3r.RecipeCache
+    - Biom4st3r.Recipecache
   tags:
     - performance
     - utility
@@ -96,14 +96,14 @@
   names:
     - modmenu
   packages:
-    - TerraformersMC.ModMenu
+    - TerraformersMC.Modmenu
   tags:
     - utility
 - id: okzoomer
   names:
     - okzoomer
   packages:
-    - EnnuiL.OkZoomer
+    - EnnuiL.Okzoomer
   tags:
     - utility
 - id: lambdynlights
@@ -111,7 +111,7 @@
     - lambdynlights
     - lambdynamiclights
   packages:
-    - LambdAurora.LambDynamicLights
+    - LambdAurora.Lambdynlights
   tags:
     - cosmetic
     - utility
@@ -120,7 +120,7 @@
   names:
     - dashloader
   packages:
-    - QuantumFusion.DashLoader
+    - QuantumFusion.Dashloader
   tags:
     - utility
     - library
@@ -129,7 +129,7 @@
   names:
     - smoothboot
   packages:
-    - UltimateBoomer.SmoothBoot
+    - UltimateBoomer.Smoothboot
   tags:
     - utility
     - library
