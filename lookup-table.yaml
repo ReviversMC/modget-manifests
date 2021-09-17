@@ -46,7 +46,7 @@
   names:
     - starlight
   packages:
-    - Tuinity.starlight
+    - PaperMC.starlight
   tags:
     - performance
     - utility
