@@ -12,14 +12,18 @@ support: https://discord.gg/nVDXfCRyMk
 modType: jar
 side: server
 downloads:
-  - version: 0.0.1
+  - version: 0.0.2
     minecraftVersions:
       - 1.16.4
       - 1.16.5
-    md5: 3d8d0002fb394e19b3351dc0c39c9c44
+    md5: 0176f67796cf9769fdb95fddaba2098f
     downloadPageUrls:
       - name: Modrinth
-        url: https://modrinth.com/mod/modget/version/D4Zrji5i
+        url: https://modrinth.com/mod/modget/version/9t1OjYX6
+      - name: GitHub
+        url: https://github.com/ReviversMC/modget/releases/tag/0.0.2
     fileUrls:
       - name: Modrinth
-        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.0.1/modget-0.0.1.jar
+        url: https://cdn.modrinth.com//data/2NpFE0R3/versions/0.0.2/modget-0.0.2.jar
+      - name: GitHub
+        url: https://github.com/ReviversMC/modget/releases/download/0.0.2/modget-0.0.2.jar
