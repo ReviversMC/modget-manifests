@@ -7,32 +7,33 @@ thirdPartyIds:
   modrinth: mOgUt4GM
 license: MIT
 description: Adds a mod menu to view the list of mods you have installed.
+home: https://minecraft.curseforge.com/projects/modmenu
 source: https://github.com/TerraformersMC/ModMenu
 issues: https://github.com/TerraformersMC/ModMenu/issues
 support: https://discord.gg/jEGF5fb
 modType: jar
 side: client
 downloads:
-  - version: 2.0.5
+  - version: 2.0.11
     minecraftVersions:
       - 1.17.0
       - 1.17.1
-    md5: 8d57961369cff906d5c9c645d06a7d3b
+    md5: cf4f79155cd828664ae4e6871fe9c445
     downloadPageUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3431313
+        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3462088
       - name: Modrinth
-        url: https://modrinth.com/mod/modmenu/version/E4QBMVtO
+        url: https://modrinth.com/mod/modmenu/version/FMqdptUn
       - name: GitHub
-        url: https://github.com/TerraformersMC/ModMenu/releases/tag/v2.0.5
+        url: https://github.com/TerraformersMC/ModMenu/releases/tag/v2.0.11
     fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/download/3431313/file
+        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/download/3462088/file
       - name: Modrinth
-        url: https://cdn.modrinth.com/data/mOgUt4GM/versions/2.0.5/modmenu-2.0.5.jar
+        url: https://cdn.modrinth.com//data/mOgUt4GM/versions/2.0.11/modmenu-2.0.11.jar
       - name: GitHub
-        url: https://github.com/TerraformersMC/ModMenu/releases/download/v2.0.5/modmenu-2.0.5.jar
-  - version: 1.16.17
+        url: https://github.com/TerraformersMC/ModMenu/releases/download/v2.0.11/modmenu-2.0.11.jar
+  - version: 1.16.18
     minecraftVersions:
       - 1.16.0
       - 1.16.1
@@ -41,18 +42,18 @@ downloads:
       - 1.16.4
       - 1.16.5
       # >=1.16- in fabric.mod.json
-    md5: dcb4d6372632c147d3b9f96bafa797e3
+    md5: 9051621176ef91bc2b10386c58062774
     downloadPageUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3451991
+        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3462077
       - name: Modrinth
-        url: https://modrinth.com/mod/modmenu/version/u955lyFM
+        url: https://modrinth.com/mod/modmenu/version/VaZTuVan
       - name: GitHub
-        url: https://github.com/TerraformersMC/ModMenu/releases/tag/v1.16.12
+        url: https://github.com/TerraformersMC/ModMenu/releases/tag/v1.16.18
     fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/download/3451991/file
+        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/download/3462077/file
       - name: Modrinth
-        url: https://cdn.modrinth.com/data/mOgUt4GM/versions/1.16.12/modmenu-1.16.12.jar
+        url: https://cdn.modrinth.com//data/mOgUt4GM/versions/1.16.18/modmenu-1.16.18.jar
       - name: GitHub
-        url: https://github.com/TerraformersMC/ModMenu/releases/download/v1.16.12/modmenu-1.16.12.jar
+        url: https://github.com/TerraformersMC/ModMenu/releases/download/v1.16.18/modmenu-1.16.18.jar
