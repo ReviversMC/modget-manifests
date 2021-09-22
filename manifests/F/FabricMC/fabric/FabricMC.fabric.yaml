@@ -13,6 +13,24 @@ support: https://discord.gg/v6v4pMv
 modType: jar
 side: both
 downloads:
+  - version: 0.40.3+1.18
+    minecraftVersions:
+      - 21w37a
+    md5: c33ca491d73ee4070d1e17a1e1fa9d2b
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3467603
+      - name: Modrinth
+        url: https://github.com/FabricMC/fabric/releases/tag/0.40.3%2B1.18
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.40.1%2B1.18_experimental
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3467603/file
+      - name: Modrinth
+        url: https://github.com/FabricMC/fabric/releases/download/0.40.3%2B1.18/fabric-api-0.40.3+1.18.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.40.1%2B1.18_experimental/fabric-api-0.40.1+1.18_experimental.jar
   - version: 0.40.1+1.18_experimental
     minecraftVersions:
       - 1.18.0_experimental-snapshot-1
