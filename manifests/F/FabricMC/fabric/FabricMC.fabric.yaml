@@ -31,31 +31,6 @@ downloads:
         url: https://github.com/FabricMC/fabric/releases/download/0.40.3%2B1.18/fabric-api-0.40.3+1.18.jar
       - name: GitHub
         url: https://github.com/FabricMC/fabric/releases/download/0.40.1%2B1.18_experimental/fabric-api-0.40.1+1.18_experimental.jar
-  - version: 0.40.1+1.18_experimental
-    minecraftVersions:
-      - 1.18.0_experimental-snapshot-1
-      - 1.18.0_experimental-snapshot-2
-      - 1.18.0_experimental-snapshot-3
-      - 1.18.0_experimental-snapshot-4
-      - 1.18.0_experimental-snapshot-5
-      - 1.18.0_experimental-snapshot-6
-      - 1.18.0_experimental-snapshot-7
-      - 21w37a
-    md5: 46b7eed4593ae3bd76b00a459acb0d1e
-    downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3454929
-      - name: Modrinth
-        url: https://modrinth.com/mod/fabric-api/version/dX8yiqT6
-      - name: GitHub
-        url: https://github.com/FabricMC/fabric/releases/tag/0.40.1%2B1.18_experimental
-    fileUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3454929/file
-      - name: Modrinth
-        url: https://cdn.modrinth.com//data/P7dR8mSH/versions/0.40.1+1.18_experimental/fabric-api-0.40.1+1.18_experimental.jar
-      - name: GitHub
-        url: https://github.com/FabricMC/fabric/releases/download/0.40.1%2B1.18_experimental/fabric-api-0.40.1+1.18_experimental.jar
   - version: 0.40.1+1.17.1
     minecraftVersions:
       - 1.17.1
