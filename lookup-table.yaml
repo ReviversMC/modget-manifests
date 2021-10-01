@@ -160,3 +160,11 @@
   tags:
     - library
     - api
+- id: fdlink
+  names:
+    - fabric-discord-link
+    - fdlink
+  packages:
+    - arthurbambou.fdlink
+  tags:
+    - utility
