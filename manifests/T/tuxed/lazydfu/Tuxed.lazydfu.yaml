@@ -31,6 +31,9 @@ downloads:
       - 1.16.5
       - 1.17.0
       - 1.17.1
+      - 21w37a
+      - 21w38a
+      - 21w39a
     md5: b2597e901c05673ef2834dad32da8824
     downloadPageUrls:
       - name: CurseForge
