@@ -152,3 +152,11 @@
     - redstone
     - technology
     - utility
+- id: fabric-language-kotlin
+  names:
+    - fabric-language-kotlin
+  packages:
+    - FabricMC.fabric-language-kotlin
+  tags:
+    - library
+    - api
