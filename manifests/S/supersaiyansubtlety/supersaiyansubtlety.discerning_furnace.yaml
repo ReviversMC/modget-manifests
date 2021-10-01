@@ -1,16 +1,14 @@
 manifestSpecVersion: 3
 publisher: supersaiyansubtlety
 name: Discerning Furnace
-id: discerningfurnace
+id: discerning_furnace
 thirdPartyIds:
   curseforge: 428966
   modrinth: G3Nz6HN4
 license: MIT
-description: Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game. 
-home: https://jellysquid.me/projects
-source: https://github.com/CaffeineMC/lithium-fabric
-issues: https://github.com/CaffeineMC/lithium-fabric/issues
-support: https://jellysquid.me/discord
+description: Only smeltable items are allowed in furnaces.
+source: https://gitlab.com/supersaiyansubtlety/discerning_furnace/
+issues: https://gitlab.com/supersaiyansubtlety/discerning_furnace/-/issues
 modType: jar
 side: server
 downloads:

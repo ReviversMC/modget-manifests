@@ -143,11 +143,11 @@
     - adventure
     - utility
     - worldgen
-- id: discerningfurnace
+- id: discerning_furnace
   names: 
-    - discerningfurnace
+    - discerning_furnace
   packages:
-    - supersaiyansubtlety.discerningfurnace
+    - supersaiyansubtlety.discerning_furnace
   tags:
     - redstone
     - technology
