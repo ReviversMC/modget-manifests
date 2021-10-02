@@ -143,3 +143,41 @@
     - adventure
     - utility
     - worldgen
+- id: discerning_furnace
+  names: 
+    - discerning_furnace
+  packages:
+    - supersaiyansubtlety.discerning_furnace
+  tags:
+    - redstone
+    - technology
+    - utility
+- id: fabric-language-kotlin
+  names:
+    - fabric-language-kotlin
+  packages:
+    - FabricMC.fabric-language-kotlin
+  tags:
+    - library
+    - api
+- id: fdlink
+  names:
+    - fabric-discord-link
+    - fdlink
+  packages:
+    - arthurbambou.fdlink
+  tags:
+    - utility
+- id: fabriccrossdimtpfix
+  names:
+    - fabriccrossdimtpfix
+  packages:
+    - CodedSakura.fabriccrossdimtpfix
+- id: fabricsit
+  names:
+    - fabricsit
+  packages:
+    - BradBot_1.fabricsit
+  tags:
+    - utility
+    - cosmetic
