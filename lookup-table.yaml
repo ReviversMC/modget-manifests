@@ -168,3 +168,8 @@
     - arthurbambou.fdlink
   tags:
     - utility
+- id: fabriccrossdimtpfix
+  names:
+    - fabriccrossdimtpfix
+  packages:
+    - CodedSakura.fabriccrossdimtpfix
