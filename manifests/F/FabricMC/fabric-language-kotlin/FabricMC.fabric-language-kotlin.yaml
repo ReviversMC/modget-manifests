@@ -1,0 +1,42 @@
+manifestSpecVersion: 3
+publisher: FabricMC
+name: Fabric Language Kotlin
+id: fabric-language-kotlin
+thirdPartyIds:
+  curseforge: 308769
+  modrinth: Ha28R6CL
+license: Apache-2.0
+description: Fabric language module for Kotlin.
+home: https://minecraft.curseforge.com/projects/fabric-language-kotlin
+source: https://github.com/FabricMC/fabric-language-kotlin
+issues: https://github.com/FabricMC/fabric-language-kotlin/issues
+support: irc://irc.esper.net:6667/fabric
+modType: jar
+side: both
+downloads:
+  - version: 1.6.4+kotlin.1.5.30
+    minecraftVersions:
+      - 1.14.0
+      - 1.14.1
+      - 1.14.2
+      - 1.14.3
+      - 1.14.4
+      - 1.15.0
+      - 1.16.0
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.17.0
+      - 1.17.1
+    md5: b0a2bd4ab14d5ab23bad09c8976df309
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/files/3439050
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-language-kotlin/version/1qsZV7U7
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/download/3439050/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/Ha28R6CL/versions/1.6.4+kotlin.1.5.30/fabric-language-kotlin-1.6.4+kotlin.1.5.30.jar
