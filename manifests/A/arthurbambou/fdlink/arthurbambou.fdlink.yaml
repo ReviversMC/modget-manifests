@@ -30,6 +30,6 @@ downloads:
         url: https://modrinth.com/mod/fabric-discord-link/version/kxQ4DKlh
     fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link/download/3480648
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link/download/3480648/file
       - name: Modrinth
         url: https://cdn.modrinth.com/data/FCmig1C9/versions/0.9.8/Fabric-Discord-Link-0.9.8.jar
