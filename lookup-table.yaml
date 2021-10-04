@@ -181,3 +181,11 @@
   tags:
     - utility
     - cosmetic
+- id: bfapi
+  names:
+    - bfapi
+  packages:
+    - BradBot_1.bfapi
+  tags: 
+    - api
+    - library
