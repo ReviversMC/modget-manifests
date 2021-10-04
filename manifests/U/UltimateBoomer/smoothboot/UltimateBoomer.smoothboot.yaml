@@ -1,15 +1,15 @@
 manifestSpecVersion: 3
 publisher: UltimateBoomer
-name: SmoothBoot
+name: Smooth Boot
 id: smoothboot
 thirdPartyIds:
   curseforge: 415758
   modrinth: FWumhS4T
 license: MIT
 description: Improve Minecraft CPU scheduling.
+home: https://www.curseforge.com/minecraft/mc-mods/smooth-boot
 source: https://github.com/UltimateBoomer/mc-smoothboot
 issues: https://github.com/UltimateBoomer/mc-smoothboot/issues
-support: https://github.com/UltimateBoomer/mc-smoothboot/issues
 modType: jar
 side: both
 downloads:

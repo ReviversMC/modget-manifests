@@ -1,0 +1,44 @@
+manifestSpecVersion: 3
+publisher: supersaiyansubtlety
+name: Discerning Furnace
+id: discerning_furnace
+thirdPartyIds:
+  curseforge: 428966
+  modrinth: G3Nz6HN4
+license: MIT
+description: Only smeltable items are allowed in furnaces.
+home: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace
+source: https://gitlab.com/supersaiyansubtlety/discerning_furnace/
+issues: https://gitlab.com/supersaiyansubtlety/discerning_furnace/-/issues
+modType: jar
+side: server
+downloads:
+  - version: 1.0.3
+    minecraftVersions:
+      - 1.17.0
+      - 1.17.1
+    md5: 35ca0098e0ee9697fba30d9cbf01b341
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace/files/3383095
+      - name: Modrinth
+        url: https://modrinth.com/mod/discerning-furnace/version/LlCSzYT6
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace/download/3383095/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/G3Nz6HN4/versions/1.0.3+MC1.17-1.17.1/discerning-furnace-1.0.3+MC1.17-1.17.1.jar
+  - version: 1.0.1
+    minecraftVersions:
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: f01e82b6ba16f150b91ed4c4f42c646b
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace/files/3170224
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace/download/3170224/file
