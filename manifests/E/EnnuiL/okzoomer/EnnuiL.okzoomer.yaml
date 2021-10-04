@@ -7,6 +7,7 @@ thirdPartyIds:
   modrinth: aXf2OSFU
 license: MIT
 description: Adds a highly configurable zoom button. By default, this mod provides its own take on zooming, however, with configuration, you can drastically change the zoom with something more familiar or useful. The zoom is yours!
+home: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer
 source: https://github.com/EnnuiL/OkZoomer
 issues: https://github.com/EnnuiL/OkZoomer/issues
 support: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer

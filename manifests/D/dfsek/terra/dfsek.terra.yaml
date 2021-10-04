@@ -6,7 +6,8 @@ thirdPartyIds:
   curseforge: 450465
   modrinth: FIlZB9L0
 license: GPL-3.0
-description: A fast, modern, extensible, platform-agnostic data-driven world generator 
+description: A fast, modern, extensible, platform-agnostic data-driven world generator
+home: https://github.com/PolyhedralDev/Terra/wiki
 source: https://github.com/PolyhedralDev/Terra
 issues: https://github.com/PolyhedralDev/Terra/issues
 support: https://discord.gg/PXUEbbF

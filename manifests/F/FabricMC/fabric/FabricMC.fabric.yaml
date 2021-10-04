@@ -6,7 +6,7 @@ thirdPartyIds:
   curseforge: 306612
   modrinth: P7dR8mSH
 license: Apache-2.0
-description: Essential hooks for modding with Fabric.
+description: Core API module providing key hooks and intercompatibility features.
 source: https://github.com/FabricMC/fabric
 issues: https://github.com/FabricMC/fabric/issues
 support: https://discord.gg/v6v4pMv
