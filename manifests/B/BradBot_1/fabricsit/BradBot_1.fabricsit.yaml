@@ -9,6 +9,9 @@ license: Apache-2.0
 description: A serverside mod to allows players to sit on stairs and slabs
 source: https://github.com/BradBot1/FabricSit
 issues: https://github.com/BradBot1/FabricSit/issues
+depends:
+  - BradBot_1.bfapi
+loader: fabric
 modType: jar
 side: server
 downloads:
