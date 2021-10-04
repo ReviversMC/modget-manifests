@@ -1,0 +1,39 @@
+manifestSpecVersion: 3.1
+publisher: Chocohead
+name: OptiFabric
+id: optifabric
+thirdPartyIds:
+  curseforge: 322385
+license: MPL-2.0
+description: OptiFabric is a mod that loads OptiFine into Fabric
+home: https://www.curseforge.com/minecraft/mc-mods/optifabric
+source: https://github.com/Chocohead/OptiFabric
+issues: https://github.com/Chocohead/OptiFabric/issues
+breaks:
+  - CaffeineMC.sodium
+  - Virtuoel.no_fog
+  - IsaiahMC.thallium
+  - user11681.xradiation
+  - OnyxStudios.cardinal-components
+  - architectury.architectury-api
+  - MeteorDevelopment.meteor-client
+loader: fabric
+modType: jar
+side: client
+downloads:
+  - version: 1.1.20
+    minecraftVersions:
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+      - 1.17.0
+      - 1.17.1
+    md5: b67ea83febc8f06240e15641836d942e
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/optifabric/files/3422922
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/optifabric/download/3422922/file
