@@ -18,10 +18,10 @@ downloads:
     md5: 6b6cd1aa6e4400ef8fe61c1cfce52f20
     downloadPageUrls:
       - name: GitHub
-        url: https://github.com/Tuinity/Starlight/releases/tag/1.0.0-RC3
+        url: https://github.com/PaperMC/Starlight/releases/tag/1.0.0-RC3
     fileUrls:
       - name: GitHub
-        url: https://github.com/Tuinity/Starlight/releases/download/1.0.0-RC3/starlight-1.0.0-RC3+fabric.1.17.x.jar
+        url: https://github.com/PaperMC/Starlight/releases/download/1.0.0-RC3/starlight-1.0.0-RC3+fabric.1.17.x.jar
   - version: 1.0.0-RC2+82ae5ca
     minecraftVersions:
       - 1.16.0
@@ -34,7 +34,7 @@ downloads:
     md5: d19207042c3a22c553ec053cc483c978
     downloadPageUrls:
       - name: GitHub
-        url: https://github.com/Tuinity/Starlight/releases/tag/1.0.0-RC2
+        url: https://github.com/PaperMC/Starlight/releases/tag/1.0.0-RC2
     fileUrls:
       - name: GitHub
-        url: https://github.com/Tuinity/Starlight/releases/download/1.0.0-RC2/starlight-fabric-1.0.0-RC2-1.16.x.jar
+        url: https://github.com/PaperMC/Starlight/releases/download/1.0.0-RC2/starlight-fabric-1.0.0-RC2-1.16.x.jar
