@@ -3,6 +3,7 @@ publisher: ReviversMC
 name: Modget
 id: modget
 thirdPartyIds:
+  curseforge: 
   modrinth: 2NpFE0R3
 license: LGPL-3.0-or-later
 description: The Minecraft Mod Package Manager! Can install mods via commands, search for updates and much more.
@@ -13,18 +14,18 @@ support: https://discord.gg/nVDXfCRyMk
 modType: jar
 side: server
 downloads:
-  - version: 0.0.3
+  - version: 0.1.0
     minecraftVersions:
       - 1.16.4
       - 1.16.5
-    md5: 8f5828c4aa35be247518a91f2d862a10
+    md5: cb5712965cf70dd59991057e8a3203cd
     downloadPageUrls:
       - name: Modrinth
-        url: https://modrinth.com/mod/modget/version/bg65YBBY
+        url: https://modrinth.com/mod/modget/version/tMt0z53k
       - name: GitHub
-        url: https://github.com/ReviversMC/modget/releases/tag/0.0.3
+        url: https://github.com/ReviversMC/modget/releases/tag/0.1.0
     fileUrls:
       - name: Modrinth
-        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.0.3/modget-0.0.3.jar
+        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.1.0/modget-0.1.0.jar
       - name: GitHub
-        url: https://github.com/ReviversMC/modget/releases/download/0.0.3/modget-0.0.3.jar
+        url: https://github.com/ReviversMC/modget/releases/download/0.1.0/modget-0.1.0.jar
