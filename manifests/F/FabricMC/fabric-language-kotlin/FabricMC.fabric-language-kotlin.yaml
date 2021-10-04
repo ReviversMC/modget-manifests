@@ -10,7 +10,7 @@ description: Fabric language module for Kotlin.
 home: https://minecraft.curseforge.com/projects/fabric-language-kotlin
 source: https://github.com/FabricMC/fabric-language-kotlin
 issues: https://github.com/FabricMC/fabric-language-kotlin/issues
-support: irc://irc.esper.net:6667/fabric
+support: https://discord.gg/v6v4pMv
 modType: jar
 side: both
 downloads:

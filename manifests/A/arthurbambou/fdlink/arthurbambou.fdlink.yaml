@@ -1,6 +1,6 @@
 manifestSpecVersion: 3
 publisher: arthurbambou
-name: Fabric - Discord Link
+name: Fabric <-> Discord Link
 id: fdlink
 thirdPartyIds:
   curseforge: 318315

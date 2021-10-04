@@ -6,8 +6,8 @@ thirdPartyIds:
   curseforge: 360438
   modrinth: gvQqBUqZ
 license: LGPL-3.0-only
-description: Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game. 
-home: https://jellysquid.me/projects
+description: Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.
+home: https://jellysquid.me/projects/
 source: https://github.com/CaffeineMC/lithium-fabric
 issues: https://github.com/CaffeineMC/lithium-fabric/issues
 support: https://jellysquid.me/discord
