@@ -11,6 +11,8 @@ home: https://minecraft.curseforge.com/projects/fabric-language-kotlin
 source: https://github.com/FabricMC/fabric-language-kotlin
 issues: https://github.com/FabricMC/fabric-language-kotlin/issues
 support: https://discord.gg/v6v4pMv
+loader:
+  - fabric
 modType: jar
 side: both
 downloads:
@@ -30,8 +32,6 @@ downloads:
       - 1.17.0
       - 1.17.1
     md5: b0a2bd4ab14d5ab23bad09c8976df309
-    loader:
-      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/files/3439050
