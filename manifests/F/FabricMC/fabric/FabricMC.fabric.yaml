@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: FabricMC
 name: Fabric API
 id: fabric
@@ -19,6 +19,8 @@ downloads:
       - 21w38a
       - 21w39a
     md5: e3453398754fc7728226028251d14f79
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3476611
@@ -37,6 +39,8 @@ downloads:
     minecraftVersions:
       - 1.17.1
     md5: 5365fcd34f53528c8a54e532557e2322
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3454922
@@ -55,6 +59,8 @@ downloads:
     minecraftVersions:
       - 1.17.0
     md5: 919cf187e3b5963d74c140203ad9a65c
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3358619
@@ -76,6 +82,8 @@ downloads:
       - 1.16.4
       - 1.16.5
     md5: 7a3dbf956504701a0d1f0fb1b94f4808
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3454917

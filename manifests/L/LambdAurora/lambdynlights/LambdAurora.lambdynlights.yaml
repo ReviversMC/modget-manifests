@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: LambdAurora
 name: LambDynamicLights
 id: lambdynlights
@@ -11,6 +11,16 @@ home: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights
 source: https://github.com/LambdAurora/LambDynamicLights.git
 issues: https://github.com/LambdAurora/LambDynamicLights/issues
 support: https://discord.gg/abEbzzv
+depends:
+  - FabricMC.fabric
+recommends:
+  - TerraformersMC.modmenu
+  - Vexatos.flamingo
+  - Yoghurt4C.ltr
+  - CaffeineMC.sodium
+  - vram-guild.canvas
+breaks:
+  - Chocohead.optifabric
 modType: jar
 side: client
 downloads:
@@ -19,6 +29,8 @@ downloads:
       - 1.17.0
       - 1.17.1
     md5: 36310f6881094c364dcbd48f475f8b44
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/files/3409038
@@ -40,6 +52,8 @@ downloads:
       - 1.16.4
       - 1.16.5
     md5: 75ae672c5749a676f86455d2673f4147
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/files/3172563
