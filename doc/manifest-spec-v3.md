@@ -31,10 +31,10 @@ The `publisher` and `modid` folders **must** match the values used in the lookup
 Each field in the file must be camelCased and cannot be duplicated.
 
 ## YAML file example
-Path: [`manifests / C / CaffeineMC / sodium / CaffeineMC.sodium.yaml`](../manifests/C/CaffeineMC/sodium/CaffeineMC.sodium.yaml)
+Partly taken from: [`manifests / C / CaffeineMC / sodium / CaffeineMC.sodium.yaml`](../manifests/C/CaffeineMC/sodium/CaffeineMC.sodium.yaml)
 
 ```YAML
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: CaffeineMC
 name: Sodium
 id: sodium
@@ -43,6 +43,8 @@ thirdPartyIds:
   modrinth: AANobbMI
 modType: jar
 side: client
+loader:
+  - fabric
 downloads:
   - version: 0.1.0
     minecraftVersions:
@@ -72,16 +74,33 @@ downloads:
 ```YAML
 license: LGPL-3.0-only
 description: Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.
-home: https://jellysquid.me/projects
+home: https://caffeinemc.net
+wiki: https://github.com/CaffeineMC/sodium-fabric/wiki
 source: https://github.com/CaffeineMC/sodium-fabric
 issues: https://github.com/CaffeineMC/sodium-fabric/issues
 support: https://jellysquid.me/discord
+chat: https://jellysquid.me/discord
+
+# The following keys can be applied top-level, to specific versions or to both.
+# Please define them at a position which avoids having too much redundant data!
+depends:
+  - package: FabricMC.fabric
+    version: ">=0.42.0"
+breaks:
+  - package: Chocohead.optifabric
+    version: "*"
+recommends:
+  - package: CaffeineMC.lithium
+    version: ">=0.6.6"
+  - package: CaffeineMC.phosphor
+    version: ">=0.7.2"
 ```
 
 ### Information on some keys
 - `modType`: Can currently either be `jar` or `zip`. Please note that only `jar` is supported as of now!
 - `side`: Can be `client`, `server` or `both`. This prevents the user from installing mods on the wrong side.
 - `thirdPartyIds`: Is required for [Automatic PRs through GitHub workflows #1](https://github.com/ReviversMC/modget-manifests/issues/1). Can only be omitted if the mod isn't on CurseForge or Modrinth.
+- `loader`: Can be `fabric`, `forge` and `liteloader`. Can be defined top-level or for specific versions.
 
 
 ## Best Practices
