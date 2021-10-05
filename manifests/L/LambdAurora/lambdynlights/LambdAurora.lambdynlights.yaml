@@ -15,10 +15,6 @@ depends:
   - FabricMC.fabric
 recommends:
   - TerraformersMC.modmenu
-  - Vexatos.flamingo
-  - Yoghurt4C.ltr
-  - CaffeineMC.sodium
-  - vram-guild.canvas
 breaks:
   - Chocohead.optifabric
 modType: jar
