@@ -1,6 +1,6 @@
 manifestSpecVersion: 3.1
 publisher: Biom4st3r
-name: recipecache
+name: RecipeCache
 id: recipecache
 thirdPartyIds:
   curseforge: 473492
