@@ -10,6 +10,8 @@ description: A serverside mod to make the creation of other server side mods eas
 home: https://modrinth.com/mod/bfapi
 source: https://github.com/BradBot1/BradsFabricApi
 issues: https://github.com/BradBot1/BradsFabricApi/issues
+loader:
+  - fabric
 modType: jar
 side: server
 downloads:
@@ -18,8 +20,6 @@ downloads:
       - 1.17.0
       - 1.17.1
     md5: bacc260f722579ba3c6dc1dc29464fe8
-    loader:
-      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/bfapi/files/3425333

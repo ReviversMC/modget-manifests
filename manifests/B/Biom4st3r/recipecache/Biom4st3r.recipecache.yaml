@@ -9,6 +9,8 @@ description: Caches the previous recipe to dramatically increase performance of 
 source: https://gitlab.com/biom4st3r/optimizedcrafting
 issues: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues
 support: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues/service_desk
+loader:
+  - fabric
 modType: jar
 side: server
 downloads:
@@ -16,8 +18,6 @@ downloads:
     minecraftVersions:
       - 1.17.1
     md5: 36e74c104abee8763249d8e3475acb05
-    loader:
-      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3369522
@@ -28,8 +28,6 @@ downloads:
     minecraftVersions:
       - 1.17.0
     md5: 2c6b6f29defdb471c2732aaaf69a0f8f
-    loader:
-      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3348298
@@ -41,8 +39,6 @@ downloads:
       - 1.16.4
       - 1.16.5
     md5: f6828aa7f1f872bf3141db9d4b85ff48
-    loader:
-      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3281223

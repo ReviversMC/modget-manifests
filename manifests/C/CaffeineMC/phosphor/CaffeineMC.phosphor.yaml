@@ -12,7 +12,10 @@ source: https://github.com/CaffeineMC/phosphor-fabric
 issues: https://github.com/CaffeineMC/phosphor-fabric/issues
 support: https://jellysquid.me/discord
 breaks:
-  - PaperMC.starlight
+  - package: PaperMC.starlight
+    version: "*"
+loader:
+  - fabric
 modType: jar
 side: server
 downloads:
@@ -23,8 +26,6 @@ downloads:
       - 1.16.4
       - 1.16.5
     md5: c20213b0f2b9e7769d7cdcc922960f9c
-    loader:
-      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/phosphor/files/3294303
