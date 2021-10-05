@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: QuantumFusion
 name: DashLoader
 id: dashloader
@@ -11,6 +11,11 @@ home: https://www.curseforge.com/minecraft/mc-mods/dashloader
 source: https://github.com/alphaqu/DashLoader
 issues: https://github.com/alphaqu/DashLoader/issues
 support: https://discord.gg/ERw86gDGdg
+wiki: https://github.com/alphaqu/DashLoader/wiki
+breaks:
+  - NuclearFarts.connected_block_textures
+  - FoundationGames.enhancedblockentities
+  - Chocohead.optifabric
 modType: jar
 side: client
 downloads:
@@ -19,6 +24,8 @@ downloads:
       - 1.17.0
       - 1.17.1
     md5: b443fcb092342ca01da5d1932aad4ed0
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3383467
@@ -33,6 +40,8 @@ downloads:
     minecraftVersions:
       - 1.16.5
     md5: d56bc0d93e874e88e1954f95f3690eb7
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3320941

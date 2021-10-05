@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: PaperMC
 name: Starlight
 id: starlight
@@ -17,6 +17,8 @@ downloads:
       - 1.17.1
       # >=1.17.0 in fabric.mod.json
     md5: 6b6cd1aa6e4400ef8fe61c1cfce52f20
+    loader:
+      - fabric
     downloadPageUrls:
       - name: GitHub
         url: https://github.com/PaperMC/Starlight/releases/tag/1.0.0-RC3
@@ -33,6 +35,8 @@ downloads:
       - 1.16.5
       # >=1.16.0 in fabric.mod.json
     md5: d19207042c3a22c553ec053cc483c978
+    loader:
+      - fabric
     downloadPageUrls:
       - name: GitHub
         url: https://github.com/PaperMC/Starlight/releases/tag/1.0.0-RC2

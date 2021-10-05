@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: TerraformersMC
 name: Mod Menu
 id: modmenu
@@ -11,6 +11,9 @@ home: https://minecraft.curseforge.com/projects/modmenu
 source: https://github.com/TerraformersMC/ModMenu
 issues: https://github.com/TerraformersMC/ModMenu/issues
 support: https://discord.gg/jEGF5fb
+wiki: https://github.com/TerraformersMC/ModMenu/wiki
+depends:
+  - FabricMC.fabric
 modType: jar
 side: client
 downloads:
@@ -20,6 +23,8 @@ downloads:
       - 21w38a
       - 21w39a
     md5: ceae4a48785a91f1e800bbd3659c7b01
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3479754
@@ -39,6 +44,8 @@ downloads:
       - 1.17.0
       - 1.17.1
     md5: 1d3f3d77373afa609e476f2ac5d3662b
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3479750
@@ -63,6 +70,8 @@ downloads:
       - 1.16.5
       # >=1.16- in fabric.mod.json
     md5: 9605c28631aa3ab220fa65e653281158
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3479748

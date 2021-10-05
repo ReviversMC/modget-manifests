@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: malte0811
 name: FerriteCore
 id: ferritecore
@@ -18,6 +18,8 @@ downloads:
     minecraftVersions:
       - 1.17.1
     md5: 85d257db9627f7e07e6d43d56e0be477
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3474756
@@ -33,6 +35,8 @@ downloads:
       - 1.17.0
       - 1.17.1
     md5: 58354b44afef6c347c6ffb79d255d967
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3373736
@@ -47,6 +51,8 @@ downloads:
     minecraftVersions:
       - 1.16.5
     md5: cbd77610f71444bffc3ab41e297ae913
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3435173

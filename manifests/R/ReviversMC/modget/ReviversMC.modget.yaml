@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: ReviversMC
 name: Modget
 id: modget
@@ -11,6 +11,8 @@ home: https://github.com/ReviversMC/modget
 source: https://github.com/ReviversMC/modget
 issues: https://github.com/ReviversMC/modget/issues
 support: https://discord.gg/nVDXfCRyMk
+depends:
+  - FabricMC.fabric
 modType: jar
 side: server
 downloads:
@@ -19,6 +21,8 @@ downloads:
       - 1.16.4
       - 1.16.5
     md5: cb5712965cf70dd59991057e8a3203cd
+    loader:
+      - fabric
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/modget/version/tMt0z53k
