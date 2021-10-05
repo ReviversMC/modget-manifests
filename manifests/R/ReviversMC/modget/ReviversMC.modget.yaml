@@ -20,11 +20,15 @@ downloads:
       - 1.16.5
     md5: cb5712965cf70dd59991057e8a3203cd
     downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3481563
       - name: Modrinth
         url: https://modrinth.com/mod/modget/version/tMt0z53k
       - name: GitHub
         url: https://github.com/ReviversMC/modget/releases/tag/0.1.0
     fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/download/3481563/file
       - name: Modrinth
         url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.1.0/modget-0.1.0.jar
       - name: GitHub
