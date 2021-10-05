@@ -10,7 +10,6 @@ description: A mod to link Minecraft and Discord chats for Fabric.
 source: https://github.com/arthurbambou/Fabric---Discord-Link
 issues: https://github.com/arthurbambou/Fabric---Discord-Link/issues
 wiki: https://github.com/arthurbambou/Fabric---Discord-Link/wiki
-loader: fabric
 modType: jar
 side: server
 downloads:
@@ -25,6 +24,8 @@ downloads:
       - 1.17.0
       - 1.17.1
     md5: 4b0c40968ce89993096a4cd8f268c8f3
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link/files/3480648

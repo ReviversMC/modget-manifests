@@ -6,7 +6,7 @@ thirdPartyIds:
   modrinth: AZomiSrC
 license: LGPL-3.0-only
 description: A Minecraft mod designed to reduce the memory usage of the game.
-home: https://jellysquid.me/projects
+home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/hydrogen-fabric
 issues: https://github.com/CaffeineMC/hydrogen-fabric/issues
 support: https://jellysquid.me/discord
@@ -14,7 +14,6 @@ depends:
   - FabricMC.fabric
 breaks:
   - Chocohead.optifabric
-loader: fabric
 modType: jar
 side: both
 downloads:
@@ -23,6 +22,8 @@ downloads:
       - 1.17.0
       - 1.17.1
     md5: 1d051c73bf798676d21bfb78457dbfbc
+    loader:
+      - fabric
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/hydrogen/version/gqJWYgtD
@@ -37,6 +38,8 @@ downloads:
     minecraftVersions:
       - 1.16.5
     md5: 86d48d7adc588922661ba0d1cde156d5
+    loader:
+      - fabric
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/hydrogen/version/aOtQ7hz2
