@@ -6,38 +6,33 @@ thirdPartyIds:
   curseforge: 306612
   modrinth: P7dR8mSH
 license: Apache-2.0
-description: Essential hooks for modding with Fabric.
+description: Core API module providing key hooks and intercompatibility features.
 source: https://github.com/FabricMC/fabric
 issues: https://github.com/FabricMC/fabric/issues
 support: https://discord.gg/v6v4pMv
 modType: jar
 side: both
 downloads:
-  - version: 0.40.1+1.18_experimental
+  - version: 0.40.5+1.18
     minecraftVersions:
-      - 1.18.0_experimental-snapshot-1
-      - 1.18.0_experimental-snapshot-2
-      - 1.18.0_experimental-snapshot-3
-      - 1.18.0_experimental-snapshot-4
-      - 1.18.0_experimental-snapshot-5
-      - 1.18.0_experimental-snapshot-6
-      - 1.18.0_experimental-snapshot-7
       - 21w37a
-    md5: 46b7eed4593ae3bd76b00a459acb0d1e
+      - 21w38a
+      - 21w39a
+    md5: e3453398754fc7728226028251d14f79
     downloadPageUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3454929
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3476611
       - name: Modrinth
-        url: https://modrinth.com/mod/fabric-api/version/dX8yiqT6
+        url: https://modrinth.com/mod/fabric-api/version/im91Yq9s
       - name: GitHub
-        url: https://github.com/FabricMC/fabric/releases/tag/0.40.1%2B1.18_experimental
+        url: https://github.com/FabricMC/fabric/releases/tag/0.40.5%2B1.18
     fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3454929/file
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3476611/file
       - name: Modrinth
-        url: https://cdn.modrinth.com//data/P7dR8mSH/versions/0.40.1+1.18_experimental/fabric-api-0.40.1+1.18_experimental.jar
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.40.5+1.18/fabric-api-0.40.5+1.18.jar
       - name: GitHub
-        url: https://github.com/FabricMC/fabric/releases/download/0.40.1%2B1.18_experimental/fabric-api-0.40.1+1.18_experimental.jar
+        url: https://github.com/FabricMC/fabric/releases/download/0.40.5%2B1.18/fabric-api-0.40.5+1.18.jar
   - version: 0.40.1+1.17.1
     minecraftVersions:
       - 1.17.1

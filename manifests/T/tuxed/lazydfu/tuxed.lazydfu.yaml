@@ -6,7 +6,8 @@ thirdPartyIds:
   curseforge: 433518
   modrinth: hvFnDODi
 license: MIT
-description: Makes Minecraft DataFixerUpper initialization lazy
+description: Makes DataFixerUpper more lazy
+home: https://github.com/astei/lazydfu
 source: https://github.com/astei/lazydfu
 issues: https://github.com/astei/lazydfu/issues
 support: https://discord.gg/RUGArxEQ8J
@@ -31,6 +32,9 @@ downloads:
       - 1.16.5
       - 1.17.0
       - 1.17.1
+      - 21w37a
+      - 21w38a
+      - 21w39a
     md5: b2597e901c05673ef2834dad32da8824
     downloadPageUrls:
       - name: CurseForge

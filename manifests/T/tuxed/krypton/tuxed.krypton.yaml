@@ -5,7 +5,7 @@ id: krypton
 thirdPartyIds:
   curseforge: 428912
   modrinth: fQEb0iXm
-license: GPL-3.0
+license: LGPL-3.0
 description: A Fabric mod that optimizes the Minecraft networking stack and entity tracker. 
 source: https://github.com/astei/krypton
 issues: https://github.com/astei/krypton/issues

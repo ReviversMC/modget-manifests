@@ -7,6 +7,7 @@ thirdPartyIds:
   modrinth: yBW8D80W
 license: MIT
 description: Adds dynamic lights to the game.
+home: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights
 source: https://github.com/LambdAurora/LambDynamicLights.git
 issues: https://github.com/LambdAurora/LambDynamicLights/issues
 support: https://discord.gg/abEbzzv
@@ -32,3 +33,24 @@ downloads:
         url: https://cdn.modrinth.com/data/yBW8D80W/versions/2.0.2+1.17/lambdynamiclights-2.0.2+1.17.jar
       - name: GitHub
         url: https://github.com/LambdAurora/LambDynamicLights/releases/download/2.0.2%2B1.17/lambdynamiclights-2.0.2+1.17.jar
+  - version: 1.3.4+1.16
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: 75ae672c5749a676f86455d2673f4147
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/files/3172563
+      - name: Modrinth
+        url: https://modrinth.com/mod/lambdynamiclights/version/hKXQNf9z
+      - name: GitHub
+        url: https://github.com/LambdAurora/LambDynamicLights/releases/tag/1.3.4-1.16
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/download/3172563/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/yBW8D80W/versions/1.3.4+1.16/lambdynamiclights-fabric-1.3.4+1.16.jar
+      - name: GitHub
+        url: https://github.com/LambdAurora/LambDynamicLights/releases/download/1.3.4-1.16/lambdynamiclights-fabric-1.3.4+1.16.jar

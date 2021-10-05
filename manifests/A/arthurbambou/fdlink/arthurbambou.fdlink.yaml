@@ -1,0 +1,35 @@
+manifestSpecVersion: 3
+publisher: arthurbambou
+name: Fabric <-> Discord Link
+id: fdlink
+thirdPartyIds:
+  curseforge: 318315
+  modrinth: FCmig1C9
+license: MIT
+description: A mod to link Minecraft and Discord chats for Fabric.
+source: https://github.com/arthurbambou/Fabric---Discord-Link
+issues: https://github.com/arthurbambou/Fabric---Discord-Link/issues
+modType: jar
+side: server
+downloads:
+  - version: 0.9.8
+    minecraftVersions:
+      - 1.16.0
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+      - 1.17.0
+      - 1.17.1
+    md5: 4b0c40968ce89993096a4cd8f268c8f3
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link/files/3480648
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-discord-link/version/kxQ4DKlh
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link/download/3480648/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/FCmig1C9/versions/0.9.8/Fabric-Discord-Link-0.9.8.jar
