@@ -14,8 +14,9 @@ depends:
   - FabricMC.fabric
 breaks:
   - Chocohead.optifabric
+loader: fabric
 modType: jar
-side: server
+side: both
 downloads:
   - version: 0.3.1
     minecraftVersions:
