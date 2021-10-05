@@ -84,15 +84,15 @@ chat: https://jellysquid.me/discord
 # The following keys can be applied top-level, to specific versions or to both.
 # Please define them at a position which avoids having too much redundant data!
 depends:
-  - package: "FabricMC.fabric"
+  - package: FabricMC.fabric
     version: ">=0.42.0"
 breaks:
-  - package: "Chocohead.optifabric"
+  - package: Chocohead.optifabric
     version: "*"
 recommends:
-  - package: "CaffeineMC.lithium"
+  - package: CaffeineMC.lithium
     version: ">=0.6.6"
-  - package: "CaffeineMC.phosphor"
+  - package: CaffeineMC.phosphor
     version: ">=0.7.2"
 ```
 
