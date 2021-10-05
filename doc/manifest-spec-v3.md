@@ -100,7 +100,7 @@ recommends:
 - `modType`: Can currently either be `jar` or `zip`. Please note that only `jar` is supported as of now!
 - `side`: Can be `client`, `server` or `both`. This prevents the user from installing mods on the wrong side.
 - `thirdPartyIds`: Is required for [Automatic PRs through GitHub workflows #1](https://github.com/ReviversMC/modget-manifests/issues/1). Can only be omitted if the mod isn't on CurseForge or Modrinth.
-- `loader`: Can be `fabric`, `forge` or `liteloader`. Can be defined top-level or for specific versions.
+- `loader`: Can be `fabric`, `forge` and `liteloader`. Can be defined top-level or for specific versions.
 
 
 ## Best Practices
