@@ -18,25 +18,25 @@ side: server
 loader:
   - fabric
 downloads:
-  - version: 0.1.0
+  - version: 0.1.1
     minecraftVersions:
       - 1.16.4
       - 1.16.5
-    md5: cb5712965cf70dd59991057e8a3203cd
+    md5: 2198fedeb76f3e7b9e0b53cf4aa9f503
     depends:
       - package: FabricMC.fabric
         version: "*"
     downloadPageUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3481563
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3483444
       - name: Modrinth
-        url: https://modrinth.com/mod/modget/version/tMt0z53k
+        url: https://modrinth.com/mod/modget/version/e96Md2oO
       - name: GitHub
-        url: https://github.com/ReviversMC/modget/releases/tag/0.1.0
+        url: https://github.com/ReviversMC/modget/releases/tag/0.1.1
     fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modget/download/3481563/file
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/download/3483444/file
       - name: Modrinth
-        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.1.0/modget-0.1.0.jar
+        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.1.1/modget-0.1.1.jar
       - name: GitHub
-        url: https://github.com/ReviversMC/modget/releases/download/0.1.0/modget-0.1.0.jar
+        url: https://github.com/ReviversMC/modget/releases/download/0.1.1/modget-0.1.1.jar
