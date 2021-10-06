@@ -15,8 +15,6 @@ support: https://discord.gg/nVDXfCRyMk
 chat: https://discord.gg/nVDXfCRyMk
 modType: jar
 side: server
-loader:
-  - fabric
 downloads:
   - version: 0.1.2
     minecraftVersions:
@@ -26,6 +24,8 @@ downloads:
     depends:
       - package: FabricMC.fabric
         version: "*"
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3483484

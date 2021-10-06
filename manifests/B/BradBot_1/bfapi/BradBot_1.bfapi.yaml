@@ -1,0 +1,32 @@
+manifestSpecVersion: 3.1
+publisher: BradBot_1
+name: BFAPI
+id: bfapi
+thirdPartyIds:
+  curseforge: 501198
+  modrinth: toILlMg6
+license: Apache-2.0
+description: A serverside mod to make the creation of other server side mods easier
+home: https://modrinth.com/mod/bfapi
+source: https://github.com/BradBot1/BradsFabricApi
+issues: https://github.com/BradBot1/BradsFabricApi/issues
+loader:
+  - fabric
+modType: jar
+side: server
+downloads:
+  - version: 1.1.8
+    minecraftVersions:
+      - 1.17.0
+      - 1.17.1
+    md5: bacc260f722579ba3c6dc1dc29464fe8
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/bfapi/files/3425333
+      - name: Modrinth
+        url: https://modrinth.com/mod/bfapi/version/9QCIJOVz
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/bfapi/download/3425333/file
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/toILlMg6/versions/v1.1.8/BFAPI-V1-1-8.jar

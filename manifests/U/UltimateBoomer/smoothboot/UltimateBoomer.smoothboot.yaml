@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: UltimateBoomer
 name: Smooth Boot
 id: smoothboot
@@ -10,6 +10,7 @@ description: Improve Minecraft CPU scheduling.
 home: https://www.curseforge.com/minecraft/mc-mods/smooth-boot
 source: https://github.com/UltimateBoomer/mc-smoothboot
 issues: https://github.com/UltimateBoomer/mc-smoothboot/issues
+wiki: https://github.com/UltimateBoomer/mc-smoothboot/wiki
 modType: jar
 side: both
 downloads:
@@ -23,6 +24,8 @@ downloads:
       - 1.17.0
       - 1.17.1
     md5: da89743801b0847b0975b21c84a7d63d
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/smooth-boot/files/3248104

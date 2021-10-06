@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: CaffeineMC
 name: Hydrogen
 id: hydrogen
@@ -6,18 +6,26 @@ thirdPartyIds:
   modrinth: AZomiSrC
 license: LGPL-3.0-only
 description: A Minecraft mod designed to reduce the memory usage of the game.
-home: https://jellysquid.me/projects
+home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/hydrogen-fabric
 issues: https://github.com/CaffeineMC/hydrogen-fabric/issues
 support: https://jellysquid.me/discord
+breaks:
+  - package: Chocohead.optifabric
+    version: "*"
+loader:
+  - fabric
 modType: jar
-side: server
+side: both
 downloads:
   - version: 0.3.1
     minecraftVersions:
       - 1.17.0
       - 1.17.1
     md5: 1d051c73bf798676d21bfb78457dbfbc
+    depends:
+      - package: FabricMC.fabric
+        version: ">=0.28.4+1.17"
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/hydrogen/version/gqJWYgtD
@@ -32,6 +40,9 @@ downloads:
     minecraftVersions:
       - 1.16.5
     md5: 86d48d7adc588922661ba0d1cde156d5
+    depends:
+      - package: FabricMC.fabric
+        version: ">=0.28.4+1.16"
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/hydrogen/version/aOtQ7hz2

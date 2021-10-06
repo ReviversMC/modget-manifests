@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: tuxed
 name: LazyDFU
 id: lazydfu
@@ -11,6 +11,7 @@ home: https://github.com/astei/lazydfu
 source: https://github.com/astei/lazydfu
 issues: https://github.com/astei/lazydfu/issues
 support: https://discord.gg/RUGArxEQ8J
+wiki: https://github.com/astei/lazydfu/wiki
 modType: jar
 side: server
 downloads:
@@ -36,6 +37,8 @@ downloads:
       - 21w38a
       - 21w39a
     md5: b2597e901c05673ef2834dad32da8824
+    loader:
+      - fabric
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/lazydfu/files/3209972

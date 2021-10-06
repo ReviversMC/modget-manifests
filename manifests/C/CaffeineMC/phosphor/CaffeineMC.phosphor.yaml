@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: CaffeineMC
 name: Phosphor
 id: phosphor
@@ -11,6 +11,11 @@ home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/phosphor-fabric
 issues: https://github.com/CaffeineMC/phosphor-fabric/issues
 support: https://jellysquid.me/discord
+breaks:
+  - package: PaperMC.starlight
+    version: "*"
+loader:
+  - fabric
 modType: jar
 side: server
 downloads:

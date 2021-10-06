@@ -181,3 +181,19 @@
   tags:
     - utility
     - cosmetic
+- id: bfapi
+  names:
+    - bfapi
+  packages:
+    - BradBot_1.bfapi
+  tags: 
+    - api
+    - library
+- id: optifabric
+  names:
+    - optifabric
+  packages:
+    - Chocohead.optifabric
+  tags:
+    - api
+    - library

@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: CaffeineMC
 name: Lithium
 id: lithium
@@ -11,6 +11,12 @@ home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/lithium-fabric
 issues: https://github.com/CaffeineMC/lithium-fabric/issues
 support: https://jellysquid.me/discord
+wiki: https://github.com/CaffeineMC/lithium-fabric/wiki
+breaks:
+  - package: Chocohead.optifabric
+    version: "*"
+loader:
+  - fabric
 modType: jar
 side: server
 downloads:

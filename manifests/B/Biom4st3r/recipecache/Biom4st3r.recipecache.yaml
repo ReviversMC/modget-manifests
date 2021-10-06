@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: Biom4st3r
 name: RecipeCache
 id: recipecache
@@ -9,6 +9,8 @@ description: Caches the previous recipe to dramatically increase performance of 
 source: https://gitlab.com/biom4st3r/optimizedcrafting
 issues: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues
 support: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues/service_desk
+loader:
+  - fabric
 modType: jar
 side: server
 downloads:

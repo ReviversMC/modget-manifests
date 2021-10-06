@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: CaffeineMC
 name: Sodium
 id: sodium
@@ -11,6 +11,13 @@ home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/sodium-fabric
 issues: https://github.com/CaffeineMC/sodium-fabric/issues
 support: https://jellysquid.me/discord
+loader:
+  - fabric
+breaks:
+  - package: Chocohead.optifabric
+    version: "*"
+  - package: vram-guild.canvas
+    version: "*"
 modType: jar
 side: client
 downloads:
@@ -18,6 +25,9 @@ downloads:
     minecraftVersions:
       - 1.17.1
     md5: b88cf07d124c5b96b82ab27e51fdff04
+    depends:
+      - package: FabricMC.fabric
+        version: "*"
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/sodium/version/xuWxRZPd
@@ -34,7 +44,7 @@ downloads:
       - 1.16.3
       - 1.16.4
       - 1.16.5
-   # Although versions 1.16.2 to 1.16.4 aren't officially compatible, they have been tested by NebelNidas and confirmed working by CaffeineMC's discord server.
+    # Although versions 1.16.2 to 1.16.4 aren't officially compatible, they have been tested by NebelNidas and confirmed working by CaffeineMC's discord server.
     md5: 98914f22cfe2d0ea5d8007ae8ff96062
     downloadPageUrls:
       - name: Modrinth

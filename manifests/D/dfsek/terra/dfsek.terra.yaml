@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: dfsek
 name: Terra
 id: terra
@@ -11,6 +11,7 @@ home: https://github.com/PolyhedralDev/Terra/wiki
 source: https://github.com/PolyhedralDev/Terra
 issues: https://github.com/PolyhedralDev/Terra/issues
 support: https://discord.gg/PXUEbbF
+wiki: https://github.com/PolyhedralDev/Terra/wiki
 modType: jar
 side: server
 downloads:
@@ -20,6 +21,8 @@ downloads:
       - 1.17.1
       # 1.17.x in fabric.mod.json
     md5: a9ed16e69d41d19fb7bc2a3da0129db8
+    loader:
+      - fabric
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/terra/version/i38N6tkR
@@ -31,6 +34,8 @@ downloads:
       - 1.16.4
       - 1.16.5
     md5: c8b5cebb3725a055c9082130410efb9b
+    loader:
+      - fabric
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/terra/version/9DWPUHbr
