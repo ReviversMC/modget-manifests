@@ -1,4 +1,4 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: ReviversMC
 name: Modget
 id: modget
@@ -8,17 +8,24 @@ thirdPartyIds:
 license: LGPL-3.0-or-later
 description: The Minecraft Mod Package Manager! Can install mods via commands, search for updates and much more.
 home: https://github.com/ReviversMC/modget
+wiki: https://github.com/ReviversMC/modget/blob/master/README.md
 source: https://github.com/ReviversMC/modget
 issues: https://github.com/ReviversMC/modget/issues
 support: https://discord.gg/nVDXfCRyMk
+chat: https://discord.gg/nVDXfCRyMk
 modType: jar
 side: server
+loader:
+  - fabric
 downloads:
   - version: 0.1.0
     minecraftVersions:
       - 1.16.4
       - 1.16.5
     md5: cb5712965cf70dd59991057e8a3203cd
+    depends:
+      - package: FabricMC.fabric
+        version: "*"
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3481563
