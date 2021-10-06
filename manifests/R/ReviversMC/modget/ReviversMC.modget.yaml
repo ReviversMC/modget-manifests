@@ -8,32 +8,35 @@ thirdPartyIds:
 license: LGPL-3.0-or-later
 description: The Minecraft Mod Package Manager! Can install mods via commands, search for updates and much more.
 home: https://github.com/ReviversMC/modget
+wiki: https://github.com/ReviversMC/modget/blob/master/README.md
 source: https://github.com/ReviversMC/modget
 issues: https://github.com/ReviversMC/modget/issues
 support: https://discord.gg/nVDXfCRyMk
-depends:
-  - FabricMC.fabric
+chat: https://discord.gg/nVDXfCRyMk
 modType: jar
 side: server
 downloads:
-  - version: 0.1.0
+  - version: 0.1.2
     minecraftVersions:
       - 1.16.4
       - 1.16.5
-    md5: cb5712965cf70dd59991057e8a3203cd
+    md5: 20b9f37254b223f7384e29ff18835485
+    depends:
+      - package: FabricMC.fabric
+        version: "*"
     loader:
       - fabric
     downloadPageUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3481563
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3483484
       - name: Modrinth
-        url: https://modrinth.com/mod/modget/version/tMt0z53k
+        url: https://modrinth.com/mod/modget/version/yxMqjJWx
       - name: GitHub
-        url: https://github.com/ReviversMC/modget/releases/tag/0.1.0
+        url: https://github.com/ReviversMC/modget/releases/tag/0.1.2
     fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modget/download/3481563/file
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/download/3483484/file
       - name: Modrinth
-        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.1.0/modget-0.1.0.jar
+        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.1.2/modget-0.1.2.jar
       - name: GitHub
-        url: https://github.com/ReviversMC/modget/releases/download/0.1.0/modget-0.1.0.jar
+        url: https://github.com/ReviversMC/modget/releases/download/0.1.2/modget-0.1.2.jar
