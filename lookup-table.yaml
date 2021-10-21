@@ -1,18 +1,43 @@
-- id: fabric
+- id: fdlink
   names:
-    - fabric
-    - fabric-api
+    - fabric-discord-link
+    - fdlink
   packages:
-    - FabricMC.fabric
+    - arthurbambou.fdlink
   tags:
-    - library
+    - utility
+- id: recipecache
+  names:
+    - recipecache
+  packages:
+    - Biom4st3r.recipecache
+  tags:
+    - performance
+    - utility
+- id: bfapi
+  names:
+    - bfapi
+  packages:
+    - BradBot_1.bfapi
+  tags: 
     - api
-- id: modget
+    - library
+- id: fabricsit
   names:
-    - modget
+    - fabricsit
   packages:
-    - ReviversMC.modget
+    - BradBot_1.fabricsit
   tags:
+    - utility
+    - cosmetic
+- id: hydrogen
+  names:
+    - hydrogen
+    - hydrogen-fabric
+  packages:
+    - CaffeineMC.hydrogen
+  tags:
+    - performance
     - utility
 - id: lithium
   names:
@@ -42,6 +67,70 @@
   tags:
     - performance
     - utility
+- id: optifabric
+  names:
+    - optifabric
+  packages:
+    - Chocohead.optifabric
+  tags:
+    - api
+    - library
+- id: fabriccrossdimtpfix
+  names:
+    - fabriccrossdimtpfix
+  packages:
+    - CodedSakura.fabriccrossdimtpfix
+- id: terra
+  names:
+    - terra
+  packages:
+    - dfsek.terra
+  tags:
+    - adventure
+    - utility
+    - worldgen
+- id: okzoomer
+  names:
+    - okzoomer
+  packages:
+    - EnnuiL.okzoomer
+  tags:
+    - utility
+- id: fabric
+  names:
+    - fabric
+    - fabric-api
+  packages:
+    - FabricMC.fabric
+  tags:
+    - library
+    - api
+- id: fabric-language-kotlin
+  names:
+    - fabric-language-kotlin
+  packages:
+    - FabricMC.fabric-language-kotlin
+  tags:
+    - library
+    - api
+- id: lambdynlights
+  names:
+    - lambdynlights
+    - lambdynamiclights
+  packages:
+    - LambdAurora.lambdynlights
+  tags:
+    - cosmetic
+    - utility
+    - adventure
+- id: ferritecore
+  names:
+    - ferritecore
+  packages:
+    - malte0811.ferritecore
+  tags:
+    - performance
+    - utility
 - id: starlight
   names:
     - starlight
@@ -51,22 +140,37 @@
     - performance
     - utility
     - worldgen
-- id: hydrogen
+- id: dashloader
   names:
-    - hydrogen
-    - hydrogen-fabric
+    - dashloader
   packages:
-    - CaffeineMC.hydrogen
+    - QuantumFusion.dashloader
   tags:
-    - performance
     - utility
-- id: ferritecore
+    - library
+    - api
+- id: modget
   names:
-    - ferritecore
+    - modget
   packages:
-    - malte0811.ferritecore
+    - ReviversMC.modget
   tags:
-    - performance
+    - utility
+- id: discerning_furnace
+  names: 
+    - discerning_furnace
+  packages:
+    - supersaiyansubtlety.discerning_furnace
+  tags:
+    - redstone
+    - technology
+    - utility
+- id: modmenu
+  names:
+    - modmenu
+  packages:
+    - TerraformersMC.modmenu
+  tags:
     - utility
 - id: krypton
   names:
@@ -84,47 +188,6 @@
   tags:
     - performance
     - utility
-- id: recipecache
-  names:
-    - recipecache
-  packages:
-    - Biom4st3r.recipecache
-  tags:
-    - performance
-    - utility
-- id: modmenu
-  names:
-    - modmenu
-  packages:
-    - TerraformersMC.modmenu
-  tags:
-    - utility
-- id: okzoomer
-  names:
-    - okzoomer
-  packages:
-    - EnnuiL.okzoomer
-  tags:
-    - utility
-- id: lambdynlights
-  names:
-    - lambdynlights
-    - lambdynamiclights
-  packages:
-    - LambdAurora.lambdynlights
-  tags:
-    - cosmetic
-    - utility
-    - adventure
-- id: dashloader
-  names:
-    - dashloader
-  packages:
-    - QuantumFusion.dashloader
-  tags:
-    - utility
-    - library
-    - api
 - id: smoothboot
   names:
     - smoothboot
@@ -134,50 +197,3 @@
     - utility
     - library
     - api
-- id: terra
-  names:
-    - terra
-  packages:
-    - dfsek.terra
-  tags:
-    - adventure
-    - utility
-    - worldgen
-- id: discerning_furnace
-  names: 
-    - discerning_furnace
-  packages:
-    - supersaiyansubtlety.discerning_furnace
-  tags:
-    - redstone
-    - technology
-    - utility
-- id: fabric-language-kotlin
-  names:
-    - fabric-language-kotlin
-  packages:
-    - FabricMC.fabric-language-kotlin
-  tags:
-    - library
-    - api
-- id: fdlink
-  names:
-    - fabric-discord-link
-    - fdlink
-  packages:
-    - arthurbambou.fdlink
-  tags:
-    - utility
-- id: fabriccrossdimtpfix
-  names:
-    - fabriccrossdimtpfix
-  packages:
-    - CodedSakura.fabriccrossdimtpfix
-- id: fabricsit
-  names:
-    - fabricsit
-  packages:
-    - BradBot_1.fabricsit
-  tags:
-    - utility
-    - cosmetic
