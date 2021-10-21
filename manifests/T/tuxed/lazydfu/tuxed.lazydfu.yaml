@@ -1,19 +1,21 @@
 manifestSpecVersion: 3.1
 publisher: tuxed
-name: LazyDFU
 id: lazydfu
-thirdPartyIds:
-  curseforge: 433518
-  modrinth: hvFnDODi
-license: MIT
+loader:
+  - fabric
+modType: jar
+side: server
+name: LazyDFU
 description: Makes DataFixerUpper more lazy
+license: MIT
 home: https://github.com/astei/lazydfu
 source: https://github.com/astei/lazydfu
 issues: https://github.com/astei/lazydfu/issues
-support: https://discord.gg/RUGArxEQ8J
 wiki: https://github.com/astei/lazydfu/wiki
-modType: jar
-side: server
+chat: https://discord.gg/RUGArxEQ8J
+thirdPartyIds:
+  modrinth: hvFnDODi
+  curseforge: 433518
 downloads:
   - version: 0.1.2
     minecraftVersions:
@@ -33,23 +35,18 @@ downloads:
       - 1.16.5
       - 1.17.0
       - 1.17.1
-      - 21w37a
-      - 21w38a
-      - 21w39a
     md5: b2597e901c05673ef2834dad32da8824
-    loader:
-      - fabric
     downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lazydfu/files/3209972
       - name: Modrinth
         url: https://modrinth.org/mod/lazydfu/version/C6e265zK
       - name: GitHub
         url: https://github.com/astei/lazydfu/releases/tag/0.1.2
-    fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lazydfu/download/3209972/file
+        url: https://www.curseforge.com/minecraft/mc-mods/lazydfu/files/3209972
+    fileUrls:
       - name: Modrinth
         url: https://cdn.modrinth.com/data/hvFnDODi/versions/0.1.2/lazydfu-0.1.2.jar
       - name: GitHub
         url: https://github.com/astei/lazydfu/releases/download/0.1.2/lazydfu-0.1.2.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lazydfu/download/3209972/file

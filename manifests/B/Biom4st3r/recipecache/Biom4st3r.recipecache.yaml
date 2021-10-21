@@ -1,29 +1,30 @@
 manifestSpecVersion: 3.1
 publisher: Biom4st3r
-name: RecipeCache
 id: recipecache
-thirdPartyIds:
-  curseforge: 473492
-license: MIT
-description: Caches the previous recipe to dramatically increase performance of crafting
-source: https://gitlab.com/biom4st3r/optimizedcrafting
-issues: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues
-support: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues/service_desk
 loader:
   - fabric
 modType: jar
 side: server
+name: RecipeCache
+description: Caches the previous recipe to dramatically increase performance of crafting
+license: MIT
+home: https://gitlab.com/biom4st3r
+source: https://gitlab.com/biom4st3r/optimizedcrafting
+issues: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues
+support: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues/service_desk
+thirdPartyIds:
+  curseforge: 473492
 downloads:
-  - version: 0.2.0-1.17.1
+  - version: 0.2.1-1.17.1
     minecraftVersions:
       - 1.17.1
-    md5: 36e74c104abee8763249d8e3475acb05
+    md5: 13df48e6aadd71467b37594779403ec6
     downloadPageUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3369522
+        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3487949
     fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3369522/file
+        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3487949/file
   - version: 0.2.0
     minecraftVersions:
       - 1.17.0

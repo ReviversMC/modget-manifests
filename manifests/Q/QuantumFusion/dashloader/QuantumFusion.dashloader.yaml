@@ -1,54 +1,57 @@
 manifestSpecVersion: 3.1
 publisher: QuantumFusion
-name: DashLoader
 id: dashloader
-thirdPartyIds:
-  curseforge: 472772
-  modrinth: ZfQ3kTvR
-license: LGPL-3.0-only
+loader:
+  - fabric
+modType: jar
+side: client
+name: DashLoader
 description: Launch at the speed of light.
+license: LGPL-3.0-only
 home: https://www.curseforge.com/minecraft/mc-mods/dashloader
 source: https://github.com/alphaqu/DashLoader
 issues: https://github.com/alphaqu/DashLoader/issues
-support: https://discord.gg/ERw86gDGdg
 wiki: https://github.com/alphaqu/DashLoader/wiki
+chat: https://discord.gg/ERw86gDGdg
 breaks:
-  - NuclearFarts.connected_block_textures
-  - FoundationGames.enhancedblockentities
-  - Chocohead.optifabric
-modType: jar
-side: client
+  - package: NuclearFarts.connected_block_textures
+    version: "*"
+  - package: FoundationGames.enhancedblockentities
+    version: "*"
+  - package: Chocohead.optifabric
+    version: "*"
+  - package: CaffeineMC.sodium
+    version: "<=0.1.0"
+thirdPartyIds:
+  modrinth: ZfQ3kTvR
+  curseforge: 472772
 downloads:
-  - version: 2.0
+  - version: 2.0.1
     minecraftVersions:
       - 1.17.0
       - 1.17.1
-    md5: b443fcb092342ca01da5d1932aad4ed0
-    loader:
-      - fabric
+    md5: 27e9a8930f07c19af53159bdc474e3de
     downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3383467
       - name: Modrinth
-        url: https://modrinth.org/mod/dashloader/version/k9vsytTC
+        url: https://modrinth.com/mod/dashloader/version/IbL8S9Tt
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3484075
     fileUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3383467/file
       - name: Modrinth
-        url: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/2.0/dashloader-2.0.jar
+        url: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/2.0.1/dashloader-2.0.1.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3484075/file
   - version: 1.4.5
     minecraftVersions:
       - 1.16.5
     md5: d56bc0d93e874e88e1954f95f3690eb7
-    loader:
-      - fabric
     downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3320941
       - name: Modrinth
         url: https://modrinth.org/mod/dashloader/version/se6qU2fa
-    fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3320941/file
+        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3320941
+    fileUrls:
       - name: Modrinth
         url: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/1.4.5-experimental/dashloader-1.4.5.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3320941/file

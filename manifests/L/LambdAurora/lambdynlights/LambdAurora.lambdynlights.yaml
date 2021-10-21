@@ -1,66 +1,75 @@
 manifestSpecVersion: 3.1
 publisher: LambdAurora
-name: LambDynamicLights
 id: lambdynlights
-thirdPartyIds:
-  curseforge: 393442
-  modrinth: yBW8D80W
-license: MIT
-description: Adds dynamic lights to the game.
-home: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights
-source: https://github.com/LambdAurora/LambDynamicLights.git
-issues: https://github.com/LambdAurora/LambDynamicLights/issues
-support: https://discord.gg/abEbzzv
-depends:
-  - FabricMC.fabric
-recommends:
-  - TerraformersMC.modmenu
-breaks:
-  - Chocohead.optifabric
+loader:
+  - fabric
 modType: jar
 side: client
+name: LambDynamicLights
+description: Adds dynamic lights to the game.
+license: MIT
+home: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights
+source: https://github.com/LambdAurora/LambDynamicLights
+issues: https://github.com/LambdAurora/LambDynamicLights/issues
+chat: https://discord.gg/abEbzzv
+breaks:
+  - Chocohead.optifabric
+thirdPartyIds:
+  modrinth: yBW8D80W
+  curseforge: 393442
 downloads:
   - version: 2.0.2+1.17
+    depends:
+      - package: FabricMC.fabric
+        version: ">=0.34.9"
+    recommends:
+      - package: TerraformersMC.modmenu
+        version: ">=2.0.0-beta7"
     minecraftVersions:
       - 1.17.0
       - 1.17.1
     md5: 36310f6881094c364dcbd48f475f8b44
-    loader:
-      - fabric
     downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/files/3409038
       - name: Modrinth
         url: https://modrinth.com/mod/lambdynamiclights/version/GiwO5rBh
       - name: GitHub
         url: https://github.com/LambdAurora/LambDynamicLights/releases/tag/2.0.2%2B1.17
-    fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/download/3409038/file
+        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/files/3409038
+    fileUrls:
       - name: Modrinth
         url: https://cdn.modrinth.com/data/yBW8D80W/versions/2.0.2+1.17/lambdynamiclights-2.0.2+1.17.jar
       - name: GitHub
         url: https://github.com/LambdAurora/LambDynamicLights/releases/download/2.0.2%2B1.17/lambdynamiclights-2.0.2+1.17.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/download/3409038/file
   - version: 1.3.4+1.16
+    depends:
+      - package: FabricMC.fabric
+        version: ">=0.29.3"
+    breaks:
+      - package: TerraformersMC.modmenu
+        version: "<1.14.0"
+    recommends:
+      - package: TerraformersMC.modmenu
+        version: ">=1.14.0"
     minecraftVersions:
       - 1.16.2
       - 1.16.3
       - 1.16.4
       - 1.16.5
     md5: 75ae672c5749a676f86455d2673f4147
-    loader:
-      - fabric
     downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/files/3172563
       - name: Modrinth
         url: https://modrinth.com/mod/lambdynamiclights/version/hKXQNf9z
       - name: GitHub
         url: https://github.com/LambdAurora/LambDynamicLights/releases/tag/1.3.4-1.16
-    fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/download/3172563/file
+        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/files/3172563
+    fileUrls:
       - name: Modrinth
         url: https://cdn.modrinth.com/data/yBW8D80W/versions/1.3.4+1.16/lambdynamiclights-fabric-1.3.4+1.16.jar
       - name: GitHub
         url: https://github.com/LambdAurora/LambDynamicLights/releases/download/1.3.4-1.16/lambdynamiclights-fabric-1.3.4+1.16.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/download/3172563/file

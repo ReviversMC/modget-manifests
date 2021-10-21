@@ -1,42 +1,41 @@
 manifestSpecVersion: 3.1
 publisher: ReviversMC
-name: Modget
 id: modget
-thirdPartyIds:
-  curseforge: 533960
-  modrinth: 2NpFE0R3
-license: LGPL-3.0-or-later
-description: The Minecraft Mod Package Manager! Can install mods via commands, search for updates and much more.
-home: https://github.com/ReviversMC/modget
-wiki: https://github.com/ReviversMC/modget/blob/master/README.md
-source: https://github.com/ReviversMC/modget
-issues: https://github.com/ReviversMC/modget/issues
-support: https://discord.gg/nVDXfCRyMk
-chat: https://discord.gg/nVDXfCRyMk
 modType: jar
 side: server
+name: Modget
+description: The Minecraft Mod Package Manager! Can install mods via commands, search for updates and much more.
+license: LGPL-3.0-or-later
+home: https://github.com/ReviversMC/modget
+source: https://github.com/ReviversMC/modget
+issues: https://github.com/ReviversMC/modget/issues
+wiki: https://github.com/ReviversMC/modget/blob/master/README.md
+chat: https://discord.gg/nVDXfCRyMk
+thirdPartyIds:
+  modrinth: 2NpFE0R3
+  curseforge: 533960
 downloads:
   - version: 0.1.2
+    loader:
+      - fabric
+    depends:
+      - package: FabricMC.fabric
+        version: "*"
     minecraftVersions:
       - 1.16.4
       - 1.16.5
     md5: 20b9f37254b223f7384e29ff18835485
-    depends:
-      - package: FabricMC.fabric
-        version: "*"
-    loader:
-      - fabric
     downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3483484
       - name: Modrinth
         url: https://modrinth.com/mod/modget/version/yxMqjJWx
       - name: GitHub
         url: https://github.com/ReviversMC/modget/releases/tag/0.1.2
-    fileUrls:
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modget/download/3483484/file
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3483484
+    fileUrls:
       - name: Modrinth
         url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.1.2/modget-0.1.2.jar
       - name: GitHub
         url: https://github.com/ReviversMC/modget/releases/download/0.1.2/modget-0.1.2.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/download/3483484/file
