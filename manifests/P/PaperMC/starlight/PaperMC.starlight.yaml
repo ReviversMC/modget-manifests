@@ -1,29 +1,65 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: PaperMC
-name: Starlight
 id: starlight
-license: LGPL-3.0-only
-description: Rewrites the light engine to fix lighting performance and lighting errors
-home: https://www.curseforge.com/minecraft/mc-mods/starlight
-source: https://github.com/PaperMC/Starlight
-issues: https://github.com/PaperMC/Starlight/issues
-support: https://discord.gg/tuinity
 modType: jar
 side: server
+name: Starlight
+description: Rewrites the light engine to fix lighting performance and lighting errors
+license: LGPL-3.0-only
+home: https://github.com/PaperMC/Starlight
+source: https://github.com/PaperMC/Starlight
+issues: https://github.com/PaperMC/Starlight/issues
+chat: https://discord.gg/tuinity
+thirdPartyIds:
+  modrinth: H8CaAYZC
+# modrinth (forge version): iRfIGC1s
+  curseforge: 521783
+# curseforge (forge version): 526854
 downloads:
-  - version: 1.0.0-RC3+fabric.2b7d7ae
+  - version: 1.0.0+fabric.73f6d37
+    loader:
+      - fabric
+    breaks:
+      - package: CaffeineMC.phosphor
+        version: "*"
     minecraftVersions:
       - 1.17.0
       - 1.17.1
       # >=1.17.0 in fabric.mod.json
-    md5: 6b6cd1aa6e4400ef8fe61c1cfce52f20
+    md5: 33a056d716ddb2cb834b6bcb9d5bc889
     downloadPageUrls:
-      - name: GitHub
-        url: https://github.com/PaperMC/Starlight/releases/tag/1.0.0-RC3
+      - name: Modrinth
+        url: https://modrinth.com/mod/starlight/version/nc7qGadJ
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/starlight/files/3442770
     fileUrls:
-      - name: GitHub
-        url: https://github.com/PaperMC/Starlight/releases/download/1.0.0-RC3/starlight-1.0.0-RC3+fabric.1.17.x.jar
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/H8CaAYZC/versions/Starlight%201.0.0%201.17.x/starlight-1.0.0+fabric.73f6d37.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/starlight/download/3442770/file
+  - version: 1.0.0+forge.5d16647
+    loader:
+      - forge
+    minecraftVersions:
+      - 1.17.0
+      - 1.17.1
+    md5: fbc961a055db6a3475fd18c5dcc38c03
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/starlight-forge/version/RcAkwRce
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/starlight-forge/files/3457784
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com//data/iRfIGC1s/versions/Starlight%201.0.0%201.17.x/starlight-1.0.0+forge.5d16647.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/starlight-forge/download/3457784/file
   - version: 1.0.0-RC2+82ae5ca
+    loader:
+      - fabric
+    breaks:
+      - package: CaffeineMC.phosphor
+        version: "*"
     minecraftVersions:
       - 1.16.0
       - 1.16.1

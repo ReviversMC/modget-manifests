@@ -1,20 +1,23 @@
-manifestSpecVersion: 3
+manifestSpecVersion: 3.1
 publisher: dfsek
-name: Terra
 id: terra
-thirdPartyIds:
-  curseforge: 450465
-  modrinth: FIlZB9L0
-license: GPL-3.0
+modType: jar
+side: server
+name: Terra
 description: A fast, modern, extensible, platform-agnostic data-driven world generator
+license: GPL-3.0
 home: https://github.com/PolyhedralDev/Terra/wiki
 source: https://github.com/PolyhedralDev/Terra
 issues: https://github.com/PolyhedralDev/Terra/issues
-support: https://discord.gg/PXUEbbF
-modType: jar
-side: server
+wiki: https://github.com/PolyhedralDev/Terra/wiki
+chat: https://discord.gg/PXUEbbF
+thirdPartyIds:
+  modrinth: FIlZB9L0
+  curseforge: 450465
 downloads:
   - version: 5.4.1-BETA+40e95073
+    loader:
+      - fabric
     minecraftVersions:
       - 1.17.0
       - 1.17.1
@@ -27,6 +30,8 @@ downloads:
       - name: Modrinth
         url: https://cdn.modrinth.com/data/FIlZB9L0/versions/5.4.1-BETA+40e95073/Terra-fabric-5.4.1-BETA+40e95073-shaded-mapped.jar
   - version: 5.3.3-BETA+5dd00db8
+    loader:
+      - fabric
     minecraftVersions:
       - 1.16.4
       - 1.16.5
@@ -34,6 +39,10 @@ downloads:
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/terra/version/9DWPUHbr
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/terra-world-generator/files/3314683w
     fileUrls:
       - name: Modrinth
         url: https://cdn.modrinth.com/data/FIlZB9L0/versions/fabric-5.3.3-BETA+5dd00db8/Terra-fabric-5.3.3-BETA+5dd00db8-shaded-mapped.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/terra-world-generator/download/3314683/file
