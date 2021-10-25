@@ -11,11 +11,13 @@
 - id: recipecache
   names:
     - recipecache
-  packages:
-    - Biom4st3r.recipecache
   tags:
     - performance
     - utility
+  packages:
+    - id: Biom4st3r.recipecache
+      loader:
+        - fabric
 - id: bfapi
   names:
     - bfapi

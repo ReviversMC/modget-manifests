@@ -1,8 +1,6 @@
-manifestSpecVersion: 3.1
+manifestSpecVersion: 4
 publisher: Biom4st3r
 id: recipecache
-loader:
-  - fabric
 modType: jar
 side: server
 name: RecipeCache
@@ -14,35 +12,7 @@ issues: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues
 support: https://gitlab.com/biom4st3r/optimizedcrafting/-/issues/service_desk
 thirdPartyIds:
   curseforge: 473492
-downloads:
-  - version: 0.2.1-1.17.1
-    minecraftVersions:
-      - 1.17.1
-    md5: 13df48e6aadd71467b37594779403ec6
-    downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3487949
-    fileUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3487949/file
-  - version: 0.2.0
-    minecraftVersions:
-      - 1.17.0
-    md5: 2c6b6f29defdb471c2732aaaf69a0f8f
-    downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3348298
-    fileUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3348298/file
-  - version: 0.1.0
-    minecraftVersions:
-      - 1.16.4
-      - 1.16.5
-    md5: f6828aa7f1f872bf3141db9d4b85ff48
-    downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3281223
-    fileUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3281223/file
+versions:
+  - 0.2.1-1.17.1
+  - 0.2.0
+  - 0.1.0
