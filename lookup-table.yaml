@@ -2,10 +2,12 @@
   names:
     - fabric-discord-link
     - fdlink
-  packages:
-    - arthurbambou.fdlink
   tags:
     - utility
+  packages:
+    - id: arthurbambou.fdlink
+      loader:
+        - fabric
 - id: recipecache
   names:
     - recipecache
