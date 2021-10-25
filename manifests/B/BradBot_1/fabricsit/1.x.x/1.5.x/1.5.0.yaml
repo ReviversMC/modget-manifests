@@ -1,0 +1,22 @@
+  - loader:
+    - fabric
+    depends:
+      - package: FabricMC.fabric
+        version: "*"
+    minecraftVersions:
+      - 1.16.5
+    md5: 236e58cbfac40482f9a83feca75dc121
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/sit/version/HXgIr8yk
+      - name: GitHub
+        url: https://github.com/BradBot1/FabricSit/releases/tag/v1.5
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabricsit/files/3324672
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/eM1KzRjc/versions/v1.5/FabricSit-1.5.0.jar
+      - name: GitHub
+        url: https://github.com/BradBot1/FabricSit/releases/download/v1.5/FabricSit-1.5.0.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabricsit/download/3324672/file

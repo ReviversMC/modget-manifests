@@ -31,11 +31,13 @@
 - id: fabricsit
   names:
     - fabricsit
-  packages:
-    - BradBot_1.fabricsit
   tags:
     - utility
     - cosmetic
+  packages:
+    - id: BradBot_1.fabricsit
+      loader:
+        - fabric
 - id: hydrogen
   names:
     - hydrogen
