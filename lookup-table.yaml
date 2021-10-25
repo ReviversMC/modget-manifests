@@ -21,11 +21,13 @@
 - id: bfapi
   names:
     - bfapi
-  packages:
-    - BradBot_1.bfapi
   tags: 
     - api
     - library
+  packages:
+    - id: BradBot_1.bfapi
+      loader:
+        - fabric
 - id: fabricsit
   names:
     - fabricsit
