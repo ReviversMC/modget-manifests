@@ -42,11 +42,13 @@
   names:
     - hydrogen
     - hydrogen-fabric
-  packages:
-    - CaffeineMC.hydrogen
   tags:
     - performance
     - utility
+  packages:
+    - id: CaffeineMC.hydrogen
+      loader:
+        - fabric
 - id: lithium
   names:
     - lithium

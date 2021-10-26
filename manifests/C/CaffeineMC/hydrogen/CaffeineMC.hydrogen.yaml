@@ -1,8 +1,6 @@
-manifestSpecVersion: 3.1
+manifestSpecVersion: 4
 publisher: CaffeineMC
 id: hydrogen
-loader:
-  - fabric
 modType: jar
 side: both
 name: Hydrogen
@@ -12,44 +10,8 @@ home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/hydrogen-fabric
 issues: https://github.com/CaffeineMC/hydrogen-fabric/issues
 chat: https://jellysquid.me/discord
-breaks:
-  - package: Chocohead.optifabric
-    version: "*"
 thirdPartyIds:
   modrinth: AZomiSrC
-downloads:
-  - version: 0.3.1
-    depends:
-      - package: FabricMC.fabric
-        version: ">=0.28.4+1.17"
-    minecraftVersions:
-      - 1.17.0
-      - 1.17.1
-    md5: 1d051c73bf798676d21bfb78457dbfbc
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.org/mod/hydrogen/version/gqJWYgtD
-      - name: GitHub
-        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/tag/mc1.17.1-0.3.1
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.17.1-0.3.1/hydrogen-fabric-mc1.17.1-0.3.jar
-      - name: GitHub
-        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/download/mc1.17.1-0.3.1/hydrogen-fabric-mc1.17.1-0.3.jar
-  - version: 0.2.0
-    depends:
-      - package: FabricMC.fabric
-        version: ">=0.28.4+1.16"
-    minecraftVersions:
-      - 1.16.5
-    md5: 86d48d7adc588922661ba0d1cde156d5
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.org/mod/hydrogen/version/aOtQ7hz2
-      - name: GitHub
-        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/tag/mc1.16.5-v0.2.0
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.16.5-v0.2.0/hydrogen-fabric-mc1.16.5-0.2.jar
-      - name: GitHub
-        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/download/mc1.16.5-v0.2.0/hydrogen-fabric-mc1.16.5-0.2.jar
+versions:
+  - 0.3.1
+  - 0.2.0
