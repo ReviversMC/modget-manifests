@@ -156,11 +156,14 @@
 - id: ferritecore
   names:
     - ferritecore
-  packages:
-    - malte0811.ferritecore
   tags:
     - performance
     - utility
+  packages:
+    - id: malte0811.ferritecore
+      loader:
+        - fabric
+        - forge
 - id: starlight
   names:
     - starlight
