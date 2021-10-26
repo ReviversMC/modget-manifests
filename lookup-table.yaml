@@ -76,11 +76,13 @@
   names:
     - sodium
     - sodium-fabric
-  packages:
-    - CaffeineMC.sodium
   tags:
     - performance
     - utility
+  packages:
+    - id: CaffeineMC.sodium
+      loader:
+        - fabric
 - id: optifabric
   names:
     - optifabric

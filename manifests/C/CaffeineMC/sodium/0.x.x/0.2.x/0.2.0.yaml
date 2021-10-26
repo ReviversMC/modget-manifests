@@ -1,0 +1,24 @@
+  - loader:
+      - fabric
+    breaks:
+      - package: Chocohead.optifabric
+        version: "*"
+      - package: vram-guild.canvas
+        version: "*"
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    # Although versions 1.16.2 to 1.16.4 aren't officially compatible, they have been tested by NebelNidas and confirmed working by CaffeineMC's discord server.
+    md5: 98914f22cfe2d0ea5d8007ae8ff96062
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/sodium/version/YAGZ1cCS
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/tag/mc1.16.5-0.2.0
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/AANobbMI/versions/mc1.16.5-0.2.0/sodium-fabric-mc1.16.5-0.2.0+build.4.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.16.5-0.2.0/sodium-fabric-mc1.16.5-0.2.0+build.4.jar
