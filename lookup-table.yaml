@@ -134,11 +134,13 @@
 - id: fabric-language-kotlin
   names:
     - fabric-language-kotlin
-  packages:
-    - FabricMC.fabric-language-kotlin
   tags:
     - library
     - api
+  packages:
+    - id: FabricMC.fabric-language-kotlin
+      loader:
+        - fabric
 - id: lambdynlights
   names:
     - lambdynlights
