@@ -114,10 +114,12 @@
 - id: okzoomer
   names:
     - okzoomer
-  packages:
-    - EnnuiL.okzoomer
   tags:
     - utility
+  packages:
+    - id: EnnuiL.okzoomer
+      loader:
+        - fabric
 - id: fabric
   names:
     - fabric
