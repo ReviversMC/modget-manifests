@@ -1,0 +1,25 @@
+  - loader:
+      - fabric
+    breaks:
+      - package: PaperMC.starlight
+        version: "*"
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: c20213b0f2b9e7769d7cdcc922960f9c
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.org/mod/phosphor/version/1mUlojUQ
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/tag/mc1.16.2-v0.7.2
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/files/3294303
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/hEOCdOgW/versions/mc1.16.2-0.7.2/phosphor-fabric-mc1.16.3-0.7.2+build.12.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc1.16.2-v0.7.2/phosphor-fabric-mc1.16.3-0.7.2+build.12.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/download/3294303/file

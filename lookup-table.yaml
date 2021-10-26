@@ -64,12 +64,14 @@
   names: 
     - phosphor
     - phosphor-fabric
-  packages:
-    - CaffeineMC.phosphor
   tags:
     - performance
     - utility
     - worldgen
+  packages:
+    - id: CaffeineMC.phosphor
+      loader:
+        - fabric
 - id: sodium
   names:
     - sodium
