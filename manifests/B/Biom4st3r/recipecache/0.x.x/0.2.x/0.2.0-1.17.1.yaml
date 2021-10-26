@@ -1,5 +1,5 @@
   - loader:
-    - fabric
+      - fabric
     minecraftVersions:
       - 1.17.1
     md5: 13df48e6aadd71467b37594779403ec6
