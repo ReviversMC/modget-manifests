@@ -86,11 +86,13 @@
 - id: optifabric
   names:
     - optifabric
-  packages:
-    - Chocohead.optifabric
   tags:
     - api
     - library
+  packages:
+    - id: Chocohead.optifabric
+      loader:
+        - fabric
 - id: fabriccrossdimtpfix
   names:
     - fabriccrossdimtpfix
