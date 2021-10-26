@@ -1,0 +1,23 @@
+  - loader:
+      - fabric
+    breaks:
+      - package: Chocohead.optifabric
+        version: "*"
+    minecraftVersions:
+      - 1.17.0
+      - 1.17.1
+    md5: 5e9a9c1dfaa4e10403a8c658639e5cca
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/lithium/version/nVR7Q63z
+      - name: GitHub
+        url: https://github.com/CaffeineMC/lithium-fabric/releases/tag/mc1.17.1-0.7.4
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lithium/files/3438799
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.17.1-0.7.4/lithium-fabric-mc1.17.1-0.7.4.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.17.1-0.7.4/lithium-fabric-mc1.17.1-0.7.4.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lithium/download/3438799/file

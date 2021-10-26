@@ -53,11 +53,13 @@
   names:
     - lithium
     - lithium-fabric
-  packages:
-    - CaffeineMC.lithium
   tags:
     - performance
     - utility
+  packages:
+    - id: CaffeineMC.lithium
+      loader:
+        - fabric
 - id: phosphor
   names: 
     - phosphor
