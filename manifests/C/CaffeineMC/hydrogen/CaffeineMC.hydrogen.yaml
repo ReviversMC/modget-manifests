@@ -9,7 +9,8 @@ license: LGPL-3.0-only
 home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/hydrogen-fabric
 issues: https://github.com/CaffeineMC/hydrogen-fabric/issues
-chat: https://jellysquid.me/discord
+chat: 
+  - https://jellysquid.me/discord
 thirdPartyIds:
   modrinth: AZomiSrC
 versions:
