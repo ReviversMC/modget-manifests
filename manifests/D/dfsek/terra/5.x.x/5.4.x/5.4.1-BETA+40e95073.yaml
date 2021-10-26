@@ -1,0 +1,13 @@
+  - loader:
+      - fabric
+    minecraftVersions:
+      - 1.17.0
+      - 1.17.1
+      # 1.17.x in fabric.mod.json
+    md5: a9ed16e69d41d19fb7bc2a3da0129db8
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/terra/version/i38N6tkR
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/FIlZB9L0/versions/5.4.1-BETA+40e95073/Terra-fabric-5.4.1-BETA+40e95073-shaded-mapped.jar

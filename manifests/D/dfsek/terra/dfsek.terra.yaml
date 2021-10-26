@@ -1,4 +1,4 @@
-manifestSpecVersion: 3.1
+manifestSpecVersion: 4
 publisher: dfsek
 id: terra
 modType: jar
@@ -10,39 +10,11 @@ home: https://github.com/PolyhedralDev/Terra/wiki
 source: https://github.com/PolyhedralDev/Terra
 issues: https://github.com/PolyhedralDev/Terra/issues
 wiki: https://github.com/PolyhedralDev/Terra/wiki
-chat: https://discord.gg/PXUEbbF
+chat: 
+  - https://discord.gg/PXUEbbF
 thirdPartyIds:
   modrinth: FIlZB9L0
   curseforge: 450465
-downloads:
-  - version: 5.4.1-BETA+40e95073
-    loader:
-      - fabric
-    minecraftVersions:
-      - 1.17.0
-      - 1.17.1
-      # 1.17.x in fabric.mod.json
-    md5: a9ed16e69d41d19fb7bc2a3da0129db8
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/terra/version/i38N6tkR
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/FIlZB9L0/versions/5.4.1-BETA+40e95073/Terra-fabric-5.4.1-BETA+40e95073-shaded-mapped.jar
-  - version: 5.3.3-BETA+5dd00db8
-    loader:
-      - fabric
-    minecraftVersions:
-      - 1.16.4
-      - 1.16.5
-    md5: c8b5cebb3725a055c9082130410efb9b
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/terra/version/9DWPUHbr
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/terra-world-generator/files/3314683w
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/FIlZB9L0/versions/fabric-5.3.3-BETA+5dd00db8/Terra-fabric-5.3.3-BETA+5dd00db8-shaded-mapped.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/terra-world-generator/download/3314683/file
+versions:
+  - 5.4.1-BETA+40e95073
+  - 5.3.3-BETA+5dd00db8

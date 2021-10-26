@@ -103,12 +103,14 @@
 - id: terra
   names:
     - terra
-  packages:
-    - dfsek.terra
   tags:
     - adventure
     - utility
     - worldgen
+  packages:
+    - id: dfsek.terra
+      loader:
+        - fabric
 - id: okzoomer
   names:
     - okzoomer
