@@ -145,12 +145,14 @@
   names:
     - lambdynlights
     - lambdynamiclights
-  packages:
-    - LambdAurora.lambdynlights
   tags:
     - cosmetic
     - utility
     - adventure
+  packages:
+    - id: LambdAurora.lambdynlights
+      loader:
+        - fabric
 - id: ferritecore
   names:
     - ferritecore
