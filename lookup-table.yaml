@@ -124,11 +124,13 @@
   names:
     - fabric
     - fabric-api
-  packages:
-    - FabricMC.fabric
   tags:
     - library
     - api
+  packages:
+    - id: FabricMC.fabric
+      loader:
+        - fabric
 - id: fabric-language-kotlin
   names:
     - fabric-language-kotlin
