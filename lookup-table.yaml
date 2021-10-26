@@ -97,7 +97,9 @@
   names:
     - fabriccrossdimtpfix
   packages:
-    - CodedSakura.fabriccrossdimtpfix
+    - id: CodedSakura.fabriccrossdimtpfix
+      loader:
+        - fabric
 - id: terra
   names:
     - terra
