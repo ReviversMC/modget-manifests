@@ -9,7 +9,7 @@ license: MIT
 source: https://github.com/arthurbambou/Fabric---Discord-Link
 issues: https://github.com/arthurbambou/Fabric---Discord-Link/issues
 wiki: https://github.com/arthurbambou/Fabric---Discord-Link/wiki
-chat: 
+chat:
   - https://discord.gg/xTvWwzV
 depends:
   - package: FabricMC.fabric
