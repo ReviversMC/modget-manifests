@@ -229,11 +229,13 @@
 - id: lazydfu
   names:
     - lazydfu
-  packages:
-   - tuxed.lazydfu
   tags:
     - performance
     - utility
+  packages:
+    - id: tuxed.lazydfu
+      loader:
+        - fabric
 - id: smoothboot
   names:
     - smoothboot
