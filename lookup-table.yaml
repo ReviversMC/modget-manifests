@@ -199,12 +199,14 @@
 - id: discerning_furnace
   names: 
     - discerning_furnace
-  packages:
-    - supersaiyansubtlety.discerning_furnace
   tags:
     - redstone
     - technology
     - utility
+  packages:
+    - id: supersaiyansubtlety.discerning_furnace
+      loader:
+        - fabric
 - id: modmenu
   names:
     - modmenu

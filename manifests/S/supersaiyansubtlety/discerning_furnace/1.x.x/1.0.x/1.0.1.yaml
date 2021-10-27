@@ -1,0 +1,15 @@
+  - loader:
+      - fabric
+    minecraftVersions:
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: f01e82b6ba16f150b91ed4c4f42c646b
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace/files/3170224
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace/download/3170224/file
