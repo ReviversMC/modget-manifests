@@ -15,7 +15,7 @@ thirdPartyIds:
   modrinth: 2NpFE0R3
   curseforge: 533960
 downloads:
-  - version: 0.2.0+1.16.4
+  - version: 0.2.3
     loader:
       - fabric
     depends:
