@@ -1,0 +1,16 @@
+  - loader:
+      - fabric
+    minecraftVersions:
+      - 1.17.0
+      - 1.17.1
+    md5: f85e752e083bdcd827309769b1d78447
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/bfapi/version/al1ek4A1
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/bfapi/files/3411174
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/toILlMg6/versions/v1.1.7/BFAPI-v1-1-7.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/bfapi/download/3411174/file
