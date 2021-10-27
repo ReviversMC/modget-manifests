@@ -9,7 +9,7 @@ license: Apache-2.0
 home: https://fabricmc.net
 source: https://github.com/FabricMC/fabric
 issues: https://github.com/FabricMC/fabric/issues
-chat:
+chats:
   - https://discord.gg/v6v4pMv
   - irc://irc.esper.net:6667/fabric
 thirdPartyIds:

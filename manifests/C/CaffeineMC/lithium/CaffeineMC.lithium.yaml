@@ -10,7 +10,7 @@ home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/lithium-fabric
 issues: https://github.com/CaffeineMC/lithium-fabric/issues
 wiki: https://github.com/CaffeineMC/lithium-fabric/wiki
-chat:
+chats:
   - https://jellysquid.me/discord
 thirdPartyIds:
   modrinth: gvQqBUqZ
