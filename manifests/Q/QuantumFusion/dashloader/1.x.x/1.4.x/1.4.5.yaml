@@ -1,0 +1,24 @@
+  - loader:
+      - fabric
+    breaks:
+      - package: NuclearFarts.connected_block_textures
+        version: "*"
+      - package: FoundationGames.enhancedblockentities
+        version: "*"
+      - package: Chocohead.optifabric
+        version: "*"
+      - package: CaffeineMC.sodium
+        version: "<=0.1.0"
+    minecraftVersions:
+      - 1.16.5
+    md5: d56bc0d93e874e88e1954f95f3690eb7
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.org/mod/dashloader/version/se6qU2fa
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3320941
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/1.4.5-experimental/dashloader-1.4.5.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3320941/file

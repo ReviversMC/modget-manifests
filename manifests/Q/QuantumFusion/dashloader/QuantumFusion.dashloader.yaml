@@ -1,8 +1,6 @@
-manifestSpecVersion: 3.1
+manifestSpecVersion: 4
 publisher: QuantumFusion
 id: dashloader
-loader:
-  - fabric
 modType: jar
 side: client
 name: DashLoader
@@ -12,46 +10,11 @@ home: https://www.curseforge.com/minecraft/mc-mods/dashloader
 source: https://github.com/alphaqu/DashLoader
 issues: https://github.com/alphaqu/DashLoader/issues
 wiki: https://github.com/alphaqu/DashLoader/wiki
-chat: https://discord.gg/ERw86gDGdg
-breaks:
-  - package: NuclearFarts.connected_block_textures
-    version: "*"
-  - package: FoundationGames.enhancedblockentities
-    version: "*"
-  - package: Chocohead.optifabric
-    version: "*"
-  - package: CaffeineMC.sodium
-    version: "<=0.1.0"
+chat: 
+  - https://discord.gg/ERw86gDGdg
 thirdPartyIds:
   modrinth: ZfQ3kTvR
   curseforge: 472772
-downloads:
-  - version: 2.0.1
-    minecraftVersions:
-      - 1.17.0
-      - 1.17.1
-    md5: 27e9a8930f07c19af53159bdc474e3de
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/dashloader/version/IbL8S9Tt
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3484075
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/2.0.1/dashloader-2.0.1.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3484075/file
-  - version: 1.4.5
-    minecraftVersions:
-      - 1.16.5
-    md5: d56bc0d93e874e88e1954f95f3690eb7
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.org/mod/dashloader/version/se6qU2fa
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3320941
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/1.4.5-experimental/dashloader-1.4.5.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3320941/file
+versions:
+  - 2.0.1
+  - 1.4.5

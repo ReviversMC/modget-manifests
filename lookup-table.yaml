@@ -179,12 +179,14 @@
 - id: dashloader
   names:
     - dashloader
-  packages:
-    - QuantumFusion.dashloader
   tags:
     - utility
     - library
     - api
+  packages:
+    - id: QuantumFusion.dashloader
+      loader:
+        - fabric
 - id: modget
   names:
     - modget
