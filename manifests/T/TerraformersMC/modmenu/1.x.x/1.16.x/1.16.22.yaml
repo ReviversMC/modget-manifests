@@ -1,0 +1,33 @@
+  - loader:
+      - fabric
+    depends:
+      - package: FabricMC.fabric
+        version: ">=0.30.0+1.16"
+    breaks:
+      - package: FabricMC.fabric
+        version: "<0.30.0"
+      - package: Minenash.better_mod_button
+        version: "*"
+    minecraftVersions:
+      - 1.16.0
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+      # >=1.16- in fabric.mod.json
+    md5: 9605c28631aa3ab220fa65e653281158
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/modmenu/version/WkUCkcQA
+      - name: GitHub
+        url: https://github.com/TerraformersMC/ModMenu/releases/tag/v1.16.22
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3479748
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/mOgUt4GM/versions/1.16.22/modmenu-1.16.22.jar
+      - name: GitHub
+        url: https://github.com/TerraformersMC/ModMenu/releases/download/v1.16.22/modmenu-1.16.22.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/modmenu/download/3479748/file

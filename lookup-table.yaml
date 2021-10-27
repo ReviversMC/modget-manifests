@@ -210,10 +210,12 @@
 - id: modmenu
   names:
     - modmenu
-  packages:
-    - TerraformersMC.modmenu
   tags:
     - utility
+  packages:
+    - id: TerraformersMC.modmenu
+      loader:
+        - fabric
 - id: krypton
   names:
     - krypton
