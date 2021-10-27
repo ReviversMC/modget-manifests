@@ -190,10 +190,12 @@
 - id: modget
   names:
     - modget
-  packages:
-    - ReviversMC.modget
   tags:
     - utility
+  packages:
+    - id: ReviversMC.modget
+      loader:
+        - fabric
 - id: discerning_furnace
   names: 
     - discerning_furnace
