@@ -239,9 +239,12 @@
 - id: smoothboot
   names:
     - smoothboot
-  packages:
-    - UltimateBoomer.smoothboot
   tags:
     - utility
     - library
     - api
+  packages:
+    - id: UltimateBoomer.smoothboot
+      loader:
+        - fabric
+        - forge

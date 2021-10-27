@@ -1,0 +1,25 @@
+  - loader:
+      - fabric
+    minecraftVersions:
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+      - 1.17.0
+      - 1.17.1
+    md5: da89743801b0847b0975b21c84a7d63d
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.org/mod/smoothboot-fabric/version/nPGcelzS
+      - name: GitHub
+        url: https://github.com/UltimateBoomer/mc-smoothboot/releases/tag/1.16.5-1.6.0
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/smooth-boot/files/3248104
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/FWumhS4T/versions/1.16.5-1.6.0/smoothboot-fabric-1.16.5-1.6.0.jar
+      - name: GitHub
+        url: https://github.com/UltimateBoomer/mc-smoothboot/releases/download/1.16.5-1.6.0/smoothboot-fabric-1.16.5-1.6.0.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/smooth-boot/download/3248104/file

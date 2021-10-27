@@ -1,0 +1,15 @@
+  - loader:
+      - forge
+    minecraftVersions:
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: 104ca76ce6b18b90fbfa4c58b3bbdfc2
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/smooth-boot-forge/files/3224252
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/smooth-boot-forge/download/3224252/file
