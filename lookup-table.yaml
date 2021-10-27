@@ -219,11 +219,13 @@
 - id: krypton
   names:
     - krypton
-  packages:
-    - tuxed.krypton
   tags:
     - performance
     - utility
+  packages:
+    - id: tuxed.krypton
+      loader:
+        - fabric
 - id: lazydfu
   names:
     - lazydfu
