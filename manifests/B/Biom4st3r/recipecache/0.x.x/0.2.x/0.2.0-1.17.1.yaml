@@ -1,0 +1,11 @@
+  - loader:
+      - fabric
+    minecraftVersions:
+      - 1.17.1
+    md5: 36e74c104abee8763249d8e3475acb05
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3369522
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3369522/file
