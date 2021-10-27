@@ -1,0 +1,20 @@
+  - loader:
+      - fabric
+    breaks:
+      - package: CaffeineMC.phosphor
+        version: "*"
+    minecraftVersions:
+      - 1.16.0
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+      # >=1.16.0 in fabric.mod.json
+    md5: d19207042c3a22c553ec053cc483c978
+    downloadPageUrls:
+      - name: GitHub
+        url: https://github.com/PaperMC/Starlight/releases/tag/1.0.0-RC2
+    fileUrls:
+      - name: GitHub
+        url: https://github.com/PaperMC/Starlight/releases/download/1.0.0-RC2/starlight-fabric-1.0.0-RC2-1.16.x.jar

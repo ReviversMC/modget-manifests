@@ -167,12 +167,15 @@
 - id: starlight
   names:
     - starlight
-  packages:
-    - PaperMC.starlight
   tags:
     - performance
     - utility
     - worldgen
+  packages:
+    - id: PaperMC.starlight
+      loader:
+        - fabric
+        - forge
 - id: dashloader
   names:
     - dashloader
