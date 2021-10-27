@@ -24,18 +24,18 @@ In the future, you will be able to use the [Modget Manifest Creator](https://git
 > Note: Only one manifest may be submitted per PR.
 
 ## Testing your manifest
-Now that you have authored your manifest, you should make sure it works as expected.
+Now that you have authored your manifest, you should make sure it works as expected. Simply copy your local repository into the `/modget/local_repos/` directory inside your Minecraft directory.
 
 > ❗ Note: Modget doesn't support the following commands yet!
 
 1. Verify the syntax by executing the following command:
 ```
-modget validate <manifest-name>
+/modget validate <package id> --local
 ```
 
 2. Test the install by executing the following command:
 ```
-modget install -m <manifest-name>
+/modget install <package id> --local
 ```
 The manifests have to be located inside the `.minecraft/config/modget/custom-manifests/` folder.
 
