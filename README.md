@@ -37,7 +37,6 @@ Now that you have authored your manifest, you should make sure it works as expec
 ```
 /modget install <package id> --local
 ```
-The manifests have to be located inside the `.minecraft/config/modget/custom-manifests/` folder.
 
 ## Adding your package to the lookup table
 With the manifest verified, you have to now add some basic metadata to the [lookup table](./lookup-table.yaml). See the [lookup table spec](./doc/lookup-table-spec-v2.md) on how to do this.
