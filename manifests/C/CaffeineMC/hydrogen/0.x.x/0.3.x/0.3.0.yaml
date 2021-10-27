@@ -1,0 +1,18 @@
+  - loader:
+      - fabric
+    depends:
+      - package: FabricMC.fabric
+        version: ">=0.28.4+1.17"
+    minecraftVersions:
+      - 1.17.0
+    md5: 9165d6cc0b5f60f5ad94eebfdb86d493
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/hydrogen/version/nc84mXki
+      - name: GitHub
+        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/tag/mc1.17-0.3.0
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.17-v0.3.0/hydrogen-fabric-mc1.17-0.3.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/hydrogen-fabric/releases/download/mc1.17-0.3.0/hydrogen-fabric-mc1.17-0.3.jar
