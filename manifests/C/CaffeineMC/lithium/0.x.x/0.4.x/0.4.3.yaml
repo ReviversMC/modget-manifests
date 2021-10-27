@@ -1,0 +1,11 @@
+  - loaders:
+      - fabric
+    minecraftVersions:
+      - 1.15.2
+    md5: f3f7d0b4aa9b6571c16dad270064eb37
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lithium/files/2893911
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lithium/download/2893911/file

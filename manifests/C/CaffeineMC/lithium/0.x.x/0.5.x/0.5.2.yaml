@@ -1,0 +1,15 @@
+  - loaders:
+      - fabric
+    minecraftVersions:
+      - 1.16.2
+    md5: bc009cde08a8169513f4c3b7b9404571
+    downloadPageUrls:
+      - name: GitHub
+        url: https://github.com/CaffeineMC/lithium-fabric/releases/tag/mc1.16.2-0.5.2
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lithium/files/3042177
+    fileUrls:
+      - name: GitHub
+        url: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.16.2-0.5.2/lithium-fabric-mc1.16.2-0.5.2.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/lithium/download/3042177/file
