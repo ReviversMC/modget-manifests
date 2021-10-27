@@ -1,4 +1,4 @@
-  - loader:
+  - loaders:
       - fabric
     breaks:
       - package: CaffeineMC.phosphor

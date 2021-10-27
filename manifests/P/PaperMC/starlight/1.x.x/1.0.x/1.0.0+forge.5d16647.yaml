@@ -1,4 +1,4 @@
-  - loader:
+  - loaders:
       - forge
     minecraftVersions:
       - 1.17.0

@@ -1,4 +1,4 @@
-  - loader:
+  - loaders:
       - fabric
     minecraftVersions:
       - 1.16.5
@@ -13,7 +13,7 @@
         url: https://cdn.modrinth.com/data/uXXizFIs/versions/2.1.0/ferritecore-2.1.0-fabric.jar
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3485637/file
-  - loader:
+  - loaders:
       - forge
     minecraftVersions:
       - 1.16.5

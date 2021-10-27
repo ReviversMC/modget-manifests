@@ -6,7 +6,7 @@
     - utility
   packages:
     - id: arthurbambou.fdlink
-      loader:
+      loaders:
         - fabric
 - id: recipecache
   names:
@@ -16,7 +16,7 @@
     - utility
   packages:
     - id: Biom4st3r.recipecache
-      loader:
+      loaders:
         - fabric
 - id: bfapi
   names:
@@ -26,7 +26,7 @@
     - library
   packages:
     - id: BradBot_1.bfapi
-      loader:
+      loaders:
         - fabric
 - id: fabricsit
   names:
@@ -36,7 +36,7 @@
     - cosmetic
   packages:
     - id: BradBot_1.fabricsit
-      loader:
+      loaders:
         - fabric
 - id: hydrogen
   names:
@@ -47,7 +47,7 @@
     - utility
   packages:
     - id: CaffeineMC.hydrogen
-      loader:
+      loaders:
         - fabric
 - id: lithium
   names:
@@ -58,7 +58,7 @@
     - utility
   packages:
     - id: CaffeineMC.lithium
-      loader:
+      loaders:
         - fabric
 - id: phosphor
   names: 
@@ -70,7 +70,7 @@
     - worldgen
   packages:
     - id: CaffeineMC.phosphor
-      loader:
+      loaders:
         - fabric
 - id: sodium
   names:
@@ -81,7 +81,7 @@
     - utility
   packages:
     - id: CaffeineMC.sodium
-      loader:
+      loaders:
         - fabric
 - id: optifabric
   names:
@@ -91,14 +91,14 @@
     - library
   packages:
     - id: Chocohead.optifabric
-      loader:
+      loaders:
         - fabric
 - id: fabriccrossdimtpfix
   names:
     - fabriccrossdimtpfix
   packages:
     - id: CodedSakura.fabriccrossdimtpfix
-      loader:
+      loaders:
         - fabric
 - id: terra
   names:
@@ -109,7 +109,7 @@
     - worldgen
   packages:
     - id: dfsek.terra
-      loader:
+      loaders:
         - fabric
 - id: okzoomer
   names:
@@ -118,7 +118,7 @@
     - utility
   packages:
     - id: EnnuiL.okzoomer
-      loader:
+      loaders:
         - fabric
 - id: fabric
   names:
@@ -129,7 +129,7 @@
     - api
   packages:
     - id: FabricMC.fabric
-      loader:
+      loaders:
         - fabric
 - id: fabric-language-kotlin
   names:
@@ -139,7 +139,7 @@
     - api
   packages:
     - id: FabricMC.fabric-language-kotlin
-      loader:
+      loaders:
         - fabric
 - id: lambdynlights
   names:
@@ -151,7 +151,7 @@
     - adventure
   packages:
     - id: LambdAurora.lambdynlights
-      loader:
+      loaders:
         - fabric
 - id: ferritecore
   names:
@@ -161,7 +161,7 @@
     - utility
   packages:
     - id: malte0811.ferritecore
-      loader:
+      loaders:
         - fabric
         - forge
 - id: starlight
@@ -173,7 +173,7 @@
     - worldgen
   packages:
     - id: PaperMC.starlight
-      loader:
+      loaders:
         - fabric
         - forge
 - id: dashloader
@@ -185,7 +185,7 @@
     - api
   packages:
     - id: QuantumFusion.dashloader
-      loader:
+      loaders:
         - fabric
 - id: modget
   names:
@@ -194,7 +194,7 @@
     - utility
   packages:
     - id: ReviversMC.modget
-      loader:
+      loaders:
         - fabric
 - id: discerning_furnace
   names: 
@@ -205,7 +205,7 @@
     - utility
   packages:
     - id: supersaiyansubtlety.discerning_furnace
-      loader:
+      loaders:
         - fabric
 - id: modmenu
   names:
@@ -214,7 +214,7 @@
     - utility
   packages:
     - id: TerraformersMC.modmenu
-      loader:
+      loaders:
         - fabric
 - id: krypton
   names:
@@ -224,7 +224,7 @@
     - utility
   packages:
     - id: tuxed.krypton
-      loader:
+      loaders:
         - fabric
 - id: lazydfu
   names:
@@ -234,7 +234,7 @@
     - utility
   packages:
     - id: tuxed.lazydfu
-      loader:
+      loaders:
         - fabric
 - id: smoothboot
   names:
@@ -245,6 +245,6 @@
     - api
   packages:
     - id: UltimateBoomer.smoothboot
-      loader:
+      loaders:
         - fabric
         - forge

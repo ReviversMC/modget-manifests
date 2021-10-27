@@ -1,4 +1,4 @@
-  - loader:
+  - loaders:
       - fabric
     depends:
       - package: FabricMC.fabric
