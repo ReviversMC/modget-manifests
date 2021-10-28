@@ -1,8 +1,5 @@
   - loader:
       - fabric
-    depends:
-      - package: FabricMC.fabric
-        version: "*"
     recommends:
       - package: arthurbambou.server_translations
         version: "*"
