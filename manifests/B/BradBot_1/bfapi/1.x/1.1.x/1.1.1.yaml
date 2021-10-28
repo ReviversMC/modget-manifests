@@ -6,10 +6,11 @@
     minecraftVersions:
       - 1.17
       - 1.17.1
-    md5: e6aa59b2153a22daf1f4ae9c779914ca
+    channel: release
     thirdPartyIds:
       modrinth: toILlMg6
       curseforge: 501198
+    md5: e6aa59b2153a22daf1f4ae9c779914ca
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/bfapi/version/53hFdjWY

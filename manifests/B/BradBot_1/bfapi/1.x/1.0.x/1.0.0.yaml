@@ -6,6 +6,7 @@
     minecraftVersions:
       - 1.17
       - 1.17.1
+    channel: release
     md5: b24a5fd09b18f4a9680385a61d5f9c3c
     downloadPageUrls:
       - name: GitHub

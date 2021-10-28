@@ -11,6 +11,7 @@
       - 1.16.4
       - 1.16.5
       # >=1.16.0 in fabric.mod.json
+    channel: alpha
     md5: d19207042c3a22c553ec053cc483c978
     downloadPageUrls:
       - name: GitHub

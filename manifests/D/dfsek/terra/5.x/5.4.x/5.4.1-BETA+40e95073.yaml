@@ -4,10 +4,11 @@
       - 1.17
       - 1.17.1
       # 1.17.x in fabric.mod.json
-    md5: a9ed16e69d41d19fb7bc2a3da0129db8
+    release: beta
     thirdPartyIds:
       modrinth: FIlZB9L0
       curseforge: 450465
+    md5: a9ed16e69d41d19fb7bc2a3da0129db8
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/terra/version/i38N6tkR

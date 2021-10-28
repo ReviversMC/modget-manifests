@@ -2,10 +2,11 @@
       - fabric
     minecraftVersions:
       - 1.16.5
-    md5: 69f079b92f2d10e03231de9c836ccf68
+    channel: release
     thirdPartyIds:
       modrinth: uXXizFIs
       curseforge: 459857
+    md5: 69f079b92f2d10e03231de9c836ccf68
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/ferrite-core/version/oP38VFTJ
@@ -20,9 +21,10 @@
       - forge
     minecraftVersions:
       - 1.16.5
-    md5: 6b469b99aa6f89b6ebad7aefa3cb9843
+    channel: release
     thirdPartyIds:
       curseforge: 429235
+    md5: 6b469b99aa6f89b6ebad7aefa3cb9843
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore/files/3485636

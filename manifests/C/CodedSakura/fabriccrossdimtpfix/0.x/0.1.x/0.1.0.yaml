@@ -8,9 +8,10 @@
       - 1.16.3
       - 1.16.4
       - 1.16.5
-    md5: b22348cdf4c6049bdd9816ee418004a9
+    channel: release
     thirdPartyIds:
       modrinth: q1O2IGx6
+    md5: b22348cdf4c6049bdd9816ee418004a9
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/fabriccrossdimtpfix/version/qOa4whwn

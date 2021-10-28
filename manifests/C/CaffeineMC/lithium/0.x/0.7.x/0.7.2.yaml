@@ -5,10 +5,11 @@
         version: "*"
     minecraftVersions:
       - 1.17
-    md5: a2e966bfe3173327c3874236a23fa6e5
+    channel: release
     thirdPartyIds:
       modrinth: gvQqBUqZ
       curseforge: 360438
+    md5: a2e966bfe3173327c3874236a23fa6e5
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/lithium/version/aZ0JFf08

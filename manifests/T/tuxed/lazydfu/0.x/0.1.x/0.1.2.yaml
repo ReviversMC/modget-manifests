@@ -17,10 +17,11 @@
       - 1.16.5
       - 1.17
       - 1.17.1
-    md5: b2597e901c05673ef2834dad32da8824
+    channel: release
     thirdPartyIds:
       modrinth: hvFnDODi
       curseforge: 433518
+    md5: b2597e901c05673ef2834dad32da8824
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/lazydfu/version/C6e265zK

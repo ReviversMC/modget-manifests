@@ -6,10 +6,11 @@
     minecraftVersions:
       - 1.17
       - 1.17.1
-    md5: f34bc3aab8bbff2e952c3ee6a3f73a6a
+    channel: release
     thirdPartyIds:
       modrinth: eM1KzRjc
       curseforge: 480257
+    md5: f34bc3aab8bbff2e952c3ee6a3f73a6a
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/sit/version/CREAyyuM

@@ -10,10 +10,11 @@
       - 1.16.3
       - 1.16.4
       - 1.16.5
-    md5: 6630a558f11338f34f9a2867a5125e59
+    channel: release
     thirdPartyIds:
       modrinth: eM1KzRjc
       curseforge: 480257
+    md5: 6630a558f11338f34f9a2867a5125e59
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/sit/version/kCAwmucO

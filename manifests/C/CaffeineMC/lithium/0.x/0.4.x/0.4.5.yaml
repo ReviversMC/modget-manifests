@@ -2,9 +2,10 @@
       - fabric
     minecraftVersions:
       - 1.15.2
-    md5: 1abb5ed5f34d9293f302545a14d37521
+    channel: release
     thirdPartyIds:
       curseforge: 360438
+    md5: 1abb5ed5f34d9293f302545a14d37521
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/lithium/files/2895870

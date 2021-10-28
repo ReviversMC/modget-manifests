@@ -16,10 +16,11 @@
       - 1.16.4
       - 1.16.5
       # >=1.16- in fabric.mod.json
-    md5: 9605c28631aa3ab220fa65e653281158
+    channel: release
     thirdPartyIds:
       modrinth: mOgUt4GM
       curseforge: 308702
+    md5: 9605c28631aa3ab220fa65e653281158
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/modmenu/version/WkUCkcQA

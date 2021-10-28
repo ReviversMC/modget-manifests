@@ -5,10 +5,11 @@
       - 1.16.3
       - 1.16.4
       - 1.16.5
-    md5: d6ab66e0c10e91c4f9d15a46c67c8643
+    channel: release
     thirdPartyIds:
       modrinth: P7dR8mSH
       curseforge: 306612
+    md5: d6ab66e0c10e91c4f9d15a46c67c8643
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/fabric-api/version/PrZIpVLI

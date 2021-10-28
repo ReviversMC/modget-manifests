@@ -2,10 +2,11 @@
       - fabric
     minecraftVersions:
       - 1.17.1
-    md5: 9ed7dbe7b0803fc3f463f5ae099e2961
+    channel: release
     thirdPartyIds:
       modrinth: fQEb0iXm
       curseforge: 428912
+    md5: 9ed7dbe7b0803fc3f463f5ae099e2961
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/krypton/version/PGovBIXq

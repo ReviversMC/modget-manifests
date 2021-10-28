@@ -8,10 +8,11 @@
       - 1.16.3
       - 1.16.4
       - 1.16.5
-    md5: 51b9e5cfb796c1238ea674851807c0ac
+    channel: release
     thirdPartyIds:
       modrinth: gvQqBUqZ
       curseforge: 360438
+    md5: 51b9e5cfb796c1238ea674851807c0ac
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/lithium/version/ouTdXXWj

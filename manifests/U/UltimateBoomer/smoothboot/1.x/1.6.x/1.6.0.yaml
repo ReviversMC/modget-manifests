@@ -8,10 +8,11 @@
       - 1.16.5
       - 1.17
       - 1.17.1
-    md5: da89743801b0847b0975b21c84a7d63d
+    channel: release
     thirdPartyIds:
       modrinth: FWumhS4T
       curseforge: 415758
+    md5: da89743801b0847b0975b21c84a7d63d
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/smoothboot-fabric/version/nPGcelzS

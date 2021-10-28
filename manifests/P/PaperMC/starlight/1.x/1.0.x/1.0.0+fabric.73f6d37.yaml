@@ -7,10 +7,11 @@
       - 1.17
       - 1.17.1
       # >=1.17.0 in fabric.mod.json
-    md5: 33a056d716ddb2cb834b6bcb9d5bc889
+    channel: release
     thirdPartyIds:
       modrinth: H8CaAYZC
       curseforge: 521783
+    md5: 33a056d716ddb2cb834b6bcb9d5bc889
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/starlight/version/nc7qGadJ

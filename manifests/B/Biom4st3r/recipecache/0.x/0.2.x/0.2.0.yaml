@@ -2,9 +2,10 @@
       - fabric  
     minecraftVersions:
       - 1.17
-    md5: 2c6b6f29defdb471c2732aaaf69a0f8f
+    channel: release
     thirdPartyIds:
       curseforge: 473492
+    md5: 2c6b6f29defdb471c2732aaaf69a0f8f
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3348298

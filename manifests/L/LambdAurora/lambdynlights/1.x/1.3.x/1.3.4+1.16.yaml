@@ -16,10 +16,11 @@
       - 1.16.3
       - 1.16.4
       - 1.16.5
-    md5: 75ae672c5749a676f86455d2673f4147
+    channel: release
     thirdPartyIds:
       modrinth: yBW8D80W
       curseforge: 393442
+    md5: 75ae672c5749a676f86455d2673f4147
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/lambdynamiclights/version/hKXQNf9z

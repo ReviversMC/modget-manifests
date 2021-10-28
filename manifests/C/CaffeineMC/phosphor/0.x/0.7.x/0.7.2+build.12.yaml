@@ -8,10 +8,11 @@
       - 1.16.3
       - 1.16.4
       - 1.16.5
-    md5: c20213b0f2b9e7769d7cdcc922960f9c
+    channel: release
     thirdPartyIds:
       modrinth: hEOCdOgW
       curseforge: 372124
+    md5: c20213b0f2b9e7769d7cdcc922960f9c
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/phosphor/version/1mUlojUQ

@@ -23,9 +23,10 @@
       - 1.16.5
       - 1.17
       - 1.17.1
-    md5: b67ea83febc8f06240e15641836d942e
+    channel: release
     thirdPartyIds:
       curseforge: 322385
+    md5: b67ea83febc8f06240e15641836d942e
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/optifabric/files/3422922

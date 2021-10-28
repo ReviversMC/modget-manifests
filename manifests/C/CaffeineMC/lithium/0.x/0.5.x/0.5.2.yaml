@@ -2,9 +2,10 @@
       - fabric
     minecraftVersions:
       - 1.16.2
-    md5: bc009cde08a8169513f4c3b7b9404571
+    channel: release
     thirdPartyIds:
       curseforge: 360438
+    md5: bc009cde08a8169513f4c3b7b9404571
     downloadPageUrls:
       - name: GitHub
         url: https://github.com/CaffeineMC/lithium-fabric/releases/tag/mc1.16.2-0.5.2

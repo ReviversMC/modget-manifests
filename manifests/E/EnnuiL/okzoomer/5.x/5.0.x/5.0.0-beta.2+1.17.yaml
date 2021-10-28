@@ -9,10 +9,11 @@
     minecraftVersions:
       - 1.17
       - 1.17.1
-    md5: 8f02c83f057e66adebb2e128b083c776
+    channel: beta
     thirdPartyIds:
       modrinth: aXf2OSFU
       curseforge: 354047
+    md5: 8f02c83f057e66adebb2e128b083c776
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/ok-zoomer/version/XQ6sAlpr

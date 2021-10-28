@@ -11,10 +11,11 @@
       - 1.16.3
       - 1.16.4
       - 1.16.5
-    md5: 732b559a504e3f5a8454fed7620443bb
+    channel: release
     thirdPartyIds:
       modrinth: aXf2OSFU
       curseforge: 354047
+    md5: 732b559a504e3f5a8454fed7620443bb
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/ok-zoomer/version/L7TmfftT
