@@ -1,8 +1,5 @@
   - loaders:
       - fabric
-    depends:
-      - package: FabricMC.fabric
-        version: ">=0.28.4+1.17"
     minecraftVersions:
       - 1.17.0
     md5: 9165d6cc0b5f60f5ad94eebfdb86d493

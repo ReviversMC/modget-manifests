@@ -1,8 +1,5 @@
   - loaders:
       - fabric
-    depends:
-      - package: FabricMC.fabric
-        version: "*"
     breaks:
       - package: Chocohead.optifabric
         version: "*"

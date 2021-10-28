@@ -1,8 +1,5 @@
   - loaders:
       - fabric
-    depends:
-      - package: FabricMC.fabric
-        version: ">=0.28.4+1.17"
     breaks:
       - package: Chocohead.optifabric
         version: "*"
