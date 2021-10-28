@@ -1,7 +1,7 @@
   - loaders:
       - fabric  
     minecraftVersions:
-      - 1.17.0
+      - 1.17
     md5: 2c6b6f29defdb471c2732aaaf69a0f8f
     downloadPageUrls:
       - name: CurseForge

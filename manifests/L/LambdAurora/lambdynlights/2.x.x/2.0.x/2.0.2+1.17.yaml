@@ -10,7 +10,7 @@
       - package: TerraformersMC.modmenu
         version: ">=2.0.0-beta7"
     minecraftVersions:
-      - 1.17.0
+      - 1.17
       - 1.17.1
     md5: 36310f6881094c364dcbd48f475f8b44
     downloadPageUrls:

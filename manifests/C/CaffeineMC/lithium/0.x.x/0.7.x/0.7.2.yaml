@@ -4,7 +4,7 @@
       - package: Chocohead.optifabric
         version: "*"
     minecraftVersions:
-      - 1.17.0
+      - 1.17
     md5: a2e966bfe3173327c3874236a23fa6e5
     downloadPageUrls:
       - name: Modrinth

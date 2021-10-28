@@ -1,7 +1,7 @@
   - loaders:
       - fabric
     minecraftVersions:
-      - 1.17.0
+      - 1.17
     md5: 919cf187e3b5963d74c140203ad9a65c
     downloadPageUrls:
       - name: Modrinth

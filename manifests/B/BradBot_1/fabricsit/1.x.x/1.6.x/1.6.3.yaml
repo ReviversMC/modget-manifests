@@ -4,7 +4,7 @@
       - package: BradBot_1.bfapi
         version: ">=1.1.6"
     minecraftVersions:
-      - 1.17.0
+      - 1.17
       - 1.17.1
     md5: 9d644d89428e33e6aac52d5fa35f0916
     downloadPageUrls:

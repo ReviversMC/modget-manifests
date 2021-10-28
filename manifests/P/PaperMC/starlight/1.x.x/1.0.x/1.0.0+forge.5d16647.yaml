@@ -1,7 +1,7 @@
   - loaders:
       - forge
     minecraftVersions:
-      - 1.17.0
+      - 1.17
       - 1.17.1
     md5: fbc961a055db6a3475fd18c5dcc38c03
     downloadPageUrls:

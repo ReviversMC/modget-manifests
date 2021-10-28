@@ -4,7 +4,7 @@
       - package: CaffeineMC.phosphor
         version: "*"
     minecraftVersions:
-      - 1.17.0
+      - 1.17
       - 1.17.1
       # >=1.17.0 in fabric.mod.json
     md5: 33a056d716ddb2cb834b6bcb9d5bc889

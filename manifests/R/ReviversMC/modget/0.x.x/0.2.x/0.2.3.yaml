@@ -7,13 +7,13 @@
       - package: arthurbambou.server_translations
         version: "*"
     minecraftVersions:
-      - 1.16.0
+      - 1.16
       - 1.16.1
       - 1.16.2
       - 1.16.3
       - 1.16.4
       - 1.16.5
-      - 1.17.0
+      - 1.17
       - 1.17.1
     md5: 8abc7f03c6ef253e86e1a78c8f5c2cad
     downloadPageUrls:

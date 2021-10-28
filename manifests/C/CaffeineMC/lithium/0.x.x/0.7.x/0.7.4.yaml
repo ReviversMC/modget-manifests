@@ -4,7 +4,7 @@
       - package: Chocohead.optifabric
         version: "*"
     minecraftVersions:
-      - 1.17.0
+      - 1.17
       - 1.17.1
     md5: 5e9a9c1dfaa4e10403a8c658639e5cca
     downloadPageUrls:

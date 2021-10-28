@@ -1,7 +1,7 @@
   - loaders:
       - fabric
     minecraftVersions:
-      - 1.16.0
+      - 1.16
       - 1.16.1
     md5: d03f66ebc93e46712516916b29e62fde
     downloadPageUrls:

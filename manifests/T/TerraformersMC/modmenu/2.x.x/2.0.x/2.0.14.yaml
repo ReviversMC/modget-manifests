@@ -9,7 +9,7 @@
       - package: Minenash.better_mod_button
         version: "*"
     minecraftVersions:
-      - 1.17.0
+      - 1.17
       - 1.17.1
     md5: 1d3f3d77373afa609e476f2ac5d3662b
     downloadPageUrls:

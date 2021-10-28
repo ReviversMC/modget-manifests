@@ -10,7 +10,7 @@
       - package: CaffeineMC.sodium
         version: "<=0.1.0"
     minecraftVersions:
-      - 1.17.0
+      - 1.17
       - 1.17.1
     md5: 27e9a8930f07c19af53159bdc474e3de
     downloadPageUrls:

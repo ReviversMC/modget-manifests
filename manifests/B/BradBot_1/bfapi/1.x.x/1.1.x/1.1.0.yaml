@@ -4,7 +4,7 @@
       - package: FabricMC.fabric
         version: "*"
     minecraftVersions:
-      - 1.17.0
+      - 1.17
       - 1.17.1
     md5: 4a5486a9d1b9656761097e29f9151116
     downloadPageUrls:
