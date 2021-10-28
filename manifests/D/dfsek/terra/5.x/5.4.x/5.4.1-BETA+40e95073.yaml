@@ -4,7 +4,7 @@
       - 1.17
       - 1.17.1
       # 1.17.x in fabric.mod.json
-    release: beta
+    channel: beta
     thirdPartyIds:
       modrinth: FIlZB9L0
       curseforge: 450465

@@ -3,7 +3,7 @@
     minecraftVersions:
       - 1.16.4
       - 1.16.5
-    release: beta
+    channel: beta
     thirdPartyIds:
       modrinth: FIlZB9L0
       curseforge: 450465
