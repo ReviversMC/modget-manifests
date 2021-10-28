@@ -10,5 +10,5 @@ home: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace
 source: https://gitlab.com/supersaiyansubtlety/discerning_furnace/
 issues: https://gitlab.com/supersaiyansubtlety/discerning_furnace/-/issues
 versions:
-  - 1.0.3
-  - 1.0.1
+  - 1.0.3+MC1.17-1.17.1
+  - 1.0.1+MC1.16.1-1.16.5

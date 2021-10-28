@@ -1,8 +1,5 @@
   - loaders:
       - fabric
-    breaks:
-      - package: Chocohead.optifabric
-        version: "*"
     minecraftVersions:
       - 1.16.5
     md5: 86d48d7adc588922661ba0d1cde156d5
