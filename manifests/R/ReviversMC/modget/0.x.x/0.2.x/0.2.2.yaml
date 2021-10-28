@@ -1,0 +1,32 @@
+  - loader:
+      - fabric
+    depends:
+      - package: FabricMC.fabric
+        version: "*"
+    recommends:
+      - package: arthurbambou.server_translations
+        version: "*"
+    minecraftVersions:
+      - 1.16.0
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+      - 1.17.0
+      - 1.17.1
+    md5: 932ae8df04e6e0b35669ae6fdc920b97
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/modget/version/ZC9TfT78
+      - name: GitHub
+        url: https://github.com/ReviversMC/modget-minecraft/releases/tag/0.2.2
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3505365
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.2.2/modget-0.2.2.jar
+      - name: GitHub
+        url: https://github.com/ReviversMC/modget-minecraft/releases/download/0.2.2/modget-0.2.2.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/download/3505365/file
