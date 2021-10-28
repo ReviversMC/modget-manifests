@@ -5,6 +5,7 @@
         version: "*"
     minecraftVersions:
       - 1.17.0
+      - 1.17.1
     md5: f302b47d2be8b3ebc303864db65ac7bf
     downloadPageUrls:
       - name: Modrinth

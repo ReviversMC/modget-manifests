@@ -1,0 +1,19 @@
+  - loaders:
+      - fabric
+    depends:
+      - package: BradBot_1.bfapi
+        version: ">=1.1.6"
+    minecraftVersions:
+      - 1.17.0
+      - 1.17.1
+    md5: f34bc3aab8bbff2e952c3ee6a3f73a6a
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/sit/version/CREAyyuM
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabricsit/files/3452002
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com//data/eM1KzRjc/versions/v1.6.2/FabricSit-1.6.2.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabricsit/download/3452002/file
