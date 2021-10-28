@@ -3,6 +3,9 @@
     minecraftVersions:
       - 1.16.5
     md5: 69f079b92f2d10e03231de9c836ccf68
+    thirdPartyIds:
+      modrinth: uXXizFIs
+      curseforge: 459857
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/ferrite-core/version/oP38VFTJ
@@ -18,6 +21,8 @@
     minecraftVersions:
       - 1.16.5
     md5: 6b469b99aa6f89b6ebad7aefa3cb9843
+    thirdPartyIds:
+      curseforge: 429235
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore/files/3485636

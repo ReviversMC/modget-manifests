@@ -8,6 +8,9 @@
     minecraftVersions:
       - 1.17.1
     md5: b88cf07d124c5b96b82ab27e51fdff04
+    thirdPartyIds:
+      modrinth: AANobbMI
+      curseforge: 394468
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/sodium/version/xuWxRZPd

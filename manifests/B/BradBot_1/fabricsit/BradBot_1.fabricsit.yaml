@@ -8,9 +8,6 @@ description: A serverside mod to allows players to sit on stairs and slabs
 license: Apache-2.0
 source: https://github.com/BradBot1/FabricSit
 issues: https://github.com/BradBot1/FabricSit/issues 
-thirdPartyIds:
-  modrinth: eM1KzRjc
-  curseforge: 480257
 versions:
   - 1.6.4
   - 1.6.3

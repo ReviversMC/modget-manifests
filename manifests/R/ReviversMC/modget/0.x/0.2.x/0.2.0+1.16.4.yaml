@@ -7,6 +7,9 @@
       - 1.16.4
       - 1.16.5
     md5: 35e2afc667aa348eb702a263d1b61e89
+    thirdPartyIds:
+      modrinth: 2NpFE0R3
+      curseforge: 533960
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/modget/version/Lx3u65XT

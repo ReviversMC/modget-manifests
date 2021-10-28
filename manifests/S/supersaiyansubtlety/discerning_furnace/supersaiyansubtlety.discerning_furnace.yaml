@@ -9,9 +9,6 @@ license: MIT
 home: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace
 source: https://gitlab.com/supersaiyansubtlety/discerning_furnace/
 issues: https://gitlab.com/supersaiyansubtlety/discerning_furnace/-/issues
-thirdPartyIds:
-  modrinth: G3Nz6HN4
-  curseforge: 428966
 versions:
   - 1.0.3
   - 1.0.1

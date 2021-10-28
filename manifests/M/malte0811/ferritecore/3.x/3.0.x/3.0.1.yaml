@@ -4,6 +4,9 @@
       - 1.17
       - 1.17.1
     md5: 58354b44afef6c347c6ffb79d255d967
+    thirdPartyIds:
+      modrinth: uXXizFIs
+      curseforge: 459857
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/ferrite-core/version/hjsymojR

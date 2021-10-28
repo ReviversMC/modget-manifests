@@ -18,6 +18,9 @@
       - 1.17
       - 1.17.1
     md5: b0a2bd4ab14d5ab23bad09c8976df309
+    thirdPartyIds:
+      modrinth: Ha28R6CL
+      curseforge: 308769
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/fabric-language-kotlin/version/1qsZV7U7

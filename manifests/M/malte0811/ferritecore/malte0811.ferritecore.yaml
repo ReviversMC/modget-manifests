@@ -11,10 +11,6 @@ source: https://github.com/malte0811/FerriteCore
 issues: https://github.com/malte0811/FerriteCore/issues
 chats:
   - https://github.com/malte0811/FerriteCore/discussions
-thirdPartyIds:
-  modrinth: uXXizFIs
-  curseforge: 459857
-# curseforge (forge version): 429235
 versions:
   - 3.1.0
   - 3.0.1

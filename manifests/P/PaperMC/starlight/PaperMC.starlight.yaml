@@ -11,11 +11,6 @@ source: https://github.com/PaperMC/Starlight
 issues: https://github.com/PaperMC/Starlight/issues
 chats:
   - https://discord.gg/tuinity
-thirdPartyIds:
-  modrinth: H8CaAYZC
-# modrinth (forge version): iRfIGC1s
-  curseforge: 521783
-# curseforge (forge version): 526854
 versions:
   - 1.0.0+fabric.73f6d37
   - 1.0.0+forge.5d16647

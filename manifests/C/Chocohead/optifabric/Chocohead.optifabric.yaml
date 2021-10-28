@@ -9,7 +9,5 @@ license: MPL-2.0
 home: https://www.curseforge.com/minecraft/mc-mods/optifabric
 source: https://github.com/Chocohead/OptiFabric
 issues: https://github.com/Chocohead/OptiFabric/issues
-thirdPartyIds:
-  curseforge: 322385
 versions:
   - 1.1.20

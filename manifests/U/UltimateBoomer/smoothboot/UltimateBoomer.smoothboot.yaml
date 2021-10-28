@@ -10,10 +10,6 @@ home: https://www.curseforge.com/minecraft/mc-mods/smooth-boot
 source: https://github.com/UltimateBoomer/mc-smoothboot
 issues: https://github.com/UltimateBoomer/mc-smoothboot/issues
 wiki: https://github.com/UltimateBoomer/mc-smoothboot/wiki
-thirdPartyIds:
-  modrinth: FWumhS4T
-  curseforge: 415758
-# curseforge (forge version): 420913
 versions:
   - 1.6.0
   - 1.2.2

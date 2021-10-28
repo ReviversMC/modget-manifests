@@ -11,8 +11,6 @@ source: https://github.com/CaffeineMC/hydrogen-fabric
 issues: https://github.com/CaffeineMC/hydrogen-fabric/issues
 chats:
   - https://jellysquid.me/discord
-thirdPartyIds:
-  modrinth: AZomiSrC
 versions:
   - 0.3.1
   - 0.3.0

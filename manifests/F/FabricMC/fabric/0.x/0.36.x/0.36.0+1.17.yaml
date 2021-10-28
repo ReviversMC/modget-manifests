@@ -3,6 +3,9 @@
     minecraftVersions:
       - 1.17
     md5: 919cf187e3b5963d74c140203ad9a65c
+    thirdPartyIds:
+      modrinth: P7dR8mSH
+      curseforge: 306612
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/fabric-api/version/nSk00F5M

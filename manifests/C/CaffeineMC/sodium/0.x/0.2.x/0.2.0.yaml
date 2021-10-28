@@ -12,6 +12,9 @@
       - 1.16.5
     # Although versions 1.16.2 to 1.16.4 aren't officially compatible, they have been tested by NebelNidas and confirmed working by CaffeineMC's discord server.
     md5: 98914f22cfe2d0ea5d8007ae8ff96062
+    thirdPartyIds:
+      modrinth: AANobbMI
+      curseforge: 394468
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/sodium/version/YAGZ1cCS

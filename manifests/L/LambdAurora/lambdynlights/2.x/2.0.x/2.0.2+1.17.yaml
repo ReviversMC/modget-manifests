@@ -13,6 +13,9 @@
       - 1.17
       - 1.17.1
     md5: 36310f6881094c364dcbd48f475f8b44
+    thirdPartyIds:
+      modrinth: yBW8D80W
+      curseforge: 393442
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/lambdynamiclights/version/GiwO5rBh

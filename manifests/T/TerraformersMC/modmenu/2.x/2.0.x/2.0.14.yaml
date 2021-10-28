@@ -12,6 +12,9 @@
       - 1.17
       - 1.17.1
     md5: 1d3f3d77373afa609e476f2ac5d3662b
+    thirdPartyIds:
+      modrinth: mOgUt4GM
+      curseforge: 308702
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/modmenu/version/3CD6YUw1

@@ -11,9 +11,6 @@ source: https://github.com/CaffeineMC/sodium-fabric
 issues: https://github.com/CaffeineMC/sodium-fabric/issues
 chats:
   - https://jellysquid.me/discord
-thirdPartyIds:
-  modrinth: AANobbMI
-  curseforge: 394468
 versions:
   - 0.3.2
   - 0.2.0

@@ -12,9 +12,6 @@ issues: https://github.com/PolyhedralDev/Terra/issues
 wiki: https://github.com/PolyhedralDev/Terra/wiki
 chats:
   - https://discord.gg/PXUEbbF
-thirdPartyIds:
-  modrinth: FIlZB9L0
-  curseforge: 450465
 versions:
   - 5.4.1-BETA+40e95073
   - 5.3.3-BETA+5dd00db8

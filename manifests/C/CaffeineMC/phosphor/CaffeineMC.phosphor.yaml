@@ -11,8 +11,5 @@ source: https://github.com/CaffeineMC/phosphor-fabric
 issues: https://github.com/CaffeineMC/phosphor-fabric/issues
 chats:
   - https://jellysquid.me/discord
-thirdPartyIds:
-  modrinth: hEOCdOgW
-  curseforge: 372124
 versions:
   - 0.7.2

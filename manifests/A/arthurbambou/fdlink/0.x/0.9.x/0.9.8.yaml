@@ -13,6 +13,9 @@
       - 1.17
       - 1.17.1
     md5: 4b0c40968ce89993096a4cd8f268c8f3
+    thirdPartyIds:
+      modrinth: FCmig1C9
+      curseforge: 318315
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/fabric-discord-link/version/kxQ4DKlh

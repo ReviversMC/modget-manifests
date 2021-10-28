@@ -6,6 +6,9 @@
       - 1.16.4
       - 1.16.5
     md5: d6ab66e0c10e91c4f9d15a46c67c8643
+    thirdPartyIds:
+      modrinth: P7dR8mSH
+      curseforge: 306612
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/fabric-api/version/PrZIpVLI

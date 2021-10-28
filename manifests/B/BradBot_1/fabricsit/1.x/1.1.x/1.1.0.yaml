@@ -11,6 +11,9 @@
       - 1.16.4
       - 1.16.5
     md5: 11a9db58ddffb3b8c3e487a0ccb3103c
+    thirdPartyIds:
+      modrinth: eM1KzRjc
+      curseforge: 480257
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/sit/version/pq1SCwWx

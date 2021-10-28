@@ -3,6 +3,8 @@
     minecraftVersions:
       - 1.17.1
     md5: 13df48e6aadd71467b37594779403ec6
+    thirdPartyIds:
+      curseforge: 473492
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3487949

@@ -12,8 +12,5 @@ issues: https://github.com/astei/lazydfu/issues
 wiki: https://github.com/astei/lazydfu/wiki
 chats:
   - https://discord.gg/RUGArxEQ8J
-thirdPartyIds:
-  modrinth: hvFnDODi
-  curseforge: 433518
 versions:
   - 0.1.2

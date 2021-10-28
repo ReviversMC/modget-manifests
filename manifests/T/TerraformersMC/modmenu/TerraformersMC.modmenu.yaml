@@ -12,9 +12,6 @@ issues: https://github.com/TerraformersMC/ModMenu/issues
 wiki: https://github.com/TerraformersMC/ModMenu/wiki
 chats:
   - https://discord.gg/jEGF5fb
-thirdPartyIds:
-  modrinth: mOgUt4GM
-  curseforge: 308702
 versions:
   - 2.0.14
   - 1.16.22

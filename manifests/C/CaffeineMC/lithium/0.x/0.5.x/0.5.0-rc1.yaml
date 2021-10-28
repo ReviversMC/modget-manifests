@@ -3,6 +3,8 @@
     minecraftVersions:
       - 1.16.1
     md5: 54f9b50cf820391ad4a22274cd172e40
+    thirdPartyIds:
+      curseforge: 360438
     downloadPageUrls:
       - name: GitHub
         url: https://github.com/CaffeineMC/lithium-fabric/releases/tag/mc1.16.1-0.5.0-rc1

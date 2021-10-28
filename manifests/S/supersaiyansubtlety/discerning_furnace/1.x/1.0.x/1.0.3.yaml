@@ -4,6 +4,9 @@
       - 1.17
       - 1.17.1
     md5: 35ca0098e0ee9697fba30d9cbf01b341
+    thirdPartyIds:
+      modrinth: G3Nz6HN4
+      curseforge: 428966
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/discerning-furnace/version/LlCSzYT6

@@ -12,8 +12,5 @@ issues: https://github.com/astei/krypton/issues
 wiki: https://github.com/astei/krypton/wiki
 chats:
   - https://discord.gg/RUGArxEQ8J
-thirdPartyIds:
-  modrinth: fQEb0iXm
-  curseforge: 428912
 versions:
   - 0.1.4

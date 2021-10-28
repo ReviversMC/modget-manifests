@@ -9,6 +9,9 @@
       - 1.16.4
       - 1.16.5
     md5: 73c3cb0bbd04efe2c88d04dee58dbb74
+    thirdPartyIds:
+      modrinth: gvQqBUqZ
+      curseforge: 360438
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/lithium/version/pGhOMdTm

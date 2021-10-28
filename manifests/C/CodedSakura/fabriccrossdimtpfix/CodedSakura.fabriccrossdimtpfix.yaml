@@ -8,8 +8,6 @@ description: Fixes a bug where the player doesn't get sent their XP and Potion e
 license: ISC
 source: https://github.com/CodedSakura/FabricCrossDimTPFix
 issues: https://github.com/CodedSakura/FabricCrossDimTPFix/issues
-thirdPartyIds:
-  modrinth: q1O2IGx6
 versions:
   - 0.2.0
   - 0.1.0

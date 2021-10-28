@@ -4,6 +4,9 @@
       - 1.16
       - 1.16.1
     md5: d03f66ebc93e46712516916b29e62fde
+    thirdPartyIds:
+      modrinth: P7dR8mSH
+      curseforge: 306612
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/fabric-api/version/vuHWOQsB

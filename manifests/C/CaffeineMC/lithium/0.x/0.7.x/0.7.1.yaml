@@ -6,6 +6,9 @@
     minecraftVersions:
       - 1.17
     md5: 3fb024ab1966d6a8806e91366e50c51b
+    thirdPartyIds:
+      modrinth: gvQqBUqZ
+      curseforge: 360438
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/lithium/version/7jxErppe

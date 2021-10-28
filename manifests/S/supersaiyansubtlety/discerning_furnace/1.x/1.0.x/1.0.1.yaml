@@ -7,6 +7,8 @@
       - 1.16.4
       - 1.16.5
     md5: f01e82b6ba16f150b91ed4c4f42c646b
+    thirdPartyIds:
+      curseforge: 428966
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace/files/3170224

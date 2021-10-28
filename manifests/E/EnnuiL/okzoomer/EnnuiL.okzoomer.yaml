@@ -9,9 +9,6 @@ license: MIT
 home: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer
 source: https://github.com/EnnuiL/OkZoomer
 issues: https://github.com/EnnuiL/OkZoomer/issues
-thirdPartyIds:
-  modrinth: aXf2OSFU
-  curseforge: 354047
 versions:
   - 5.0.0-beta.2+1.17
   - 4.0.1

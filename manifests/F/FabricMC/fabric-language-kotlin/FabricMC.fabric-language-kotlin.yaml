@@ -12,8 +12,5 @@ issues: https://github.com/FabricMC/fabric-language-kotlin/issues
 chats:
   - https://discord.gg/v6v4pMv
   - irc://irc.esper.net:6667/fabric
-thirdPartyIds:
-  modrinth: Ha28R6CL
-  curseforge: 308769
 versions:
   - 1.6.4+kotlin.1.5.30

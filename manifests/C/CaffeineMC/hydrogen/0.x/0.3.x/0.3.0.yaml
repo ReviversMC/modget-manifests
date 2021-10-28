@@ -3,6 +3,8 @@
     minecraftVersions:
       - 1.17
     md5: 9165d6cc0b5f60f5ad94eebfdb86d493
+    thirdPartyIds:
+      modrinth: AZomiSrC
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/hydrogen/version/nc84mXki

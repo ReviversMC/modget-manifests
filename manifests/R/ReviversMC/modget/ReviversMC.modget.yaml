@@ -12,9 +12,6 @@ issues: https://github.com/ReviversMC/modget/issues
 wiki: https://github.com/ReviversMC/modget/blob/master/README.md
 chats:
   - https://discord.gg/nVDXfCRyMk
-thirdPartyIds:
-  modrinth: 2NpFE0R3
-  curseforge: 533960
 versions:
   - 0.2.3
   - 0.2.2

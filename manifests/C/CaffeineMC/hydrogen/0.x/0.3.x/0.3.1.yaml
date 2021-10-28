@@ -7,6 +7,8 @@
       - 1.17
       - 1.17.1
     md5: 1d051c73bf798676d21bfb78457dbfbc
+    thirdPartyIds:
+      modrinth: AZomiSrC
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/hydrogen/version/gqJWYgtD

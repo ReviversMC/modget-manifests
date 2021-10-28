@@ -4,6 +4,9 @@
       - 1.16.4
       - 1.16.5
     md5: c8b5cebb3725a055c9082130410efb9b
+    thirdPartyIds:
+      modrinth: FIlZB9L0
+      curseforge: 450465
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/terra/version/9DWPUHbr

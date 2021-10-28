@@ -11,9 +11,6 @@ source: https://github.com/LambdAurora/LambDynamicLights
 issues: https://github.com/LambdAurora/LambDynamicLights/issues
 chats:
   - https://discord.gg/abEbzzv
-thirdPartyIds:
-  modrinth: yBW8D80W
-  curseforge: 393442
 versions:
   - 2.0.2+1.17
   - 1.3.4+1.16
