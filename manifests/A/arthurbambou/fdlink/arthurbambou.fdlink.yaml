@@ -11,9 +11,6 @@ issues: https://github.com/arthurbambou/Fabric---Discord-Link/issues
 wiki: https://github.com/arthurbambou/Fabric---Discord-Link/wiki
 chats:
   - https://discord.gg/xTvWwzV
-depends:
-  - package: FabricMC.fabric
-    version: "*"
 thirdPartyIds:
   modrinth: FCmig1C9
   curseforge: 318315
