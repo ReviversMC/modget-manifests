@@ -15,7 +15,7 @@ thirdPartyIds:
   curseforge: 415758
 # curseforge (forge version): 420913
 downloads:
-  - version: 1.16.5-1.6.0
+  - version: 1.6.0
     loader:
       - fabric
     minecraftVersions:
@@ -41,7 +41,7 @@ downloads:
         url: https://github.com/UltimateBoomer/mc-smoothboot/releases/download/1.16.5-1.6.0/smoothboot-fabric-1.16.5-1.6.0.jar
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/smooth-boot/download/3248104/file
-  - version: 1.16.4-1.2.2
+  - version: 1.2.2
     loader:
       - forge
     minecraftVersions:
