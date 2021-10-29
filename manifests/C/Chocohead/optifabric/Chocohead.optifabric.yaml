@@ -19,7 +19,7 @@ breaks:
 thirdPartyIds:
   curseforge: 322385
 downloads:
-  - version: 1.1.20
+  - version: 1.11.20
     breaks:
     - package: Virtuoel.no_fog
       version: "*"
