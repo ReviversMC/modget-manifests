@@ -1,0 +1,23 @@
+  - loaders:
+      - fabric
+    minecraftVersions:
+      - 1.16
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    channel: beta
+    thirdPartyIds:
+      curseforge: 372124
+    md5: 72ed1237b2b75d52dfe1e378c7c3969b
+    downloadPageUrls:
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/tag/mc20w13b-v0.5.0
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/files/2917253
+    fileUrls:
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc20w13b-v0.5.0/phosphor-fabric-mc20w13b-0.5.0+build.1.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/download/2917253/file

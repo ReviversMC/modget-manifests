@@ -1,0 +1,20 @@
+  - loaders:
+      - fabric
+    minecraftVersions:
+      - 1.15
+      - 1.15.1
+      - 1.15.2
+    channel: release
+    thirdPartyIds:
+      curseforge: 372124
+    md5: d36c81d6d090b29a74e3cab64f6aedea
+    downloadPageUrls:
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/tag/mc1.15.2-v0.5.1
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/files/2918208
+    fileUrls:
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc1.15.2-v0.5.1/phosphor-fabric-mc1.15.2-0.5.1+build.4.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/download/2918208/file

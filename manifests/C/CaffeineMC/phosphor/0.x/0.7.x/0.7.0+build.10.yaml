@@ -1,0 +1,26 @@
+  - loaders:
+      - fabric
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    channel: release
+    thirdPartyIds:
+      modrinth: hEOCdOgW
+      curseforge: 372124
+    md5: 4fb7a4b06cd53947432e65e3a8c9a5ce
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/phosphor/version/tFQASSAx
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/tag/mc1.16.2-v0.7.0
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/files/3141950
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/hEOCdOgW/versions/mc1.16.3-0.7.0/phosphor-fabric-mc1.16.3-0.7.0+build.10.jar
+      - name: GitHub
+        url: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc1.16.2-v0.7.0/phosphor-fabric-mc1.16.3-0.7.0+build.10.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/phosphor/download/3141950/file
