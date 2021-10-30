@@ -6,6 +6,7 @@
       - package: vram-guild.canvas
         version: "*"
     minecraftVersions:
+      - 1.17
       - 1.17.1
     channel: release
     thirdPartyIds:
