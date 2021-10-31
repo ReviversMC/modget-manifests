@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: dfsek
 id: terra
-modType: jar
+modIcon: https://cdn.modrinth.com/data/FIlZB9L0/icon.png
 name: Terra
 description: A fast, modern, extensible, platform-agnostic data-driven world generator
-license: GPL-3.0
 home: https://github.com/PolyhedralDev/Terra/wiki
 source: https://github.com/PolyhedralDev/Terra
 issues: https://github.com/PolyhedralDev/Terra/issues

@@ -1,5 +1,7 @@
   - loaders:
       - forge
+    modType: jar
+    license: MIT
     sides:
       server: optional
       client: optional

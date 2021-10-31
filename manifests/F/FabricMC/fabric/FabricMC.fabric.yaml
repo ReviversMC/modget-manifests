@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: FabricMC
 id: fabric
-modType: jar
+modIcon: https://cdn.modrinth.com/data/P7dR8mSH/icon.png
 name: Fabric API
 description: Core API module providing key hooks and intercompatibility features.
-license: Apache-2.0
 home: https://fabricmc.net
 source: https://github.com/FabricMC/fabric
 issues: https://github.com/FabricMC/fabric/issues

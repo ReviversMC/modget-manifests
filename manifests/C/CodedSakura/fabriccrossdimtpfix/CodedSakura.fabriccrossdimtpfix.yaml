@@ -1,10 +1,8 @@
 manifestSpecVersion: 4
 publisher: CodedSakura
 id: fabriccrossdimtpfix
-modType: jar
 name: FabricCrossDimTPFix
 description: Fixes a bug where the player doesn't get sent their XP and Potion effects on cross dim teleport.
-license: ISC
 source: https://github.com/CodedSakura/FabricCrossDimTPFix
 issues: https://github.com/CodedSakura/FabricCrossDimTPFix/issues
 versions:

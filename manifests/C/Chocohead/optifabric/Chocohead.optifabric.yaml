@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: Chocohead
 id: optifabric
-modType: jar
+modIcon: https://media.forgecdn.net/avatars/thumbnails/204/621/64/64/636941511294490034.png
 name: OptiFabric
 description: OptiFabric is a mod that loads OptiFine into Fabric
-license: MPL-2.0
 home: https://www.curseforge.com/minecraft/mc-mods/optifabric
 source: https://github.com/Chocohead/OptiFabric
 issues: https://github.com/Chocohead/OptiFabric/issues

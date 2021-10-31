@@ -1,5 +1,7 @@
   - loaders:
       - fabric
+    modType: jar
+    license: MPL-2.0
     sides:
       server: unsupported
       client: required

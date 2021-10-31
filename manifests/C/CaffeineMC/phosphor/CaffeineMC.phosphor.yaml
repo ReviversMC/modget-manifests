@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: CaffeineMC
 id: phosphor
-modType: jar
+modIcon: https://cdn.modrinth.com/data/hEOCdOgW/icon.png
 name: Phosphor
 description: Phosphor is a free and open-source optimization mod for Minecraft which improves the performance of the lighting engine, resulting in significantly reduced world generation times and improved server tick rates. You can help feed me and support development on Patreon, gaining some special perks in the process! Any amount of support helps a ton. https://www.patreon.com/jellysquid
-license: LGPL-3.0-only
 home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/phosphor-fabric
 issues: https://github.com/CaffeineMC/phosphor-fabric/issues

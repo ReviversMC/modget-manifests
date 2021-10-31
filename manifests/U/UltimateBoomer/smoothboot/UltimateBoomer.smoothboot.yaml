@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: UltimateBoomer
 id: smoothboot
-modType: jar
+modIcon: https://cdn.modrinth.com/data/FWumhS4T/icon.png
 name: Smooth Boot
 description: Improve Minecraft CPU scheduling.
-license: MIT
 home: https://www.curseforge.com/minecraft/mc-mods/smooth-boot
 source: https://github.com/UltimateBoomer/mc-smoothboot
 issues: https://github.com/UltimateBoomer/mc-smoothboot/issues

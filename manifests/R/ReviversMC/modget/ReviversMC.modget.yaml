@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: ReviversMC
 id: modget
-modType: jar
+modIcon: https://cdn.modrinth.com/data/2NpFE0R3/icon.png
 name: Modget
 description: The Minecraft Mod Package Manager! Can install mods via commands, search for updates and much more.
-license: LGPL-3.0-or-later
 home: https://github.com/ReviversMC/modget
 source: https://github.com/ReviversMC/modget
 issues: https://github.com/ReviversMC/modget/issues

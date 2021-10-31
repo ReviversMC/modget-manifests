@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: FabricMC
 id: fabric-language-kotlin
-modType: jar
+modIcon: https://cdn.modrinth.com/data/Ha28R6CL/icon.png
 name: Fabric Language Kotlin
 description: Fabric language module for Kotlin.
-license: Apache-2.0
 home: https://minecraft.curseforge.com/projects/fabric-language-kotlin
 source: https://github.com/FabricMC/fabric-language-kotlin
 issues: https://github.com/FabricMC/fabric-language-kotlin/issues

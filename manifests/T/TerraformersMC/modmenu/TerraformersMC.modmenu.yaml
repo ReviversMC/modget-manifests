@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: TerraformersMC
 id: modmenu
-modType: jar
+modIcon: https://cdn.modrinth.com/data/mOgUt4GM/icon.png
 name: Mod Menu
 description: Adds a mod menu to view the list of mods you have installed.
-license: MIT
 home: https://minecraft.curseforge.com/projects/modmenu
 source: https://github.com/TerraformersMC/ModMenu
 issues: https://github.com/TerraformersMC/ModMenu/issues

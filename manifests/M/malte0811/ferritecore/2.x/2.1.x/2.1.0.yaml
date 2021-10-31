@@ -1,5 +1,7 @@
   - loaders:
       - fabric
+    modType: jar
+    license: MIT
     sides:
       server: optional
       client: optional
@@ -22,6 +24,8 @@
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3485637/file
   - loaders:
       - forge
+    modType: jar
+    license: MIT
     sides:
       server: optional
       client: optional

@@ -1,11 +1,10 @@
 manifestSpecVersion: 4
 publisher: malte0811
 id: ferritecore
-modType: jar
+modIcon: https://cdn.modrinth.com/data/uXXizFIs/icon.jpg
 side: both
 name: FerriteCore
 description: Reduces memory usage
-license: MIT
 home: https://github.com/malte0811/FerriteCore
 source: https://github.com/malte0811/FerriteCore
 issues: https://github.com/malte0811/FerriteCore/issues

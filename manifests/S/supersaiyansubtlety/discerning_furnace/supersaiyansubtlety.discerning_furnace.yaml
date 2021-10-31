@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: supersaiyansubtlety
 id: discerning_furnace
-modType: jar
+modIcon: https://cdn.modrinth.com/data/G3Nz6HN4/icon.png
 name: Discerning Furnace
 description: Only smeltable items are allowed in furnaces.
-license: MIT
 home: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace
 source: https://gitlab.com/supersaiyansubtlety/discerning_furnace/
 issues: https://gitlab.com/supersaiyansubtlety/discerning_furnace/-/issues

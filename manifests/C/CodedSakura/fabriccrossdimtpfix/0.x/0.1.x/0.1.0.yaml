@@ -1,5 +1,7 @@
   - loaders:
       - fabric
+    modType: jar
+    license: ISC
     sides:
       server: required
       client: unsupported

@@ -1,5 +1,7 @@
   - loaders:
       - fabric
+    modType: jar
+    license: MIT
     sides:
       server: required
       client: unsupported

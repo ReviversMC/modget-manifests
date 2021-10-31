@@ -1,5 +1,7 @@
   - loaders:
       - fabric
+    modType: jar
+    license: Apache-2.0
     sides:
       server: required
       client: required

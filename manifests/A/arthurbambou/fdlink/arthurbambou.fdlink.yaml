@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: arthurbambou
 id: fdlink
-modType: jar
+modIcon: https://cdn.modrinth.com/data/FCmig1C9/icon.png
 name: Fabric <-> Discord Link
 description: A mod to link Minecraft and Discord chats for Fabric.
-license: MIT
 source: https://github.com/arthurbambou/Fabric---Discord-Link
 issues: https://github.com/arthurbambou/Fabric---Discord-Link/issues
 wiki: https://github.com/arthurbambou/Fabric---Discord-Link/wiki

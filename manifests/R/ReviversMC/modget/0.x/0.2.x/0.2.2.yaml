@@ -1,5 +1,7 @@
   - loader:
       - fabric
+    modType: jar
+    license: LGPL-3.0-or-later
     sides:
       server: optional
       client: optional

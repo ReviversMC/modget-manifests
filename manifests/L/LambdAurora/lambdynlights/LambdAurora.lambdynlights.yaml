@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: LambdAurora
 id: lambdynlights
-modType: jar
+modIcon: https://cdn.modrinth.com/data/yBW8D80W/icon.png
 name: LambDynamicLights
 description: Adds dynamic lights to the game.
-license: MIT
 home: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights
 source: https://github.com/LambdAurora/LambDynamicLights
 issues: https://github.com/LambdAurora/LambDynamicLights/issues

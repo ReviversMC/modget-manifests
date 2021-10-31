@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: tuxed
 id: lazydfu
-modType: jar
+modIcon: https://cdn.modrinth.com/data/hvFnDODi/icon.png
 name: LazyDFU
 description: Makes DataFixerUpper more lazy
-license: MIT
 home: https://github.com/astei/lazydfu
 source: https://github.com/astei/lazydfu
 issues: https://github.com/astei/lazydfu/issues

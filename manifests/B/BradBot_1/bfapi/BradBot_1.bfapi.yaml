@@ -1,10 +1,9 @@
 manifestSpecVersion: 4
 publisher: BradBot_1
 id: bfapi
-modType: jar
+modIcon: https://cdn.modrinth.com/data/toILlMg6/icon.png
 name: BFAPI
 description: A serverside mod to make the creation of other server side mods easier
-license: Apache-2.0
 home: https://modrinth.com/mod/bfapi
 source: https://github.com/BradBot1/BradsFabricApi
 issues: https://github.com/BradBot1/BradsFabricApi/issues
