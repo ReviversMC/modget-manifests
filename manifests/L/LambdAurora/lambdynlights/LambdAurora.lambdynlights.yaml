@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: LambdAurora
 id: lambdynlights
 modType: jar
-side: client
 name: LambDynamicLights
 description: Adds dynamic lights to the game.
 license: MIT

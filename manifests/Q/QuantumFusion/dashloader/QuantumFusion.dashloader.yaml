@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: QuantumFusion
 id: dashloader
 modType: jar
-side: client
 name: DashLoader
 description: Launch at the speed of light.
 license: LGPL-3.0-only

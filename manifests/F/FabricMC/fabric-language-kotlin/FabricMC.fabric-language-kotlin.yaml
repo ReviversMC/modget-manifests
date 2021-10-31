@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: FabricMC
 id: fabric-language-kotlin
 modType: jar
-side: both
 name: Fabric Language Kotlin
 description: Fabric language module for Kotlin.
 license: Apache-2.0

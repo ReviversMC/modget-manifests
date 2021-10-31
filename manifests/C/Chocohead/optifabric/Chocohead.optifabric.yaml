@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: Chocohead
 id: optifabric
 modType: jar
-side: client
 name: OptiFabric
 description: OptiFabric is a mod that loads OptiFine into Fabric
 license: MPL-2.0

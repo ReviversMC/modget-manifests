@@ -1,5 +1,8 @@
   - loaders:
       - fabric
+    sides:
+      server: required
+      client: required
     minecraftVersions:
       - 1.14
       - 1.14.1

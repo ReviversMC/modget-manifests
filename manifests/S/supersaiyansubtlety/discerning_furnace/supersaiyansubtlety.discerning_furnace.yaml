@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: supersaiyansubtlety
 id: discerning_furnace
 modType: jar
-side: server
 name: Discerning Furnace
 description: Only smeltable items are allowed in furnaces.
 license: MIT

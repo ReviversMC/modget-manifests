@@ -1,5 +1,8 @@
   - loaders:
       - fabric
+    sides:
+      server: required
+      client: unsupported
     depends:
       - package: FabricMC.fabric
         version: "*"

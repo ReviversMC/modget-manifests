@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: FabricMC
 id: fabric
 modType: jar
-side: both
 name: Fabric API
 description: Core API module providing key hooks and intercompatibility features.
 license: Apache-2.0

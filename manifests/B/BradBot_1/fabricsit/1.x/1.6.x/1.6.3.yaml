@@ -1,5 +1,8 @@
   - loaders:
       - fabric
+    sides:
+      server: required
+      client: unsupported
     depends:
       - package: BradBot_1.bfapi
         version: ">=1.1.6"

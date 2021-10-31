@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: tuxed
 id: lazydfu
 modType: jar
-side: server
 name: LazyDFU
 description: Makes DataFixerUpper more lazy
 license: MIT

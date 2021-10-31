@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: UltimateBoomer
 id: smoothboot
 modType: jar
-side: both
 name: Smooth Boot
 description: Improve Minecraft CPU scheduling.
 license: MIT

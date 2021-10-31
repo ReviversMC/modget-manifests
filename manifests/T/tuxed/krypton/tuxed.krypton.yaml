@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: tuxed
 id: krypton
 modType: jar
-side: both
 name: Krypton
 description: A Fabric mod that optimizes the Minecraft networking stack and entity tracker. 
 license: LGPL-3.0

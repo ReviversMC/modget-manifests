@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: CaffeineMC
 id: sodium
 modType: jar
-side: client
 name: Sodium
 description: Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.
 license: LGPL-3.0-only

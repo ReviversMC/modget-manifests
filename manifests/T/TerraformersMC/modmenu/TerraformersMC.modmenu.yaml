@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: TerraformersMC
 id: modmenu
 modType: jar
-side: client
 name: Mod Menu
 description: Adds a mod menu to view the list of mods you have installed.
 license: MIT

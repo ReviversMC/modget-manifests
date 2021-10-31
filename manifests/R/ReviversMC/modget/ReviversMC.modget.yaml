@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: ReviversMC
 id: modget
 modType: jar
-side: server
 name: Modget
 description: The Minecraft Mod Package Manager! Can install mods via commands, search for updates and much more.
 license: LGPL-3.0-or-later

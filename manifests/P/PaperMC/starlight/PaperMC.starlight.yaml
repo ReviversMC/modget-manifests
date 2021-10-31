@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: PaperMC
 id: starlight
 modType: jar
-side: server
 name: Starlight
 description: Rewrites the light engine to fix lighting performance and lighting errors
 license: LGPL-3.0-only

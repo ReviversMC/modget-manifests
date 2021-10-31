@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: Biom4st3r
 id: recipecache
 modType: jar
-side: server
 name: RecipeCache
 description: Caches the previous recipe to dramatically increase performance of crafting
 license: MIT

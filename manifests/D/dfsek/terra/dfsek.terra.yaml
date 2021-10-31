@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: dfsek
 id: terra
 modType: jar
-side: server
 name: Terra
 description: A fast, modern, extensible, platform-agnostic data-driven world generator
 license: GPL-3.0

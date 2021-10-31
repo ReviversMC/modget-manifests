@@ -1,5 +1,8 @@
   - loaders:
       - fabric
+    sides:
+      server: optional
+      client: optional
     minecraftVersions:
       - 1.16.5
     channel: release
@@ -19,6 +22,9 @@
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3485637/file
   - loaders:
       - forge
+    sides:
+      server: optional
+      client: optional
     minecraftVersions:
       - 1.16.5
     channel: release

@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: BradBot_1
 id: bfapi
 modType: jar
-side: server
 name: BFAPI
 description: A serverside mod to make the creation of other server side mods easier
 license: Apache-2.0

@@ -2,7 +2,6 @@ manifestSpecVersion: 4
 publisher: EnnuiL
 id: okzoomer
 modType: jar
-side: client
 name: OkZoomer
 description: Adds a highly configurable zoom button. By default, this mod provides its own take on zooming, however, with configuration, you can drastically change the zoom with something more familiar or useful. The zoom is yours!
 license: MIT

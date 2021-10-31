@@ -1,5 +1,8 @@
   - loader:
       - fabric
+    sides:
+      server: optional
+      client: optional
     recommends:
       - package: arthurbambou.server_translations
         version: "*"
