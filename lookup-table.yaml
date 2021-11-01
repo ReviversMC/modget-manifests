@@ -113,6 +113,14 @@
   tags:
     - library
     - api
+- id: sodium-extra
+  names:
+    - sodium-extra
+  packages:
+    - FlashyReese.sodium-extra
+  tags:
+    - cursed
+    - miscellaneous
 - id: lambdynlights
   names:
     - lambdynlights
