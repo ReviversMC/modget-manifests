@@ -1,0 +1,22 @@
+  - loaders:
+      - fabric
+    fileType: jar
+    license: MIT
+    sides:
+      server: unsupported
+      client: required
+    depends:
+      - package: FabricMC.fabric
+        version: "*"
+    minecraftVersions:
+      - 1.17.1
+    channel: release
+    thirdPartyIds:
+      curseforge: 356461
+    md5: 203593b48e151d755f4d24566ad27465
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/logical-zoom/files/3379216
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/logical-zoom/download/3379216/file

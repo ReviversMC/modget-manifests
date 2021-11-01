@@ -1,0 +1,16 @@
+manifestSpecVersion: 4
+publisher: LogicalGeekBoy
+id: logical_zoom
+iconUrls:
+  - https://media.forgecdn.net/avatars/242/159/637132666671562903.png
+  - https://raw.githubusercontent.com/LogicalGeekBoy/logical_zoom/master/src/main/resources/assets/logical_zoom/icon.png
+  - https://raw.githubusercontent.com/LogicalGeekBoy/logical_zoom/master/src/main/resources/assets/logical_zoom/logo.png
+name: Logical Zoom
+description: A simple zoom
+home: https://logicalgeekboy.com
+source: https://github.com/logicalgeekboy/logical_zoom
+issues: https://github.com/logicalgeekboy/logical_zoom/issues
+versions:
+  - 0.0.11
+  - 0.0.10
+  - 0.0.8
