@@ -141,6 +141,16 @@
     - id: FabricMC.fabric-language-kotlin
       loaders:
         - fabric
+- id: sodium-extra
+  names:
+    - sodium-extra
+  tags:
+    - cursed
+    - miscellaneous
+  packages:
+    - id: FlashyReese.sodium-extra
+      loaders:
+        - fabric
 - id: lambdynlights
   names:
     - lambdynlights
