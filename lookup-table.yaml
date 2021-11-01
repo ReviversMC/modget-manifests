@@ -163,6 +163,15 @@
     - id: LambdAurora.lambdynlights
       loaders:
         - fabric
+- id: logical_zoom
+  names:
+    - logical-zoom
+  tags:
+    - cosmetic
+  packages:
+    - id: LogicalGeekBoy.logical_zoom
+      loaders:
+        - fabric
 - id: ferritecore
   names:
     - ferritecore
