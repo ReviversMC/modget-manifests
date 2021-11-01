@@ -14,7 +14,9 @@ chats:
   - https://discord.gg/v6v4pMv
   - irc://irc.esper.net:6667/fabric
 versions:
+  - 0.41.3+1.17
+  - 0.41.3+1.16
   - 0.41.0+1.17
-  - 0.36.0+1.17
   - 0.40.6+1.16
+  - 0.36.0+1.17
   - 0.14.1+build.372-1.16

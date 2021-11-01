@@ -1,0 +1,31 @@
+  - loaders:
+      - fabric
+    fileType: jar
+    license: Apache-2.0
+    sides:
+      server: optional
+      client: optional
+    minecraftVersions:
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    channel: release
+    thirdPartyIds:
+      modrinth: P7dR8mSH
+      curseforge: 306612
+    md5: 75e23045f15e0a4a55b9ecfc3fd73ce4
+    downloadPageUrls:
+      - name: Modrinth
+        url: https://modrinth.com/mod/fabric-api/version/mBOaVuXE
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/tag/0.41.3%2B1.16
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3510322
+    fileUrls:
+      - name: Modrinth
+        url: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.41.3+1.16/fabric-api-0.41.3+1.16.jar
+      - name: GitHub
+        url: https://github.com/FabricMC/fabric/releases/download/0.41.3%2B1.16/fabric-api-0.41.3+1.16.jar
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3510322/file
