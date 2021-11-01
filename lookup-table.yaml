@@ -131,6 +131,13 @@
     - cosmetic
     - utility
     - adventure
+- id: logical_zoom
+  names:
+    - logical-zoom
+  packages:
+    - LogicalGeekBoy.logical_zoom
+  tags:
+    - cosmetic
 - id: ferritecore
   names:
     - ferritecore
