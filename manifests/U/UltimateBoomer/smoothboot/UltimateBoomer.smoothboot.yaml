@@ -1,7 +1,11 @@
 manifestSpecVersion: 4
 publisher: UltimateBoomer
 id: smoothboot
-modIcon: https://cdn.modrinth.com/data/FWumhS4T/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/FWumhS4T/icon.png
+  - https://media.forgecdn.net/avatars/308/988/637393578273187861.png
+  - https://media.forgecdn.net/avatars/314/758/637413369788905375.png
+  - https://raw.githubusercontent.com/UltimateBoomer/mc-smoothboot/1.16/src/main/resources/assets/smoothboot/icon.png
 name: Smooth Boot
 description: Improve Minecraft CPU scheduling.
 home: https://www.curseforge.com/minecraft/mc-mods/smooth-boot

@@ -1,7 +1,9 @@
 manifestSpecVersion: 4
 publisher: dfsek
 id: terra
-modIcon: https://cdn.modrinth.com/data/FIlZB9L0/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/FIlZB9L0/icon.png
+  - https://raw.githubusercontent.com/PolyhedralDev/Terra/ver/6.0.0/platforms/fabric/src/main/resources/assets/terra/icon.png
 name: Terra
 description: A fast, modern, extensible, platform-agnostic data-driven world generator
 home: https://github.com/PolyhedralDev/Terra/wiki

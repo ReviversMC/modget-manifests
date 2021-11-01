@@ -1,7 +1,10 @@
 manifestSpecVersion: 4
 publisher: CaffeineMC
 id: sodium
-modIcon: https://cdn.modrinth.com/data/AANobbMI/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/AANobbMI/icon.png
+  - https://media.forgecdn.net/avatars/284/773/637298471098686391.png
+  - https://raw.githubusercontent.com/CaffeineMC/sodium-fabric/1.17.x/dev/src/main/resources/assets/sodium/icon.png
 name: Sodium
 description: Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.
 home: https://caffeinemc.net

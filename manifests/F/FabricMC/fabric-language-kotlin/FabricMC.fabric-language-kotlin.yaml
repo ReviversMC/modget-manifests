@@ -1,7 +1,10 @@
 manifestSpecVersion: 4
 publisher: FabricMC
 id: fabric-language-kotlin
-modIcon: https://cdn.modrinth.com/data/Ha28R6CL/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/Ha28R6CL/icon.png
+  - https://media.forgecdn.net/avatars/181/492/636800855682272538.png
+  - https://raw.githubusercontent.com/FabricMC/fabric-language-kotlin/master/src/main/resources/assets/fabric-language-kotlin/icon512.png
 name: Fabric Language Kotlin
 description: Fabric language module for Kotlin.
 home: https://minecraft.curseforge.com/projects/fabric-language-kotlin

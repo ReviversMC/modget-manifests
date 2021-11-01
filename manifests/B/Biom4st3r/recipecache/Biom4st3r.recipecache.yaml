@@ -1,7 +1,8 @@
 manifestSpecVersion: 4
 publisher: Biom4st3r
 id: recipecache
-modIcon: https://media.forgecdn.net/avatars/thumbnails/372/542/64/64/637543695507572259.png
+iconUrls:
+  - https://media.forgecdn.net/avatars/372/542/637543695507572259.png
 name: RecipeCache
 description: Caches the previous recipe to dramatically increase performance of crafting
 home: https://gitlab.com/biom4st3r

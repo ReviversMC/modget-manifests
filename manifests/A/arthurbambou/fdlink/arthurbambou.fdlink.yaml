@@ -1,7 +1,9 @@
 manifestSpecVersion: 4
 publisher: arthurbambou
 id: fdlink
-modIcon: https://cdn.modrinth.com/data/FCmig1C9/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/FCmig1C9/icon.png
+  - https://media.forgecdn.net/avatars/197/623/636894004161195128.png
 name: Fabric <-> Discord Link
 description: A mod to link Minecraft and Discord chats for Fabric.
 source: https://github.com/arthurbambou/Fabric---Discord-Link

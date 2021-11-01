@@ -1,7 +1,10 @@
 manifestSpecVersion: 4
 publisher: supersaiyansubtlety
 id: discerning_furnace
-modIcon: https://cdn.modrinth.com/data/G3Nz6HN4/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/G3Nz6HN4/icon.png
+  - https://media.forgecdn.net/avatars/323/645/637437798517519399.png
+  - https://gitlab.com/supersaiyansubtlety/discerning_furnace/-/raw/master/src/main/resources/assets/discerning_furnace/discerning_furnace_icon.png
 name: Discerning Furnace
 description: Only smeltable items are allowed in furnaces.
 home: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace

@@ -1,7 +1,10 @@
 manifestSpecVersion: 4
 publisher: ReviversMC
 id: modget
-modIcon: https://cdn.modrinth.com/data/2NpFE0R3/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/2NpFE0R3/icon.png
+  - https://media.forgecdn.net/avatars/440/791/637689758078915759.png
+  - https://raw.githubusercontent.com/ReviversMC/modget-minecraft/master/src/main/resources/assets/modget/icon.png
 name: Modget
 description: The Minecraft Mod Package Manager! Can install mods via commands, search for updates and much more.
 home: https://github.com/ReviversMC/modget

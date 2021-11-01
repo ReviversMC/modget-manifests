@@ -1,7 +1,9 @@
 manifestSpecVersion: 4
 publisher: BradBot_1
 id: fabricsit
-modIcon: https://cdn.modrinth.com/data/eM1KzRjc/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/eM1KzRjc/icon.png
+  - https://media.forgecdn.net/avatars/381/826/637565349034791510.png
 name: FabricSit
 description: A serverside mod to allows players to sit on stairs and slabs
 source: https://github.com/BradBot1/FabricSit

@@ -1,7 +1,10 @@
 manifestSpecVersion: 4
 publisher: CaffeineMC
 id: lithium
-modIcon: https://cdn.modrinth.com/data/gvQqBUqZ/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/gvQqBUqZ/icon.png
+  - https://media.forgecdn.net/avatars/246/646/637158441743060329.png
+  - https://raw.githubusercontent.com/CaffeineMC/lithium-fabric/1.17.x/dev/src/main/resources/assets/lithium/icon.png
 name: Lithium
 description: Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.
 home: https://caffeinemc.net

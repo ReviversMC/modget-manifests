@@ -1,6 +1,6 @@
   - loaders:
       - fabric
-    modType: jar
+    fileType: jar
     license: ISC
     sides:
       server: required

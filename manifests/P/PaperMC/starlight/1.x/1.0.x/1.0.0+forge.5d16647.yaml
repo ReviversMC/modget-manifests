@@ -1,6 +1,6 @@
   - loaders:
       - forge
-    modType: jar
+    fileType: jar
     license: LGPL-3.0-only
     sides:
       server: optional

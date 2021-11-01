@@ -1,7 +1,10 @@
 manifestSpecVersion: 4
 publisher: QuantumFusion
 id: dashloader
-modIcon: https://cdn.modrinth.com/data/ZfQ3kTvR/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/ZfQ3kTvR/icon.png
+  - https://media.forgecdn.net/avatars/392/393/637586553764037908.png
+  - https://raw.githubusercontent.com/alphaqu/DashLoader/master/src/main/resources/assets/dashloader/textures/icon.png
 name: DashLoader
 description: Launch at the speed of light.
 home: https://www.curseforge.com/minecraft/mc-mods/dashloader

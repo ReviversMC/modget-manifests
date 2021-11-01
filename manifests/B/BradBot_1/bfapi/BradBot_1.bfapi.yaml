@@ -1,7 +1,9 @@
 manifestSpecVersion: 4
 publisher: BradBot_1
 id: bfapi
-modIcon: https://cdn.modrinth.com/data/toILlMg6/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/toILlMg6/icon.png
+  - https://media.forgecdn.net/avatars/403/87/637611798294428241.png
 name: BFAPI
 description: A serverside mod to make the creation of other server side mods easier
 home: https://modrinth.com/mod/bfapi

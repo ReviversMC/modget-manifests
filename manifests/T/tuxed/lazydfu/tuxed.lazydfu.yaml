@@ -1,7 +1,10 @@
 manifestSpecVersion: 4
 publisher: tuxed
 id: lazydfu
-modIcon: https://cdn.modrinth.com/data/hvFnDODi/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/hvFnDODi/icon.png
+  - https://media.forgecdn.net/avatars/328/780/637453335841858311.png
+  - https://raw.githubusercontent.com/astei/lazydfu/master/src/main/resources/assets/lazydfu/icon.png
 name: LazyDFU
 description: Makes DataFixerUpper more lazy
 home: https://github.com/astei/lazydfu

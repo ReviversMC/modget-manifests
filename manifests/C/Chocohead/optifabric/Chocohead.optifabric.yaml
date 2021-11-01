@@ -1,7 +1,9 @@
 manifestSpecVersion: 4
 publisher: Chocohead
 id: optifabric
-modIcon: https://media.forgecdn.net/avatars/thumbnails/204/621/64/64/636941511294490034.png
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/204/621/64/64/636941511294490034.png
+  - https://raw.githubusercontent.com/Chocohead/OptiFabric/llama/src/main/resources/assets/optifabric/icon.png
 name: OptiFabric
 description: OptiFabric is a mod that loads OptiFine into Fabric
 home: https://www.curseforge.com/minecraft/mc-mods/optifabric

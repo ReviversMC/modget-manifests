@@ -1,7 +1,12 @@
 manifestSpecVersion: 4
 publisher: PaperMC
 id: starlight
-modIcon: https://cdn.modrinth.com/data/uXXizFIs/icon.jpg
+iconUrls:
+  - https://cdn.modrinth.com/data/H8CaAYZC/icon.png
+  - https://cdn.modrinth.com//data/iRfIGC1s/icon.png
+  - https://media.forgecdn.net/avatars/427/88/637658395689610558.png
+  - https://media.forgecdn.net/avatars/432/789/637670638359989351.png
+  - https://raw.githubusercontent.com/PaperMC/Starlight/fabric/src/main/resources/assets/starlight/icon.png
 name: Starlight
 description: Rewrites the light engine to fix lighting performance and lighting errors
 home: https://github.com/PaperMC/Starlight

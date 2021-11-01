@@ -1,6 +1,6 @@
   - loaders:
       - fabric
-    modType: jar
+    fileType: jar
     license: GPL-3.0
     sides:
       server: required

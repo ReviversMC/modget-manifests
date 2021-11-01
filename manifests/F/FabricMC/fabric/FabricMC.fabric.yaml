@@ -1,7 +1,10 @@
 manifestSpecVersion: 4
 publisher: FabricMC
 id: fabric
-modIcon: https://cdn.modrinth.com/data/P7dR8mSH/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/P7dR8mSH/icon.png
+  - https://media.forgecdn.net/avatars/185/822/636829723898798601.png
+  - https://raw.githubusercontent.com/FabricMC/fabric/1.17/src/main/resources/assets/fabric/icon.png
 name: Fabric API
 description: Core API module providing key hooks and intercompatibility features.
 home: https://fabricmc.net

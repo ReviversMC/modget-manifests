@@ -1,7 +1,10 @@
 manifestSpecVersion: 4
 publisher: LambdAurora
 id: lambdynlights
-modIcon: https://cdn.modrinth.com/data/yBW8D80W/icon.png
+iconUrls:
+  - https://cdn.modrinth.com/data/yBW8D80W/icon.png
+  - https://media.forgecdn.net/avatars/283/615/637293943794404701.png
+  - https://raw.githubusercontent.com/LambdAurora/LambDynamicLights/1.17/src/main/resources/assets/lambdynlights/icon.png
 name: LambDynamicLights
 description: Adds dynamic lights to the game.
 home: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights
