@@ -1,0 +1,61 @@
+manifestSpecVersion: 3.1
+publisher: LogicalGeekBoy
+id: logical_zoom
+loader:
+  - fabric
+modType: jar
+side: client
+name: Logical Zoom
+description: A simple zoom 
+license: MIT
+home: https://logicalgeekboy.com
+source: https://github.com/logicalgeekboy/logical_zoom
+issues: https://github.com/logicalgeekboy/logical_zoom/issues
+thirdPartyIds:
+  curseforge: 356461
+downloads:
+  - version: 0.0.11
+    depends:
+      - package: FabricMC.fabric
+        version: "*"
+    minecraftVersions:
+      - 1.17.1
+    md5: 203593b48e151d755f4d24566ad27465
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/logical-zoom/files/3379216
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/logical-zoom/download/3379216/file
+  - version: 0.0.10
+    depends:
+      - package: FabricMC.fabric
+        version: "*"
+    minecraftVersions:
+      - 1.17
+      - 1.17.1
+    md5: 2be83bf9933de754bc7f165a81804eb8
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/logical-zoom/files/3364617
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/logical-zoom/download/3364617/file
+  - version: 0.0.8
+    depends:
+      - package: FabricMC.fabric
+        version: "*"
+    minecraftVersions:
+      - 1.16
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+    md5: 9d87c5c8eb003ad05fab462ec087ace6
+    downloadPageUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/logical-zoom/files/3175437
+    fileUrls:
+      - name: CurseForge
+        url: https://www.curseforge.com/minecraft/mc-mods/logical-zoom/download/3175437/file
