@@ -4,6 +4,8 @@
     - fdlink
   tags:
     - utility
+    - miscellaneous
+    - information
   packages:
     - id: arthurbambou.fdlink
       loaders:
@@ -12,8 +14,8 @@
   names:
     - recipecache
   tags:
-    - performance
     - utility
+    - performance
   packages:
     - id: Biom4st3r.recipecache
       loaders:
@@ -21,9 +23,10 @@
 - id: bfapi
   names:
     - bfapi
-  tags: 
-    - api
+  tags:
     - library
+    - miscellaneous
+    - api
   packages:
     - id: BradBot_1.bfapi
       loaders:
@@ -33,6 +36,7 @@
     - fabricsit
   tags:
     - utility
+    - miscellaneous
     - cosmetic
   packages:
     - id: BradBot_1.fabricsit
@@ -43,8 +47,8 @@
     - hydrogen
     - hydrogen-fabric
   tags:
-    - performance
     - utility
+    - performance
   packages:
     - id: CaffeineMC.hydrogen
       loaders:
@@ -54,20 +58,24 @@
     - lithium
     - lithium-fabric
   tags:
-    - performance
     - utility
+    - miscellaneous
+    - performance
+    - optifine-alternative
   packages:
     - id: CaffeineMC.lithium
       loaders:
         - fabric
 - id: phosphor
-  names: 
+  names:
     - phosphor
     - phosphor-fabric
   tags:
-    - performance
     - utility
     - worldgen
+    - miscellaneous
+    - performance
+    - optifine-alternative
   packages:
     - id: CaffeineMC.phosphor
       loaders:
@@ -77,8 +85,10 @@
     - sodium
     - sodium-fabric
   tags:
-    - performance
     - utility
+    - miscellaneous
+    - performance
+    - optifine-alternative
   packages:
     - id: CaffeineMC.sodium
       loaders:
@@ -89,6 +99,7 @@
   tags:
     - api
     - library
+    - performance
   packages:
     - id: Chocohead.optifabric
       loaders:
@@ -96,6 +107,8 @@
 - id: fabriccrossdimtpfix
   names:
     - fabriccrossdimtpfix
+  tags:
+    - miscellaneous
   packages:
     - id: CodedSakura.fabriccrossdimtpfix
       loaders:
@@ -107,6 +120,9 @@
     - adventure
     - utility
     - worldgen
+    - biomes
+    - dimensions
+    - structures
   packages:
     - id: dfsek.terra
       loaders:
@@ -116,6 +132,8 @@
     - okzoomer
   tags:
     - utility
+    - miscellaneous
+    - optifine-alternative
   packages:
     - id: EnnuiL.okzoomer
       loaders:
@@ -156,9 +174,11 @@
     - lambdynlights
     - lambdynamiclights
   tags:
-    - cosmetic
-    - utility
     - adventure
+    - utility
+    - decoration
+    - cosmetic
+    - optifine-alternative
   packages:
     - id: LambdAurora.lambdynlights
       loaders:
@@ -168,6 +188,7 @@
     - logical-zoom
   tags:
     - cosmetic
+    - optifine-alternative
   packages:
     - id: LogicalGeekBoy.logical_zoom
       loaders:
@@ -176,8 +197,9 @@
   names:
     - ferritecore
   tags:
-    - performance
     - utility
+    - miscellaneous
+    - performance
   packages:
     - id: malte0811.ferritecore
       loaders:
@@ -187,9 +209,9 @@
   names:
     - starlight
   tags:
+    - miscellaneous
     - performance
-    - utility
-    - worldgen
+    - optifine-alternative
   packages:
     - id: PaperMC.starlight
       loaders:
@@ -201,6 +223,7 @@
   tags:
     - utility
     - library
+    - miscellaneous
     - api
   packages:
     - id: QuantumFusion.dashloader
@@ -216,12 +239,12 @@
       loaders:
         - fabric
 - id: discerning_furnace
-  names: 
+  names:
     - discerning_furnace
   tags:
-    - redstone
     - technology
     - utility
+    - redstone
   packages:
     - id: supersaiyansubtlety.discerning_furnace
       loaders:
@@ -231,6 +254,7 @@
     - modmenu
   tags:
     - utility
+    - miscellaneous
   packages:
     - id: TerraformersMC.modmenu
       loaders:
@@ -239,8 +263,9 @@
   names:
     - krypton
   tags:
-    - performance
     - utility
+    - miscellaneous
+    - performance
   packages:
     - id: tuxed.krypton
       loaders:
@@ -249,8 +274,9 @@
   names:
     - lazydfu
   tags:
-    - performance
     - utility
+    - miscellaneous
+    - performance
   packages:
     - id: tuxed.lazydfu
       loaders:
@@ -260,8 +286,9 @@
     - smoothboot
   tags:
     - utility
-    - library
+    - miscellaneous
     - api
+    - library
   packages:
     - id: UltimateBoomer.smoothboot
       loaders:
