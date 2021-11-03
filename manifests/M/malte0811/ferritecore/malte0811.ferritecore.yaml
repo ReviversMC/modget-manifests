@@ -6,7 +6,6 @@ iconUrls:
   - https://media.forgecdn.net/avatars/358/34/637518275077940306.jpeg
   - https://media.forgecdn.net/avatars/323/941/637438748346113688.jpeg
   - https://raw.githubusercontent.com/malte0811/FerriteCore/main/common/src/main/resources/logo.png
-side: both
 name: FerriteCore
 description: Reduces memory usage
 home: https://github.com/malte0811/FerriteCore
