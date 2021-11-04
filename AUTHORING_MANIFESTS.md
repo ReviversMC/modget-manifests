@@ -15,12 +15,12 @@ Package versions are associated with a specific release. In some cases you will 
 
 
 ## Understanding the directory structure
-Once you have determined the mod publisher and id, it is possible to know the proper location for the manifest. See [YAML file name and folder structure](./doc/manifest-spec-v3.md#yaml-file-name-and-folder-structure).
+Once you have determined the mod publisher and id, it is possible to know the proper location for the manifest. See the [file name and folder structure](./doc/spec/manifest-spec.md#file-names-and-folder-structure).
 
 
 ## First steps
-Before you invest the time to generate and submit a manifest, you should check to see if the package already exists. Start out with `modget search <modname>`. If that doesn't yield anything, try a quick search using the search box in the top left corner of GitHub for the package "In this repository". If you still don't find anything, finally check to see if there is already a [PR](https://github.com/ReviversMC/modget-manifests/pulls) for the package by putting the package in the filters box, and be sure to remove the "is:pr is:open" filters.
+Before you invest the time to generate and submit a manifest, you should check to see if the package already exists. Start out with `modget search <modid>`. If that doesn't yield anything, try a quick search using the search box in the top left corner of GitHub for the package "In this repository". If you still don't find anything, finally check to see if there is already a [PR](https://github.com/ReviversMC/modget-manifests/pulls) for the package by putting the package in the filters box, and be sure to remove the "is:pr is:open" filters.
 
 
 ## What next?
-You should take a look at our [manifest specification](./doc/manifest-spec-v3.md). Don't worry. If this is starting to look too complicated you can create a new issue and select [Mod Request/Submission](https://github.com/ReviversMC/modget-manifests/issues/new/choose).
+You should take a look at our [manifest specification](./doc/spec/manifest-spec.md). Don't worry. If this is starting to look too complicated you can create a new issue and select [Mod Request/Submission](https://github.com/ReviversMC/modget-manifests/issues/new/choose).
