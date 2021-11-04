@@ -28,7 +28,8 @@ The only exception is the package ID, where a period separates publisher and mod
   # The ID of the mod, see fabric.mod.json
 - id: fdlink
 
-  # The official name defined in fabric.mod.json, potentially differing Modrinth/CurseForge names and their slugs
+  # The official name defined in fabric.mod.json, potentially differing
+  # Modrinth/CurseForge names and their slugs
   names:
     - fabric-discord-link
     - fdlink
