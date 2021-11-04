@@ -1,0 +1,40 @@
+  - loaders:
+      - fabric
+    minecraftVersions:
+      - 1.14
+      - 1.14.1
+      - 1.14.2
+      - 1.14.3
+      - 1.14.4
+      - 1.15
+      - 1.15.1
+      - 1.15.2
+      - 1.16
+      - 1.16.1
+      - 1.16.2
+      - 1.16.3
+      - 1.16.4
+      - 1.16.5
+      - 1.17
+      - 1.17.1
+    environment:
+      server: required
+      client: unsupported
+    channel: release
+    depends:
+      - package: FabricMC.fabric
+        version: "*"
+    thirdPartyIds:
+      modrinth: FCmig1C9
+      curseforge: 318315
+    license: MIT
+    fileType: jar
+    md5: 4b0c40968ce89993096a4cd8f268c8f3
+    downloadPageUrls:
+      - modrinth: https://modrinth.com/mod/fabric-discord-link/version/kxQ4DKlh
+      - curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link/files/3480648
+      - sourceControl: ~
+    fileUrls:
+      - modrinth: https://cdn.modrinth.com/data/FCmig1C9/versions/0.9.8/Fabric-Discord-Link-0.9.8.jar
+      - curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link/download/3480648/file
+      - sourceControl: ~

@@ -4,13 +4,17 @@ id: fdlink
 iconUrls:
   - https://cdn.modrinth.com/data/FCmig1C9/icon.png
   - https://media.forgecdn.net/avatars/197/623/636894004161195128.png
+status: active
 name: Fabric <-> Discord Link
 description: A mod to link Minecraft and Discord chats for Fabric.
+authors:
+  - name: arthurbambou
+  - name: AlanFoster
 source: https://github.com/arthurbambou/Fabric---Discord-Link
 issues: https://github.com/arthurbambou/Fabric---Discord-Link/issues
 wiki: https://github.com/arthurbambou/Fabric---Discord-Link/wiki
 chats:
-  - https://discord.gg/xTvWwzV
+  discord: https://discord.gg/xTvWwzV
 versions:
   - 0.9.8
   - 0.9.7
