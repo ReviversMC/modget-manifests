@@ -7,7 +7,13 @@
       server: required
       client: unsupported
     channel: release
+    depends: ~
+    bundles: ~
+    breaks: ~
+    conflicts: ~
+    recommends: ~
     thirdPartyIds:
+      modrinth: ~
       curseforge: 473492
     license: MIT
     fileType: jar
