@@ -1,19 +1,23 @@
   - loaders:
       - fabric
-    fileType: jar
-    license: MIT
-    sides:
-      server: required
-      client: unsupported
     minecraftVersions:
       - 1.17.1
+    environment:
+      server: required
+      client: unsupported
     channel: release
     thirdPartyIds:
       curseforge: 473492
+    license: MIT
+    fileType: jar
     md5: 36e74c104abee8763249d8e3475acb05
     downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3369522
+      modrinth: ~
+      curseforge: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3369522
+      sourceControl: ~
+      other: ~
     fileUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3369522/file
+      modrinth: ~
+      curseforge: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3369522/file
+      sourceControl: ~
+      other: ~
