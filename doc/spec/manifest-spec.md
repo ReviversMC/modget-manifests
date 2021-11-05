@@ -102,10 +102,10 @@ chats:
 # if they aren't semver compliant!
 versions:
   # Sort from latest to oldest
-  - versionNumber: 0.3.2+build.7
-  - versionNumber: 0.2.0+build.4
-  - versionNumber: 0.1.0+1.16.3
-  - versionNumber: 0.1.0
+  - version: 0.3.2+build.7
+  - version: 0.2.0+build.4
+  - version: 0.1.0+1.16.3
+  - version: 0.1.0
 ```
 
 Some tags/arrays, like `iconUrls`, `chats` etc. have to be set to `~` or `null` if no such thing exists for the given mod. If the mod doesn't have an icon for example, simply set the `iconUrls` array to `~` or `null`!
