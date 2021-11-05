@@ -45,7 +45,8 @@ This example manifest mixes together metadata from various different mods to sho
 # Current manifest specification
 manifestSpecVersion: 4
 
-# GitHub organization name, otherwise name of the main uploader on CurseForge/Modrinth
+# GitHub organization name, otherwise name of the main uploader on CurseForge/Modrinth.
+# Only here is it allowed for the publisher name to contain periods, spaces or non-ASCII characters!
 publisher: CaffeineMC
 
 iconUrls:
@@ -68,7 +69,7 @@ status: active
 # If there is no working version of this mod for newer Minecraft versions and other people
 # have ported it / mods of very similar scope exist
 updatedAlternatives:
-  - ExamplePublisher.sodium-revived
+  - packageId: ExamplePublisher.sodium-revived
 
 # Name of the mod, see CurseForge/Modrinth or fabric.mod.json
 name: Sodium
@@ -101,10 +102,10 @@ chats:
 # if they aren't semver compliant!
 versions:
   # Sort from latest to oldest
-  - 0.3.2+build.7
-  - 0.2.0+build.4
-  - 0.1.0+1.16.3
-  - 0.1.0
+  - versionNumber: 0.3.2+build.7
+  - versionNumber: 0.2.0+build.4
+  - versionNumber: 0.1.0+1.16.3
+  - versionNumber: 0.1.0
 ```
 
 Some tags/arrays, like `iconUrls`, `chats` etc. have to be set to `~` or `null` if no such thing exists for the given mod. If the mod doesn't have an icon for example, simply set the `iconUrls` array to `~` or `null`!
@@ -166,23 +167,23 @@ The following example file mixes together metadata from various different mods t
   # in quotation marks, otherwise symbols like `>` or `*` will cause issues with the YAML parser!
   ## Which other mods does this version need to run? See fabric.mod.json.
   depends:
-    - package: FabricMC.fabric
+    - packageId: FabricMC.fabric
       version: ">=0.41.1"
   ## Which other mods does this version bundle? See build.gradle (`include`).
   bundles:
-    - package: FabricMC.fabric
+    - packageId: FabricMC.fabric
       version: 0.41.1
   # Which other mods is this version incompatible with? See fabric.mod.json.
   breaks:
-    - package: Chocohead.optifabric
+    - packageId: Chocohead.optifabric
       version: "*"
-    - package: vram-guild.canvas
+    - packageId: vram-guild.canvas
       version: "*"
   ## Mods which cause weird behavior, bugs etc. when used with this version
   conflicts: ~
   ## Optional dependencies not required to run this version. See fabric.mod.json.
   recommends:
-    - package: CatCore.server_translations
+    - packageId: CatCore.server_translations
       version: "*"
 
   # Which CurseForge/Modrinth project IDs has this version been released under?
