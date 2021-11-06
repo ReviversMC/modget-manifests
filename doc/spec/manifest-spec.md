@@ -94,7 +94,7 @@ wiki: https://github.com/CaffeineMC/lithium-fabric/wiki
 chats:
   discord: https://jellysquid.me/discord
   irc: irc://irc.esper.net:6667/fabric
-  other:
+  others:
     - name: Gitter
       url: https://gitter.im/Open-Shell
 
@@ -208,7 +208,7 @@ The following example file mixes together metadata from various different mods t
     modrinth: ~
     curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium/files/3488836
     sourceControl: https://github.com/CaffeineMC/sodium-fabric/releases/tag/mc1.17.1-0.3.2
-    other: ~
+    others: ~
 
 
   # A direct link to the mod file. As above, don't put any mod repost sites here
@@ -219,7 +219,7 @@ The following example file mixes together metadata from various different mods t
     # downloadPageUrls to get a direct download link!
     curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium/download/3488836/file
     sourceControl: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.17.1-0.3.2/sodium-fabric-mc1.17.1-0.3.2+build.7.jar
-    other:
+    others:
       - name: Example site
         url: https://example.com/
 ```
