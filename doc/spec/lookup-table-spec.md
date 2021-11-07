@@ -18,7 +18,7 @@ Each field in the file must be `camelCase`d and cannot be duplicated.
 
 **None of the tags are allowed to contain periods, spaces or non-ASCII characters!**
 
-The only exception is the package ID, where a period separates publisher and modid.
+The only exceptions are the modid, if it contains these special characters (which it shouldn't), and the package ID, where a period separates publisher and modid.
 
 
 
@@ -43,7 +43,8 @@ The only exception is the package ID, where a period separates publisher and mod
   # All packages which have the aforementioned id
   packages:
     # The package id, so `publisher.modid`
-    - id: arthurbambou.fdlink
+    # (both formatted to contain no periods, spaces or non-ASCII characters)
+    - packageId: arthurbambou.fdlink
       # All mod loaders the package supports
       loaders:
         - fabric
@@ -56,7 +57,7 @@ The only exception is the package ID, where a period separates publisher and mod
     - miscellaneous
     - performance
   packages:
-    - id: malte0811.ferritecore
+    - packageId: malte0811.ferritecore
       loaders:
         - fabric
         - forge
