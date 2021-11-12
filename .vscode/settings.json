@@ -25,5 +25,6 @@
 		"thefirethirteen",
 		"vram-guild",
 		"Zundrel"
-	]
+	],
+	"editor.bracketPairColorization.enabled": true
 }
