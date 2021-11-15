@@ -1,17 +1,23 @@
 manifestSpecVersion: 4
 publisher: tuxed
-id: lazydfu
 iconUrls:
   - https://cdn.modrinth.com/data/hvFnDODi/icon.png
   - https://media.forgecdn.net/avatars/328/780/637453335841858311.png
   - https://raw.githubusercontent.com/astei/lazydfu/master/src/main/resources/assets/lazydfu/icon.png
+status: active
+updatedAlternatives: ~
 name: LazyDFU
 description: Makes DataFixerUpper more lazy
+authors:
+  - name: tuxed
 home: https://github.com/astei/lazydfu
 source: https://github.com/astei/lazydfu
 issues: https://github.com/astei/lazydfu/issues
+support: ~
 wiki: https://github.com/astei/lazydfu/wiki
 chats:
-  - https://discord.gg/RUGArxEQ8J
+  discord: https://discord.gg/RUGArxEQ8J
+  irc: ~
+  others: ~
 versions:
-  - 0.1.2
+  - version: 0.1.2

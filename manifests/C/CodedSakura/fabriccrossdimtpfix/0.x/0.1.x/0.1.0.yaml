@@ -1,29 +1,34 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: ISC
-    sides:
-      server: required
-      client: unsupported
-    depends:
-      - package: FabricMC.fabric
-        version: "*"
-    minecraftVersions:
-      - 1.16.2
-      - 1.16.3
-      - 1.16.4
-      - 1.16.5
-    channel: release
-    thirdPartyIds:
-      modrinth: q1O2IGx6
-    md5: b22348cdf4c6049bdd9816ee418004a9
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/fabriccrossdimtpfix/version/qOa4whwn
-      - name: GitHub
-        url: https://github.com/CodedSakura/FabricCrossDimTPFix/releases/tag/v0.1.0
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/q1O2IGx6/versions/v0.1.0/fabricrossdimtpfix-0.1.0.jar
-      - name: GitHub
-        url: https://github.com/CodedSakura/FabricCrossDimTPFix/releases/download/v0.1.0/fabricrossdimtpfix-0.1.0.jar
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.16.5
+    - 1.16.4
+    - 1.16.3
+    - 1.16.2
+  environment:
+    server: required
+    client: unsupported
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: q1O2IGx6
+    curseforge: ~
+  license: ISC
+  fileType: jar
+  md5: b22348cdf4c6049bdd9816ee418004a9
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/fabriccrossdimtpfix/version/qOa4whwn
+    curseforge: ~
+    sourceControl: https://github.com/CodedSakura/FabricCrossDimTPFix/releases/tag/v0.1.0
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/q1O2IGx6/versions/v0.1.0/fabricrossdimtpfix-0.1.0.jar
+    curseforge: ~
+    sourceControl: https://github.com/CodedSakura/FabricCrossDimTPFix/releases/download/v0.1.0/fabricrossdimtpfix-0.1.0.jar
+    others: ~

@@ -1,34 +1,38 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: LGPL-3.0-only
-    sides:
-      server: unsupported
-      client: required
-    breaks:
-      - package: NuclearFarts.connected_block_textures
-        version: "*"
-      - package: FoundationGames.enhancedblockentities
-        version: "*"
-      - package: Chocohead.optifabric
-        version: "*"
-      - package: CaffeineMC.sodium
-        version: "<=0.1.0"
-    minecraftVersions:
-      - 1.17
-      - 1.17.1
-    channel: release
-    thirdPartyIds:
-      modrinth: ZfQ3kTvR
-      curseforge: 472772
-    md5: 27e9a8930f07c19af53159bdc474e3de
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/dashloader/version/IbL8S9Tt
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3484075
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/2.0.1/dashloader-2.0.1.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3484075/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.17.1
+    - 1.17
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: NuclearFarts.connected_block_textures
+      version: "*"
+    - packageId: FoundationGames.enhancedblockentities
+      version: "*"
+    - packageId: Chocohead.optifabric
+      version: "*"
+    - packageId: CaffeineMC.sodium
+      version: "<=0.1.0"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ZfQ3kTvR
+    curseforge: 472772
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 27e9a8930f07c19af53159bdc474e3de
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/dashloader/version/IbL8S9Tt
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3484075
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/2.0.1/dashloader-2.0.1.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3484075/file
+    sourceControl: ~
+    others: ~

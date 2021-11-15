@@ -1,17 +1,23 @@
 manifestSpecVersion: 4
 publisher: FabricMC
-id: fabric-language-kotlin
 iconUrls:
   - https://cdn.modrinth.com/data/Ha28R6CL/icon.png
   - https://media.forgecdn.net/avatars/181/492/636800855682272538.png
   - https://raw.githubusercontent.com/FabricMC/fabric-language-kotlin/master/src/main/resources/assets/fabric-language-kotlin/icon512.png
+status: active
+updatedAlternatives: ~
 name: Fabric Language Kotlin
 description: Fabric language module for Kotlin.
+authors:
+  - name: Nikky
 home: https://minecraft.curseforge.com/projects/fabric-language-kotlin
 source: https://github.com/FabricMC/fabric-language-kotlin
 issues: https://github.com/FabricMC/fabric-language-kotlin/issues
+support: ~
+wiki: ~
 chats:
-  - https://discord.gg/v6v4pMv
-  - irc://irc.esper.net:6667/fabric
+  discord: https://discord.gg/v6v4pMv
+  irc: irc://irc.esper.net:6667/fabric
+  others: ~
 versions:
-  - 1.6.4+kotlin.1.5.30
+  - version: 1.6.4+kotlin.1.5.30

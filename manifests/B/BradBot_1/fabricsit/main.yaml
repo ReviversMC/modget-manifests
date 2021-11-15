@@ -1,0 +1,33 @@
+manifestSpecVersion: 4
+publisher: BradBot_1
+iconUrls:
+  - https://cdn.modrinth.com/data/eM1KzRjc/icon.png
+  - https://media.forgecdn.net/avatars/381/826/637565349034791510.png
+status: active
+updatedAlternatives: ~
+name: FabricSit
+description: A serverside mod to allows players to sit on stairs and slabs
+authors:
+  - name: BradBot_1
+home: https://github.com/BradBot1/FabricSit
+source: https://github.com/BradBot1/FabricSit
+issues: https://github.com/BradBot1/FabricSit/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: 1.6.4
+  - version: 1.6.3
+  - version: 1.6.2
+  - version: 1.6.1
+  - version: 1.6.0
+  - version: 1.5.1
+  - version: 1.5.0
+  - version: 1.4.0
+  - version: 1.3.0
+  - version: 1.2.0
+  - version: 1.1.0
+  - version: 1.0.0

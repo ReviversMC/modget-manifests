@@ -1,17 +1,23 @@
 manifestSpecVersion: 4
 publisher: tuxed
-id: krypton
 iconUrls:
   - https://cdn.modrinth.com/data/fQEb0iXm/icon.png
   - https://media.forgecdn.net/avatars/324/447/637440289518539756.png
   - https://raw.githubusercontent.com/astei/krypton/master/src/main/resources/assets/krypton/icon.png
+status: active
+updatedAlternatives: ~
 name: Krypton
 description: A Fabric mod that optimizes the Minecraft networking stack and entity tracker. 
+authors:
+  - name: tuxed
 home: https://github.com/astei/krypton
 source: https://github.com/astei/krypton
 issues: https://github.com/astei/krypton/issues
+support: ~
 wiki: https://github.com/astei/krypton/wiki
 chats:
-  - https://discord.gg/RUGArxEQ8J
+  discord: https://discord.gg/RUGArxEQ8J
+  irc: ~
+  others: ~
 versions:
-  - 0.1.4
+  - version: 0.1.4

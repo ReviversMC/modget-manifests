@@ -1,19 +1,29 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: LGPL-3.0-only
-    sides:
-      server: optional
-      client: optional
-    minecraftVersions:
-      - 1.15.2
-    channel: release
-    thirdPartyIds:
-      curseforge: 360438
-    md5: 8cd2b14f3d9b594866fdd6b12ae15129
-    downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lithium/files/2892703
-    fileUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lithium/download/2892703/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.15.2
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: 360438
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 8cd2b14f3d9b594866fdd6b12ae15129
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lithium/files/2892703
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lithium/download/2892703/file
+    sourceControl: ~
+    others: ~

@@ -1,25 +1,30 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: Apache-2.0
-    sides:
-      server: required
-      client: unsupported
-    minecraftVersions:
-      - 1.17
-      - 1.17.1
-    channel: release
-    thirdPartyIds:
-      modrinth: toILlMg6
-      curseforge: 501198
-    md5: f4f6799d470b819e983ed2f44d2f5642
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/bfapi/version/2kdeioAE
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/bfapi/files/3502598
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/toILlMg6/versions/v1.1.10/BradsFabricApi-1.1.10.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/bfapi/download/3502598/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.17.1
+    - 1.17
+  environment:
+    server: required
+    client: unsupported
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: toILlMg6
+    curseforge: 501198
+  license: Apache-2.0
+  fileType: jar
+  md5: f4f6799d470b819e983ed2f44d2f5642
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/bfapi/version/2kdeioAE
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/bfapi/files/3502598
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/toILlMg6/versions/v1.1.10/BradsFabricApi-1.1.10.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/bfapi/download/3502598/file
+    sourceControl: ~
+    others: ~

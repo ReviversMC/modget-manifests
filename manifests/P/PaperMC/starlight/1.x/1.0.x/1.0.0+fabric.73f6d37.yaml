@@ -1,29 +1,32 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: LGPL-3.0-only
-    sides:
-      server: optional
-      client: optional
-    breaks:
-      - package: CaffeineMC.phosphor
-        version: "*"
-    minecraftVersions:
-      - 1.17
-      - 1.17.1
-      # >=1.17.0 in fabric.mod.json
-    channel: release
-    thirdPartyIds:
-      modrinth: H8CaAYZC
-      curseforge: 521783
-    md5: 33a056d716ddb2cb834b6bcb9d5bc889
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/starlight/version/nc7qGadJ
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/starlight/files/3442770
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/H8CaAYZC/versions/Starlight%201.0.0%201.17.x/starlight-1.0.0+fabric.73f6d37.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/starlight/download/3442770/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.17.1
+    - 1.17
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: CaffeineMC.phosphor
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: H8CaAYZC
+    curseforge: 521783
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 33a056d716ddb2cb834b6bcb9d5bc889
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/starlight/version/nc7qGadJ
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight/files/3442770
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/H8CaAYZC/versions/Starlight%201.0.0%201.17.x/starlight-1.0.0+fabric.73f6d37.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight/download/3442770/file
+    sourceControl: ~
+    others: ~

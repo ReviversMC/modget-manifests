@@ -1,41 +1,48 @@
 manifestSpecVersion: 4
 publisher: CaffeineMC
-id: lithium
 iconUrls:
   - https://cdn.modrinth.com/data/gvQqBUqZ/icon.png
   - https://media.forgecdn.net/avatars/246/646/637158441743060329.png
   - https://raw.githubusercontent.com/CaffeineMC/lithium-fabric/1.17.x/dev/src/main/resources/assets/lithium/icon.png
+status: active
+updatedAlternatives: ~
 name: Lithium
 description: Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.
+authors:
+  - name: JellySquid
+  - name: 2No2Name
 home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/lithium-fabric
 issues: https://github.com/CaffeineMC/lithium-fabric/issues
+support: ~
 wiki: https://github.com/CaffeineMC/lithium-fabric/wiki
 chats:
-  - https://jellysquid.me/discord
-downloads:
-  - 0.7.4
-  - 0.7.3
-  - 0.7.2
-  - 0.7.1
-  - 0.7.0
-  - 0.6.6
-  - 0.6.5
-  - 0.6.4
-  - 0.6.3
-  - 0.6.1
-  - 0.6.0
-  - 0.5.6
-  - 0.5.5
-  - 0.5.4
-  - 0.5.3
-  - 0.5.2
-  - 0.5.1
-  - 0.5.0
-  - 0.5.0-rc1
-  - 0.4.6
-  - 0.4.5
-  - 0.4.4
-  - 0.4.3
-  - 0.4.2
-  - 0.4.1
+  discord: https://jellysquid.me/discord
+  irc: ~
+  others: ~
+versions:
+  - version: 0.7.4
+  - version: 0.7.3
+  - version: 0.7.2
+  - version: 0.7.1
+  - version: 0.7.0
+  - version: 0.6.6
+  - version: 0.6.5
+  - version: 0.6.4
+  - version: 0.6.3
+  - version: 0.6.1
+  - version: 0.6.0
+  - version: 0.5.6
+  - version: 0.5.5
+  - version: 0.5.4
+  - version: 0.5.3
+  - version: 0.5.2
+  - version: 0.5.1
+  - version: 0.5.0
+  - version: 0.5.0-rc1
+  - version: 0.4.6
+  - version: 0.4.5
+  - version: 0.4.4
+  - version: 0.4.3
+  - version: 0.4.2
+  - version: 0.4.1

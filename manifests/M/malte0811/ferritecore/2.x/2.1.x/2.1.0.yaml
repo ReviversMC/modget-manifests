@@ -1,43 +1,58 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: MIT
-    sides:
-      server: optional
-      client: optional
-    minecraftVersions:
-      - 1.16.5
-    channel: release
-    thirdPartyIds:
-      modrinth: uXXizFIs
-      curseforge: 459857
-    md5: 69f079b92f2d10e03231de9c836ccf68
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/ferrite-core/version/oP38VFTJ
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3485637
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/uXXizFIs/versions/2.1.0/ferritecore-2.1.0-fabric.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3485637/file
-  - loaders:
-      - forge
-    fileType: jar
-    license: MIT
-    sides:
-      server: optional
-      client: optional
-    minecraftVersions:
-      - 1.16.5
-    channel: release
-    thirdPartyIds:
-      curseforge: 429235
-    md5: 6b469b99aa6f89b6ebad7aefa3cb9843
-    downloadPageUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore/files/3485636
-    fileUrls:
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/ferritecore/download/3485636/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.16.5
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: uXXizFIs
+    curseforge: 459857
+  license: MIT
+  fileType: jar
+  md5: 69f079b92f2d10e03231de9c836ccf68
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/ferrite-core/version/oP38VFTJ
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3485637
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/uXXizFIs/versions/2.1.0/ferritecore-2.1.0-fabric.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3485637/file
+    sourceControl: ~
+    others: ~
+- loaders:
+    - forge
+  minecraftVersions:
+    - 1.16.5
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: 429235
+  license: MIT
+  fileType: jar
+  md5: 6b469b99aa6f89b6ebad7aefa3cb9843
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ferritecore/files/3485636
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ferritecore/download/3485636/file
+    sourceControl: ~
+    others: ~

@@ -1,34 +1,34 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: LGPL-3.0-only
-    sides:
-      server: optional
-      client: optional
-    breaks:
-      - package: Chocohead.optifabric
-        version: "*"
-    minecraftVersions:
-      - 1.16.2
-      - 1.16.3
-      - 1.16.4
-      - 1.16.5
-    channel: release
-    thirdPartyIds:
-      modrinth: gvQqBUqZ
-      curseforge: 360438
-    md5: 0115c2a86634b02772759b705a73ddac
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/lithium/version/igqdFUYG
-      - name: GitHub
-        url: https://github.com/CaffeineMC/lithium-fabric/releases/tag/mc1.16.5-0.6.4
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lithium/files/3215441
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.16.5-0.6.4/lithium-fabric-mc1.16.5-0.6.4.jar
-      - name: GitHub
-        url: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.16.5-0.6.4/lithium-fabric-mc1.16.5-0.6.4.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lithium/download/3215441/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.16.5
+    - 1.16.4
+    - 1.16.3
+    - 1.16.2
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: Chocohead.optifabric
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: gvQqBUqZ
+    curseforge: 360438
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 0115c2a86634b02772759b705a73ddac
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/lithium/version/igqdFUYG
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lithium/files/3215441
+    sourceControl: https://github.com/CaffeineMC/lithium-fabric/releases/tag/mc1.16.5-0.6.4
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.16.5-0.6.4/lithium-fabric-mc1.16.5-0.6.4.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lithium/download/3215441/file
+    sourceControl: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.16.5-0.6.4/lithium-fabric-mc1.16.5-0.6.4.jar
+    others: ~

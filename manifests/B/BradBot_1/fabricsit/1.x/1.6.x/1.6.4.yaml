@@ -1,28 +1,32 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: Apache-2.0
-    sides:
-      server: required
-      client: unsupported
-    depends:
-      - package: BradBot_1.bfapi
-        version: ">=1.1.6"
-    minecraftVersions:
-      - 1.17
-      - 1.17.1
-    channel: release
-    thirdPartyIds:
-      modrinth: eM1KzRjc
-      curseforge: 480257
-    md5: 943160bd44d991f94f8e1173d0a2cc7c
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/sit/version/a2H4y8UA
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/fabricsit/files/3502600
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/eM1KzRjc/versions/v1.6.4/FabricSit-1.6.4.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/fabricsit/download/3502600/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.17.1
+    - 1.17
+  environment:
+    server: required
+    client: unsupported
+  channel: release
+  depends:
+    - packageId: BradBot_1.bfapi
+      version: ">=1.1.6"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: eM1KzRjc
+    curseforge: 480257
+  license: Apache-2.0
+  fileType: jar
+  md5: 943160bd44d991f94f8e1173d0a2cc7c
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/sit/version/a2H4y8UA
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabricsit/files/3502600
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/eM1KzRjc/versions/v1.6.4/FabricSit-1.6.4.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabricsit/download/3502600/file
+    sourceControl: ~
+    others: ~

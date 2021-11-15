@@ -1,36 +1,36 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: Apache-2.0
-    sides:
-      server: required
-      client: unsupported
-    depends:
-      - package: FabricMC.fabric
-        version: "*"
-    minecraftVersions:
-      - 1.16
-      - 1.16.1
-      - 1.16.2
-      - 1.16.3
-      - 1.16.4
-      - 1.16.5
-    channel: release
-    thirdPartyIds:
-      modrinth: eM1KzRjc
-      curseforge: 480257
-    md5: 83b28c9f7b2bb0f164d22c9076f5a812
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/sit/version/UDnzprfV
-      - name: GitHub
-        url: https://github.com/BradBot1/FabricSit/releases/tag/v1.3
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/fabricsit/files/3303738
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/eM1KzRjc/versions/v1.3/FabricSit-1.3.0.jar
-      - name: GitHub
-        url: https://github.com/BradBot1/FabricSit/releases/download/v1.3/FabricSit-1.3.0.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/fabricsit/download/3303738/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.16.5
+    - 1.16.4
+    - 1.16.3
+    - 1.16.2
+    - 1.16.1
+    - 1.16
+  environment:
+    server: required
+    client: unsupported
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: eM1KzRjc
+    curseforge: 480257
+  license: Apache-2.0
+  fileType: jar
+  md5: 83b28c9f7b2bb0f164d22c9076f5a812
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/sit/version/UDnzprfV
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabricsit/files/3303738
+    sourceControl: https://github.com/BradBot1/FabricSit/releases/tag/v1.3
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/eM1KzRjc/versions/v1.3/FabricSit-1.3.0.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabricsit/download/3303738/file
+    sourceControl: https://github.com/BradBot1/FabricSit/releases/download/v1.3/FabricSit-1.3.0.jar
+    others: ~

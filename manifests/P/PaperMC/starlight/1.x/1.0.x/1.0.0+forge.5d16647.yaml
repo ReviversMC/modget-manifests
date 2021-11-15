@@ -1,25 +1,30 @@
-  - loaders:
-      - forge
-    fileType: jar
-    license: LGPL-3.0-only
-    sides:
-      server: optional
-      client: optional
-    minecraftVersions:
-      - 1.17
-      - 1.17.1
-    channel: release
-    thirdPartyIds:
-      modrinth: iRfIGC1s
-      curseforge: 526854
-    md5: fbc961a055db6a3475fd18c5dcc38c03
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/starlight-forge/version/RcAkwRce
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/starlight-forge/files/3457784
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com//data/iRfIGC1s/versions/Starlight%201.0.0%201.17.x/starlight-1.0.0+forge.5d16647.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/starlight-forge/download/3457784/file
+- loaders:
+    - forge
+  minecraftVersions:
+    - 1.17.1
+    - 1.17
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: iRfIGC1s
+    curseforge: 526854
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: fbc961a055db6a3475fd18c5dcc38c03
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/starlight-forge/version/RcAkwRce
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight-forge/files/3457784
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com//data/iRfIGC1s/versions/Starlight%201.0.0%201.17.x/starlight-1.0.0+forge.5d16647.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight-forge/download/3457784/file
+    sourceControl: ~
+    others: ~

@@ -1,29 +1,29 @@
-  - loaders:
-      - fabric
-    minecraftVersions:
-      - 1.17
-    environment:
-      server: required
-      client: unsupported
-    channel: release
-    depends: ~
-    bundles: ~
-    breaks: ~
-    conflicts: ~
-    recommends: ~
-    thirdPartyIds:
-      modrinth: ~
-      curseforge: 473492
-    license: MIT
-    fileType: jar
-    md5: 2c6b6f29defdb471c2732aaaf69a0f8f
-    downloadPageUrls:
-      modrinth: ~
-      curseforge: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3348298
-      sourceControl: ~
-      other: ~
-    fileUrls:
-      modrinth: ~
-      curseforge: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3348298/file
-      sourceControl: ~
-      other: ~
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.17
+  environment:
+    server: required
+    client: unsupported
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: 473492
+  license: MIT
+  fileType: jar
+  md5: 2c6b6f29defdb471c2732aaaf69a0f8f
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/files/3348298
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3348298/file
+    sourceControl: ~
+    others: ~

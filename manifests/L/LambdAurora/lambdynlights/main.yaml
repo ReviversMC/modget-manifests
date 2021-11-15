@@ -1,17 +1,24 @@
 manifestSpecVersion: 4
 publisher: LambdAurora
-id: lambdynlights
 iconUrls:
   - https://cdn.modrinth.com/data/yBW8D80W/icon.png
   - https://media.forgecdn.net/avatars/283/615/637293943794404701.png
   - https://raw.githubusercontent.com/LambdAurora/LambDynamicLights/1.17/src/main/resources/assets/lambdynlights/icon.png
+status: active
+updatedAlternatives: ~
 name: LambDynamicLights
 description: Adds dynamic lights to the game.
+authors:
+  - name: 
 home: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights
 source: https://github.com/LambdAurora/LambDynamicLights
 issues: https://github.com/LambdAurora/LambDynamicLights/issues
+support: ~
+wiki: ~
 chats:
-  - https://discord.gg/abEbzzv
+  discord: https://discord.gg/abEbzzv
+  irc:
+  others: ~
 versions:
-  - 2.0.2+1.17
-  - 1.3.4+1.16
+  - version: 2.0.2+1.17
+  - version: 1.3.4+1.16

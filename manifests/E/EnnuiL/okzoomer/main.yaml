@@ -1,15 +1,24 @@
 manifestSpecVersion: 4
 publisher: EnnuiL
-id: okzoomer
 iconUrls:
   - https://cdn.modrinth.com/data/aXf2OSFU/icon.png
   - https://media.forgecdn.net/avatars/239/419/637113788236894456.png
   - https://raw.githubusercontent.com/EnnuiL/OkZoomer/1.17/src/main/resources/assets/okzoomer/icon.png
+status: active
+updatedAlternatives: ~
 name: OkZoomer
 description: Adds a highly configurable zoom button. By default, this mod provides its own take on zooming, however, with configuration, you can drastically change the zoom with something more familiar or useful. The zoom is yours!
+authors:
+  - name: EnnuiL
 home: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer
 source: https://github.com/EnnuiL/OkZoomer
 issues: https://github.com/EnnuiL/OkZoomer/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
 versions:
-  - 5.0.0-beta.2+1.17
-  - 4.0.1+1.16.2
+  - version: 5.0.0-beta.2+1.17
+  - version: 4.0.1+1.16.2

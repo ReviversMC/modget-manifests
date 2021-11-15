@@ -1,17 +1,24 @@
 manifestSpecVersion: 4
 publisher: CaffeineMC
-id: hydrogen
 iconUrls:
   - https://cdn.modrinth.com/data/AZomiSrC/icon.png
   - https://raw.githubusercontent.com/CaffeineMC/hydrogen-fabric/1.17.x/src/main/resources/assets/hydrogen/icon.png
+status: active
+updatedAlternatives: ~
 name: Hydrogen
 description: A Minecraft mod designed to reduce the memory usage of the game.
+authors:
+  - name: JellySquid
 home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/hydrogen-fabric
 issues: https://github.com/CaffeineMC/hydrogen-fabric/issues
+support: ~
+wiki: ~
 chats:
-  - https://jellysquid.me/discord
+  discord: https://jellysquid.me/discord
+  irc: ~
+  others: ~
 versions:
-  - 0.3.1
-  - 0.3
-  - 0.2
+  - version: 0.3.1
+  - version: 0.3
+  - version: 0.2

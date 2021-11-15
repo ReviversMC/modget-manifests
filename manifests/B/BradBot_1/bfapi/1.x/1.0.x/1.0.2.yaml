@@ -1,21 +1,32 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: Apache-2.0
-    sides:
-      server: required
-      client: unsupported
-    depends:
-      - package: FabricMC.fabric
-        version: "*"
-    minecraftVersions:
-      - 1.17
-      - 1.17.1
-    channel: release
-    md5: d0ff02a7c0dc1585ef760ae883818b13
-    downloadPageUrls:
-      - name: GitHub
-        url: https://github.com/BradBot1/BradsFabricApi/releases/tag/v1.0.2
-    fileUrls:
-      - name: GitHub
-        url: https://github.com/BradBot1/BradsFabricApi/releases/download/v1.0.2/BFAPI-v1-0-2.jar
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.17.1
+    - 1.17
+  environment:
+    server: required
+    client: unsupported
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: ~
+  license: Apache-2.0
+  fileType: jar
+  md5: d0ff02a7c0dc1585ef760ae883818b13
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: ~
+    sourceControl: https://github.com/BradBot1/BradsFabricApi/releases/tag/v1.0.2
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: ~
+    sourceControl: https://github.com/BradBot1/BradsFabricApi/releases/download/v1.0.2/BFAPI-v1-0-2.jar
+    others: ~

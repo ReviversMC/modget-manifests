@@ -1,37 +1,36 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: LGPL-3.0
-    sides:
-      server: unsupported
-      client: required
-    depends:
-      - package: FabricMC.fabric
-        version: "*"
-      - package: CaffeineMC.sodium
-        version: "0.3.x"
-    recommends:
-      - package: FlashyReese.reeses-sodium-options
-        version: "*"
-    minecraftVersions:
-      - 1.17
-      - 1.17.1
-    channel: release
-    thirdPartyIds:
-      modrinth: PtjYWJkn
-      curseforge: 447673
-    md5: 42de44707e27d2ed389f3cda1d9d4571
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/sodium-extra/version/qGLCzjA2
-      - name: GitHub
-        url: https://github.com/FlashyReese/sodium-extra-fabric/releases/tag/mc1.17.1-0.3.5
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/sodium-extra/files/3480453
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/PtjYWJkn/versions/0.3.5/sodium-extra-mc1.17.1-0.3.5.jar
-      - name: GitHub
-        url: https://github.com/FlashyReese/sodium-extra-fabric/releases/download/mc1.17.1-0.3.5/sodium-extra-mc1.17.1-0.3.5.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/sodium-extra/download/3480453/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.17.1
+    - 1.17
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+    - packageId: CaffeineMC.sodium
+      version: "0.3.x"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: FlashyReese.reeses-sodium-options
+      version: "*"
+  thirdPartyIds:
+    modrinth: PtjYWJkn
+    curseforge: 447673
+  license: LGPL-3.0
+  fileType: jar
+  md5: 42de44707e27d2ed389f3cda1d9d4571
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/sodium-extra/version/qGLCzjA2
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium-extra/files/3480453
+    sourceControl: https://github.com/FlashyReese/sodium-extra-fabric/releases/tag/mc1.17.1-0.3.5
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/PtjYWJkn/versions/0.3.5/sodium-extra-mc1.17.1-0.3.5.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium-extra/download/3480453/file
+    sourceControl: https://github.com/FlashyReese/sodium-extra-fabric/releases/download/mc1.17.1-0.3.5/sodium-extra-mc1.17.1-0.3.5.jar
+    others: ~

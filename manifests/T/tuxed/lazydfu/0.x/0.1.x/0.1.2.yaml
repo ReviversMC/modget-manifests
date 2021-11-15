@@ -1,43 +1,44 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: MIT
-    sides:
-      server: optional
-      client: optional
-    minecraftVersions:
-      - 1.14
-      - 1.14.1
-      - 1.14.2
-      - 1.14.3
-      - 1.14.4
-      - 1.15
-      - 1.15.1
-      - 1.15.2
-      - 1.16
-      - 1.16.1
-      - 1.16.2
-      - 1.16.3
-      - 1.16.4
-      - 1.16.5
-      - 1.17
-      - 1.17.1
-    channel: release
-    thirdPartyIds:
-      modrinth: hvFnDODi
-      curseforge: 433518
-    md5: b2597e901c05673ef2834dad32da8824
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.org/mod/lazydfu/version/C6e265zK
-      - name: GitHub
-        url: https://github.com/astei/lazydfu/releases/tag/0.1.2
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lazydfu/files/3209972
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/hvFnDODi/versions/0.1.2/lazydfu-0.1.2.jar
-      - name: GitHub
-        url: https://github.com/astei/lazydfu/releases/download/0.1.2/lazydfu-0.1.2.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/lazydfu/download/3209972/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.17.1
+    - 1.17
+    - 1.16.5
+    - 1.16.4
+    - 1.16.3
+    - 1.16.2
+    - 1.16.1
+    - 1.16
+    - 1.15.2
+    - 1.15.1
+    - 1.15
+    - 1.14.4
+    - 1.14.3
+    - 1.14.2
+    - 1.14.1
+    - 1.14
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: hvFnDODi
+    curseforge: 433518
+  license: MIT
+  fileType: jar
+  md5: b2597e901c05673ef2834dad32da8824
+  downloadPageUrls:
+    modrinth: https://modrinth.org/mod/lazydfu/version/C6e265zK
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lazydfu/files/3209972
+    sourceControl: https://github.com/astei/lazydfu/releases/tag/0.1.2
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/hvFnDODi/versions/0.1.2/lazydfu-0.1.2.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lazydfu/download/3209972/file
+    sourceControl: https://github.com/astei/lazydfu/releases/download/0.1.2/lazydfu-0.1.2.jar
+    others: ~

@@ -1,19 +1,28 @@
 manifestSpecVersion: 4
 publisher: malte0811
-id: ferritecore
 iconUrls:
   - https://cdn.modrinth.com/data/uXXizFIs/icon.jpg
   - https://media.forgecdn.net/avatars/358/34/637518275077940306.jpeg
   - https://media.forgecdn.net/avatars/323/941/637438748346113688.jpeg
   - https://raw.githubusercontent.com/malte0811/FerriteCore/main/common/src/main/resources/logo.png
+status: active
+updatedAlternatives: ~
 name: FerriteCore
 description: Reduces memory usage
+authors:
+  - name: malte0811
 home: https://github.com/malte0811/FerriteCore
 source: https://github.com/malte0811/FerriteCore
 issues: https://github.com/malte0811/FerriteCore/issues
+support: ~
+wiki: ~
 chats:
-  - https://github.com/malte0811/FerriteCore/discussions
+  discord: ~
+  irc: ~
+  others:
+    - name: GitHub Discussions
+      url: https://github.com/malte0811/FerriteCore/discussions
 versions:
-  - 3.1.0
-  - 3.0.1
-  - 2.1.0
+  - version: 3.1.0
+  - version: 3.0.1
+  - version: 2.1.0

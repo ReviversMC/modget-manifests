@@ -1,37 +1,36 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: MIT
-    sides:
-      server: unsupported
-      client: required
-    depends:
-      - package: FabricMC.fabric
-        version: ">=0.14.0"
-    recommends:
-      - package: TerraformersMC.modmenu
-        version: ">=1.14.6"
-    minecraftVersions:
-      - 1.16.2
-      - 1.16.3
-      - 1.16.4
-      - 1.16.5
-    channel: release
-    thirdPartyIds:
-      modrinth: aXf2OSFU
-      curseforge: 354047
-    md5: 732b559a504e3f5a8454fed7620443bb
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/ok-zoomer/version/L7TmfftT
-      - name: GitHub
-        url: https://github.com/EnnuiL/OkZoomer/releases/tag/4.0.1%2B1.16.2
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer/files/3048200
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/aXf2OSFU/versions/4.0.1+1.16.2/okzoomer-4.0.1+1.16.2.jar
-      - name: GitHub
-        url: https://github.com/EnnuiL/OkZoomer/releases/download/4.0.1%2B1.16.2/okzoomer-4.0.1+1.16.2.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer/download/3048200/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.16.5
+    - 1.16.4
+    - 1.16.3
+    - 1.16.2
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: ">=0.14.0"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: ">=1.14.6"
+  thirdPartyIds:
+    modrinth: aXf2OSFU
+    curseforge: 354047
+  license: MIT
+  fileType: jar
+  md5: 732b559a504e3f5a8454fed7620443bb
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/ok-zoomer/version/L7TmfftT
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer/files/3048200
+    sourceControl: https://github.com/EnnuiL/OkZoomer/releases/tag/4.0.1%2B1.16.2
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/aXf2OSFU/versions/4.0.1+1.16.2/okzoomer-4.0.1+1.16.2.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer/download/3048200/file
+    sourceControl: https://github.com/EnnuiL/OkZoomer/releases/download/4.0.1%2B1.16.2/okzoomer-4.0.1+1.16.2.jar
+    others: ~

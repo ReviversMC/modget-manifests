@@ -1,20 +1,27 @@
 manifestSpecVersion: 4
 publisher: PaperMC
-id: starlight
 iconUrls:
   - https://cdn.modrinth.com/data/H8CaAYZC/icon.png
   - https://cdn.modrinth.com//data/iRfIGC1s/icon.png
   - https://media.forgecdn.net/avatars/427/88/637658395689610558.png
   - https://media.forgecdn.net/avatars/432/789/637670638359989351.png
   - https://raw.githubusercontent.com/PaperMC/Starlight/fabric/src/main/resources/assets/starlight/icon.png
+status: active
+updatedAlternatives: ~
 name: Starlight
 description: Rewrites the light engine to fix lighting performance and lighting errors
+authors:
+  - name: Spottedleaf
 home: https://github.com/PaperMC/Starlight
 source: https://github.com/PaperMC/Starlight
 issues: https://github.com/PaperMC/Starlight/issues
+support: ~
+wiki: ~
 chats:
-  - https://discord.gg/tuinity
+  discord: https://discord.gg/tuinity
+  irc: ~
+  others: ~
 versions:
-  - 1.0.0+fabric.73f6d37
-  - 1.0.0+forge.5d16647
-  - 1.0.0-RC2+82ae5ca
+  - version: 1.0.0+fabric.73f6d37
+  - version: 1.0.0+forge.5d16647
+  - version: 1.0.0-RC2+82ae5ca

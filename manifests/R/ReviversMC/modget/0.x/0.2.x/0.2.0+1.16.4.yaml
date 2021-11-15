@@ -1,32 +1,32 @@
-  - loaders:
-      - fabric
-    fileType: jar
-    license: LGPL-3.0-or-later
-    sides:
-      server: optional
-      client: optional
-    depends:
-      - package: FabricMC.fabric
-        version: "*"
-    minecraftVersions:
-      - 1.16.4
-      - 1.16.5
-    channel: beta
-    thirdPartyIds:
-      modrinth: 2NpFE0R3
-      curseforge: 533960
-    md5: 35e2afc667aa348eb702a263d1b61e89
-    downloadPageUrls:
-      - name: Modrinth
-        url: https://modrinth.com/mod/modget/version/Lx3u65XT
-      - name: GitHub
-        url: https://github.com/ReviversMC/modget/releases/tag/0.2.0
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3500023
-    fileUrls:
-      - name: Modrinth
-        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.2.0/modget-0.2.0+1.16.4.jar
-      - name: GitHub
-        url: https://github.com/ReviversMC/modget/releases/download/0.2.0/modget-0.2.0+1.16.4.jar
-      - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modget/download/3500023/file
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.16.5
+    - 1.16.4
+  environment:
+    server: optional
+    client: optional
+  channel: beta
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: 2NpFE0R3
+    curseforge: 533960
+  license: LGPL-3.0-or-later
+  fileType: jar
+  md5: 35e2afc667aa348eb702a263d1b61e89
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/modget/version/Lx3u65XT
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/files/3500023
+    sourceControl: https://github.com/ReviversMC/modget/releases/tag/0.2.0
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.2.0/modget-0.2.0+1.16.4.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/download/3500023/file
+    sourceControl: https://github.com/ReviversMC/modget/releases/download/0.2.0/modget-0.2.0+1.16.4.jar
+    others: ~

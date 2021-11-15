@@ -1,22 +1,28 @@
 manifestSpecVersion: 4
 publisher: FabricMC
-id: fabric
 iconUrls:
   - https://cdn.modrinth.com/data/P7dR8mSH/icon.png
   - https://media.forgecdn.net/avatars/185/822/636829723898798601.png
   - https://raw.githubusercontent.com/FabricMC/fabric/1.17/src/main/resources/assets/fabric/icon.png
+status: active
+updatedAlternatives: ~
 name: Fabric API
 description: Core API module providing key hooks and intercompatibility features.
+authors:
+  - name: FabricMC
 home: https://fabricmc.net
 source: https://github.com/FabricMC/fabric
 issues: https://github.com/FabricMC/fabric/issues
+support: ~
+wiki: ~
 chats:
-  - https://discord.gg/v6v4pMv
-  - irc://irc.esper.net:6667/fabric
+  discord: https://discord.gg/v6v4pMv
+  irc: irc://irc.esper.net:6667/fabric
+  others: ~
 versions:
-  - 0.41.3+1.17
-  - 0.41.3+1.16
-  - 0.41.0+1.17
-  - 0.40.6+1.16
-  - 0.36.0+1.17
-  - 0.14.1+build.372-1.16
+  - version: 0.41.3+1.17
+  - version: 0.41.3+1.16
+  - version: 0.41.0+1.17
+  - version: 0.40.6+1.16
+  - version: 0.36.0+1.17
+  - version: 0.14.1+build.372-1.16
