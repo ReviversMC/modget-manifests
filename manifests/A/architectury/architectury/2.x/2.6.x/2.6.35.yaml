@@ -1,0 +1,29 @@
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.17.1
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: 419697
+  license: LGPL-3.0
+  fileType: jar
+  md5: fde6a55d4165e79e92a84d94e3c6eebf
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/3500017
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/download/3500017/file
+    sourceControl: ~
+    others: ~
