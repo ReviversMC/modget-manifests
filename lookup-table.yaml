@@ -184,7 +184,7 @@
 - id: lambdynlights
   names:
     - lambdynlights
-    - lambdynamiclights
+    - lamb-dynamic-lights
   tags:
     - adventure
     - utility
@@ -252,7 +252,7 @@
         - fabric
 - id: discerning_furnace
   names:
-    - discerning_furnace
+    - discerning-furnace
   tags:
     - technology
     - utility
