@@ -1,0 +1,22 @@
+manifestSpecVersion: 4
+publisher: LambdAurora
+iconUrls:
+  - https://cdn.modrinth.com/data/2Uev7LdA/icon.png
+  - https://media.forgecdn.net/avatars/291/462/637322198772917679.png
+status: active
+name: LambdaBetterGrass
+description: A Fabric mod which adds better grass to the game.
+authors:
+  - name: LambdAurora
+home: https://modrinth.com/mod/lambdabettergrass
+source: https://github.com/LambdAurora/LambdaBetterGrass.git
+issues: https://github.com/LambdAurora/LambdaBetterGrass/issues
+support: https://discord.com/invite/abEbzzv
+wiki: https://github.com/LambdAurora/LambdaBetterGrass
+chats:
+  discord: https://discord.com/invite/abEbzzv
+  irc: ~
+  others: ~
+versions:
+  - version: 1.2.1+1.17
+  - version: 1.0.3+1.16

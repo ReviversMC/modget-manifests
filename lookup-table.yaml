@@ -19,7 +19,7 @@
     - bfapi
   packages:
     - BradBot_1.bfapi
-  tags: 
+  tags:
     - api
     - library
 - id: fabricsit
@@ -49,7 +49,7 @@
     - performance
     - utility
 - id: phosphor
-  names: 
+  names:
     - phosphor
     - phosphor-fabric
   packages:
@@ -172,7 +172,7 @@
   tags:
     - utility
 - id: discerning_furnace
-  names: 
+  names:
     - discerning_furnace
   packages:
     - supersaiyansubtlety.discerning_furnace
@@ -212,3 +212,15 @@
     - utility
     - library
     - api
+- id: lambdabettergrass
+  names:
+    - lambdabettergrass
+  tags:
+    - decoration
+    - cosmetic
+    - adventure-rpg
+    - vanilla+
+  packages:
+    - packageId: LambdAurora.lambdabettergrass
+      loaders:
+         - fabric
