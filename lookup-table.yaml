@@ -139,6 +139,17 @@
     - packageId: dfsek.terra
       loaders:
         - fabric
+- id: chime
+  alternativeNames: ~
+  tags:
+    - library
+    - api
+    - utility
+    - miscellaneous
+  packageIds:
+    - packageId: EmilyPloszaj.chime
+      loader:
+        - fabric
 - id: okzoomer
   names:
     - okzoomer
