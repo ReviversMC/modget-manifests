@@ -121,6 +121,19 @@
   tags:
     - cursed
     - miscellaneous
+- id: lambdabettergrass
+  names:
+    - lambdabettergrass
+  tags:
+    - decoration
+    - cosmetic
+    - adventure
+    - rpg
+    - vanilla+
+  packages:
+    - packageId: LambdAurora.lambdabettergrass
+      loaders:
+        - fabric
 - id: lambdynlights
   names:
     - lambdynlights
@@ -212,15 +225,3 @@
     - utility
     - library
     - api
-- id: lambdabettergrass
-  names:
-    - lambdabettergrass
-  tags:
-    - decoration
-    - cosmetic
-    - adventure-rpg
-    - vanilla+
-  packages:
-    - packageId: LambdAurora.lambdabettergrass
-      loaders:
-        - fabric

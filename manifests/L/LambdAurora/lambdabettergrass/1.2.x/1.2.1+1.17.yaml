@@ -16,7 +16,7 @@
       version: "*"
   conflicts: ~
   recommends:
-    - packageId: TerraformersMC
+    - packageId: TerraformersMC.modmenu
       version: ">=2.0.0"
   thirdPartyIds:
     modrinth: 2Uev7LdA
