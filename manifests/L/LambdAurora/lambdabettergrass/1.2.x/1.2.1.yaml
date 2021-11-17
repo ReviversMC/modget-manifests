@@ -1,6 +1,5 @@
 - loaders:
-  - fabric
-
+    - fabric
   minecraftVersions:
     - 1.17.1
     - 1.17
