@@ -261,6 +261,15 @@
     - packageId: supersaiyansubtlety.discerning_furnace
       loaders:
         - fabric
+- id: cullleaves
+  alternativeNames: ~
+  tags:
+    - miscellaneous
+    - cosmetic
+  packageIds:
+    - packageId: TeamMidnightDust.cullleaves
+      loaders:
+        - fabric
 - id: modmenu
   names:
     - modmenu
