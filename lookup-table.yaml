@@ -129,7 +129,7 @@
     - cosmetic
     - adventure
     - rpg
-    - vanilla+
+    - vanilla-plus
   packages:
     - packageId: LambdAurora.lambdabettergrass
       loaders:
