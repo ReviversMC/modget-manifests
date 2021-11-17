@@ -181,6 +181,19 @@
     - packageId: FlashyReese.sodium-extra
       loaders:
         - fabric
+- id: lambdabettergrass
+  names:
+    - lambdabettergrass
+  tags:
+    - decoration
+    - cosmetic
+    - adventure
+    - rpg
+    - vanilla-plus
+  packages:
+    - packageId: LambdAurora.lambdabettergrass
+      loaders:
+        - fabric
 - id: lambdynlights
   names:
     - lambdynlights

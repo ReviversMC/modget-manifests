@@ -1,0 +1,40 @@
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.16.5
+    - 1.16.4
+    - 1.16.3
+    - 1.16.2
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+    - version: ">=0.29.4"
+  bundles: ~
+  breaks:
+    - packageId: Chocohead.optifabric
+      version: "*"
+    - packageId: TerraformersMC.modmenu
+      version: "<1.12.2"
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: ">=1.12.2"
+  thirdPartyIds:
+    modrinth: 2Uev7LdA
+    curseforge: 400322
+  license: MIT
+  filetype: jar
+  md5: 7397cfe9d5da32821c4a1c5239b8b9b3
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/lambdabettergrass/version/b7b45yqL
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lambdabettergrass/files/3177379
+    sourceControl: https://github.com/LambdAurora/LambdaBetterGrass/releases/tag/1.0.3-1.16
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/2Uev7LdA/versions/1.0.3+1.16/lambdabettergrass-fabric-1.0.3+1.16.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lambdabettergrass/download/3177379/file
+    sourceControl: https://github.com/LambdAurora/LambdaBetterGrass/releases/download/1.0.3-1.16/lambdabettergrass-fabric-1.0.3+1.16.jar
+    others: ~

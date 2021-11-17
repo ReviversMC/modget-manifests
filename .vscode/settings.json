@@ -60,5 +60,6 @@
 		"worldgen",
 		"xradiation",
 		"Zundrel"
-	]
+	],
+	"editor.bracketPairColorization.enabled": true
 }
