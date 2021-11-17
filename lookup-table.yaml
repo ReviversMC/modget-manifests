@@ -223,4 +223,4 @@
   packages:
     - packageId: LambdAurora.lambdabettergrass
       loaders:
-         - fabric
+        - fabric
