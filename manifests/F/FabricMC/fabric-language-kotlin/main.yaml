@@ -20,4 +20,4 @@ chats:
   irc: irc://irc.esper.net:6667/fabric
   others: ~
 versions:
-  - version: 1.6.4+kotlin.1.5.30
+  - version: 1.6.4

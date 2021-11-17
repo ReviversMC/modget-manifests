@@ -19,5 +19,5 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 5.4.1-BETA+40e95073
-  - version: 5.3.3-BETA+5dd00db8
+  - version: 5.4.1-BETA
+  - version: 5.3.3-BETA

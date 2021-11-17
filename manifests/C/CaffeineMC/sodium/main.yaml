@@ -20,5 +20,5 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 0.3.2+build.7
-  - version: 0.2.0+build.4
+  - version: 0.3.2
+  - version: 0.2.0
