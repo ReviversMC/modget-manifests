@@ -1,0 +1,22 @@
+manifestSpecVersion: 4
+publisher: EmilyPloszaj
+iconUrls:
+  - https://cdn.modrinth.com/data/ubxU84eR/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/327/949/64/64/637451141240781958.png
+status: active
+updatedAlternatives: ~
+name: Chime
+description: Adds more capabilities to item models
+authors:
+  - name: Emi
+home: https://github.com/emilyploszaj/chime
+source: https://github.com/emilyploszaj/chime
+issues: https://github.com/emilyploszaj/chime/issues
+support: https://discord.com/invite/T2PuD9RTWV
+wiki: https://github.com/emilyploszaj/chime/wiki
+chats:
+  discord: https://discord.com/invite/T2PuD9RTWV
+  irc: ~
+  others: ~
+versions:
+  - version: 0.8.1
