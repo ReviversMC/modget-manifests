@@ -1,0 +1,22 @@
+manifestSpecVersion: 4
+publisher: SHsuperCM
+iconUrls:
+  - https://modrinth.com/mod/cit-resewn
+  - https://media.forgecdn.net/avatars/thumbnails/426/701/64/64/637657532550330185.png
+status: active
+updatedAlternatives: ~
+name: CITResewn
+description: Re-implements MCPatcher's CIT
+authors:
+  - name: SHsuperCM
+home: https://github.com/SHsuperCM/CITResewn
+source: https://github.com/SHsuperCM/CITResewn
+issues: https://github.com/SHsuperCM/CITResewn/issues
+support: https://citresewn.readthedocs.io/usage/help/
+wiki: https://citresewn.readthedocs.io/
+chats:
+  discord: https://discord.com/invite/v6v4pMv
+  irc: ~
+  others: ~
+versions:
+  - version: 0.8.1

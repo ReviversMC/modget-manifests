@@ -250,6 +250,17 @@
     - packageId: ReviversMC.modget
       loaders:
         - fabric
+- id: citresewn
+  alternativeNames: ~
+  tags:
+    - map
+    - information
+    - miscellaneous
+    - utility
+  packageIds:
+    - packageId: SHsuperCM.citresewn
+      loaders:
+        - fabric
 - id: discerning_furnace
   names:
     - discerning-furnace
