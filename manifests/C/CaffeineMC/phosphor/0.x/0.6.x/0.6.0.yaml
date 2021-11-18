@@ -12,7 +12,9 @@
   channel: release
   depends: ~
   bundles: ~
-  breaks: ~
+  breaks:
+    - packageId: PaperMC.starlight
+    version: "*"
   conflicts: ~
   recommends: ~
   thirdPartyIds:
