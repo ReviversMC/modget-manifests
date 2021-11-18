@@ -240,6 +240,16 @@
       loaders:
         - fabric
         - forge
+- id: connected_block_textures
+  alternativeNames:
+    - cbt
+  tags:
+    - cosmetic
+    - optifine-alternative
+  packageIds:
+    - packageId: NuclearFarts.connected_block_textures
+      loaders:
+        - fabric
 - id: starlight
   alternativeNames: ~
   tags:

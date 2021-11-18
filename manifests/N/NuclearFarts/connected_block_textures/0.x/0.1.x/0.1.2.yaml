@@ -1,0 +1,36 @@
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.16.5
+    - 1.16.4
+    - 1.16.3
+    - 1.16.2
+    - 1.16.1
+    - 1.16
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMc.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: 382022
+  license: LGPLv3
+  fileType: jar
+  md5: bfa79200708b887024cbb6f2be4621b2
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/continuity/files/3498711
+    sourceControl: https://github.com/TwilightFlower/connected-block-textures/releases/tag/0.1.2
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/connected-block-textures/download/3026024/file
+    sourceControl: https://github.com/TwilightFlower/connected-block-textures/releases/download/0.1.2/connected-block-textures-0.1.2+1.16.jar
+    others: ~
