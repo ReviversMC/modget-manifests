@@ -1,5 +1,5 @@
 - id: architectury
-  alterntiveNames:
+  alternativeNames:
     - architectury-api
   tags:
     - api
@@ -9,7 +9,7 @@
       loaders:
         - fabric
 - id: fdlink
-  alterntiveNames:
+  alternativeNames:
     - fabric-discord-link
   tags:
     - utility
@@ -20,7 +20,7 @@
       loaders:
         - fabric
 - id: recipecache
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - utility
     - performance
@@ -29,7 +29,7 @@
       loaders:
         - fabric
 - id: bfapi
-  alterntiveNames:
+  alternativeNames:
     - brads-fabric-api
   tags:
     - library
@@ -40,7 +40,7 @@
       loaders:
         - fabric
 - id: fabricsit
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - utility
     - miscellaneous
@@ -60,7 +60,7 @@
       loaders:
         - fabric
 - id: lithium
-  alterntiveNames:
+  alternativeNames:
     - lithium-fabric
   tags:
     - utility
@@ -72,7 +72,7 @@
       loaders:
         - fabric
 - id: phosphor
-  alterntiveNames:
+  alternativeNames:
     - phosphor-fabric
   tags:
     - utility
@@ -85,7 +85,7 @@
       loaders:
         - fabric
 - id: sodium
-  alterntiveNames:
+  alternativeNames:
     - sodium-fabric
   tags:
     - utility
@@ -97,7 +97,7 @@
       loaders:
         - fabric
 - id: optifabric
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - api
     - library
@@ -115,7 +115,7 @@
       loaders:
         - fabric
 - id: terra
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - adventure
     - utility
@@ -139,7 +139,7 @@
       loader:
         - fabric
 - id: okzoomer
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - utility
     - miscellaneous
@@ -149,7 +149,7 @@
       loaders:
         - fabric
 - id: fabric
-  alterntiveNames:
+  alternativeNames:
     - fabric-api
   tags:
     - library
@@ -159,7 +159,7 @@
       loaders:
         - fabric
 - id: fabric-language-kotlin
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - library
     - api
@@ -168,7 +168,7 @@
       loaders:
         - fabric
 - id: sodium-extra
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - cursed
     - miscellaneous
@@ -187,7 +187,7 @@
       loader:
         - fabric
 - id: lambdynlights
-  alterntiveNames:
+  alternativeNames:
     - lamb-dynamic-lights
   tags:
     - adventure
@@ -200,7 +200,7 @@
       loaders:
         - fabric
 - id: logical_zoom
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - cosmetic
     - optifine-alternative
@@ -209,7 +209,7 @@
       loaders:
         - fabric
 - id: ferritecore
-  alterntiveNames:
+  alternativeNames:
   tags:
     - utility
     - miscellaneous
@@ -220,7 +220,7 @@
         - fabric
         - forge
 - id: starlight
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - miscellaneous
     - performance
@@ -230,8 +230,21 @@
       loaders:
         - fabric
         - forge
+- id: continuity
+  alternativeNames: ~
+  tags:
+    - utility
+    - decoration
+    - miscellaneous
+    - cosmetic
+    - library
+    - api
+  packageIds:
+    - packageId: PepperCode1.continuity
+      loaders:
+        - fabric
 - id: dashloader
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - utility
     - library
@@ -242,7 +255,7 @@
       loaders:
         - fabric
 - id: modget
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - utility
   packageIds:
@@ -259,6 +272,7 @@
     - packageId: shedaniel.cloth-config2
       loader:
         - fabric
+        - forge
 - id: citresewn
   alternativeNames: ~
   tags:
@@ -271,7 +285,7 @@
       loaders:
         - fabric
 - id: discerning_furnace
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - technology
     - utility
@@ -290,7 +304,7 @@
       loaders:
         - fabric
 - id: modmenu
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - utility
     - miscellaneous
@@ -299,7 +313,7 @@
       loaders:
         - fabric
 - id: krypton
-  alterntiveNames: ~
+  alternativeNames: ~
     - krypton
   tags:
     - utility
@@ -310,7 +324,7 @@
       loaders:
         - fabric
 - id: lazydfu
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - utility
     - miscellaneous
@@ -320,7 +334,7 @@
       loaders:
         - fabric
 - id: smoothboot
-  alterntiveNames: ~
+  alternativeNames: ~
   tags:
     - utility
     - miscellaneous
