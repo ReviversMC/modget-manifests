@@ -181,6 +181,19 @@
     - packageId: FlashyReese.sodium-extra
       loaders:
         - fabric
+- id: canvas
+  alternativeNames:
+    - canvas-renderer
+  tags:
+    - utility
+    - library
+    - miscellaneous
+    - api
+    - cosmetic
+  packageIds:
+    - packageId: Grondag.canvas
+      loaders:
+        - fabric
 - id: colormatic
   alternativeNames: ~
   tags:

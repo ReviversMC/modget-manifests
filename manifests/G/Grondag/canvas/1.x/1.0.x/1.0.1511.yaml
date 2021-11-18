@@ -1,0 +1,36 @@
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.16.5
+    - 1.16.4
+    - 1.16.3
+    - 1.16.2
+    - 1.16.1
+    - 1.16
+  environment:
+    server: unsupported
+    client: required
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: CaffeineMC.sodium
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: 318440
+  license: LGPL-3
+  fileType: jar
+  md5: a6df29b1ffa061083c6240a688234e4b
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/files/3324572
+    sourceControl: https://github.com/vram-guild/canvas/releases/tag/mc116-one-1.0.1511-unstable
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/download/3324572/file
+    sourceControl: https://github.com/vram-guild/canvas/releases/download/mc116-one-1.0.1511-unstable/canvas-mc116-1.0.1511.jar
+    others: ~

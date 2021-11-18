@@ -1,0 +1,23 @@
+manifestSpecVersion: 4
+publisher: Grondag
+iconUrls:
+  - https://cdn.modrinth.com/data/VOYxIjFI/icon.jpg
+  - https://media.forgecdn.net/avatars/thumbnails/197/845/64/64/636895665884150904.png
+status: active
+updatedAlternatives: ~
+name: Canvas Renderer
+description: Minecraft Renderer for Fabric supporting the FREX API
+authors:
+  - name: Grondag
+home: https://minecraft.curseforge.com/projects/canvas-renderer
+source: https://github.com/vram-guild/canvas
+issues: https://github.com/vram-guild/canvas/issues
+support: https://discord.com/invite/7NaqR2e
+wiki: https://github.com/vram-guild/canvas/wiki
+chats:
+  discord: https://discord.com/invite/7NaqR2e
+  irc: ~
+  others: ~
+versions:
+  - version: 1.0.2202
+  - version: 1.0.1511
