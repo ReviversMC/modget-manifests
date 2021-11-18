@@ -261,6 +261,16 @@
     - packageId: ReviversMC.modget
       loaders:
         - fabric
+- id: cloth-config2
+  alternativeNames:
+    - Cloth Config
+  tags:
+    - library
+    - api
+  packageIds:
+    - packageId: shedaniel.cloth-config2
+      loader:
+        - fabric
 - id: citresewn
   alternativeNames: ~
   tags:
