@@ -20,5 +20,5 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 1.0.3+MC1.17-1.17.1
-  - version: 1.0.1+MC1.16.1-1.16.5
+  - version: 1.0.3
+  - version: 1.0.1

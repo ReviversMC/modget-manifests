@@ -23,6 +23,7 @@
 		"Gitter",
 		"intercompatibility",
 		"jackassmc",
+		"lambdabettergrass",
 		"LambdAurora",
 		"lambdynamiclights",
 		"lambdynlights",
@@ -42,6 +43,7 @@
 		"NebelNidas",
 		"Nikky",
 		"okzoomer",
+		"opti",
 		"optifabric",
 		"optifine",
 		"recipecache",
@@ -62,5 +64,6 @@
 		"worldgen",
 		"xradiation",
 		"Zundrel"
-	]
+	],
+	"editor.bracketPairColorization.enabled": true
 }

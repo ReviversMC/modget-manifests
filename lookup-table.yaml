@@ -20,7 +20,8 @@
       loaders:
         - fabric
 - id: recipecache
-  alternativeNames: ~
+  alternativeNames:
+    - recipe-cache
   tags:
     - utility
     - performance
@@ -40,7 +41,8 @@
       loaders:
         - fabric
 - id: fabricsit
-  alternativeNames: ~
+  alternativeNames:
+    - fabric-sit
   tags:
     - utility
     - miscellaneous
@@ -50,7 +52,7 @@
       loaders:
         - fabric
 - id: hydrogen
-  alterntiveNames: ~
+  alternativeNames:
     - hydrogen-fabric
   tags:
     - utility
@@ -97,7 +99,8 @@
       loaders:
         - fabric
 - id: optifabric
-  alternativeNames: ~
+  alternativeNames:
+    - opti-fabric
   tags:
     - api
     - library
@@ -107,7 +110,8 @@
       loaders:
         - fabric
 - id: fabriccrossdimtpfix
-  alterntiveNames: ~
+  alternativeNames:
+    - fabric-cross-dimension-teleportation-fix
   tags:
     - miscellaneous
   packageIds:
@@ -139,7 +143,8 @@
       loader:
         - fabric
 - id: okzoomer
-  alternativeNames: ~
+  alternativeNames:
+    - ok-zoomer
   tags:
     - utility
     - miscellaneous
@@ -186,8 +191,22 @@
     - packageId: kvverti.colormatic
       loader:
         - fabric
+- id: lambdabettergrass
+  alternativeNames:
+    - lambda-better-grass
+  tags:
+    - decoration
+    - cosmetic
+    - adventure
+    - rpg
+    - vanilla-plus
+  packages:
+    - packageId: LambdAurora.lambdabettergrass
+      loaders:
+        - fabric
 - id: lambdynlights
   alternativeNames:
+    - lamb-dyn-lights
     - lamb-dynamic-lights
   tags:
     - adventure
@@ -200,7 +219,8 @@
       loaders:
         - fabric
 - id: logical_zoom
-  alternativeNames: ~
+  alternativeNames:
+    - logical-zoom
   tags:
     - cosmetic
     - optifine-alternative
@@ -210,6 +230,7 @@
         - fabric
 - id: ferritecore
   alternativeNames:
+    - ferrite-core
   tags:
     - utility
     - miscellaneous
@@ -285,7 +306,8 @@
       loaders:
         - fabric
 - id: discerning_furnace
-  alternativeNames: ~
+  alternativeNames:
+    - discerning-furnace
   tags:
     - technology
     - utility
@@ -304,7 +326,8 @@
       loaders:
         - fabric
 - id: modmenu
-  alternativeNames: ~
+  alternativeNames:
+    - mod-menu
   tags:
     - utility
     - miscellaneous
@@ -314,7 +337,6 @@
         - fabric
 - id: krypton
   alternativeNames: ~
-    - krypton
   tags:
     - utility
     - miscellaneous
@@ -324,7 +346,8 @@
       loaders:
         - fabric
 - id: lazydfu
-  alternativeNames: ~
+  alternativeNames:
+    - lazy-dfu
   tags:
     - utility
     - miscellaneous
@@ -334,7 +357,8 @@
       loaders:
         - fabric
 - id: smoothboot
-  alternativeNames: ~
+  alternativeNames:
+    - smooth-boot
   tags:
     - utility
     - miscellaneous

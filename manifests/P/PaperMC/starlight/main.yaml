@@ -22,6 +22,6 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 1.0.0+fabric.73f6d37
-  - version: 1.0.0+forge.5d16647
-  - version: 1.0.0-RC2+82ae5ca
+  - version: 1.0.0
+  - version: 1.0.0
+  - version: 1.0.0-RC2
