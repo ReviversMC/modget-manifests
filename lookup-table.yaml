@@ -275,6 +275,15 @@
     - packageId: QuantumFusion.dashloader
       loaders:
         - fabric
+- id: fabrishot
+  alternativeNames: ~
+  tags:
+    - utility
+    - miscellaneous
+  packageIds:
+    packageId: ramidzkh.fabrishot
+    loaders:
+      - fabric
 - id: modget
   alternativeNames: ~
   tags:
