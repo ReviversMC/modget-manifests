@@ -1,0 +1,40 @@
+- loaders:
+    - fabric
+  minecraftVersions:
+    - 1.16.5
+    - 1.16.4
+    - 1.16.3
+    - 1.16.2
+    - 1.16.1
+    - 1.16
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: ">=0.3.0"
+  bundles: ~
+  breaks:
+    - packageId: chocohead.optifabric
+      version: "*"
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: ">=1.12.0"
+  thirdPartyIds:
+    modrinth: V4IQxkZC
+    curseforge: 325092
+  license: LGPL-3
+  fileType: jar
+  md5: d9f56a4c41f67b3c59aa78bcaf589db1
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/colormatic/files/3356722
+    sourceControl: https://github.com/kvverti/colormatic/releases/tag/2.2.9
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/colormatic/download/3356722/file
+    sourceControl: https://github.com/kvverti/colormatic/releases/download/2.2.9/colormatic-2.2.9+mc.1.16.5.jar
+    others: ~

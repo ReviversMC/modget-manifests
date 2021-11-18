@@ -192,6 +192,16 @@
     - packageId: FlashyReese.sodium-extra
       loaders:
         - fabric
+- id: colormatic
+  alternativeNames: ~
+  tags:
+    - cosmetic
+    - decoration
+    - utility
+  packageIds:
+    - packageId: kvverti.colormatic
+      loader:
+        - fabric
 - id: lambdynlights
   names:
     - lambdynlights
