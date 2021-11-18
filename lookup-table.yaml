@@ -194,6 +194,15 @@
     - packageId: Grondag.canvas
       loaders:
         - fabric
+- id: dynamicfps
+  alternativeNames: ~
+  tags:
+    - utility
+    - miscellaneous
+  packageIds:
+    - packageId: juliand665.dynamicfps
+      loaders:
+        - fabric
 - id: colormatic
   alternativeNames: ~
   tags:
