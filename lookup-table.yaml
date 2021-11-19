@@ -396,6 +396,19 @@
     - packageId: TeamMidnightDust.cullleaves
       loaders:
         - fabric
+- id: customsplashscreen
+  alternativeNames:
+    - Custom-Splash-Screen
+  tags:
+    - utility
+    - decoration
+    - miscellaneous
+    - cosmetic
+    - optifine-alternative
+  packageIds:
+    - packageId: shedaniel.customsplashscreen
+      loaders:
+        fabric
 - id: modmenu
   alternativeNames:
     - mod-menu

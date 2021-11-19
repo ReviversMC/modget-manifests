@@ -1,0 +1,26 @@
+manifestSpecVersion: 4
+publisher: TeamMidnightDust
+id: customsplashscreen
+iconUrls:
+  - https://cdn.modrinth.com/data/BwFQLeCh/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/334/155/64/64/637467678574554891.png
+status: active
+updatedAlternatives: ~
+name: Custom Splash Screen
+description: Change minecraft's loading screen to your liking! Completely configurable!
+authors:
+  - name: Motschen
+  - name: TeamMidnightDust
+  - name: HypherionSA
+home: https://www.midnightdust.eu/
+source: https://github.com/TeamMidnightDust/CustomSplashScreen
+issues: https://github.com/TeamMidnightDust/CustomSplashScreen/issues
+support: https://discord.gg/jAGnWYHm3r
+wiki: https://github.com/TeamMidnightDust/CustomSplashScreen/wiki
+chats:
+  discord: https://discord.gg/jAGnWYHm3r
+  irc: ~
+  other: ~
+versions:
+  - 1.1.0
+  - 1.0.0
