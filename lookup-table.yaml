@@ -343,6 +343,17 @@
     - packageId: ReviversMC.modget
       loaders:
         - fabric
+- id: autoconfig1u
+  alternativeNames:
+    - auto-config
+    - auto-config-api
+  tags:
+    - library
+    - api
+  packageIds:
+    - packageId: shedaniel.autoconfig1u
+      loaders:
+        - fabric
 - id: cloth-config2
   alternativeNames:
     - Cloth Config
