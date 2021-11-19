@@ -11,7 +11,7 @@
   channel: release
   depends:
     - packageId: FabricMC.fabric
-    - version: ">=0.29.4"
+      version: ">=0.29.4"
   bundles: ~
   breaks:
     - packageId: Chocohead.optifabric
