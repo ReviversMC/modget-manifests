@@ -4,7 +4,7 @@ id: raisedclouds
 iconUrls:
   - https://cdn.modrinth.com/data/PRN43VSY/icon.png
   - https://media.forgecdn.net/avatars/thumbnails/439/740/64/64/637687343272147005.png
-status: abandoned
+status: unknown
 updatedAlternatives:
   - packageId: misterslime.fabulousclouds
     version: "0.2.3"
