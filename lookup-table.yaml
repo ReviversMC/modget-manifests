@@ -262,6 +262,15 @@
       loaders:
         - fabric
         - forge
+- id: fabulousclouds
+  alternativeNames:
+    - fabulous-clouds
+  tags:
+    - cosmetic
+    - miscellaneous
+  - packageId: misterslime.fabulousclouds
+    loaders:
+      - fabric
 - id: connected_block_textures
   alternativeNames:
     - cbt
