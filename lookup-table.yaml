@@ -216,6 +216,16 @@
     - packageId: Grondag.canvas
       loaders:
         - fabric
+- id: raisedclouds
+  alternativeNames:
+    - raised-clouds
+  tags:
+    - cosmetic
+    - optifine-alternative
+  packageIds:
+    - packageId: haykam.raisedclouds
+      loaders:
+        - fabric
 - id: dynamicfps
   alternativeNames: ~
   tags:
