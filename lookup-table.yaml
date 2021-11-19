@@ -1,3 +1,14 @@
+- id: fabricskyboxes
+  alternativeNames:
+    - fabric-skyboxes
+  tags:
+    - cosmetic
+    - utility
+    - miscellaneous
+  packageIds:
+    - packageId: AMereBagatelle.fabricskyboxes
+      loaders:
+        - fabric
 - id: architectury
   alternativeNames:
     - architectury-api

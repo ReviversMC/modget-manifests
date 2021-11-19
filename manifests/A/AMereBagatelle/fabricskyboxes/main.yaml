@@ -1,0 +1,23 @@
+manifestSpecVersion: 4
+publisher: AMereBagatelle
+iconUrls:
+  - https://cdn.modrinth.com/data/YBz7DOs8/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/300/360/64/64/637357278762496871.png
+status: active
+updatedAlternatives: ~
+name: Fabric Skyboxes
+description: Adds custom skybox support to MC
+authors:
+  - name: AMereBagatelle
+home: https://modrinth.com/mod/fabricskyboxes
+source: https://github.com/AMereBagatelle/fabricskyboxes
+issues: https://github.com/AMereBagatelle/fabricskyboxes/issues
+support: https://discord.gg/quvzkaV
+wiki: https://github.com/AMereBagatelle/fabricskyboxes/tree/1.17.x-dev/docs
+chats:
+  discord: https://discord.gg/quvzkaV
+  irc: ~
+  others: ~
+versions:
+  - version: 0.5.3
+  - version: 0.5.0
