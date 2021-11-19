@@ -20,7 +20,7 @@
   breaks: ~
   conflicts: ~
   recommends:
-    - packageId: arthurbambou.server_translations
+    - packageId: CatCore.server_translations
       version: "*"
   thirdPartyIds:
     modrinth: 2NpFE0R3
