@@ -9,7 +9,7 @@ updatedAlternatives: ~
 name: LambDynamicLights
 description: Adds dynamic lights to the game.
 authors:
-  - name: 
+  - name: LambdAurora
 home: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights
 source: https://github.com/LambdAurora/LambDynamicLights
 issues: https://github.com/LambdAurora/LambDynamicLights/issues
@@ -17,7 +17,7 @@ support: https://discord.gg/abEbzzv
 wiki: ~
 chats:
   discord: https://discord.gg/abEbzzv
-  irc:
+  irc: ~
   others: ~
 versions:
   - version: 2.0.2
