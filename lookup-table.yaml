@@ -191,6 +191,18 @@
     - packageId: FlashyReese.sodium-extra
       loaders:
         - fabric
+- id: animatica
+  alternativeNames: ~
+  tags:
+    - utility
+    - decoration
+    - miscellaneous
+    - cosmetic
+    - optifine-alternative
+  packageIds:
+    - packageId: FoundationGames.animatica
+      loaders:
+        - fabric
 - id: canvas
   alternativeNames:
     - canvas-renderer

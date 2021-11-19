@@ -1,0 +1,23 @@
+manifestSpecVersion: 4
+publisher: FoundationGames
+id: animatica
+iconUrls:
+  - https://cdn.modrinth.com/data/PRN43VSY/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/439/740/64/64/637687343272147005.png
+status: active
+updatedAlternatives: ~
+name: Animatica
+description: Allow for animating more game textures using the MCPatcher/OptiFine animation format
+authors:
+  - name: FoundationGames
+home: https://github.com/FoundationGames/Animatica
+source: https://github.com/FoundationGames/Animatica
+issues: https://github.com/FoundationGames/Animatica/issues
+support: https://discord.gg/7Aw3y4RtY9
+wiki: ~
+chats:
+  discord: https://discord.gg/7Aw3y4RtY9
+  irc: ~
+  other: ~
+versions:
+  - 0.1
