@@ -141,6 +141,15 @@
     - packageId: digifox03.varied-mobs
       loaders:
         - fabric
+- id: soaring-clouds
+  alternativeNames: ~
+  tags:
+    - cosmetic
+    - miscellaneous
+  packageIds:
+    - packageId: Draylar.soaring-clouds
+      loaders:
+        - fabric
 - id: chime
   alternativeNames: ~
   tags:
