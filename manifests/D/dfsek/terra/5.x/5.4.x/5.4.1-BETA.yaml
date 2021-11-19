@@ -3,7 +3,6 @@
   minecraftVersions:
     - 1.17
     - 1.17.1
-    # 1.17.x in fabric.mod.json
   environment:
     server: required
     client: optional
