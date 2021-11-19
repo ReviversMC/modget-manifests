@@ -131,6 +131,16 @@
     - packageId: dfsek.terra
       loaders:
         - fabric
+- id: varied-mobs
+  alternativeNames:
+    - Varied-Mob-Textures
+  tags:
+    - mobs
+    - optifine-alternative
+  packageIds:
+    - packageId: digifox03.varied-mobs
+      loaders:
+        - fabric
 - id: chime
   alternativeNames: ~
   tags:

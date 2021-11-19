@@ -1,0 +1,21 @@
+manifestSpecVersion: 4
+publisher: digifox03
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/290/612/64/64/637319307936816790.png
+status: unknown
+updatedAlternatives: ~
+name: Varied Mob Textures
+description: allows resource packs to have randomly selected multiple textures for mobs
+authors:
+  - name: digifox03
+home: https://www.curseforge.com/minecraft/mc-mods/varied-mob-textures
+source: https://github.com/Digifox03/variedMobs
+issues: https://github.com/Digifox03/variedMobs/issues
+support: https://discord.gg/pZZ5ubrwQK
+wiki: https://github.com/Digifox03/variedMobs/wiki
+chats:
+  discord: https://discord.gg/pZZ5ubrwQK
+  irc: ~
+  others: ~
+versions:
+  - version: 1.0
