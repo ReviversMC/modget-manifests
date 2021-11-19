@@ -323,6 +323,15 @@
   - packageId: misterslime.fabulousclouds
     loaders:
       - fabric
+- id: dark-loading-screen
+  alternativeNames: ~
+  tags:
+    - vanilla-plus
+    - cosmetic
+  packageIds:
+    - packageId: Neecko5b84.dark-loading-screen
+      loaders:
+        - fabric
 - id: connected_block_textures
   alternativeNames:
     - cbt
