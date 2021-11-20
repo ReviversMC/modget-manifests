@@ -1,7 +1,7 @@
 {
 	"recommendations": [
-		"nathanridley.autotrim",
-		"streetsidesoftware.code-spell-checker",
-		"yzhang.markdown-all-in-one"
-	]
+        "editorconfig.editorconfig",
+        "streetsidesoftware.code-spell-checker",
+        "yzhang.markdown-all-in-one"
+    ]
 }
