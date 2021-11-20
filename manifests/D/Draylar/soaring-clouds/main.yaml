@@ -6,7 +6,6 @@ iconUrls:
 status: unknown
 updatedAlternatives:
   - packageId: misterslime.fabulousclouds
-    version: "0.2.3"
 name: Soaring Clouds
 description: Allows you to configure the height of clouds in the world.
 authors:
