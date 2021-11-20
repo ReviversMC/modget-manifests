@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/lookup-table.json
 - id: fabricskyboxes
   alternativeNames:
     - fabric-skyboxes
@@ -403,9 +404,9 @@
     - utility
     - miscellaneous
   packages:
-    packageId: ramidzkh.fabrishot
-    loaders:
-      - fabric
+    - packageId: ramidzkh.fabrishot
+      loaders:
+        - fabric
 - id: modget
   alternativeNames: ~
   tags:
@@ -481,7 +482,7 @@
   packages:
     - packageId: shedaniel.customsplashscreen
       loaders:
-        fabric
+        - fabric
 - id: modmenu
   alternativeNames:
     - mod-menu
