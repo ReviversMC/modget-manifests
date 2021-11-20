@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
 - loaders:
     - fabric
   minecraftVersions:
@@ -27,6 +29,7 @@
     curseforge: https://www.curseforge.com/minecraft/mc-mods/recipe-cache/download/3369522/file
     sourceControl: ~
     others: ~
+
 - loaders:
     - fabric
   minecraftVersions:
