@@ -53,11 +53,11 @@
               "type": "string",
               "title": "The package id (`publisher.modid`)",
               "description": "ASCII (without periods and non-URL characters) representation of the publisher and mod ID, separated by a period.",
+              "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$",
               "examples": [
                 "CaffeineMC.sodium",
                 "malte0811.ferritecore"
-              ],
-              "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$"
+              ]
             },
             "loaders": {
               "type": "array",
