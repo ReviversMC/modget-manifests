@@ -8,7 +8,6 @@
     client: required
   channel: release
   depends: ~
-
   bundles: ~
   breaks: ~
   conflicts: ~
