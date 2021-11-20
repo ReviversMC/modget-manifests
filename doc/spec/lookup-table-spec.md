@@ -41,7 +41,7 @@ The only exceptions are the modid, if it contains these special characters (whic
     - miscellaneous
     - information
 
-  # All packages which have the aforementioned id
+  # All packages which have the aforementioned modid
   packages:
     # The package id, so `publisher.modid`
     # (both formatted to contain no periods, spaces or non-ASCII characters)
