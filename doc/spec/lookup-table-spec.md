@@ -67,7 +67,7 @@ The only exceptions are the modid, if it contains these special characters (whic
 
 
 ## Best Practices
-The package identifier (`Publisher.ModID`) must be unique (see the [manifest spec](./manifest-spec.md)). Only one pull request per package is allowed.
+The package identifier (`publisher.modid`) must be unique (see the [manifest spec](./manifest-spec.md)). Only one pull request per package is allowed.
 
 **Apart from packageIds, all values have to be lower case!**
 
