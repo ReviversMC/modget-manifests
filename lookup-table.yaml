@@ -144,12 +144,12 @@
         - fabric
 - id: varied-mobs
   alternativeNames:
-    - Varied-Mob-Textures
+    - varied-mob-textures
   tags:
     - mobs
     - optifine-alternative
   packageIds:
-    - packageId: digifox03.varied-mobs
+    - packageId: Digifox03.varied-mobs
       loaders:
         - fabric
 - id: soaring-clouds
@@ -170,7 +170,7 @@
     - miscellaneous
   packageIds:
     - packageId: EmilyPloszaj.chime
-      loader:
+      loaders:
         - fabric
 - id: okzoomer
   alternativeNames:
@@ -233,7 +233,7 @@
     - api
     - cosmetic
   packageIds:
-    - packageId: Grondag.canvas
+    - packageId: vram-guild.canvas
       loaders:
         - fabric
 - id: raisedclouds
@@ -247,7 +247,8 @@
       loaders:
         - fabric
 - id: dynamicfps
-  alternativeNames: ~
+  alternativeNames:
+    - dynamic-fps
   tags:
     - utility
     - miscellaneous
@@ -263,7 +264,7 @@
     - utility
   packageIds:
     - packageId: kvverti.colormatic
-      loader:
+      loaders:
         - fabric
 - id: lambdabettergrass
   alternativeNames:
@@ -329,9 +330,10 @@
   tags:
     - cosmetic
     - miscellaneous
-  - packageId: misterslime.fabulousclouds
-    loaders:
-      - fabric
+  packageIds:
+    - packageId: misterslime.fabulousclouds
+      loaders:
+        - fabric
 - id: dark-loading-screen
   alternativeNames: ~
   tags:
@@ -344,6 +346,7 @@
 - id: connected_block_textures
   alternativeNames:
     - cbt
+    - connected-block-textures
   tags:
     - cosmetic
     - optifine-alternative
@@ -416,13 +419,13 @@
         - fabric
 - id: cloth-config2
   alternativeNames:
-    - Cloth Config
+    - cloth-config
   tags:
     - library
     - api
   packageIds:
     - packageId: shedaniel.cloth-config2
-      loader:
+      loaders:
         - fabric
         - forge
 - id: citresewn
@@ -458,7 +461,7 @@
         - fabric
 - id: customsplashscreen
   alternativeNames:
-    - Custom-Splash-Screen
+    - custom-splash-screen
   tags:
     - utility
     - decoration
