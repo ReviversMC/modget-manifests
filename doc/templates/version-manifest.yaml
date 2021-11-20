@@ -1,0 +1,41 @@
+- loaders:
+    -
+  minecraftVersions:
+    -
+  environment:
+    server:
+    client:
+  channel:
+  depends:
+    - packageId:
+      version:
+  bundles:
+    - packageId:
+      version:
+  breaks:
+    - packageId:
+      version:
+    - packageId:
+      version:
+  conflicts:
+  recommends:
+    - packageId:
+      version:
+  thirdPartyIds:
+    modrinth:
+    curseforge:
+  license:
+  fileType:
+  md5:
+  downloadPageUrls:
+    modrinth:
+    curseforge:
+    sourceControl:
+    others:
+  fileUrls:
+    modrinth:
+    curseforge:
+    sourceControl:
+    others:
+      - name:
+        url:

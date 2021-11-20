@@ -85,7 +85,7 @@ home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/sodium-fabric
 issues: https://github.com/CaffeineMC/sodium-fabric/issues
 
-# On official place where users can get support from the developers
+# An official place where users can get support from the developers
 support: https://jellysquid.me/discord
 
 # Link to an *official* wiki, no third-party one
