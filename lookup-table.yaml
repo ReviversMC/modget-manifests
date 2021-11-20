@@ -5,6 +5,7 @@
     - cosmetic
     - utility
     - miscellaneous
+    - optifine-alternative
   packages:
     - packageId: AMereBagatelle.fabricskyboxes
       loaders:
@@ -157,6 +158,7 @@
   tags:
     - cosmetic
     - miscellaneous
+    - optifine-alternative
   packages:
     - packageId: Draylar.soaring-clouds
       loaders:
@@ -168,6 +170,7 @@
     - api
     - utility
     - miscellaneous
+    - optifine-alternative
   packages:
     - packageId: EmilyPloszaj.chime
       loaders:
@@ -232,6 +235,7 @@
     - miscellaneous
     - api
     - cosmetic
+    - optifine-alternative
   packages:
     - packageId: vram-guild.canvas
       loaders:
@@ -275,6 +279,7 @@
     - adventure
     - rpg
     - vanilla-plus
+    - optifine-alternative
   packages:
     - packageId: LambdAurora.lambdabettergrass
       loaders:
@@ -330,6 +335,7 @@
   tags:
     - cosmetic
     - miscellaneous
+    - optifine-alternative
   packages:
     - packageId: misterslime.fabulousclouds
       loaders:
@@ -339,6 +345,7 @@
   tags:
     - vanilla-plus
     - cosmetic
+    - optifine-alternative
   packages:
     - packageId: Neecko5b84.dark-loading-screen
       loaders:
@@ -374,6 +381,7 @@
     - cosmetic
     - library
     - api
+    - optifine-alternative
   packages:
     - packageId: PepperCode1.continuity
       loaders:
@@ -435,6 +443,7 @@
     - information
     - miscellaneous
     - utility
+    - optifine-alternative
   packages:
     - packageId: SHsuperCM.citresewn
       loaders:
@@ -455,6 +464,7 @@
   tags:
     - miscellaneous
     - cosmetic
+    - optifine-alternative
   packages:
     - packageId: TeamMidnightDust.cullleaves
       loaders:
