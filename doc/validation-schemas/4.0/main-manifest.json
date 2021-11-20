@@ -5,8 +5,8 @@
   "type": "object",
   "properties": {
     "manifestSpecVersion": {
-      "type": "number",
-      "const": 4.0,
+      "type": "string",
+      "const": "4.0",
       "pattern": "^[0-9]+\\.[0-9]+",
       "title": "Current manifest specification"
     },
