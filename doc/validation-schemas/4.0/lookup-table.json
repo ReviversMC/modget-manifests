@@ -26,7 +26,8 @@
             "sodium-fabric",
             "fabric-discord-link"
           ]
-        }
+        },
+        "uniqueItems": true
       },
       "tags": {
         "type": "array",
@@ -39,7 +40,8 @@
           "utility",
           "information",
           "performance"
-        ]
+        ],
+        "uniqueItems": true
       },
       "packages": {
         "type": "array",
@@ -75,15 +77,17 @@
             "loaders"
           ],
           "additionalProperties": false
-        }
+        },
+        "uniqueItems": true
       }
-    }
+    },
+    "required": [
+      "id",
+      "alternativeNames",
+      "tags",
+      "packages"
+    ],
+    "additionalProperties": false
   },
-  "required": [
-    "id",
-    "alternativeNames",
-    "tags",
-    "packages"
-  ],
-  "additionalProperties": false
+  "uniqueItems": true
 }
