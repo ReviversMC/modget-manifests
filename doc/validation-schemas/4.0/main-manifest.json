@@ -7,7 +7,7 @@
     "manifestSpecVersion": {
       "type": "string",
       "const": "4.0",
-      "pattern": "^[0-9]+\\.[0-9]+",
+      "pattern": "^([0-9]+\\.[0-9]+)$",
       "title": "Current manifest specification"
     },
     "publisher": {
@@ -26,7 +26,7 @@
         "type": "string",
         "format": "iri",
         "examples": ["https://cdn.modrinth.com/data/AANobbMI/icon.png"],
-        "pattern": "^http(s)?:\\\/\\\/([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+\\.([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+$"
+        "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
       },
       "uniqueItems": true
     },
@@ -54,7 +54,7 @@
               "CaffeineMC.sodium",
               "malte0811.ferritecore"
             ],
-            "pattern": "^([!#$&-;=?-_1-9a-zA-Z~]|[\\[\\]]\\.([!#$&-;=?-_1-9a-zA-Z~]|[\\[\\]]$"
+            "pattern": "^(([-_1-9a-zA-Z]+)\\.([-_1-9a-zA-Z]+))$"
           }
         },
         "required": [
@@ -101,31 +101,31 @@
       "type": ["string", "null"],
       "format": "iri",
       "description": "Homepage listed in fabric.mod.json",
-      "pattern": "^http(s)?:\\\/\\\/([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+\\.([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+$"
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
     },
     "source": {
       "type": ["string", "null"],
       "format": "iri",
       "description": "Website containing the source code listed in fabric.mod.json",
-      "pattern": "^http(s)?:\\\/\\\/([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+\\.([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+$"
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
     },
     "issues": {
       "type": ["string", "null"],
       "format": "iri",
       "description": "Issues page of the project listed in fabric.mod.json",
-      "pattern": "^http(s)?:\\\/\\\/([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+\\.([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+$"
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
     },
     "support": {
       "type": ["string", "null"],
       "format": "iri",
       "description": "An official website where users can get support from the developers",
-      "pattern": "^http(s)?:\\\/\\\/([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+\\.([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+$"
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
     },
     "wiki": {
       "type": ["string", "null"],
       "format": "iri",
       "description": "Link to an official wiki (no third-party one!)",
-      "pattern": "^http(s)?:\\\/\\\/([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+\\.([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+$"
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
     },
     "chats": {
       "type": ["object", "null"],
@@ -134,12 +134,12 @@
         "discord": {
           "type": ["string", "null"],
           "format": "iri",
-          "pattern": "^http(s)?:\\\/\\\/([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+\\.([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+$"
+          "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
         },
         "irc": {
           "type": ["string", "null"],
           "format": "iri",
-          "pattern": "^irc://([!#$&-;=?-[]_a-z~]|%[0-9a-fA-F]{2})+\\.([!#$&-;=?-[]_a-z~]|%[0-9a-fA-F]{2})+$"
+          "pattern": "^(irc:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
         },
         "others": {
           "type": ["array", "null"],
@@ -152,7 +152,7 @@
               "url": {
                 "type": "string",
                 "format": "iri",
-                "pattern": "^http(s)?:\\\/\\\/([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+\\.([!#$&-;=?-_a-z~]|[\\[\\]]|%[0-9a-fA-F]{2})+$"
+                "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
               }
             },
             "required": [
