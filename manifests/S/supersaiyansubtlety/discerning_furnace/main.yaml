@@ -1,4 +1,6 @@
-manifestSpecVersion: 4.0
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
 publisher: supersaiyansubtlety
 iconUrls:
   - https://cdn.modrinth.com/data/G3Nz6HN4/icon.png
@@ -20,5 +22,5 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 1.0.3
-  - version: 1.0.1
+  - version: "1.0.3"
+  - version: "1.0.1"

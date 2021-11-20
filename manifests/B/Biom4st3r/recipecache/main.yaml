@@ -1,4 +1,6 @@
-manifestSpecVersion: 4.0
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
 publisher: Biom4st3r
 iconUrls:
   - https://media.forgecdn.net/avatars/372/542/637543695507572259.png
@@ -18,6 +20,6 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 0.2.1
-  - version: 0.2.0
-  - version: 0.1.0
+  - version: "0.2.1"
+  - version: "0.2.0"
+  - version: "0.1.0"

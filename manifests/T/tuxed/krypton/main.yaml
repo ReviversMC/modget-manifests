@@ -1,4 +1,6 @@
-manifestSpecVersion: 4.0
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
 publisher: tuxed
 iconUrls:
   - https://cdn.modrinth.com/data/fQEb0iXm/icon.png
@@ -20,4 +22,4 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 0.1.4
+  - version: "0.1.4"

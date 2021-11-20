@@ -1,14 +1,14 @@
 - loader:
     - fabric
   minecraftVersions:
-    - 1.17.1
-    - 1.17
-    - 1.16.5
-    - 1.16.4
-    - 1.16.3
-    - 1.16.2
-    - 1.16.1
-    - 1.16
+    - "1.17.1"
+    - "1.17"
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
   environment:
     server: optional
     client: optional
@@ -23,8 +23,8 @@
     - packageId: CatCore.server_translations
       version: "*"
   thirdPartyIds:
-    modrinth: 2NpFE0R3
-    curseforge: 533960
+    modrinth: "2NpFE0R3"
+    curseforge: "533960"
   license: LGPL-3.0-or-later
   fileType: jar
   md5: 932ae8df04e6e0b35669ae6fdc920b97

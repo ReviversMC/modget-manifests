@@ -1,12 +1,12 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.16.5
-    - 1.16.4
-    - 1.16.3
-    - 1.16.2
-    - 1.16.1
-    - 1.16
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
   environment:
     server: optional
     client: optional
@@ -18,7 +18,7 @@
   recommends: ~
   thirdPartyIds:
     modrinth: ~
-    curseforge: 372124
+    curseforge: "372124"
   license: LGPL-3.0-only
   fileType: jar
   md5: 6cbb3fbbebfa3c2db20c9363b8ffd7e8
@@ -35,9 +35,9 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.15.2
-    - 1.15.1
-    - 1.15
+    - "1.15.2"
+    - "1.15.1"
+    - "1.15"
   environment:
     server: optional
     client: optional
@@ -49,7 +49,7 @@
   recommends: ~
   thirdPartyIds:
     modrinth: ~
-    curseforge: 372124
+    curseforge: "372124"
   license: LGPL-3.0-only
   fileType: jar
   md5: a0326ecd88ec0cd7e5dad803e0080f82

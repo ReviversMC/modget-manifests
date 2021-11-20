@@ -1,13 +1,13 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.17.1
-    - 1.17
-    - 1.16.5
-    - 1.16.4
-    - 1.16.3
-    - 1.16.2
-    - 1.16.1
+    - "1.17.1"
+    - "1.17"
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
   environment:
     server: optional
     client: optional
@@ -18,8 +18,8 @@
   conflicts: ~
   recommends: ~
   thirdPartyIds:
-    modrinth: FWumhS4T
-    curseforge: 415758
+    modrinth: "FWumhS4T"
+    curseforge: "415758"
   license: MIT
   fileType: jar
   md5: da89743801b0847b0975b21c84a7d63d

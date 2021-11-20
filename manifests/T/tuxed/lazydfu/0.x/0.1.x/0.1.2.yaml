@@ -1,22 +1,22 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.17.1
-    - 1.17
-    - 1.16.5
-    - 1.16.4
-    - 1.16.3
-    - 1.16.2
-    - 1.16.1
-    - 1.16
-    - 1.15.2
-    - 1.15.1
-    - 1.15
-    - 1.14.4
-    - 1.14.3
-    - 1.14.2
-    - 1.14.1
-    - 1.14
+    - "1.17.1"
+    - "1.17"
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+    - "1.15.2"
+    - "1.15.1"
+    - "1.15"
+    - "1.14.4"
+    - "1.14.3"
+    - "1.14.2"
+    - "1.14.1"
+    - "1.14"
   environment:
     server: optional
     client: optional
@@ -27,8 +27,8 @@
   conflicts: ~
   recommends: ~
   thirdPartyIds:
-    modrinth: hvFnDODi
-    curseforge: 433518
+    modrinth: "hvFnDODi"
+    curseforge: "433518"
   license: MIT
   fileType: jar
   md5: b2597e901c05673ef2834dad32da8824

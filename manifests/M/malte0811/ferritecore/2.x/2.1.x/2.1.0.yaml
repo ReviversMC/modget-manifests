@@ -1,7 +1,7 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.16.5
+    - "1.16.5"
   environment:
     server: optional
     client: optional
@@ -12,8 +12,8 @@
   conflicts: ~
   recommends: ~
   thirdPartyIds:
-    modrinth: uXXizFIs
-    curseforge: 459857
+    modrinth: "uXXizFIs"
+    curseforge: "459857"
   license: MIT
   fileType: jar
   md5: 69f079b92f2d10e03231de9c836ccf68
@@ -30,7 +30,7 @@
 - loaders:
     - forge
   minecraftVersions:
-    - 1.16.5
+    - "1.16.5"
   environment:
     server: optional
     client: optional
@@ -42,7 +42,7 @@
   recommends: ~
   thirdPartyIds:
     modrinth: ~
-    curseforge: 429235
+    curseforge: "429235"
   license: MIT
   fileType: jar
   md5: 6b469b99aa6f89b6ebad7aefa3cb9843

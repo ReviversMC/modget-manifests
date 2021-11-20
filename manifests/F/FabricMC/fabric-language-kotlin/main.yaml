@@ -1,4 +1,6 @@
-manifestSpecVersion: 4.0
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
 publisher: FabricMC
 iconUrls:
   - https://cdn.modrinth.com/data/Ha28R6CL/icon.png
@@ -20,4 +22,4 @@ chats:
   irc: irc://irc.esper.net:6667/fabric
   others: ~
 versions:
-  - version: 1.6.4
+  - version: "1.6.4"

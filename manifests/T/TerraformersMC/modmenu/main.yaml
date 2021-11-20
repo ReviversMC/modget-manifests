@@ -1,4 +1,6 @@
-manifestSpecVersion: 4.0
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
 publisher: TerraformersMC
 iconUrls:
   - https://cdn.modrinth.com/data/mOgUt4GM/icon.png
@@ -22,5 +24,5 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 2.0.14
-  - version: 1.16.22
+  - version: "2.0.14"
+  - version: "1.16.22"

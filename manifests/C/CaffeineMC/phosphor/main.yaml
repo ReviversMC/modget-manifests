@@ -1,4 +1,6 @@
-manifestSpecVersion: 4.0
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
 publisher: CaffeineMC
 iconUrls:
   - https://cdn.modrinth.com/data/hEOCdOgW/icon.png
@@ -21,10 +23,10 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 0.7.2
-  - version: 0.7.1
-  - version: 0.7.0
-  - version: 0.6.0
-  - version: 0.5.2
-  - version: 0.5.1
-  - version: 0.5.0
+  - version: "0.7.2"
+  - version: "0.7.1"
+  - version: "0.7.0"
+  - version: "0.6.0"
+  - version: "0.5.2"
+  - version: "0.5.1"
+  - version: "0.5.0"

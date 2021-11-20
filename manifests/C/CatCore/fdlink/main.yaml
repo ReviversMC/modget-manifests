@@ -1,4 +1,6 @@
-manifestSpecVersion: 4.0
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
 publisher: CatCore
 iconUrls:
   - https://cdn.modrinth.com/data/FCmig1C9/icon.png
@@ -10,6 +12,7 @@ description: A mod to link Minecraft and Discord chats for Fabric.
 authors:
   - name: arthurbambou
   - name: AlanFoster
+home: ~
 source: https://github.com/arthurbambou/Fabric---Discord-Link
 issues: https://github.com/arthurbambou/Fabric---Discord-Link/issues
 support: https://discord.gg/xTvWwzV
@@ -19,5 +22,5 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 0.9.8
-  - version: 0.9.7
+  - version: "0.9.8"
+  - version: "0.9.7"

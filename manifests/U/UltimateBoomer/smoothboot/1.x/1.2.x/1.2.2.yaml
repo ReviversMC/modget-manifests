@@ -1,11 +1,11 @@
 - loaders:
     - forge
   minecraftVersions:
-    - 1.16.5
-    - 1.16.4
-    - 1.16.3
-    - 1.16.2
-    - 1.16.1
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
   environment:
     server: optional
     client: optional
@@ -17,7 +17,7 @@
   recommends: ~
   thirdPartyIds:
     modrinth: ~
-    curseforge: 420913
+    curseforge: "420913"
   license: MIT
   fileType: jar
   md5: 104ca76ce6b18b90fbfa4c58b3bbdfc2

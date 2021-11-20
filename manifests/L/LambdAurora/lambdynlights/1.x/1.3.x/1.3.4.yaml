@@ -1,10 +1,10 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.16.5
-    - 1.16.4
-    - 1.16.3
-    - 1.16.2
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
   environment:
     server: unsupported
     client: required
@@ -23,8 +23,8 @@
     - packageId: TerraformersMC.modmenu
       version: ">=1.14.0"
   thirdPartyIds:
-    modrinth: yBW8D80W
-    curseforge: 393442
+    modrinth: "yBW8D80W"
+    curseforge: "393442"
   license: MIT
   fileType: jar
   md5: 75ae672c5749a676f86455d2673f4147
