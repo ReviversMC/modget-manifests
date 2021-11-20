@@ -34,7 +34,12 @@
         "items": {
           "type": "string",
           "pattern": "^-|[a-z]$"
-        }
+        },
+        "examples": [
+          "utility",
+          "information",
+          "performance"
+        ]
       },
       "packages": {
         "type": "array",
