@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
-manifestSpecVersion: 4.0
+manifestSpecVersion: "4.0"
 publisher: Digifox03
 iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/290/612/64/64/637319307936816790.png
@@ -19,4 +19,4 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 1.0
+  - version: "1.0"

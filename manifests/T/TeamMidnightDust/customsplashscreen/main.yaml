@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
-manifestSpecVersion: 4.0
+manifestSpecVersion: "4.0"
 publisher: TeamMidnightDust
-id: customsplashscreen
 iconUrls:
   - https://cdn.modrinth.com/data/BwFQLeCh/icon.png
   - https://media.forgecdn.net/avatars/thumbnails/334/155/64/64/637467678574554891.png
@@ -23,5 +22,5 @@ chats:
   irc: ~
   others: ~
 versions:
-  - 1.1.0
-  - 1.0.0
+  - version: 1.1.0
+  - version: 
