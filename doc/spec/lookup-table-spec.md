@@ -29,10 +29,11 @@ The only exceptions are the modid, if it contains these special characters (whic
 - id: fdlink
 
   # The official name defined in fabric.mod.json, potentially differing
-  # Modrinth/CurseForge names and their slugs
-  names:
+  # Modrinth/CurseForge names and their slugs etc. (kebab-cased).
+  # If a lower- and kebab-cased name equals the id above, omit it!
+  # If this leads to an empty list, set `alternativeNames` to `~` or `null`.
+  alternativeNames:
     - fabric-discord-link
-    - fdlink
 
   # Take the tags from Modrinth/CurseForge
   tags:
@@ -40,7 +41,7 @@ The only exceptions are the modid, if it contains these special characters (whic
     - miscellaneous
     - information
 
-  # All packages which have the aforementioned id
+  # All packages which have the aforementioned modid
   packages:
     # The package id, so `publisher.modid`
     # (both formatted to contain no periods, spaces or non-ASCII characters)
@@ -50,7 +51,7 @@ The only exceptions are the modid, if it contains these special characters (whic
         - fabric
 
 - id: ferritecore
-  names:
+  alternativeNames:
     - ferritecore
   tags:
     - utility
@@ -66,9 +67,9 @@ The only exceptions are the modid, if it contains these special characters (whic
 
 
 ## Best Practices
-The package identifier (`Publisher.ModID`) must be unique (see the [manifest spec](./manifest-spec.md)). Only one pull request per package is allowed.
+The package identifier (`publisher.modid`) must be unique (see the [manifest spec](./manifest-spec.md)). Only one pull request per package is allowed.
 
-**Apart from packages, all values have to be lower case!**
+**Apart from packageIds, all values have to be lower case!**
 
 Names should contain the actual, lower-cased mod name (listed in the mod's `fabric.mod.json`), different variations of that and, if applicable, a differing CurseForge/Modrinth url name. If one of the aforementioned versions consists of multiple words, it must be `kebab-case`d.
 
