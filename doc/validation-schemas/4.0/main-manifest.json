@@ -1,5 +1,5 @@
 {
-  "$id": "com.github.reviversmc.modget.manifests.schemas.spec4",
+  "$id": "https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "A representation of a Modget main manifest following the v4 specification.",
   "type": "object",
