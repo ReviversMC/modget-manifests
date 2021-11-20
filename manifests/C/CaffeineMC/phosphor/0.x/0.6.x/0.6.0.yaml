@@ -14,7 +14,7 @@
   bundles: ~
   breaks:
     - packageId: PaperMC.starlight
-    version: "*"
+      version: "*"
   conflicts: ~
   recommends: ~
   thirdPartyIds:
