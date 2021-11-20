@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
 manifestSpecVersion: 4.0
 publisher: FlashyReese
 iconUrls:
