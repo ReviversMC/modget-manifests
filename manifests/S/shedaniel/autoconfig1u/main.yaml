@@ -4,7 +4,7 @@ iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/263/673/64/64/637224469254640637.png
 status: unknown
 updatedAlternatives: ~
-name: Auto Config Updated Api
+name: Auto Config v1 Updated
 description: Annotation based API for mod configs, with Cloth Config GUI integration
 authors:
   - name: sargunv
