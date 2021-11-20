@@ -7,8 +7,8 @@ updatedAlternatives: ~
 name: Auto Config Updated Api
 description: Annotation based API for mod configs, with Cloth Config GUI integration
 authors:
-  - name: shedaniel
   - name: sargunv
+  - name: shedaniel
 home: https://gitlab.com/sargunv-mc-mods/auto-config/wikis/home
 source: https://github.com/shedaniel/AutoConfig
 issues: https://github.com/shedaniel/AutoConfig/issues
