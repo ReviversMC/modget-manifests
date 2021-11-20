@@ -3,7 +3,7 @@
   tags:
     - api
     - library
-  packageIds:
+  packages:
     - packageId: architectury.architectury
       loaders:
         - fabric
@@ -14,7 +14,7 @@
     - utility
     - miscellaneous
     - information
-  packageIds:
+  packages:
     - packageId: arthurbambou.fdlink
       loaders:
         - fabric
@@ -24,7 +24,7 @@
   tags:
     - utility
     - performance
-  packageIds:
+  packages:
     - packageId: Biom4st3r.recipecache
       loaders:
         - fabric
@@ -35,7 +35,7 @@
     - library
     - miscellaneous
     - api
-  packageIds:
+  packages:
     - packageId: BradBot_1.bfapi
       loaders:
         - fabric
@@ -46,7 +46,7 @@
     - utility
     - miscellaneous
     - cosmetic
-  packageIds:
+  packages:
     - packageId: BradBot_1.fabricsit
       loaders:
         - fabric
@@ -56,7 +56,7 @@
   tags:
     - utility
     - performance
-  packageIds:
+  packages:
     - packageId: CaffeineMC.hydrogen
       loaders:
         - fabric
@@ -68,7 +68,7 @@
     - miscellaneous
     - performance
     - optifine-alternative
-  packageIds:
+  packages:
     - packageId: CaffeineMC.lithium
       loaders:
         - fabric
@@ -81,7 +81,7 @@
     - miscellaneous
     - performance
     - optifine-alternative
-  packageIds:
+  packages:
     - packageId: CaffeineMC.phosphor
       loaders:
         - fabric
@@ -93,7 +93,7 @@
     - miscellaneous
     - performance
     - optifine-alternative
-  packageIds:
+  packages:
     - packageId: CaffeineMC.sodium
       loaders:
         - fabric
@@ -104,7 +104,7 @@
     - api
     - library
     - performance
-  packageIds:
+  packages:
     - packageId: Chocohead.optifabric
       loaders:
         - fabric
@@ -113,7 +113,7 @@
     - fabric-cross-dimension-teleportation-fix
   tags:
     - miscellaneous
-  packageIds:
+  packages:
     - packageId: CodedSakura.fabriccrossdimtpfix
       loaders:
         - fabric
@@ -126,7 +126,7 @@
     - biomes
     - dimensions
     - structures
-  packageIds:
+  packages:
     - packageId: dfsek.terra
       loaders:
         - fabric
@@ -137,7 +137,7 @@
     - utility
     - miscellaneous
     - optifine-alternative
-  packageIds:
+  packages:
     - packageId: EnnuiL.okzoomer
       loaders:
         - fabric
@@ -147,7 +147,7 @@
   tags:
     - library
     - api
-  packageIds:
+  packages:
     - packageId: FabricMC.fabric
       loaders:
         - fabric
@@ -156,7 +156,7 @@
   tags:
     - library
     - api
-  packageIds:
+  packages:
     - packageId: FabricMC.fabric-language-kotlin
       loaders:
         - fabric
@@ -165,7 +165,7 @@
   tags:
     - cursed
     - miscellaneous
-  packageIds:
+  packages:
     - packageId: FlashyReese.sodium-extra
       loaders:
         - fabric
@@ -192,7 +192,7 @@
     - decoration
     - cosmetic
     - optifine-alternative
-  packageIds:
+  packages:
     - packageId: LambdAurora.lambdynlights
       loaders:
         - fabric
@@ -202,7 +202,7 @@
   tags:
     - cosmetic
     - optifine-alternative
-  packageIds:
+  packages:
     - packageId: LogicalGeekBoy.logical_zoom
       loaders:
         - fabric
@@ -213,7 +213,7 @@
     - utility
     - miscellaneous
     - performance
-  packageIds:
+  packages:
     - packageId: malte0811.ferritecore
       loaders:
         - fabric
@@ -224,7 +224,7 @@
     - miscellaneous
     - performance
     - optifine-alternative
-  packageIds:
+  packages:
     - packageId: PaperMC.starlight
       loaders:
         - fabric
@@ -236,7 +236,7 @@
     - library
     - miscellaneous
     - api
-  packageIds:
+  packages:
     - packageId: QuantumFusion.dashloader
       loaders:
         - fabric
@@ -244,7 +244,7 @@
   alternativeNames: ~
   tags:
     - utility
-  packageIds:
+  packages:
     - packageId: ReviversMC.modget
       loaders:
         - fabric
@@ -255,7 +255,7 @@
     - technology
     - utility
     - redstone
-  packageIds:
+  packages:
     - packageId: supersaiyansubtlety.discerning_furnace
       loaders:
         - fabric
@@ -265,7 +265,7 @@
   tags:
     - utility
     - miscellaneous
-  packageIds:
+  packages:
     - packageId: TerraformersMC.modmenu
       loaders:
         - fabric
@@ -275,7 +275,7 @@
     - utility
     - miscellaneous
     - performance
-  packageIds:
+  packages:
     - packageId: tuxed.krypton
       loaders:
         - fabric
@@ -286,7 +286,7 @@
     - utility
     - miscellaneous
     - performance
-  packageIds:
+  packages:
     - packageId: tuxed.lazydfu
       loaders:
         - fabric
@@ -298,7 +298,7 @@
     - miscellaneous
     - api
     - library
-  packageIds:
+  packages:
     - packageId: UltimateBoomer.smoothboot
       loaders:
         - fabric
