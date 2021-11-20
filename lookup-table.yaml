@@ -292,6 +292,15 @@
     - packageId: LambdAurora.lambdynlights
       loaders:
         - fabric
+- id: splash
+  alternativeNames: ~
+  tags:
+    - cosmetic
+    - optifine-alternative
+  packageIds:
+    - packageId: LoganDark.splash
+      loaders:
+        - fabric
 - id: logical_zoom
   alternativeNames:
     - logical-zoom
