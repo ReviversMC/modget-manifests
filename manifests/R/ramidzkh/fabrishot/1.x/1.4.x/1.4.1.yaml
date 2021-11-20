@@ -1,12 +1,12 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.16.5
-    - 1.16.4
-    - 1.16.3
-    - 1.16.2
-    - 1.16.1
-    - 1.16
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
   environment:
     server: unsupported
     client: required
@@ -23,8 +23,8 @@
     - packageId: shedaniel.cloth-config2
       version: ">4.0.0"
   thirdPartyIds:
-    modrinth: 3qsfQtE9
-    curseforge: 404870
+    modrinth: "3qsfQtE9"
+    curseforge: "404870"
   license: MIT
   fileType: jar
   md5: 06f6345df6831303474346c6e30f48c9

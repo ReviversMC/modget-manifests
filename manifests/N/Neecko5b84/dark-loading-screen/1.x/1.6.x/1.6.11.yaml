@@ -1,8 +1,8 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.17.1
-    - 1.17
+    - "1.17.1"
+    - "1.17"
   environment:
     server: unsupported
     client: required
@@ -16,7 +16,7 @@
       version: ">2.0.0"
   thirdPartyIds:
     modrinth: ~
-    curseforge: 408209
+    curseforge: "408209"
   license: MIT
   fileType: jar
   md5: 95e7b82b78a5583eb5d3baa22630a0df

@@ -1,8 +1,8 @@
   - loaders:
       - fabric
     minecraftVersions:
-      - 1.17.1
-      - 1.17
+      - "1.17.1"
+      - "1.17"
     environment:
       server: unsupported
       client: required
@@ -21,8 +21,8 @@
     conflicts: ~
     recommends: ~
     thirdPartyIds:
-      modrinth: BwFQLeCh
-      curseforge: 438252
+      modrinth: "BwFQLeCh"
+      curseforge: "438252"
     license: MIT
     fileType: jar
     md5: ac9a32b3a537939e6a2e04c40ae3575e
