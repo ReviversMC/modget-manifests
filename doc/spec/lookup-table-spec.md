@@ -29,7 +29,7 @@ The only exceptions are the modid, if it contains these special characters (whic
 - id: fdlink
 
   # The official name defined in fabric.mod.json, potentially differing
-  # Modrinth/CurseForge names and their slugs etc (kebab-cased).
+  # Modrinth/CurseForge names and their slugs etc. (kebab-cased).
   # If a lower- and kebab-cased name equals the id above, omit it!
   # If this leads to an empty list, set `alternativeNames` to `~` or `null`.
   alternativeNames:
