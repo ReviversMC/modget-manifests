@@ -1,8 +1,8 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.17.1
-    - 1.17
+    - "1.17.1"
+    - "1.17"
   environment:
     server: unsupported
     client: required
@@ -15,8 +15,8 @@
   conflicts: ~
   recommends: ~
   thirdPartyIds:
-    modrinth: VOYxIjFI
-    curseforge: 318440
+    modrinth: "VOYxIjFI"
+    curseforge: "318440"
   license: LGPL-3
   fileType: jar
   md5: a6df29b1ffa061083c6240a688234e4b

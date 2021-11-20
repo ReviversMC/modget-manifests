@@ -1,8 +1,8 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.17.1
-    - 1.17
+    - "1.17.1"
+    - "1.17"
   environment:
     server: unsupported
     client: required
@@ -19,8 +19,8 @@
     - packageId: shedaniel.cloth-config2
       version: ">5.0.0"
   thirdPartyIds:
-    modrinth: Dx7R69WU
-    curseforge: 514625
+    modrinth: "Dx7R69WU"
+    curseforge: "514625"
   license: LGPL
   fileType: jar
   md5: 26ce82b9ea86f1c8c3ba8d4e98867103

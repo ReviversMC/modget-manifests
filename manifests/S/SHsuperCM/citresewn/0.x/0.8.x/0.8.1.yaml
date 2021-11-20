@@ -1,8 +1,8 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.17.1
-    - 1.17
+    - "1.17.1"
+    - "1.17"
   environment:
     server: unsupported
     client: required
@@ -17,8 +17,8 @@
     - packageId: TerraformersMC.modmenu
       version: "*"
   thirdPartyIds:
-    modrinth: otVJckYQ
-    curseforge: 521427
+    modrinth: "otVJckYQ"
+    curseforge: "521427"
   license: MIT
   fileType: jar
   md5: 8fc70f0c0f6c4627626204f3e52fb0c2

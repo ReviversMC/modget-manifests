@@ -1,8 +1,8 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.16.5
-    - 1.16.4
+    - "1.16.5"
+    - "1.16.4"
   environment:
     server: required
     client: optional
@@ -13,8 +13,8 @@
   conflicts: ~
   recommends: ~
   thirdPartyIds:
-    modrinth: FIlZB9L0
-    curseforge: 450465
+    modrinth: "FIlZB9L0"
+    curseforge: "450465"
   license: GPL-3.0
   fileType: jar
   md5: c8b5cebb3725a055c9082130410efb9b

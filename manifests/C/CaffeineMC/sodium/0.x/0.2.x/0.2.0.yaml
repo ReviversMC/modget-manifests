@@ -1,10 +1,10 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.16.5
-    - 1.16.4
-    - 1.16.3
-    - 1.16.2
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
   # Although versions 1.16.2 to 1.16.4 aren't officially compatible, they have been tested by NebelNidas and confirmed working by CaffeineMC's discord server.
   environment:
     server: unsupported
@@ -20,8 +20,8 @@
   conflicts: ~
   recommends: ~
   thirdPartyIds:
-    modrinth: AANobbMI
-    curseforge: 394468
+    modrinth: "AANobbMI"
+    curseforge: "394468"
   license: LGPL-3.0-only
   fileType: jar
   md5: 98914f22cfe2d0ea5d8007ae8ff96062

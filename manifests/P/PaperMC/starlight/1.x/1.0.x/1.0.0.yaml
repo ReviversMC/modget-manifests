@@ -1,8 +1,8 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.17.1
-    - 1.17
+    - "1.17.1"
+    - "1.17"
   environment:
     server: optional
     client: optional
@@ -15,8 +15,8 @@
   conflicts: ~
   recommends: ~
   thirdPartyIds:
-    modrinth: H8CaAYZC
-    curseforge: 521783
+    modrinth: "H8CaAYZC"
+    curseforge: "521783"
   license: LGPL-3.0-only
   fileType: jar
   md5: 33a056d716ddb2cb834b6bcb9d5bc889
@@ -33,8 +33,8 @@
 - loaders:
     - forge
   minecraftVersions:
-    - 1.17.1
-    - 1.17
+    - "1.17.1"
+    - "1.17"
   environment:
     server: optional
     client: optional
@@ -45,8 +45,8 @@
   conflicts: ~
   recommends: ~
   thirdPartyIds:
-    modrinth: iRfIGC1s
-    curseforge: 526854
+    modrinth: "iRfIGC1s"
+    curseforge: "526854"
   license: LGPL-3.0-only
   fileType: jar
   md5: fbc961a055db6a3475fd18c5dcc38c03

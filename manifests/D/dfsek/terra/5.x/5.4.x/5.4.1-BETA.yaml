@@ -1,8 +1,8 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.17
-    - 1.17.1
+    - "1.17"
+    - "1.17.1"
     # 1.17.x in fabric.mod.json
   environment:
     server: required
@@ -14,8 +14,8 @@
   conflicts: ~
   recommends: ~
   thirdPartyIds:
-    modrinth: FIlZB9L0
-    curseforge: 450465
+    modrinth: "FIlZB9L0"
+    curseforge: "450465"
   license: GPL-3.0
   fileType: jar
   md5: a9ed16e69d41d19fb7bc2a3da0129db8

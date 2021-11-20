@@ -1,7 +1,7 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - 1.17.1
+    - "1.17.1"
   environment:
     server: optional
     client: optional
@@ -12,8 +12,8 @@
   conflicts: ~
   recommends: ~
   thirdPartyIds:
-    modrinth: P7dR8mSH
-    curseforge: 306612
+    modrinth: "P7dR8mSH"
+    curseforge: "306612"
   license: Apache-2.0
   fileType: jar
   md5: 6161521c8a243bcc6534a28c67c2baf6
