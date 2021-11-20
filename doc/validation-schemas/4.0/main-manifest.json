@@ -47,14 +47,14 @@
         "type": "object",
         "properties": {
           "packageId": {
+            "type": "string",
             "title": "ID of the alternative package",
             "description": "ASCII (without periods and non-URL characters) representation of the publisher and mod ID, separated by a period.",
-            "type": "string",
             "examples": [
               "CaffeineMC.sodium",
               "malte0811.ferritecore"
             ],
-            "pattern": "^(([-_1-9a-zA-Z]+)\\.([-_1-9a-zA-Z]+))$"
+            "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$"
           }
         },
         "required": [
