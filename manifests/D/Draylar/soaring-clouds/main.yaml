@@ -18,6 +18,6 @@ wiki: ~
 chats:
   discord: ~
   irc: ~
-  other: ~
+  others: ~
 versions:
   - 1.2.0

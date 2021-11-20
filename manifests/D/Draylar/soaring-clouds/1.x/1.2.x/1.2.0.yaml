@@ -28,9 +28,9 @@
     modrinth: ~
     curseforge: https://www.curseforge.com/minecraft/mc-mods/soaring-clouds/files/3022090
     sourceControl: https://github.com/Draylar/soaring-clouds/releases/tag/1.2.0-1.16
-    other: ~
+    others: ~
   fileUrls:
     modrinth: ~
     curseforge: https://www.curseforge.com/minecraft/mc-mods/soaring-clouds/download/3022090/file
     sourceControl: https://github.com/Draylar/soaring-clouds/releases/download/1.2.0-1.16/soaring-clouds-1.2.0-1.16.jar 
-    other: ~
+    others: ~

@@ -20,6 +20,6 @@ wiki: ~
 chats:
   discord: ~
   irc: ~
-  other: ~
+  others: ~
 versions:
   - 1.0.0
