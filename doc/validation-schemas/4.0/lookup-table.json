@@ -26,7 +26,8 @@
             "sodium-fabric",
             "fabric-discord-link"
           ]
-        }
+        },
+        "uniqueItems": true
       },
       "tags": {
         "type": "array",
@@ -34,7 +35,13 @@
         "items": {
           "type": "string",
           "pattern": "^-|[a-z]$"
-        }
+        },
+        "examples": [
+          "utility",
+          "information",
+          "performance"
+        ],
+        "uniqueItems": true
       },
       "packages": {
         "type": "array",
@@ -46,11 +53,11 @@
               "type": "string",
               "title": "The package id (`publisher.modid`)",
               "description": "ASCII (without periods and non-URL characters) representation of the publisher and mod ID, separated by a period.",
+              "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$",
               "examples": [
                 "CaffeineMC.sodium",
                 "malte0811.ferritecore"
-              ],
-              "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$"
+              ]
             },
             "loaders": {
               "type": "array",
@@ -70,15 +77,17 @@
             "loaders"
           ],
           "additionalProperties": false
-        }
+        },
+        "uniqueItems": true
       }
-    }
+    },
+    "required": [
+      "id",
+      "alternativeNames",
+      "tags",
+      "packages"
+    ],
+    "additionalProperties": false
   },
-  "required": [
-    "id",
-    "alternativeNames",
-    "tags",
-    "packages"
-  ],
-  "additionalProperties": false
+  "uniqueItems": true
 }

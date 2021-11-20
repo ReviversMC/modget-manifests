@@ -6,18 +6,19 @@
   "properties": {
     "manifestSpecVersion": {
       "type": "string",
+      "default": "\"4.0\"",
       "const": "4.0",
       "pattern": "^([0-9]+\\.[0-9]+)$",
       "title": "Current manifest specification"
     },
     "publisher": {
       "type": "string",
+      "description": "GitHub organization name, otherwise name of the main uploader on CurseForge/Modrinth",
       "examples": [
         "CaffeineMC",
         "FabricMC",
         "malte0811"
-      ],
-      "description": "GitHub organization name, otherwise name of the main uploader on CurseForge/Modrinth"
+      ]
     },
     "iconUrls": {
       "type": ["array", "null"],
@@ -25,8 +26,8 @@
       "items": {
         "type": "string",
         "format": "iri",
-        "examples": ["https://cdn.modrinth.com/data/AANobbMI/icon.png"],
-        "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+        "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$",
+        "examples": ["https://cdn.modrinth.com/data/AANobbMI/icon.png"]
       },
       "uniqueItems": true
     },
@@ -50,11 +51,11 @@
             "type": "string",
             "title": "ID of the alternative package",
             "description": "ASCII (without periods and non-URL characters) representation of the publisher and mod ID, separated by a period.",
+            "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$",
             "examples": [
               "CaffeineMC.sodium",
               "malte0811.ferritecore"
-            ],
-            "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$"
+            ]
           }
         },
         "required": [
@@ -179,12 +180,12 @@
         "properties": {
           "version": {
             "type": "string",
+            "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
             "examples": [
               "1.0.0",
               "2.5.3-alpha.1",
               "0.1.4+1.16.5"
-            ],
-            "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$"
+            ]
           }
         },
         "required": [
