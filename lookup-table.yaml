@@ -493,6 +493,14 @@
     - packageId: TerraformersMC.modmenu
       loaders:
         - fabric
+- id: transparent
+  alternativeNames: ~
+  tags:
+    - cosmetic
+  packages:
+    - packageId: Trikzon.transparent
+      loaders:
+        - fabric
 - id: krypton
   alternativeNames: ~
   tags:

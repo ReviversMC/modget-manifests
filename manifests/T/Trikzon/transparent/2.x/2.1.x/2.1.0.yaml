@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "377582"
+  license: MIT
+  fileType: jar
+  md5: 47f74362b79bcba3efc32afd66f5a672
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/transparent-fabric/files/3179349
+    sourceControl: https://github.com/Trikzon/transparent/releases/tag/2.1.0%2B1.16.5
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/transparent-fabric/download/3179349/file
+    sourceControl: https://github.com/Trikzon/transparent/releases/download/2.1.0%2B1.16.5/transparent-2.1.0-fabric.jar
+    others: ~
