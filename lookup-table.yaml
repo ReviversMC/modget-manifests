@@ -227,18 +227,12 @@
     - packageId: FoundationGames.animatica
       loaders:
         - fabric
-- id: canvas
-  alternativeNames:
-    - canvas-renderer
+- id: clear-skies
+  alternativeNames: ~
   tags:
-    - utility
-    - library
-    - miscellaneous
-    - api
     - cosmetic
-    - optifine-alternative
   packages:
-    - packageId: vram-guild.canvas
+    - packageId: Grondag.clear-skies
       loaders:
         - fabric
 - id: raisedclouds
@@ -535,3 +529,17 @@
       loaders:
         - fabric
         - forge
+- id: canvas
+  alternativeNames:
+    - canvas-renderer
+  tags:
+    - utility
+    - library
+    - miscellaneous
+    - api
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: vram-guild.canvas
+      loaders:
+        - fabric
