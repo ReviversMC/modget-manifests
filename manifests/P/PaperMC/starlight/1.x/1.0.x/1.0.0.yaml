@@ -32,6 +32,7 @@
     curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight/download/3442770/file
     sourceControl: ~
     others: ~
+
 - loaders:
     - forge
   minecraftVersions:

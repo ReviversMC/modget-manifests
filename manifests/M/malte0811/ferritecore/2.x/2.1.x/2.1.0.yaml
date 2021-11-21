@@ -29,6 +29,7 @@
     curseforge: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3485637/file
     sourceControl: ~
     others: ~
+
 - loaders:
     - forge
   minecraftVersions:
