@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: LambdAurora
+iconUrls:
+  - https://cdn.modrinth.com/data/yBW8D80W/icon.png
+  - https://media.forgecdn.net/avatars/283/615/637293943794404701.png
+  - https://raw.githubusercontent.com/LambdAurora/LambDynamicLights/1.17/src/main/resources/assets/lambdynlights/icon.png
+status: active
+updatedAlternatives: ~
+name: LambDynamicLights
+description: Adds dynamic lights to the game.
+authors:
+  - name: LambdAurora
+home: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights
+source: https://github.com/LambdAurora/LambDynamicLights
+issues: https://github.com/LambdAurora/LambDynamicLights/issues
+support: https://discord.gg/abEbzzv
+wiki: ~
+chats:
+  discord: https://discord.gg/abEbzzv
+  irc: ~
+  others: ~
+versions:
+  - version: "2.0.2"
+  - version: "1.3.4"

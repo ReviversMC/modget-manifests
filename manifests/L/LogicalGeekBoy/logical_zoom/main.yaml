@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: LogicalGeekBoy
+iconUrls:
+  - https://media.forgecdn.net/avatars/242/159/637132666671562903.png
+  - https://raw.githubusercontent.com/LogicalGeekBoy/logical_zoom/master/src/main/resources/assets/logical_zoom/icon.png
+  - https://raw.githubusercontent.com/LogicalGeekBoy/logical_zoom/master/src/main/resources/assets/logical_zoom/logo.png
+status: active
+updatedAlternatives: ~
+name: Logical Zoom
+description: A simple zoom
+authors:
+  - name: LogicalGeekBoy
+home: https://logicalgeekboy.com
+source: https://github.com/logicalgeekboy/logical_zoom
+issues: https://github.com/logicalgeekboy/logical_zoom/issues
+support: https://github.com/logicalgeekboy/logical_zoom/issues
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "0.0.11"
+  - version: "0.0.10"
+  - version: "0.0.8"

@@ -1,0 +1,38 @@
+- loader:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: optional
+    client: optional
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: CatCore.server_translations
+      version: "*"
+  thirdPartyIds:
+    modrinth: "2NpFE0R3"
+    curseforge: "533960"
+  license: LGPL-3.0-or-later
+  fileType: jar
+  md5: 8abc7f03c6ef253e86e1a78c8f5c2cad
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/modget/version/5G0EmJKY
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/files/3506810
+    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/tag/0.2.3
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.2.3/modget-0.2.3.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/download/3506810/file
+    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/download/0.2.3/modget-0.2.3.jar
+    others: ~

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: TerraformersMC
+iconUrls:
+  - https://cdn.modrinth.com/data/mOgUt4GM/icon.png
+  - https://media.forgecdn.net/avatars/281/367/637285257027983134.png
+  - https://raw.githubusercontent.com/TerraformersMC/ModMenu/1.17/src/main/resources/assets/modmenu/icon.png
+status: active
+updatedAlternatives: ~
+name: Mod Menu
+description: Adds a mod menu to view the list of mods you have installed.
+authors:
+  - name: Prospector
+  - name: jackassmc
+  - name: TerraformersMC
+home: https://minecraft.curseforge.com/projects/modmenu
+source: https://github.com/TerraformersMC/ModMenu
+issues: https://github.com/TerraformersMC/ModMenu/issues
+support: https://discord.gg/jEGF5fb
+wiki: https://github.com/TerraformersMC/ModMenu/wiki
+chats:
+  discord: https://discord.gg/jEGF5fb
+  irc: ~
+  others: ~
+versions:
+  - version: "2.0.14"
+  - version: "1.16.22"

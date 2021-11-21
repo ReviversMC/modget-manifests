@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+    - "1.15.2"
+    - "1.15.1"
+    - "1.15"
+    - "1.14.4"
+    - "1.14.3"
+    - "1.14.2"
+    - "1.14.1"
+    - "1.14"
+  environment:
+    server: required
+    client: required
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "Ha28R6CL"
+    curseforge: "308769"
+  license: Apache-2.0
+  fileType: jar
+  md5: b0a2bd4ab14d5ab23bad09c8976df309
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/fabric-language-kotlin/version/1qsZV7U7
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/files/3439050
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/Ha28R6CL/versions/1.6.4+kotlin.1.5.30/fabric-language-kotlin-1.6.4+kotlin.1.5.30.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/download/3439050/file
+    sourceControl: ~
+    others: ~

@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.1"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "360438"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 14fc2cc05595516f8243501a89fc92e4
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lithium/files/3000628
+    sourceControl: https://github.com/CaffeineMC/lithium-fabric/releases/tag/mc1.16.1-0.5.1
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lithium/download/3000628/file
+    sourceControl: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.16.1-0.5.1/lithium-fabric-mc1.16.1-0.5.1.jar
+    others: ~

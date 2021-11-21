@@ -1,214 +1,308 @@
-- id: fdlink
-  names:
-    - fabric-discord-link
-    - fdlink
-  packages:
-    - arthurbambou.fdlink
+# yaml-language-server: $schema=./doc/validation-schemas/4.0/lookup-table.json
+
+- id: architectury
+  alternativeNames:
+    - architectury-api
   tags:
-    - utility
-- id: recipecache
-  names:
-    - recipecache
-  packages:
-    - Biom4st3r.recipecache
-  tags:
-    - performance
-    - utility
-- id: bfapi
-  names:
-    - bfapi
-  packages:
-    - BradBot_1.bfapi
-  tags: 
     - api
     - library
+  packages:
+    - packageId: architectury.architectury
+      loaders:
+        - fabric
+- id: fdlink
+  alternativeNames:
+    - fabric-discord-link
+  tags:
+    - utility
+    - miscellaneous
+    - information
+  packages:
+    - packageId: arthurbambou.fdlink
+      loaders:
+        - fabric
+- id: recipecache
+  alternativeNames:
+    - recipe-cache
+  tags:
+    - utility
+    - performance
+  packages:
+    - packageId: Biom4st3r.recipecache
+      loaders:
+        - fabric
+- id: bfapi
+  alternativeNames:
+    - brads-fabric-api
+  tags:
+    - library
+    - miscellaneous
+    - api
+  packages:
+    - packageId: BradBot_1.bfapi
+      loaders:
+        - fabric
 - id: fabricsit
-  names:
-    - fabricsit
-  packages:
-    - BradBot_1.fabricsit
+  alternativeNames:
+    - fabric-sit
   tags:
     - utility
+    - miscellaneous
     - cosmetic
+  packages:
+    - packageId: BradBot_1.fabricsit
+      loaders:
+        - fabric
 - id: hydrogen
-  names:
-    - hydrogen
+  alternativeNames:
     - hydrogen-fabric
-  packages:
-    - CaffeineMC.hydrogen
   tags:
-    - performance
     - utility
+    - performance
+  packages:
+    - packageId: CaffeineMC.hydrogen
+      loaders:
+        - fabric
 - id: lithium
-  names:
-    - lithium
+  alternativeNames:
     - lithium-fabric
-  packages:
-    - CaffeineMC.lithium
   tags:
-    - performance
     - utility
-- id: phosphor
-  names: 
-    - phosphor
-    - phosphor-fabric
-  packages:
-    - CaffeineMC.phosphor
-  tags:
+    - miscellaneous
     - performance
+    - optifine-alternative
+  packages:
+    - packageId: CaffeineMC.lithium
+      loaders:
+        - fabric
+- id: phosphor
+  alternativeNames:
+    - phosphor-fabric
+  tags:
     - utility
     - worldgen
-- id: sodium
-  names:
-    - sodium
-    - sodium-fabric
-  packages:
-    - CaffeineMC.sodium
-  tags:
+    - miscellaneous
     - performance
-    - utility
-- id: optifabric
-  names:
-    - optifabric
+    - optifine-alternative
   packages:
-    - Chocohead.optifabric
+    - packageId: CaffeineMC.phosphor
+      loaders:
+        - fabric
+- id: sodium
+  alternativeNames:
+    - sodium-fabric
+  tags:
+    - utility
+    - miscellaneous
+    - performance
+    - optifine-alternative
+  packages:
+    - packageId: CaffeineMC.sodium
+      loaders:
+        - fabric
+- id: optifabric
+  alternativeNames:
+    - opti-fabric
   tags:
     - api
     - library
+    - performance
+  packages:
+    - packageId: Chocohead.optifabric
+      loaders:
+        - fabric
 - id: fabriccrossdimtpfix
-  names:
-    - fabriccrossdimtpfix
+  alternativeNames:
+    - fabric-cross-dimension-teleportation-fix
+  tags:
+    - miscellaneous
   packages:
-    - CodedSakura.fabriccrossdimtpfix
+    - packageId: CodedSakura.fabriccrossdimtpfix
+      loaders:
+        - fabric
 - id: terra
-  names:
-    - terra
-  packages:
-    - dfsek.terra
+  alternativeNames: ~
   tags:
     - adventure
     - utility
     - worldgen
-- id: okzoomer
-  names:
-    - okzoomer
+    - biomes
+    - dimensions
+    - structures
   packages:
-    - EnnuiL.okzoomer
+    - packageId: dfsek.terra
+      loaders:
+        - fabric
+- id: okzoomer
+  alternativeNames:
+    - ok-zoomer
   tags:
     - utility
+    - miscellaneous
+    - optifine-alternative
+  packages:
+    - packageId: EnnuiL.okzoomer
+      loaders:
+        - fabric
 - id: fabric
-  names:
-    - fabric
+  alternativeNames:
     - fabric-api
-  packages:
-    - FabricMC.fabric
   tags:
     - library
     - api
+  packages:
+    - packageId: FabricMC.fabric
+      loaders:
+        - fabric
 - id: fabric-language-kotlin
-  names:
-    - fabric-language-kotlin
-  packages:
-    - FabricMC.fabric-language-kotlin
+  alternativeNames: ~
   tags:
     - library
     - api
-- id: sodium-extra
-  names:
-    - sodium-extra
   packages:
-    - FlashyReese.sodium-extra
+    - packageId: FabricMC.fabric-language-kotlin
+      loaders:
+        - fabric
+- id: sodium-extra
+  alternativeNames: ~
   tags:
     - cursed
     - miscellaneous
-- id: lambdynlights
-  names:
-    - lambdynlights
-    - lambdynamiclights
   packages:
-    - LambdAurora.lambdynlights
+    - packageId: FlashyReese.sodium-extra
+      loaders:
+        - fabric
+- id: lambdabettergrass
+  alternativeNames:
+    - lambda-better-grass
   tags:
+    - decoration
     - cosmetic
-    - utility
     - adventure
-- id: logical_zoom
-  names:
-    - logical-zoom
+    - rpg
+    - vanilla-plus
   packages:
-    - LogicalGeekBoy.logical_zoom
+    - packageId: LambdAurora.lambdabettergrass
+      loaders:
+        - fabric
+- id: lambdynlights
+  alternativeNames:
+    - lamb-dyn-lights
+    - lamb-dynamic-lights
+  tags:
+    - adventure
+    - utility
+    - decoration
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: LambdAurora.lambdynlights
+      loaders:
+        - fabric
+- id: logical_zoom
+  alternativeNames:
+    - logical-zoom
   tags:
     - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: LogicalGeekBoy.logical_zoom
+      loaders:
+        - fabric
 - id: ferritecore
-  names:
-    - ferritecore
-  packages:
-    - malte0811.ferritecore
+  alternativeNames:
+    - ferrite-core
   tags:
-    - performance
     - utility
+    - miscellaneous
+    - performance
+  packages:
+    - packageId: malte0811.ferritecore
+      loaders:
+        - fabric
+        - forge
 - id: starlight
-  names:
-    - starlight
-  packages:
-    - PaperMC.starlight
+  alternativeNames: ~
   tags:
+    - miscellaneous
     - performance
-    - utility
-    - worldgen
-- id: dashloader
-  names:
-    - dashloader
+    - optifine-alternative
   packages:
-    - QuantumFusion.dashloader
+    - packageId: PaperMC.starlight
+      loaders:
+        - fabric
+        - forge
+- id: dashloader
+  alternativeNames: ~
   tags:
     - utility
     - library
+    - miscellaneous
     - api
-- id: modget
-  names:
-    - modget
   packages:
-    - ReviversMC.modget
+    - packageId: QuantumFusion.dashloader
+      loaders:
+        - fabric
+- id: modget
+  alternativeNames: ~
   tags:
     - utility
-- id: discerning_furnace
-  names: 
-    - discerning_furnace
   packages:
-    - supersaiyansubtlety.discerning_furnace
+    - packageId: ReviversMC.modget
+      loaders:
+        - fabric
+- id: discerning_furnace
+  alternativeNames:
+    - discerning-furnace
   tags:
-    - redstone
     - technology
     - utility
+    - redstone
+  packages:
+    - packageId: supersaiyansubtlety.discerning_furnace
+      loaders:
+        - fabric
 - id: modmenu
-  names:
-    - modmenu
-  packages:
-    - TerraformersMC.modmenu
+  alternativeNames:
+    - mod-menu
   tags:
     - utility
+    - miscellaneous
+  packages:
+    - packageId: TerraformersMC.modmenu
+      loaders:
+        - fabric
 - id: krypton
-  names:
-    - krypton
-  packages:
-    - tuxed.krypton
+  alternativeNames: ~
   tags:
-    - performance
     - utility
+    - miscellaneous
+    - performance
+  packages:
+    - packageId: tuxed.krypton
+      loaders:
+        - fabric
 - id: lazydfu
-  names:
-    - lazydfu
-  packages:
-   - tuxed.lazydfu
+  alternativeNames:
+    - lazy-dfu
   tags:
+    - utility
+    - miscellaneous
     - performance
-    - utility
-- id: smoothboot
-  names:
-    - smoothboot
   packages:
-    - UltimateBoomer.smoothboot
+    - packageId: tuxed.lazydfu
+      loaders:
+        - fabric
+- id: smoothboot
+  alternativeNames:
+    - smooth-boot
   tags:
     - utility
-    - library
+    - miscellaneous
     - api
+    - library
+  packages:
+    - packageId: UltimateBoomer.smoothboot
+      loaders:
+        - fabric
+        - forge

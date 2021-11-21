@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: QuantumFusion
+iconUrls:
+  - https://cdn.modrinth.com/data/ZfQ3kTvR/icon.png
+  - https://media.forgecdn.net/avatars/392/393/637586553764037908.png
+  - https://raw.githubusercontent.com/alphaqu/DashLoader/master/src/main/resources/assets/dashloader/textures/icon.png
+status: active
+updatedAlternatives: ~
+name: DashLoader
+description: Launch at the speed of light.
+authors:
+  - name: The QuantumFusion Team
+home: https://www.curseforge.com/minecraft/mc-mods/dashloader
+source: https://github.com/alphaqu/DashLoader
+issues: https://github.com/alphaqu/DashLoader/issues
+support: https://discord.gg/ERw86gDGdg
+wiki: https://github.com/alphaqu/DashLoader/wiki
+chats:
+  discord: https://discord.gg/ERw86gDGdg
+  irc: ~
+  others: ~
+versions:
+  - version: "2.0.1"
+  - version: "1.4.5"

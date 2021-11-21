@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: supersaiyansubtlety
+iconUrls:
+  - https://cdn.modrinth.com/data/G3Nz6HN4/icon.png
+  - https://media.forgecdn.net/avatars/323/645/637437798517519399.png
+  - https://gitlab.com/supersaiyansubtlety/discerning_furnace/-/raw/master/src/main/resources/assets/discerning_furnace/discerning_furnace_icon.png
+status: active
+updatedAlternatives: ~
+name: Discerning Furnace
+description: Only smeltable items are allowed in furnaces.
+authors:
+  - name: supersaiyansubtlety
+home: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace
+source: https://gitlab.com/supersaiyansubtlety/discerning_furnace/
+issues: https://gitlab.com/supersaiyansubtlety/discerning_furnace/-/issues
+support: https://gitlab.com/supersaiyansubtlety/discerning_furnace/-/issues
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "1.0.3"
+  - version: "1.0.1"

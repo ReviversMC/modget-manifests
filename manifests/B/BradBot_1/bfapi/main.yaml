@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: BradBot_1
+iconUrls:
+  - https://cdn.modrinth.com/data/toILlMg6/icon.png
+  - https://media.forgecdn.net/avatars/403/87/637611798294428241.png
+status: active
+updatedAlternatives: ~
+name: BFAPI
+description: A serverside mod to make the creation of other server side mods easier
+authors:
+  - name: BradBot_1
+home: https://modrinth.com/mod/bfapi
+source: https://github.com/BradBot1/BradsFabricApi
+issues: https://github.com/BradBot1/BradsFabricApi/issues
+support: https://github.com/BradBot1/BradsFabricApi/issues
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "1.1.11"
+  - version: "1.1.10"
+  - version: "1.1.8"
+  - version: "1.1.7"
+  - version: "1.1.6"
+  - version: "1.1.4"
+  - version: "1.1.2"
+  - version: "1.1.1"
+  - version: "1.1.0"
+  - version: "1.0.2"
+  - version: "1.0.1"
+  - version: "1.0.0"

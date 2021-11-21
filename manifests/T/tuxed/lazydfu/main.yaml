@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: tuxed
+iconUrls:
+  - https://cdn.modrinth.com/data/hvFnDODi/icon.png
+  - https://media.forgecdn.net/avatars/328/780/637453335841858311.png
+  - https://raw.githubusercontent.com/astei/lazydfu/master/src/main/resources/assets/lazydfu/icon.png
+status: active
+updatedAlternatives: ~
+name: LazyDFU
+description: Makes DataFixerUpper more lazy
+authors:
+  - name: tuxed
+home: https://github.com/astei/lazydfu
+source: https://github.com/astei/lazydfu
+issues: https://github.com/astei/lazydfu/issues
+support: https://discord.gg/RUGArxEQ8J
+wiki: https://github.com/astei/lazydfu/wiki
+chats:
+  discord: https://discord.gg/RUGArxEQ8J
+  irc: ~
+  others: ~
+versions:
+  - version: "0.1.2"

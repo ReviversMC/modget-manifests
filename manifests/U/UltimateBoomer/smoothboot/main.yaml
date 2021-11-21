@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: UltimateBoomer
+iconUrls:
+  - https://cdn.modrinth.com/data/FWumhS4T/icon.png
+  - https://media.forgecdn.net/avatars/308/988/637393578273187861.png
+  - https://media.forgecdn.net/avatars/314/758/637413369788905375.png
+  - https://raw.githubusercontent.com/UltimateBoomer/mc-smoothboot/1.16/src/main/resources/assets/smoothboot/icon.png
+status: active
+updatedAlternatives: ~
+name: Smooth Boot
+description: Improve Minecraft CPU scheduling.
+authors:
+  - name: UltimateBoomer
+home: https://www.curseforge.com/minecraft/mc-mods/smooth-boot
+source: https://github.com/UltimateBoomer/mc-smoothboot
+issues: https://github.com/UltimateBoomer/mc-smoothboot/issues
+support: https://github.com/UltimateBoomer/mc-smoothboot/issues
+wiki: https://github.com/UltimateBoomer/mc-smoothboot/wiki
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "1.6.0"
+  - version: "1.2.2"

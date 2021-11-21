@@ -1,0 +1,64 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: CaffeineMC.phosphor
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "H8CaAYZC"
+    curseforge: "521783"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 33a056d716ddb2cb834b6bcb9d5bc889
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/starlight/version/nc7qGadJ
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight/files/3442770
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/H8CaAYZC/versions/Starlight%201.0.0%201.17.x/starlight-1.0.0+fabric.73f6d37.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight/download/3442770/file
+    sourceControl: ~
+    others: ~
+- loaders:
+    - forge
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "iRfIGC1s"
+    curseforge: "526854"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: fbc961a055db6a3475fd18c5dcc38c03
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/starlight-forge/version/RcAkwRce
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight-forge/files/3457784
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com//data/iRfIGC1s/versions/Starlight%201.0.0%201.17.x/starlight-1.0.0+forge.5d16647.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight-forge/download/3457784/file
+    sourceControl: ~
+    others: ~

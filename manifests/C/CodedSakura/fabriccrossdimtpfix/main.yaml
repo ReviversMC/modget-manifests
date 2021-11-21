@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: CodedSakura
+iconUrls: ~
+status: active
+updatedAlternatives: ~
+name: FabricCrossDimTPFix
+description: Fixes a bug where the player doesn't get sent their XP and Potion effects on cross dim teleport.
+authors:
+  - name: CodedSakura
+home: ~
+source: https://github.com/CodedSakura/FabricCrossDimTPFix
+issues: https://github.com/CodedSakura/FabricCrossDimTPFix/issues
+support: https://github.com/CodedSakura/FabricCrossDimTPFix/issues
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "0.2.0"
+  - version: "0.1.0"

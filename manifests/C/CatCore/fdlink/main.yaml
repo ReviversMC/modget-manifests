@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: CatCore
+iconUrls:
+  - https://cdn.modrinth.com/data/FCmig1C9/icon.png
+  - https://media.forgecdn.net/avatars/197/623/636894004161195128.png
+status: active
+updatedAlternatives: ~
+name: Fabric <-> Discord Link
+description: A mod to link Minecraft and Discord chats for Fabric.
+authors:
+  - name: arthurbambou
+  - name: AlanFoster
+home: ~
+source: https://github.com/arthurbambou/Fabric---Discord-Link
+issues: https://github.com/arthurbambou/Fabric---Discord-Link/issues
+support: https://discord.gg/xTvWwzV
+wiki: https://github.com/arthurbambou/Fabric---Discord-Link/wiki
+chats:
+  discord: https://discord.gg/xTvWwzV
+  irc: ~
+  others: ~
+versions:
+  - version: "0.9.8"
+  - version: "0.9.7"

@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: optional
+    client: optional
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "uXXizFIs"
+    curseforge: "459857"
+  license: MIT
+  fileType: jar
+  md5: 58354b44afef6c347c6ffb79d255d967
+  downloadPageUrls:
+    modrinth: https://modrinth.org/mod/ferrite-core/version/hjsymojR
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3373736
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/uXXizFIs/versions/3.0.1/ferritecore-3.0.1-fabric.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3373736/file
+    sourceControl: ~
+    others: ~

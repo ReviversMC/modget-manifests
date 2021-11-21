@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: FlashyReese
+iconUrls:
+  - https://cdn.modrinth.com/data/PtjYWJkn/icon.png
+  - https://media.forgecdn.net/avatars/344/698/637491211740686215.png
+  - https://raw.githubusercontent.com/FlashyReese/sodium-extra-fabric/1.17.x/dev/src/main/resources/assets/sodium-extra/icon.png
+status: active
+updatedAlternatives: ~
+name: Sodium Extra
+description: Features that shouldn't be in Sodium.
+authors:
+  - name: FlashyReese
+home: https://modrinth.com/mod/sodium-extra
+source: https://github.com/FlashyReese/sodium-extra-fabric
+issues: https://github.com/FlashyReese/sodium-extra-fabric/issues
+support: https://github.com/FlashyReese/sodium-extra-fabric/issues
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "0.3.5"
+  - version: "0.3.2"

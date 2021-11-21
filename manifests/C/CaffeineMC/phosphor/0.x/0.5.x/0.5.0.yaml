@@ -1,0 +1,68 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: optional
+    client: optional
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "372124"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 72ed1237b2b75d52dfe1e378c7c3969b
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/phosphor/files/2917253
+    sourceControl: https://github.com/CaffeineMC/phosphor-fabric/releases/tag/mc20w13b-v0.5.0
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/phosphor/download/2917253/file
+    sourceControl: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc20w13b-v0.5.0/phosphor-fabric-mc20w13b-0.5.0+build.1.jar
+    others: ~
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.15.2"
+    - "1.15.1"
+    - "1.15"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "372124"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: ee605d6714ad714cf21199f12e464817
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/phosphor/files/2917271
+    sourceControl: https://github.com/CaffeineMC/phosphor-fabric/releases/tag/mc1.15.2-v0.5.0
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/phosphor/download/2917271/file
+    sourceControl: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc1.15.2-v0.5.0/phosphor-fabric-mc1.15.2-0.5.0+build.2.jar
+    others: ~

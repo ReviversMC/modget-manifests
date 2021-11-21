@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: CaffeineMC
+iconUrls:
+  - https://cdn.modrinth.com/data/hEOCdOgW/icon.png
+  - https://media.forgecdn.net/avatars/284/775/637298471783289760.png
+  - https://raw.githubusercontent.com/CaffeineMC/phosphor-fabric/1.16.x/dev/src/main/resources/assets/phosphor/icon.png
+status: unknown
+updatedAlternatives:
+  - packageId: PaperMC.starlight
+name: Phosphor
+description: Phosphor is a free and open-source optimization mod for Minecraft which improves the performance of the lighting engine, resulting in significantly reduced world generation times and improved server tick rates. You can help feed me and support development on Patreon, gaining some special perks in the process! Any amount of support helps a ton. https://www.patreon.com/jellysquid
+authors:
+  - name: JellySquid
+  - name: PhiPro
+home: https://caffeinemc.net
+source: https://github.com/CaffeineMC/phosphor-fabric
+issues: https://github.com/CaffeineMC/phosphor-fabric/issues
+support: https://jellysquid.me/discord
+chats:
+  discord: https://jellysquid.me/discord
+  irc: ~
+  others: ~
+versions:
+  - version: "0.7.2"
+  - version: "0.7.1"
+  - version: "0.7.0"
+  - version: "0.6.0"
+  - version: "0.5.2"
+  - version: "0.5.1"
+  - version: "0.5.0"

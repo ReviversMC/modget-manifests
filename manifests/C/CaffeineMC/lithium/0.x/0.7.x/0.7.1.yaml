@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: Chocohead.optifabric
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "gvQqBUqZ"
+    curseforge: "360438"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 3fb024ab1966d6a8806e91366e50c51b
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/lithium/version/7jxErppe
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lithium/files/3354305
+    sourceControl: https://github.com/CaffeineMC/lithium-fabric/releases/tag/mc1.17-0.7.1
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.17-0.7.1/lithium-fabric-mc1.17-0.7.1.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lithium/download/3354305/file
+    sourceControl: https://github.com/CaffeineMC/lithium-fabric/releases/download/mc1.17-0.7.1/lithium-fabric-mc1.17-0.7.1.jar
+    others: ~

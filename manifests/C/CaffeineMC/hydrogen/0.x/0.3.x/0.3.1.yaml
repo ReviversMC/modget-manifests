@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: optional
+    client: optional
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: Chocohead.optifabric
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "AZomiSrC"
+    curseforge: ~
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 1d051c73bf798676d21bfb78457dbfbc
+  downloadPageUrls:
+    modrinth: https://modrinth.org/mod/hydrogen/version/gqJWYgtD
+    curseforge: ~
+    sourceControl: https://github.com/CaffeineMC/hydrogen-fabric/releases/tag/mc1.17.1-0.3.1
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.17.1-0.3.1/hydrogen-fabric-mc1.17.1-0.3.jar
+    curseforge: ~
+    sourceControl: https://github.com/CaffeineMC/hydrogen-fabric/releases/download/mc1.17.1-0.3.1/hydrogen-fabric-mc1.17.1-0.3.jar
+    others: ~

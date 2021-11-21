@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: required
+    client: unsupported
+  channel: release
+  depends:
+    - packageId: BradBot_1.bfapi
+      version: ">=1.1.6"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "eM1KzRjc"
+    curseforge: "480257"
+  license: Apache-2.0
+  fileType: jar
+  md5: 9d644d89428e33e6aac52d5fa35f0916
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/sit/version/1ntwxlmn
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabricsit/files/3462014
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com//data/eM1KzRjc/versions/v1.6.3/FabricSit-1.6.3.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabricsit/download/3462014/file
+    sourceControl: ~
+    others: ~

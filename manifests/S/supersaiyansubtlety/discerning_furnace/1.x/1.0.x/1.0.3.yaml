@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: required
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "G3Nz6HN4"
+    curseforge: "428966"
+  license: MIT
+  fileType: jar
+  md5: 35ca0098e0ee9697fba30d9cbf01b341
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/discerning-furnace/version/LlCSzYT6
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace/files/3383095
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/G3Nz6HN4/versions/1.0.3+MC1.17-1.17.1/discerning-furnace-1.0.3+MC1.17-1.17.1.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace/download/3383095/file
+    sourceControl: ~
+    others: ~

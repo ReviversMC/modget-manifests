@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: required
+    client: unsupported
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: ~
+  license: Apache-2.0
+  fileType: jar
+  md5: d22fd3d23ff48be8fd14e2fbe7cd6098
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: ~
+    sourceControl: https://github.com/BradBot1/BradsFabricApi/releases/tag/v1.0.1
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: ~
+    sourceControl: https://github.com/BradBot1/BradsFabricApi/releases/download/v1.0.1/BFAPI-v1-0-1.jar
+    others: ~

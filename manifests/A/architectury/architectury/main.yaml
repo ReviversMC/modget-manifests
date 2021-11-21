@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: architectury
+iconUrls:
+  - https://media.forgecdn.net/avatars/313/418/637408811210745557.png
+  - https://raw.githubusercontent.com/architectury/architectury-api/1.17/fabric/src/main/resources/icon.png
+status: active
+updatedAlternatives: ~
+name: Architectury
+description: A intermediary api aimed to ease developing multiplatform mods.
+authors:
+  - name: shedaniel
+home: https://architectury.github.io/architectury-documentations/
+source: https://github.com/architectury/architectury-api
+issues: https://github.com/architectury/architectury-api/issues
+support: https://discord.gg/C2RdJDpRBP
+wiki: https://architectury.github.io/architectury-documentations/
+chats:
+  discord: https://discord.gg/C2RdJDpRBP
+  irc: ~
+  others: ~
+versions:
+  - version: "2.6.35"
+  - version: "1.24.35"

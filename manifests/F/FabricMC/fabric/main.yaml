@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: FabricMC
+iconUrls:
+  - https://cdn.modrinth.com/data/P7dR8mSH/icon.png
+  - https://media.forgecdn.net/avatars/185/822/636829723898798601.png
+  - https://raw.githubusercontent.com/FabricMC/fabric/1.17/src/main/resources/assets/fabric/icon.png
+status: active
+updatedAlternatives: ~
+name: Fabric API
+description: Core API module providing key hooks and intercompatibility features.
+authors:
+  - name: FabricMC
+home: https://fabricmc.net
+source: https://github.com/FabricMC/fabric
+issues: https://github.com/FabricMC/fabric/issues
+support: https://discord.gg/v6v4pMv
+wiki: ~
+chats:
+  discord: https://discord.gg/v6v4pMv
+  irc: irc://irc.esper.net:6667/fabric
+  others: ~
+versions:
+  - version: "0.42.1"
+  - version: "0.42.0"
+  - version: "0.41.3"
+  - version: "0.41.0"
+  - version: "0.40.6"
+  - version: "0.36.0"
+  - version: "0.14.1"

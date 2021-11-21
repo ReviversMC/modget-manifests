@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: Chocohead
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/204/621/64/64/636941511294490034.png
+  - https://raw.githubusercontent.com/Chocohead/OptiFabric/llama/src/main/resources/assets/optifabric/icon.png
+status: active
+updatedAlternatives: ~
+name: OptiFabric
+description: OptiFabric is a mod that loads OptiFine into Fabric
+authors:
+  - name: Modmuss50
+  - name: Chocohead
+home: https://www.curseforge.com/minecraft/mc-mods/optifabric
+source: https://github.com/Chocohead/OptiFabric
+issues: https://github.com/Chocohead/OptiFabric/issues
+support: https://github.com/Chocohead/OptiFabric/issues
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "1.11.20"

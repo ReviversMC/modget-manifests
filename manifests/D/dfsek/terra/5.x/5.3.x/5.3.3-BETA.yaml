@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+  environment:
+    server: required
+    client: optional
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "FIlZB9L0"
+    curseforge: "450465"
+  license: GPL-3.0
+  fileType: jar
+  md5: c8b5cebb3725a055c9082130410efb9b
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/terra/version/9DWPUHbr
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/terra-world-generator/files/3314683
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/FIlZB9L0/versions/fabric-5.3.3-BETA+5dd00db8/Terra-fabric-5.3.3-BETA+5dd00db8-shaded-mapped.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/terra-world-generator/download/3314683/file
+    sourceControl: ~
+    others: ~

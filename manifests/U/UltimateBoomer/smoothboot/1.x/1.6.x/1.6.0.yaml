@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "FWumhS4T"
+    curseforge: "415758"
+  license: MIT
+  fileType: jar
+  md5: da89743801b0847b0975b21c84a7d63d
+  downloadPageUrls:
+    modrinth: https://modrinth.org/mod/smoothboot-fabric/version/nPGcelzS
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/smooth-boot/files/3248104
+    sourceControl: https://github.com/UltimateBoomer/mc-smoothboot/releases/tag/1.16.5-1.6.0
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/FWumhS4T/versions/1.16.5-1.6.0/smoothboot-fabric-1.16.5-1.6.0.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/smooth-boot/download/3248104/file
+    sourceControl: https://github.com/UltimateBoomer/mc-smoothboot/releases/download/1.16.5-1.6.0/smoothboot-fabric-1.16.5-1.6.0.jar
+    others: ~

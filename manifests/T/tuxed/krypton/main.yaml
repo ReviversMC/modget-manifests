@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: tuxed
+iconUrls:
+  - https://cdn.modrinth.com/data/fQEb0iXm/icon.png
+  - https://media.forgecdn.net/avatars/324/447/637440289518539756.png
+  - https://raw.githubusercontent.com/astei/krypton/master/src/main/resources/assets/krypton/icon.png
+status: active
+updatedAlternatives: ~
+name: Krypton
+description: A Fabric mod that optimizes the Minecraft networking stack and entity tracker. 
+authors:
+  - name: tuxed
+home: https://github.com/astei/krypton
+source: https://github.com/astei/krypton
+issues: https://github.com/astei/krypton/issues
+support: https://discord.gg/RUGArxEQ8J
+wiki: https://github.com/astei/krypton/wiki
+chats:
+  discord: https://discord.gg/RUGArxEQ8J
+  irc: ~
+  others: ~
+versions:
+  - version: "0.1.4"

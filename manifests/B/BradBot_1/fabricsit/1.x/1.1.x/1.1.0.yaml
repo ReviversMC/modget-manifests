@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: required
+    client: unsupported
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "eM1KzRjc"
+    curseforge: "480257"
+  license: Apache-2.0
+  fileType: jar
+  md5: 11a9db58ddffb3b8c3e487a0ccb3103c
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/sit/version/pq1SCwWx
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabricsit/files/3303154
+    sourceControl: https://github.com/BradBot1/FabricSit/releases/tag/v1.1
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/eM1KzRjc/versions/v1.1/FabricSit-1.1.0.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabricsit/download/3303154/file
+    sourceControl: https://github.com/BradBot1/FabricSit/releases/download/v1.1/FabricSit-1.1.0.jar
+    others: ~

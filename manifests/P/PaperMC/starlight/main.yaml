@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: PaperMC
+iconUrls:
+  - https://cdn.modrinth.com/data/H8CaAYZC/icon.png
+  - https://cdn.modrinth.com//data/iRfIGC1s/icon.png
+  - https://media.forgecdn.net/avatars/427/88/637658395689610558.png
+  - https://media.forgecdn.net/avatars/432/789/637670638359989351.png
+  - https://raw.githubusercontent.com/PaperMC/Starlight/fabric/src/main/resources/assets/starlight/icon.png
+status: active
+updatedAlternatives: ~
+name: Starlight
+description: Rewrites the light engine to fix lighting performance and lighting errors
+authors:
+  - name: Spottedleaf
+home: https://github.com/PaperMC/Starlight
+source: https://github.com/PaperMC/Starlight
+issues: https://github.com/PaperMC/Starlight/issues
+support: https://discord.gg/tuinity
+wiki: ~
+chats:
+  discord: https://discord.gg/tuinity
+  irc: ~
+  others: ~
+versions:
+  - version: "1.0.0"
+  - version: "1.0.0-RC2"

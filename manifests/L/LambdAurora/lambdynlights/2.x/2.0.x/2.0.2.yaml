@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: ">=0.34.9"
+  bundles: ~
+  breaks:
+    - packageId: Chocohead.optifabric
+      version: "*"
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: ">=2.0.0-beta7"
+  thirdPartyIds:
+    modrinth: "yBW8D80W"
+    curseforge: "393442"
+  license: MIT
+  fileType: jar
+  md5: 36310f6881094c364dcbd48f475f8b44
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/lambdynamiclights/version/GiwO5rBh
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/files/3409038
+    sourceControl: https://github.com/LambdAurora/LambDynamicLights/releases/tag/2.0.2%2B1.17
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/yBW8D80W/versions/2.0.2+1.17/lambdynamiclights-2.0.2+1.17.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/download/3409038/file
+    sourceControl: https://github.com/LambdAurora/LambDynamicLights/releases/download/2.0.2%2B1.17/lambdynamiclights-2.0.2+1.17.jar
+    others: ~

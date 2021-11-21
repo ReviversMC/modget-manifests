@@ -1,0 +1,33 @@
+- loaders:
+    - forge
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "420913"
+  license: MIT
+  fileType: jar
+  md5: 104ca76ce6b18b90fbfa4c58b3bbdfc2
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/smooth-boot-forge/files/3224252
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/smooth-boot-forge/download/3224252/file
+    sourceControl: ~
+    others: ~

@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "fQEb0iXm"
+    curseforge: "428912"
+  license: LGPL-3.0
+  fileType: jar
+  md5: 9ed7dbe7b0803fc3f463f5ae099e2961
+  downloadPageUrls:
+    modrinth: https://modrinth.org/mod/krypton/version/PGovBIXq
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/krypton/files/3378767
+    sourceControl: https://github.com/astei/krypton/releases/tag/v0.1.4
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/fQEb0iXm/versions/0.1.4/krypton-0.1.4.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/krypton/download/3378767/file
+    sourceControl: https://github.com/astei/krypton/releases/download/v0.1.4/krypton-0.1.4.jar
+    others: ~

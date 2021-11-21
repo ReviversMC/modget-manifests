@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: Virtuoel.no_fog
+      version: "*"
+    - packageId: IsaiahMC.thallium
+      version: "*"
+    - packageId: user11681.xradiation
+      version: "*"
+    - packageId: OnyxStudios.cardinal-components
+      version: "<2.4.2"
+    - packageId: architectury.architectury-api
+      version: ">1.2.72 <1.3.77"
+    - packageId: MeteorDevelopment.meteor-client
+      version: ">=0.4.1"
+  conflicts:
+    - packageId: CaffeineMC.sodium
+      version: "*"
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "322385"
+  license: MPL-2.0
+  fileType: jar
+  md5: b67ea83febc8f06240e15641836d942e
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/optifabric/files/3422922
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/optifabric/download/3422922/file
+    sourceControl: ~
+    others: ~

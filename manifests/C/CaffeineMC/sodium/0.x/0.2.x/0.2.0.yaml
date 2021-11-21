@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+  # Although versions 1.16.2 to 1.16.4 aren't officially compatible, they have been tested by NebelNidas and confirmed working by CaffeineMC's discord server.
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: Chocohead.optifabric
+      version: "*"
+    - packageId: vram-guild.canvas
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "AANobbMI"
+    curseforge: "394468"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 98914f22cfe2d0ea5d8007ae8ff96062
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/sodium/version/YAGZ1cCS
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium/files/3488820
+    sourceControl: https://github.com/CaffeineMC/sodium-fabric/releases/tag/mc1.16.5-0.2.0
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/AANobbMI/versions/mc1.16.5-0.2.0/sodium-fabric-mc1.16.5-0.2.0+build.4.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium/download/3488820/file
+    sourceControl: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.16.5-0.2.0/sodium-fabric-mc1.16.5-0.2.0+build.4.jar
+    others: ~

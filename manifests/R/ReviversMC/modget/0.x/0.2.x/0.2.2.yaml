@@ -1,0 +1,40 @@
+- loader:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: optional
+    client: optional
+  channel: beta
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: CatCore.server_translations
+      version: "*"
+  thirdPartyIds:
+    modrinth: "2NpFE0R3"
+    curseforge: "533960"
+  license: LGPL-3.0-or-later
+  fileType: jar
+  md5: 932ae8df04e6e0b35669ae6fdc920b97
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/modget/version/ZC9TfT78
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/files/3505365
+    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/tag/0.2.2
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.2.2/modget-0.2.2.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/download/3505365/file
+    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/download/0.2.2/modget-0.2.2.jar
+    others: ~
