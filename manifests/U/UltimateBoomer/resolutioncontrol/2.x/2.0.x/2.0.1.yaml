@@ -29,7 +29,7 @@
   downloadPageUrls:
     modrinth: https://modrinth.com/mod/resolution-control-plus/version/k79fnsAj
     curseforge: https://www.curseforge.com/minecraft/mc-mods/resolutioncontrol/files/3206545
-    sourceControl: hhttps://github.com/UltimateBoomer/Resolution-Control/releases/tag/2.0.1
+    sourceControl: https://github.com/UltimateBoomer/Resolution-Control/releases/tag/2.0.1
     others: ~
   fileUrls:
     modrinth: https://cdn.modrinth.com/data/rqTgDmc8/versions/2.0.1/resolution-control-plus-2.0.1.jar
