@@ -516,6 +516,15 @@
     - packageId: tuxed.lazydfu
       loaders:
         - fabric
+- id: resolutioncontrol
+  alternativeNames: ~
+  tags:
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: UltimateBoomer.resolutioncontrol
+      loaders:
+        - fabric
 - id: smoothboot
   alternativeNames:
     - smooth-boot
