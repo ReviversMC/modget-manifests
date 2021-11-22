@@ -22,4 +22,4 @@ chats:
   irc: irc://irc.esper.net:6667/fabric
   others: ~
 versions:
-  - version: 1.6.4
+  - version: "1.6.4"

@@ -12,7 +12,7 @@ updatedAlternatives: ~
 name: Smooth Boot
 description: Improve Minecraft CPU scheduling.
 authors:
-  - UltimateBoomer
+  - name: UltimateBoomer
 home: https://www.curseforge.com/minecraft/mc-mods/smooth-boot
 source: https://github.com/UltimateBoomer/mc-smoothboot
 issues: https://github.com/UltimateBoomer/mc-smoothboot/issues
@@ -23,5 +23,5 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 1.6.0
-  - version: 1.2.2
+  - version: "1.6.0"
+  - version: "1.2.2"

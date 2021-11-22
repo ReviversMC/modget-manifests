@@ -21,4 +21,4 @@ chats:
   irc: ~
   others: ~
 versions:
-  - version: 3.3.1
+  - version: "3.3.1"

@@ -17,15 +17,16 @@ home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/phosphor-fabric
 issues: https://github.com/CaffeineMC/phosphor-fabric/issues
 support: https://jellysquid.me/discord
+wiki: ~
 chats:
   discord: https://jellysquid.me/discord
   irc: ~
   others: ~
 versions:
-  - 0.7.2
-  - 0.7.1
-  - 0.7.0
-  - 0.6.0
-  - 0.5.2
-  - 0.5.1
-  - 0.5.0
+  - version: "0.7.2"
+  - version: "0.7.1"
+  - version: "0.7.0"
+  - version: "0.6.0"
+  - version: "0.5.2"
+  - version: "0.5.1"
+  - version: "0.5.0"

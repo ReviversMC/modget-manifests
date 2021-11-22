@@ -25,6 +25,6 @@ chats:
     - name: GitHub Discussions
       url: https://github.com/malte0811/FerriteCore/discussions
 versions:
-  - version: 3.1.0
-  - version: 3.0.1
-  - version: 2.1.0
+  - version: "3.1.0"
+  - version: "3.0.1"
+  - version: "2.1.0"
