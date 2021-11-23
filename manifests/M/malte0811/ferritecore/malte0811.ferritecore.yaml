@@ -1,4 +1,6 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: malte0811
 id: ferritecore
 modType: jar
@@ -12,11 +14,11 @@ issues: https://github.com/malte0811/FerriteCore/issues
 support: https://github.com/malte0811/FerriteCore/discussions
 thirdPartyIds:
   modrinth: uXXizFIs
-  curseforge: 459857
+  curseforge: "459857"
 # curseforge (forge version): 429235
 downloads:
   - version: 3.1.0
-    loader:
+    loaders:
       - fabric
     minecraftVersions:
       - 1.17.1
@@ -32,7 +34,7 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3474756/file
   - version: 3.1.0
-    loader:
+    loaders:
       - forge
     minecraftVersions:
       - 1.17.1
@@ -44,7 +46,7 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore/download/3474755/file
   - version: 3.0.1
-    loader:
+    loaders:
       - fabric
     minecraftVersions:
       - 1.17.0
@@ -61,7 +63,7 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3373736/file
   - version: 2.1.0
-    loader:
+    loaders:
       - fabric
     minecraftVersions:
       - 1.16.5
@@ -77,7 +79,7 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3485637/file
   - version: 2.1.0
-    loader:
+    loaders:
       - forge
     minecraftVersions:
       - 1.16.5

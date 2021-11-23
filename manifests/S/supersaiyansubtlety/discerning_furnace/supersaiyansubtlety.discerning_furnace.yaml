@@ -1,8 +1,8 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: supersaiyansubtlety
 id: discerning_furnace
-loader:
-  - fabric
 modType: jar
 side: server
 name: Discerning Furnace
@@ -13,9 +13,11 @@ source: https://gitlab.com/supersaiyansubtlety/discerning_furnace/
 issues: https://gitlab.com/supersaiyansubtlety/discerning_furnace/-/issues
 thirdPartyIds:
   modrinth: G3Nz6HN4
-  curseforge: 428966
+  curseforge: "428966"
 downloads:
   - version: 1.0.3
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.17.0
       - 1.17.1
@@ -31,6 +33,8 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/discerning-furnace/download/3383095/file
   - version: 1.0.1
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.16.1
       - 1.16.2

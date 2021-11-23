@@ -1,22 +1,24 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: BradBot_1
 id: fabricsit
-loader:
-  - fabric
 modType: jar
 side: server
 name: FabricSit
 description: A serverside mod to allows players to sit on stairs and slabs
 license: Apache-2.0
 source: https://github.com/BradBot1/FabricSit
-issues: https://github.com/BradBot1/FabricSit/issues 
+issues: https://github.com/BradBot1/FabricSit/issues
 thirdPartyIds:
   modrinth: eM1KzRjc
-  curseforge: 480257
+  curseforge: "480257"
 downloads:
   - version: 1.6.4
+    loaders:
+      - fabric
     depends:
-      - package: BradBot_1.bfapi
+      - packageId: BradBot_1.bfapi
         version: ">=1.1.6"
     minecraftVersions:
       - 1.17.1
@@ -32,8 +34,10 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/fabricsit/download/3502600/file
   - version: 1.5.1
+    loaders:
+      - fabric
     depends:
-      - package: FabricMC.fabric
+      - packageId: FabricMC.fabric
         version: "*"
     minecraftVersions:
       - 1.17.0
@@ -53,8 +57,10 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/fabricsit/download/3346807/file
   - version: 1.5.0
+    loaders:
+      - fabric
     depends:
-      - package: FabricMC.fabric
+      - packageId: FabricMC.fabric
         version: "*"
     minecraftVersions:
       - 1.16.5

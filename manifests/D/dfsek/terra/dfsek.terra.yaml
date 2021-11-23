@@ -1,4 +1,6 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: dfsek
 id: terra
 modType: jar
@@ -13,10 +15,10 @@ wiki: https://github.com/PolyhedralDev/Terra/wiki
 chat: https://discord.gg/PXUEbbF
 thirdPartyIds:
   modrinth: FIlZB9L0
-  curseforge: 450465
+  curseforge: "450465"
 downloads:
   - version: 5.4.1-BETA+40e95073
-    loader:
+    loaders:
       - fabric
     minecraftVersions:
       - 1.17.0
@@ -30,7 +32,7 @@ downloads:
       - name: Modrinth
         url: https://cdn.modrinth.com/data/FIlZB9L0/versions/5.4.1-BETA+40e95073/Terra-fabric-5.4.1-BETA+40e95073-shaded-mapped.jar
   - version: 5.3.3-BETA+5dd00db8
-    loader:
+    loaders:
       - fabric
     minecraftVersions:
       - 1.16.4

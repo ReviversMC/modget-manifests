@@ -1,12 +1,12 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: tuxed
 id: krypton
-loader:
-  - fabric
 modType: jar
 side: both
 name: Krypton
-description: A Fabric mod that optimizes the Minecraft networking stack and entity tracker. 
+description: A Fabric mod that optimizes the Minecraft networking stack and entity tracker.
 license: LGPL-3.0
 home: https://github.com/astei/krypton
 source: https://github.com/astei/krypton
@@ -15,9 +15,11 @@ wiki: https://github.com/astei/krypton/wiki
 chat: https://discord.gg/RUGArxEQ8J
 thirdPartyIds:
   modrinth: fQEb0iXm
-  curseforge: 428912
+  curseforge: "428912"
 downloads:
   - version: 0.1.4
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.17.1
     md5: 9ed7dbe7b0803fc3f463f5ae099e2961

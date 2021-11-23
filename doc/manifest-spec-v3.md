@@ -36,23 +36,48 @@ Partly taken from: [`manifests / C / CaffeineMC / sodium / CaffeineMC.sodium.yam
 ```YAML
 manifestSpecVersion: 3.1
 publisher: CaffeineMC
-name: Sodium
 id: sodium
+modType: jar
+side: client
+name: Sodium
+
+# All values in the following block are optional
+description: Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.
+license: LGPL-3.0-only
+home: https://caffeinemc.net
+source: https://github.com/CaffeineMC/sodium-fabric
+issues: https://github.com/CaffeineMC/sodium-fabric/issues
+support: https://jellysquid.me/discord
+wiki: https://github.com/CaffeineMC/sodium-fabric/wiki
+chat: https://jellysquid.me/discord
+
 thirdPartyIds:
   curseforge: 394468
   modrinth: AANobbMI
-modType: jar
-side: client
-loader:
-  - fabric
 downloads:
   - version: 0.1.0
+    loaders:
+      - fabric
+    md5: 12fe6974813ae5d514af57c3ac679966
     minecraftVersions:
       - 1.16.2
       - 1.16.3
       - 1.16.4
       - 1.16.5
-    md5: 12fe6974813ae5d514af57c3ac679966
+
+    # All values in the following block are optional
+    depends:
+      - packageId: FabricMC.fabric
+        version: ">=0.42.0"
+    breaks:
+      - packageId: Chocohead.optifabric
+        version: "*"
+    recommends:
+      - packageId: CaffeineMC.lithium
+        version: ">=0.6.6"
+      - packageId: CaffeineMC.phosphor
+        version: ">=0.7.2"
+
     downloadPageUrls:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/sodium/files/3067101
@@ -69,38 +94,12 @@ downloads:
         url: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.16.3-0.1.0/sodium-fabric-mc1.16.3-0.1.0.jar
 ```
 
-### Optional Keys
-
-```YAML
-license: LGPL-3.0-only
-description: Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.
-home: https://caffeinemc.net
-wiki: https://github.com/CaffeineMC/sodium-fabric/wiki
-source: https://github.com/CaffeineMC/sodium-fabric
-issues: https://github.com/CaffeineMC/sodium-fabric/issues
-support: https://jellysquid.me/discord
-chat: https://jellysquid.me/discord
-
-# The following keys can be applied top-level, to specific versions or to both.
-# Please define them at a position which avoids having too much redundant data!
-depends:
-  - package: FabricMC.fabric
-    version: ">=0.42.0"
-breaks:
-  - package: Chocohead.optifabric
-    version: "*"
-recommends:
-  - package: CaffeineMC.lithium
-    version: ">=0.6.6"
-  - package: CaffeineMC.phosphor
-    version: ">=0.7.2"
-```
 
 ### Information on some keys
 - `modType`: Can currently either be `jar` or `zip`. Please note that only `jar` is supported as of now!
 - `side`: Can be `client`, `server` or `both`. This prevents the user from installing mods on the wrong side.
 - `thirdPartyIds`: Is required for [Automatic PRs through GitHub workflows #1](https://github.com/ReviversMC/modget-manifests/issues/1). Can only be omitted if the mod isn't on CurseForge or Modrinth.
-- `loader`: Can be `fabric`, `forge` and `liteloader`. Can be defined top-level or for specific versions.
+- `loaders`: Can be `fabric`, `forge` and/or `liteloader`.
 
 
 ## Best Practices

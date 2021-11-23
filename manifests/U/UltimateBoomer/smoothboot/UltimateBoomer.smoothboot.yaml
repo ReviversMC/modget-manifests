@@ -1,4 +1,6 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: UltimateBoomer
 id: smoothboot
 modType: jar
@@ -12,11 +14,11 @@ issues: https://github.com/UltimateBoomer/mc-smoothboot/issues
 wiki: https://github.com/UltimateBoomer/mc-smoothboot/wiki
 thirdPartyIds:
   modrinth: FWumhS4T
-  curseforge: 415758
+  curseforge: "415758"
 # curseforge (forge version): 420913
 downloads:
   - version: 1.6.0
-    loader:
+    loaders:
       - fabric
     minecraftVersions:
       - 1.16.1
@@ -42,7 +44,7 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/smooth-boot/download/3248104/file
   - version: 1.2.2
-    loader:
+    loaders:
       - forge
     minecraftVersions:
       - 1.16.1

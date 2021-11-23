@@ -1,8 +1,8 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: EnnuiL
 id: okzoomer
-loader:
-  - fabric
 modType: jar
 side: client
 name: OkZoomer
@@ -13,14 +13,16 @@ source: https://github.com/EnnuiL/OkZoomer
 issues: https://github.com/EnnuiL/OkZoomer/issues
 thirdPartyIds:
   modrinth: aXf2OSFU
-  curseforge: 354047
+  curseforge: "354047"
 downloads:
   - version: 5.0.0-beta.2+1.17
+    loaders:
+      - fabric
     depends:
-      - package: FabricMC.fabric
+      - packageId: FabricMC.fabric
         version: ">=0.34.0"
     recommends:
-      - package: TerraformersMC.modmenu
+      - packageId: TerraformersMC.modmenu
         version: ">=2.0.0"
     minecraftVersions:
       - 1.17.0
@@ -41,11 +43,13 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer/download/3360194/file
   - version: 4.0.1
+    loaders:
+      - fabric
     depends:
-      - package: FabricMC.fabric
+      - packageId: FabricMC.fabric
         version: ">=0.14.0"
     recommends:
-      - package: TerraformersMC.modmenu
+      - packageId: TerraformersMC.modmenu
         version: ">=1.14.6"
     minecraftVersions:
       - 1.16.2

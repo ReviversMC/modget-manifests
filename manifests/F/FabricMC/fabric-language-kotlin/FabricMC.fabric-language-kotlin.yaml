@@ -1,8 +1,8 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: FabricMC
 id: fabric-language-kotlin
-loader:
-  - fabric
 modType: jar
 side: both
 name: Fabric Language Kotlin
@@ -15,9 +15,11 @@ support: https://discord.gg/v6v4pMv
 chat: irc://irc.esper.net:6667/fabric
 thirdPartyIds:
   modrinth: Ha28R6CL
-  curseforge: 308769
+  curseforge: "308769"
 downloads:
   - version: 1.6.4+kotlin.1.5.30
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.14.0
       - 1.14.1

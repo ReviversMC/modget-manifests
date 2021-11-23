@@ -1,8 +1,8 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: FabricMC
 id: fabric
-loader:
-  - fabric
 modType: jar
 side: both
 name: Fabric API
@@ -15,9 +15,11 @@ support: https://discord.gg/v6v4pMv
 chat: irc://irc.esper.net:6667/fabric
 thirdPartyIds:
   modrinth: P7dR8mSH
-  curseforge: 306612
+  curseforge: "306612"
 downloads:
   - version: 0.41.3+1.17
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.17.1
     md5: 66dfde1d2ad8cd4745c4dced57fa4bce
@@ -36,6 +38,8 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3510335/file
   - version: 0.36.0+1.17
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.17.0
     md5: 919cf187e3b5963d74c140203ad9a65c
@@ -54,6 +58,8 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3358619/file
   - version: 0.41.3+1.16
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.16.2
       - 1.16.3

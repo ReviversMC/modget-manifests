@@ -1,4 +1,6 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: PaperMC
 id: starlight
 modType: jar
@@ -13,14 +15,14 @@ chat: https://discord.gg/tuinity
 thirdPartyIds:
   modrinth: H8CaAYZC
 # modrinth (forge version): iRfIGC1s
-  curseforge: 521783
+  curseforge: "521783"
 # curseforge (forge version): 526854
 downloads:
   - version: 1.0.0+fabric.73f6d37
-    loader:
+    loaders:
       - fabric
     breaks:
-      - package: CaffeineMC.phosphor
+      - packageId: CaffeineMC.phosphor
         version: "*"
     minecraftVersions:
       - 1.17.0
@@ -38,7 +40,7 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/starlight/download/3442770/file
   - version: 1.0.0+forge.5d16647
-    loader:
+    loaders:
       - forge
     minecraftVersions:
       - 1.17.0
@@ -55,10 +57,10 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/starlight-forge/download/3457784/file
   - version: 1.0.0-RC2+82ae5ca
-    loader:
+    loaders:
       - fabric
     breaks:
-      - package: CaffeineMC.phosphor
+      - packageId: CaffeineMC.phosphor
         version: "*"
     minecraftVersions:
       - 1.16.0

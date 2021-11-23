@@ -1,0 +1,354 @@
+{
+  "$id": "com.github.reviversmc.modget.manifests.schemas.spec3_1.manifest",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A representation of a Modget main manifest following the v3.1 specification.",
+  "type": "object",
+  "properties": {
+    "manifestSpecVersion": {
+      "type": "string",
+      "default": "\"3.1\"",
+      "const": "3.1",
+      "pattern": "^([0-9]+\\.[0-9]+)$",
+      "title": "Current manifest specification"
+    },
+    "publisher": {
+      "type": "string",
+      "description": "GitHub organization name, otherwise name of the main uploader on CurseForge/Modrinth",
+      "examples": [
+        "CaffeineMC",
+        "FabricMC",
+        "malte0811"
+      ]
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^([-_0-9a-zA-Z]+)$",
+      "description": "The ID of the mod, see fabric.mod.json",
+      "examples": [
+        "sodium",
+        "fdlink",
+        "discerning_furnace"
+      ]
+    },
+    "modType": {
+      "type": "string",
+      "description": "The mod type; usually `jar`, or for some older mods `zip`",
+      "enum": [
+        "jar",
+        "zip"
+      ]
+    },
+    "side": {
+      "type": "string",
+      "description": "On which sides can this mod be installed? See the mod's Modrinth page.",
+      "enum": [
+        "server",
+        "client",
+        "both"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the mod, see CurseForge/Modrinth or fabric.mod.json",
+      "examples": [
+        "Sodium",
+        "Not Enough Crashes"
+      ]
+    },
+    "description": {
+      "type": ["string", "null"],
+      "description": "Short description from CurseForge/Modrinth/Github or fabric.mod.json"
+    },
+    "license": {
+      "type": "string",
+      "description": "The version's license ID. See its fabric.mod.json or, of not specified there, its GitHub/Curseforge/Modrinth page.",
+      "examples": [
+        "LGPL-3-or-later",
+        "ARR"
+      ]
+    },
+    "home": {
+      "type": ["string", "null"],
+      "format": "iri",
+      "description": "Homepage listed in fabric.mod.json",
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+    },
+    "source": {
+      "type": ["string", "null"],
+      "format": "iri",
+      "description": "Website containing the source code listed in fabric.mod.json",
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+    },
+    "issues": {
+      "type": ["string", "null"],
+      "format": "iri",
+      "description": "Issues page of the project listed in fabric.mod.json",
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+    },
+    "support": {
+      "type": ["string", "null"],
+      "format": "iri",
+      "description": "An official website where users can get support from the developers",
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+    },
+    "wiki": {
+      "type": ["string", "null"],
+      "format": "iri",
+      "description": "Link to an official wiki (no third-party one!)",
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+    },
+    "chat": {
+      "type": ["string", "null"],
+      "format": "iri",
+      "description": "Link to an official chat provided by the mod developers",
+      "pattern": "^((http(s)?|irc):\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+    },
+    "thirdPartyIds": {
+      "type": "object",
+      "description": "Which CurseForge/Modrinth project IDs has this version been released under?",
+      "properties": {
+        "modrinth": {
+          "type": ["string", "null"],
+          "minLength": 8,
+          "maxLength": 8,
+          "examples": [
+            "AANobbMI"
+          ]
+        },
+        "curseforge": {
+          "type": ["string", "null"],
+          "minLength": 6,
+          "maxLength": 6,
+          "examples": [
+            "394468"
+          ]
+        }
+      },
+      "required": [
+        "modrinth",
+        "curseforge"
+      ],
+      "additionalProperties": false
+    },
+    "downloads": {
+      "type": "array",
+      "description": "All versions of the mod we support. Copy them from fabric.mod.json, and only modify them if they aren't semver compliant!",
+      "items": {
+        "type": "object",
+        "properties": {
+          "version": {
+            "type": "string",
+            "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+            "examples": [
+              "1.0.0",
+              "2.5.3-alpha.1",
+              "0.1.4+1.16.5"
+            ]
+          },
+          "loaders": {
+            "type": "array",
+            "description": "All mod loaders this version supports",
+            "items": {
+              "type": "string",
+              "enum": [
+                "fabric",
+                "forge",
+                "liteloader"
+              ]
+            }
+          },
+          "md5": {
+            "type": "string",
+            "description": "The MD5 hash of the file. See CurseForge, or generate it yourself (e.g. here: https://emn178.github.io/online-tools/md5_checksum.html)",
+            "examples": [
+              "b88cf07d124c5b96b82ab27e51fdff04"
+            ]
+          },
+          "minecraftVersions": {
+            "type": "array",
+            "description": "All Minecraft versions this mod version supports, sorted from newest to oldest",
+            "items": {
+              "type": "string",
+              "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+              "examples": [
+                "1.16",
+                "1.16.5",
+                "1.17.1"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "depends": {
+            "type": ["array", "null"],
+            "description": "Which other mods does this version need to run? See fabric.mod.json.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "packageId": {
+                  "type": "string",
+                  "title": "ID of the package",
+                  "description": "ASCII (without periods and non-URL characters) representation of the publisher and mod ID, separated by a period.",
+                  "examples": [
+                    "CaffeineMC.sodium",
+                    "malte0811.ferritecore"
+                  ],
+                  "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$"
+                },
+                "version": {
+                  "type": "string",
+                  "title": "A version or a range of versions",
+                  "pattern": "^(([<>](=)?)?(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?)|\\*$",
+                  "examples": [
+                    "0.2.1",
+                    ">=0.41.1",
+                    "*"
+                  ]
+                }
+              },
+              "required": [
+                "packageId",
+                "version"
+              ],
+              "additionalProperties": false
+            },
+            "uniqueItems": true
+          },
+          "breaks": {
+            "type": ["array", "null"],
+            "description": "Which other mods is this version incompatible with? See fabric.mod.json.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "packageId": {
+                  "type": "string",
+                  "title": "ID of the package",
+                  "description": "ASCII (without periods and non-URL characters) representation of the publisher and mod ID, separated by a period.",
+                  "examples": [
+                    "CaffeineMC.sodium",
+                    "malte0811.ferritecore"
+                  ],
+                  "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$"
+                },
+                "version": {
+                  "type": "string",
+                  "title": "A version or a range of versions",
+                  "pattern": "^(([<>](=)?)?(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?)|\\*$",
+                  "examples": [
+                    "0.2.1",
+                    ">=0.41.1",
+                    "*"
+                  ]
+                }
+              },
+              "required": [
+                "packageId",
+                "version"
+              ],
+              "additionalProperties": false
+            },
+            "uniqueItems": true
+          },
+          "recommends": {
+            "type": ["array", "null"],
+            "description": "Optional dependencies not required to run this version. See fabric.mod.json.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "packageId": {
+                  "type": "string",
+                  "title": "ID of the package",
+                  "description": "ASCII (without periods and non-URL characters) representation of the publisher and mod ID, separated by a period.",
+                  "examples": [
+                    "CaffeineMC.sodium",
+                    "malte0811.ferritecore"
+                  ],
+                  "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$"
+                },
+                "version": {
+                  "type": "string",
+                  "title": "A version or a range of versions",
+                  "pattern": "^(([<>](=)?)?(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?)|\\*$",
+                  "examples": [
+                    "0.2.1",
+                    ">=0.41.1",
+                    "*"
+                  ]
+                }
+              },
+              "required": [
+                "packageId",
+                "version"
+              ],
+              "additionalProperties": false
+            },
+            "uniqueItems": true
+          },
+          "downloadPageUrls": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "iri",
+                  "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+                }
+              },
+              "required": [
+                "name",
+                "url"
+              ],
+              "additionalProperties": false
+            },
+            "uniqueItems": true
+          },
+          "fileUrls": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "iri",
+                  "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+                }
+              },
+              "required": [
+                "name",
+                "url"
+              ],
+              "additionalProperties": false
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "version",
+          "loaders",
+          "md5",
+          "minecraftVersions",
+          "downloadPageUrls",
+          "fileUrls"
+        ],
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "manifestSpecVersion",
+    "publisher",
+    "id",
+    "modType",
+    "side",
+    "name",
+    "downloads"
+  ],
+  "additionalProperties": false
+}

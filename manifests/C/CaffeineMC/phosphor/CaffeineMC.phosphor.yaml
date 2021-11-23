@@ -1,8 +1,8 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: CaffeineMC
 id: phosphor
-loader:
-  - fabric
 modType: jar
 side: server
 name: Phosphor
@@ -12,20 +12,22 @@ home: https://caffeinemc.net
 source: https://github.com/CaffeineMC/phosphor-fabric
 issues: https://github.com/CaffeineMC/phosphor-fabric/issues
 chat: https://jellysquid.me/discord
-breaks:
-  - package: PaperMC.starlight
-    version: "*"
 thirdPartyIds:
   modrinth: hEOCdOgW
-  curseforge: 372124
+  curseforge: "372124"
 downloads:
   - version: 0.7.2
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.16.2
       - 1.16.3
       - 1.16.4
       - 1.16.5
     md5: c20213b0f2b9e7769d7cdcc922960f9c
+    breaks:
+      - packageId: PaperMC.starlight
+        version: "*"
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.org/mod/phosphor/version/1mUlojUQ

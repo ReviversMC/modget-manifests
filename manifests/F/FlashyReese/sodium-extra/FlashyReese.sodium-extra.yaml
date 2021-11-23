@@ -1,8 +1,8 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: FlashyReese
 id: sodium-extra
-loader:
-  - fabric
 modType: jar
 side: client
 name: Sodium Extra
@@ -13,19 +13,21 @@ source: https://github.com/FlashyReese/sodium-extra-fabric
 issues: https://github.com/FlashyReese/sodium-extra-fabric/issues
 thirdPartyIds:
   modrinth: PtjYWJkn
-  curseforge: 447673
+  curseforge: "447673"
 downloads:
   - version: 0.3.5
+    loaders:
+      - fabric
     depends:
-      - package: FabricMC.fabric
+      - packageId: FabricMC.fabric
         version: "*"
-      - package: CaffeineMC.sodium
+      - packageId: CaffeineMC.sodium
         version: "0.3.x"
     recommends:
-      - package: FlashyReese.reeses-sodium-options
+      - packageId: FlashyReese.reeses-sodium-options
         version: "*"
     minecraftVersions:
-      - 1.17
+      - "1.17"
       - 1.17.1
     md5: 42de44707e27d2ed389f3cda1d9d4571
     downloadPageUrls:
@@ -43,17 +45,19 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/sodium-extra/download/3480453/file
   - version: 0.3.2
+    loaders:
+      - fabric
     depends:
-      - package: FabricMC.fabric
+      - packageId: FabricMC.fabric
         version: "*"
-      - package: CaffeineMC.sodium
+      - packageId: CaffeineMC.sodium
         version: "*"
     breaks:
-      - package: CaffeineMC.sodium
+      - packageId: CaffeineMC.sodium
         version: "0.1.x"
-      - package: CaffeineMC.sodium
+      - packageId: CaffeineMC.sodium
         version: "0.2.0+IRIS_rev.400af47"
-      - package: CaffeineMC.sodium
+      - packageId: CaffeineMC.sodium
         version: ">=0.3.x"
     minecraftVersions:
       - 1.16.2

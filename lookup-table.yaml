@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./doc/validation-schemas/3.1/lookup-table.json
+
 - id: fdlink
   names:
     - fabric-discord-link
@@ -19,7 +21,7 @@
     - bfapi
   packages:
     - BradBot_1.bfapi
-  tags: 
+  tags:
     - api
     - library
 - id: fabricsit
@@ -49,7 +51,7 @@
     - performance
     - utility
 - id: phosphor
-  names: 
+  names:
     - phosphor
     - phosphor-fabric
   packages:
@@ -80,6 +82,8 @@
     - fabriccrossdimtpfix
   packages:
     - CodedSakura.fabriccrossdimtpfix
+  tags:
+    - miscellaneous
 - id: terra
   names:
     - terra
@@ -172,7 +176,7 @@
   tags:
     - utility
 - id: discerning_furnace
-  names: 
+  names:
     - discerning_furnace
   packages:
     - supersaiyansubtlety.discerning_furnace

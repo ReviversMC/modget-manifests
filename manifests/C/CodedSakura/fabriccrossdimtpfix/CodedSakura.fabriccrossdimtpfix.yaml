@@ -1,8 +1,8 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: CodedSakura
 id: fabriccrossdimtpfix
-loader:
-  - fabric
 modType: jar
 side: server
 name: FabricCrossDimTPFix
@@ -10,17 +10,20 @@ description: Fixes a bug where the player doesn't get sent their XP and Potion e
 license: ISC
 source: https://github.com/CodedSakura/FabricCrossDimTPFix
 issues: https://github.com/CodedSakura/FabricCrossDimTPFix/issues
-depends:
-  - package: FabricMC.fabric
-    version: "*"
 thirdPartyIds:
   modrinth: q1O2IGx6
+  curseforge: ~
 downloads:
   - version: 0.2.0
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.17.0
       - 1.17.1
     md5: b1ccd817f7fa7cfb4b7936c85ed4f6af
+    depends:
+      - packageId: FabricMC.fabric
+        version: "*"
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/fabriccrossdimtpfix/version/hFa4excN
@@ -28,12 +31,17 @@ downloads:
       - name: Modrinth
         url: https://cdn.modrinth.com/data/q1O2IGx6/versions/v0.2.0/fabriccrossdimtpfix-0.2.0.jar
   - version: 0.1.0
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.16.2
       - 1.16.3
       - 1.16.4
       - 1.16.5
     md5: b22348cdf4c6049bdd9816ee418004a9
+    depends:
+      - packageId: FabricMC.fabric
+        version: "*"
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/fabriccrossdimtpfix/version/qOa4whwn

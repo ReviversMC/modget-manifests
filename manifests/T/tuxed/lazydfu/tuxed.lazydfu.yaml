@@ -1,8 +1,8 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: tuxed
 id: lazydfu
-loader:
-  - fabric
 modType: jar
 side: server
 name: LazyDFU
@@ -15,9 +15,11 @@ wiki: https://github.com/astei/lazydfu/wiki
 chat: https://discord.gg/RUGArxEQ8J
 thirdPartyIds:
   modrinth: hvFnDODi
-  curseforge: 433518
+  curseforge: "433518"
 downloads:
   - version: 0.1.2
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.14.0
       - 1.14.1

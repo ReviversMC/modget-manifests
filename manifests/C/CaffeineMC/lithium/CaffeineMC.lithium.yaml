@@ -1,8 +1,8 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: CaffeineMC
 id: lithium
-loader:
-  - fabric
 modType: jar
 side: server
 name: Lithium
@@ -13,18 +13,20 @@ source: https://github.com/CaffeineMC/lithium-fabric
 issues: https://github.com/CaffeineMC/lithium-fabric/issues
 wiki: https://github.com/CaffeineMC/lithium-fabric/wiki
 chat: https://jellysquid.me/discord
-breaks:
-  - package: Chocohead.optifabric
-    version: "*"
 thirdPartyIds:
   modrinth: gvQqBUqZ
-  curseforge: 360438
+  curseforge: "360438"
 downloads:
   - version: 0.7.4
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.17.0
       - 1.17.1
     md5: 5e9a9c1dfaa4e10403a8c658639e5cca
+    breaks:
+      - packageId: Chocohead.optifabric
+        version: "*"
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/lithium/version/nVR7Q63z
@@ -40,12 +42,17 @@ downloads:
       - name: CurseForge
         url: https://www.curseforge.com/minecraft/mc-mods/lithium/download/3438799/file
   - version: 0.6.6
+    loaders:
+      - fabric
     minecraftVersions:
       - 1.16.2
       - 1.16.3
       - 1.16.4
       - 1.16.5
     md5: 19f9a82b0753ae21430761a8916f0533
+    breaks:
+      - packageId: Chocohead.optifabric
+        version: "*"
     downloadPageUrls:
       - name: Modrinth
         url: https://modrinth.com/mod/lithium/version/rvsW1zhb

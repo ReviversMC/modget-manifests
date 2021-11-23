@@ -1,4 +1,6 @@
-manifestSpecVersion: 3.1
+# yaml-language-server: $schema=../../../../doc/validation-schemas/3.1/manifest.json
+
+manifestSpecVersion: "3.1"
 publisher: ReviversMC
 id: modget
 modType: jar
@@ -13,16 +15,16 @@ wiki: https://github.com/ReviversMC/modget/blob/master/README.md
 chat: https://discord.gg/nVDXfCRyMk
 thirdPartyIds:
   modrinth: 2NpFE0R3
-  curseforge: 533960
+  curseforge: "533960"
 downloads:
   - version: 0.2.3
-    loader:
+    loaders:
       - fabric
     depends:
-      - package: FabricMC.fabric
+      - packageId: FabricMC.fabric
         version: "*"
     recommends:
-      - package: arthurbambou.server_translations
+      - packageId: arthurbambou.server_translations
         version: "*"
     minecraftVersions:
       - 1.16.0
