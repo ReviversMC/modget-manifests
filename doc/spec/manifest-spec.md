@@ -160,7 +160,7 @@ The following example file mixes together metadata from various different mods t
     server: unsupported
     client: required
 
-  # Is this it an `alpha`, `beta` or `release` version? See CurseForge/Modrinth.
+  # Is this an `alpha`, `beta` or `release` version? See CurseForge/Modrinth.
   channel: release
 
   # Note that for the following arrays (except `bundles`), the `version` tag's value has to be
