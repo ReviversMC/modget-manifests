@@ -61,7 +61,7 @@
       },
       "channel": {
         "type": "string",
-        "description": "Is this it an `alpha`, `beta` or `release` version? See CurseForge/Modrinth.",
+        "description": "Is this an `alpha`, `beta` or `release` version? See CurseForge/Modrinth.",
         "enum": [
           "alpha",
           "beta",
