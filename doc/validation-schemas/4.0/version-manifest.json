@@ -231,7 +231,7 @@
           },
           "required": [
             "packageId",
-            "versions"
+            "version"
           ],
           "additionalProperties": false
         },
