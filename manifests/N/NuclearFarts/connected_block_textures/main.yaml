@@ -7,7 +7,6 @@ iconUrls:
 status: eol
 updatedAlternatives:
   - packageId: PepperCode1.continuity
-    version: "1.0.2"
 name: Connected Block Textures
 description: Support for MCPatcher/Optifine-format connected textures.
 authors:

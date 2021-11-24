@@ -10,8 +10,8 @@
     client: required
   channel: release
   depends:
-    packageId: FabricMC.fabric
-    version: "*"
+    - packageId: FabricMC.fabric
+      version: "*"
   bundles: ~
   breaks: ~
   conflicts: ~
@@ -25,7 +25,7 @@
   downloadPageUrls:
     modrinth: https://modrinth.com/mod/dynamic-fps/version/Co2w6nIh
     curseforge: https://www.curseforge.com/minecraft/mc-mods/dynamic-fps/files/3497287
-    sourceControl: https://github.com/vram-guild/canvas/releases/tag/mc117-1.0.2201-unstable
+    sourceControl: https://github.com/juliand665/Dynamic-FPS/releases/tag/2.0.6
     others: ~
   fileUrls:
     modrinth: https://github.com/juliand665/Dynamic-FPS/releases/tag/2.0.6

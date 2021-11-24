@@ -2,14 +2,11 @@
 
 manifestSpecVersion: "4.0"
 publisher: haykam
-id: raisedclouds
 iconUrls:
-  - https://cdn.modrinth.com/data/PRN43VSY/icon.png
-  - https://media.forgecdn.net/avatars/thumbnails/439/740/64/64/637687343272147005.png
+  - https://media.forgecdn.net/avatars/thumbnails/296/154/64/64/637339603275442830.png
 status: unknown
 updatedAlternatives:
   - packageId: misterslime.fabulousclouds
-    version: "0.2.3"
 name: Raised Clouds
 description: Allows changing the height at which clouds appear.
 authors:

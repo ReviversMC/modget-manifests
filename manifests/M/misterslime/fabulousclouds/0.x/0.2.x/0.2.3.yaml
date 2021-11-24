@@ -10,8 +10,8 @@
     client: required
   channel: release
   depends:
-    packageId: FabricMC.fabric
-    version: "*"
+    - packageId: FabricMC.fabric
+      version: "*"
   bundles: ~
   breaks: ~
   conflicts: ~

@@ -1,36 +1,36 @@
   # yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
-    - fabric
-    minecraftVersions:
-      - "1.17.1"
-      - "1.17"
-    environment:
-      server: unsupported
-      client: required
-    channel: release
-    depends:
-      - package: FabricMC.fabric
-        version: "*"
-    bundles: ~
-    breaks:
-      - packageId: Chocohead.optifabric
-        version: "*"
-    conflicts: ~
-    recommends: ~
-    thirdPartyIds:
-      modrinth: "PRN43VSY"
-      curseforge: "533006"
-    license: LGPL-3
-    fileType: jar
-    md5: 984a49fd7f71a29a4f4f299508e7bdc8
-    downloadPageUrls:
-      modrinth: https://modrinth.com/mod/animatica/version/NXTzSfcj
-      curseforge: https://www.curseforge.com/minecraft/mc-mods/animatica/files/3478564
-      sourceControl: ~
-      others: ~
-    fileUrls:
-      modrinth: https://cdn.modrinth.com/data/PRN43VSY/versions/0.1+1.17/animatica-0.1+1.17.jar
-      curseforge: https://www.curseforge.com/minecraft/mc-mods/animatica/download/3478564/file
-      sourceControl: ~
-      others: ~
+  - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks:
+    - packageId: Chocohead.optifabric
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "PRN43VSY"
+    curseforge: "533006"
+  license: LGPL-3
+  fileType: jar
+  md5: 984a49fd7f71a29a4f4f299508e7bdc8
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/animatica/version/NXTzSfcj
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/animatica/files/3478564
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/PRN43VSY/versions/0.1+1.17/animatica-0.1+1.17.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/animatica/download/3478564/file
+    sourceControl: ~
+    others: ~
