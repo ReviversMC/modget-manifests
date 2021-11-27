@@ -1,0 +1,93 @@
+{
+  "$id": "com.github.reviversmc.modget.manifests.schemas.spec4_0.lookup-table",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A representation of a Modget lookup table following the v4 specification.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^([-_0-9a-zA-Z]+)$",
+        "description": "The ID of the mod, see fabric.mod.json",
+        "examples": [
+          "sodium",
+          "fdlink",
+          "discerning_furnace"
+        ]
+      },
+      "alternativeNames": {
+        "type": ["array", "null"],
+        "description": "The official name defined in fabric.mod.json, potentially differing Modrinth/CurseForge names and their slugs etc. (kebab-cased).\nIf a lower- and kebab-cased name equals the id above, omit it!\nIf this leads to an empty list, set `alternativeNames` to `~` or `null`.",
+        "items": {
+          "type": "string",
+          "pattern": "^((?![A-Z]).)*$",
+          "examples": [
+            "sodium-fabric",
+            "fabric-discord-link"
+          ]
+        },
+        "uniqueItems": true
+      },
+      "tags": {
+        "type": "array",
+        "description": "Take the tags from Modrinth/CurseForge",
+        "items": {
+          "type": "string",
+          "pattern": "^-|[a-z]$"
+        },
+        "examples": [
+          "utility",
+          "information",
+          "performance"
+        ],
+        "uniqueItems": true
+      },
+      "packages": {
+        "type": "array",
+        "description": "All packages which have the aforementioned modid",
+        "items": {
+          "type": "object",
+          "properties": {
+            "packageId": {
+              "type": "string",
+              "title": "The package id (`publisher.modid`)",
+              "description": "ASCII (without periods and non-URL characters) representation of the publisher and mod ID, separated by a period.",
+              "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$",
+              "examples": [
+                "CaffeineMC.sodium",
+                "malte0811.ferritecore"
+              ]
+            },
+            "loaders": {
+              "type": "array",
+              "description": "All mod loaders the package supports",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "fabric",
+                  "forge",
+                  "liteloader"
+                ]
+              }
+            }
+          },
+          "required": [
+            "packageId",
+            "loaders"
+          ],
+          "additionalProperties": false
+        },
+        "uniqueItems": true
+      }
+    },
+    "required": [
+      "id",
+      "alternativeNames",
+      "tags",
+      "packages"
+    ],
+    "additionalProperties": false
+  },
+  "uniqueItems": true
+}

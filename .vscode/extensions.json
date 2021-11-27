@@ -1,8 +1,8 @@
 {
-	"recommendations": [
-		"nathanridley.autotrim",
-		"streetsidesoftware.code-spell-checker",
-		"yzhang.markdown-all-in-one",
-		"redhat.vscode-yaml"
-	]
+  "recommendations": [
+    "redhat.vscode-yaml",
+    "editorconfig.editorconfig",
+    "streetsidesoftware.code-spell-checker",
+    "yzhang.markdown-all-in-one"
+  ]
 }

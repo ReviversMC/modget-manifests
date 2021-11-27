@@ -1,11 +1,10 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
   - fabric
   minecraftVersions:
-    - "1.17"
     - "1.17.1"
-    # 1.17.x in fabric.mod.json
+    - "1.17"
   environment:
     server: required
     client: optional

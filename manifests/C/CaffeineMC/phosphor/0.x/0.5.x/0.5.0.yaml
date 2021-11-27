@@ -1,7 +1,7 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
-- fabric
+    - fabric
   minecraftVersions:
     - "1.16.5"
     - "1.16.4"
@@ -34,6 +34,7 @@
     curseforge: https://www.curseforge.com/minecraft/mc-mods/phosphor/download/2917253/file
     sourceControl: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc20w13b-v0.5.0/phosphor-fabric-mc20w13b-0.5.0+build.1.jar
     others: ~
+
 - loaders:
     - fabric
   minecraftVersions:

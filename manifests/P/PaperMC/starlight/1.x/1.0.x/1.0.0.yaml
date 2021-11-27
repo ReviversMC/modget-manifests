@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
   - fabric
@@ -32,6 +32,7 @@
     curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight/download/3442770/file
     sourceControl: ~
     others: ~
+
 - loaders:
     - forge
   minecraftVersions:

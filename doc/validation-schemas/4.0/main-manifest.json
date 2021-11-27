@@ -1,0 +1,217 @@
+{
+  "$id": "https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A representation of a Modget main manifest following the v4 specification.",
+  "type": "object",
+  "properties": {
+    "manifestSpecVersion": {
+      "type": "string",
+      "default": "\"4.0\"",
+      "const": "4.0",
+      "pattern": "^([0-9]+\\.[0-9]+)$",
+      "title": "Current manifest specification"
+    },
+    "publisher": {
+      "type": "string",
+      "description": "GitHub organization name, otherwise name of the main uploader on CurseForge/Modrinth",
+      "examples": [
+        "CaffeineMC",
+        "FabricMC",
+        "malte0811"
+      ]
+    },
+    "iconUrls": {
+      "type": ["array", "null"],
+      "description": "Sort from best to worst quality, otherwise Modrinth → CurseForge → GitHub/GitLab etc.",
+      "items": {
+        "type": "string",
+        "format": "iri",
+        "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$",
+        "examples": ["https://cdn.modrinth.com/data/AANobbMI/icon.png"]
+      },
+      "uniqueItems": true
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "eol",
+        "abandoned",
+        "unknown"
+      ],
+      "title": "Development status"
+    },
+    "updatedAlternatives": {
+      "type": ["array", "null"],
+      "description": "If there is no working version of this mod for newer Minecraft versions and other people have ported it / mods of very similar scope exist",
+      "items": {
+        "type": "object",
+        "properties": {
+          "packageId": {
+            "type": "string",
+            "title": "ID of the alternative package",
+            "description": "ASCII (without periods and non-URL characters) representation of the publisher and mod ID, separated by a period.",
+            "pattern": "^(([-_0-9a-zA-Z]+)\\.([-_0-9a-zA-Z]+))$",
+            "examples": [
+              "CaffeineMC.sodium",
+              "malte0811.ferritecore"
+            ]
+          }
+        },
+        "required": [
+          "packageId"
+        ],
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the mod, see CurseForge/Modrinth or fabric.mod.json",
+      "examples": [
+        "Sodium",
+        "Not Enough Crashes"
+      ]
+    },
+    "description": {
+      "type": ["string", "null"],
+      "description": "Short description from CurseForge/Modrinth/Github or fabric.mod.json"
+    },
+    "authors": {
+      "type": ["array", "null"],
+      "description": "Authors listed in fabric.mod.json",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "examples": [
+              "JellySquid",
+              "2No2Name"
+            ]
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    },
+    "home": {
+      "type": ["string", "null"],
+      "format": "iri",
+      "description": "Homepage listed in fabric.mod.json",
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+    },
+    "source": {
+      "type": ["string", "null"],
+      "format": "iri",
+      "description": "Website containing the source code listed in fabric.mod.json",
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+    },
+    "issues": {
+      "type": ["string", "null"],
+      "format": "iri",
+      "description": "Issues page of the project listed in fabric.mod.json",
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+    },
+    "support": {
+      "type": ["string", "null"],
+      "format": "iri",
+      "description": "An official website where users can get support from the developers",
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+    },
+    "wiki": {
+      "type": ["string", "null"],
+      "format": "iri",
+      "description": "Link to an official wiki (no third-party one!)",
+      "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+    },
+    "chats": {
+      "type": ["object", "null"],
+      "description": "Links to official chats provided by the mod developers",
+      "properties": {
+        "discord": {
+          "type": ["string", "null"],
+          "format": "iri",
+          "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+        },
+        "irc": {
+          "type": ["string", "null"],
+          "format": "iri",
+          "pattern": "^(irc:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+        },
+        "others": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "iri",
+                "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+              }
+            },
+            "required": [
+              "name",
+              "url"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "discord",
+        "irc",
+        "others"
+      ],
+      "additionalProperties": false
+    },
+    "versions": {
+      "type": "array",
+      "description": "All versions of the mod we support. Copy them from fabric.mod.json, and only modify them if they aren't semver compliant!",
+      "items": {
+        "type": "object",
+        "properties": {
+          "version": {
+            "type": "string",
+            "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+            "examples": [
+              "1.0.0",
+              "2.5.3-alpha.1",
+              "0.1.4+1.16.5"
+            ]
+          }
+        },
+        "required": [
+          "version"
+        ],
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "manifestSpecVersion",
+    "publisher",
+    "iconUrls",
+    "status",
+    "updatedAlternatives",
+    "name",
+    "description",
+    "authors",
+    "home",
+    "source",
+    "issues",
+    "support",
+    "wiki",
+    "chats",
+    "versions"
+  ],
+  "additionalProperties": false
+}

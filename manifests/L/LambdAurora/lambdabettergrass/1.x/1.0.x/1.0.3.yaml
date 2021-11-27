@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
   - fabric
@@ -13,7 +13,7 @@
   channel: release
   depends:
     - packageId: FabricMC.fabric
-    - version: ">=0.29.4"
+      version: ">=0.29.4"
   bundles: ~
   breaks:
     - packageId: Chocohead.optifabric
@@ -28,7 +28,7 @@
     modrinth: "2Uev7LdA"
     curseforge: "400322"
   license: MIT
-  filetype: jar
+  fileType: jar
   md5: 7397cfe9d5da32821c4a1c5239b8b9b3
   downloadPageUrls:
     modrinth: https://modrinth.com/mod/lambdabettergrass/version/b7b45yqL
