@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: SHsuperCM
+iconUrls:
+  - https://cdn.modrinth.com/data/otVJckYQ/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/426/701/64/64/637657532550330185.png
+status: active
+updatedAlternatives: ~
+name: CITResewn
+description: Re-implements MCPatcher's CIT
+authors:
+  - name: SHsuperCM
+home: https://github.com/SHsuperCM/CITResewn
+source: https://github.com/SHsuperCM/CITResewn
+issues: https://github.com/SHsuperCM/CITResewn/issues
+support: https://citresewn.readthedocs.io/usage/help/
+wiki: https://citresewn.readthedocs.io/
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "0.8.1"

@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+  - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "LQ3K71Q1"
+    curseforge: "335493"
+  license: MIT
+  fileType: jar
+  md5: 624e1f32ed4ca873c222c122f91553d4
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/dynamic-fps/version/muZxaaxq
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/dynamic-fps/files/3302730
+    sourceControl: https://github.com/juliand665/Dynamic-FPS/releases/tag/2.0.2
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/LQ3K71Q1/versions/2.0.2/dynamic-fps-2.0.2.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/dynamic-fps/download/3302730/file
+    sourceControl: https://github.com/juliand665/Dynamic-FPS/releases/download/2.0.2/dynamic-fps-2.0.2.jar
+    others: ~

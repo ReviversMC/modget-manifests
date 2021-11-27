@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
-    - fabric
+  - fabric
   minecraftVersions:
     - "1.17.1"
     - "1.17"
@@ -24,7 +24,7 @@
     modrinth: "2Uev7LdA"
     curseforge: "400322"
   license: MIT
-  filetype: jar
+  fileType: jar
   md5: 0410b0a53e21ac21e93617e735d3b521
   downloadPageUrls:
     modrinth: https://modrinth.com/mod/lambdabettergrass/version/6KQ1zcVH

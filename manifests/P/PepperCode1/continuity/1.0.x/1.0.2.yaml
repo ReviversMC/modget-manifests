@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+  - fabric
+  minecraftVersions:
+    - "1.17"
+    - "1.17.1"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMc.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "1IjD5062"
+    curseforge: "531351"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 8eebce4a77bacd346a55bb6f08441827
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/continuity/version/i0ccQghD
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/continuity/files/3498711
+    sourceControl: https://github.com/PepperCode1/Continuity/releases/tag/v1.0.2%2B1.17
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/1IjD5062/versions/1.0.2+1.17/continuity-1.0.2+1.17.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/continuity/download/3498711/file
+    sourceControl: https://github.com/PepperCode1/Continuity/releases/download/v1.0.2%2B1.17/continuity-1.0.2+1.17.jar
+    others: ~

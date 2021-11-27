@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+  - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: beta
+  depends:
+    - packageId: FabricMC.fabric-language-kotlin
+      version: "*"
+  bundles: ~
+  breaks:
+    - packageId: TeamMidnightDust.customsplashscreen
+      version: "*"
+    - packageId: Neecko5b84.dark-loading-screen
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "409628"
+  license: GPLv3
+  fileType: jar
+  md5: 90708a923588fa99da0236da23b11494
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/splash/files/3514952
+    sourceControl: https://github.com/LoganDark/fabric-splash/releases/tag/1.2.0-beta.1%2B1.17
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/splash/download/3514952/file
+    sourceControl: https://github.com/LoganDark/fabric-splash/releases/download/1.2.0-beta.1%2B1.17/splash-1.2.0-beta.1+1.17.jar
+    others: ~

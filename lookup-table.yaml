@@ -1,5 +1,17 @@
 # yaml-language-server: $schema=./doc/validation-schemas/4.0/lookup-table.json
 
+- id: fabricskyboxes
+  alternativeNames:
+    - fabric-skyboxes
+  tags:
+    - cosmetic
+    - utility
+    - miscellaneous
+    - optifine-alternative
+  packages:
+    - packageId: AMereBagatelle.fabricskyboxes
+      loaders:
+        - fabric
 - id: architectury
   alternativeNames:
     - architectury-api
@@ -133,6 +145,38 @@
     - packageId: dfsek.terra
       loaders:
         - fabric
+- id: varied-mobs
+  alternativeNames:
+    - varied-mob-textures
+  tags:
+    - mobs
+    - optifine-alternative
+  packages:
+    - packageId: Digifox03.varied-mobs
+      loaders:
+        - fabric
+- id: soaring-clouds
+  alternativeNames: ~
+  tags:
+    - cosmetic
+    - miscellaneous
+    - optifine-alternative
+  packages:
+    - packageId: Draylar.soaring-clouds
+      loaders:
+        - fabric
+- id: chime
+  alternativeNames: ~
+  tags:
+    - library
+    - api
+    - utility
+    - miscellaneous
+    - optifine-alternative
+  packages:
+    - packageId: EmilyPloszaj.chime
+      loaders:
+        - fabric
 - id: okzoomer
   alternativeNames:
     - ok-zoomer
@@ -172,6 +216,56 @@
     - packageId: FlashyReese.sodium-extra
       loaders:
         - fabric
+- id: animatica
+  alternativeNames: ~
+  tags:
+    - utility
+    - decoration
+    - miscellaneous
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: FoundationGames.animatica
+      loaders:
+        - fabric
+- id: clear-skies
+  alternativeNames: ~
+  tags:
+    - cosmetic
+  packages:
+    - packageId: Grondag.clear-skies
+      loaders:
+        - fabric
+- id: raisedclouds
+  alternativeNames:
+    - raised-clouds
+  tags:
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: haykam.raisedclouds
+      loaders:
+        - fabric
+- id: dynamicfps
+  alternativeNames:
+    - dynamic-fps
+  tags:
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: juliand665.dynamicfps
+      loaders:
+        - fabric
+- id: colormatic
+  alternativeNames: ~
+  tags:
+    - cosmetic
+    - decoration
+    - utility
+  packages:
+    - packageId: kvverti.colormatic
+      loaders:
+        - fabric
 - id: lambdabettergrass
   alternativeNames:
     - lambda-better-grass
@@ -181,6 +275,7 @@
     - adventure
     - rpg
     - vanilla-plus
+    - optifine-alternative
   packages:
     - packageId: LambdAurora.lambdabettergrass
       loaders:
@@ -197,6 +292,15 @@
     - optifine-alternative
   packages:
     - packageId: LambdAurora.lambdynlights
+      loaders:
+        - fabric
+- id: splash
+  alternativeNames: ~
+  tags:
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: LoganDark.splash
       loaders:
         - fabric
 - id: logical_zoom
@@ -221,6 +325,38 @@
       loaders:
         - fabric
         - forge
+- id: fabulousclouds
+  alternativeNames:
+    - fabulous-clouds
+  tags:
+    - cosmetic
+    - miscellaneous
+    - optifine-alternative
+  packages:
+    - packageId: misterslime.fabulousclouds
+      loaders:
+        - fabric
+- id: dark-loading-screen
+  alternativeNames: ~
+  tags:
+    - vanilla-plus
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: Neecko5b84.dark-loading-screen
+      loaders:
+        - fabric
+- id: connected_block_textures
+  alternativeNames:
+    - cbt
+    - connected-block-textures
+  tags:
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: NuclearFarts.connected_block_textures
+      loaders:
+        - fabric
 - id: starlight
   alternativeNames: ~
   tags:
@@ -232,6 +368,20 @@
       loaders:
         - fabric
         - forge
+- id: continuity
+  alternativeNames: ~
+  tags:
+    - utility
+    - decoration
+    - miscellaneous
+    - cosmetic
+    - library
+    - api
+    - optifine-alternative
+  packages:
+    - packageId: PepperCode1.continuity
+      loaders:
+        - fabric
 - id: dashloader
   alternativeNames: ~
   tags:
@@ -243,12 +393,68 @@
     - packageId: QuantumFusion.dashloader
       loaders:
         - fabric
+- id: fabrishot
+  alternativeNames: ~
+  tags:
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: ramidzkh.fabrishot
+      loaders:
+        - fabric
 - id: modget
   alternativeNames: ~
   tags:
     - utility
   packages:
     - packageId: ReviversMC.modget
+      loaders:
+        - fabric
+- id: autoconfig1u
+  alternativeNames:
+    - auto-config
+    - auto-config-api
+  tags:
+    - library
+    - api
+  packages:
+    - packageId: shedaniel.autoconfig1u
+      loaders:
+        - fabric
+- id: cloth-config2
+  alternativeNames:
+    - cloth-config
+  tags:
+    - library
+    - api
+  packages:
+    - packageId: shedaniel.cloth-config2
+      loaders:
+        - fabric
+        - forge
+- id: citresewn
+  alternativeNames: ~
+  tags:
+    - map
+    - information
+    - miscellaneous
+    - utility
+    - optifine-alternative
+  packages:
+    - packageId: SHsuperCM.citresewn
+      loaders:
+        - fabric
+- id: moremcmeta
+  alternativeNames:
+    - more-mcmeta
+    - more-mc-meta
+  tags:
+    - cosmetic
+    - utility
+    - decoration
+    - optifine-alternative
+  packages:
+    - packageId: soir20.moremcmeta
       loaders:
         - fabric
 - id: discerning_furnace
@@ -262,6 +468,29 @@
     - packageId: supersaiyansubtlety.discerning_furnace
       loaders:
         - fabric
+- id: cullleaves
+  alternativeNames: ~
+  tags:
+    - miscellaneous
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: TeamMidnightDust.cullleaves
+      loaders:
+        - fabric
+- id: customsplashscreen
+  alternativeNames:
+    - custom-splash-screen
+  tags:
+    - utility
+    - decoration
+    - miscellaneous
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: shedaniel.customsplashscreen
+      loaders:
+        - fabric
 - id: modmenu
   alternativeNames:
     - mod-menu
@@ -270,6 +499,14 @@
     - miscellaneous
   packages:
     - packageId: TerraformersMC.modmenu
+      loaders:
+        - fabric
+- id: transparent
+  alternativeNames: ~
+  tags:
+    - cosmetic
+  packages:
+    - packageId: Trikzon.transparent
       loaders:
         - fabric
 - id: krypton
@@ -293,6 +530,15 @@
     - packageId: tuxed.lazydfu
       loaders:
         - fabric
+- id: resolutioncontrol
+  alternativeNames: ~
+  tags:
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: UltimateBoomer.resolutioncontrol
+      loaders:
+        - fabric
 - id: smoothboot
   alternativeNames:
     - smooth-boot
@@ -306,3 +552,17 @@
       loaders:
         - fabric
         - forge
+- id: canvas
+  alternativeNames:
+    - canvas-renderer
+  tags:
+    - utility
+    - library
+    - miscellaneous
+    - api
+    - cosmetic
+    - optifine-alternative
+  packages:
+    - packageId: vram-guild.canvas
+      loaders:
+        - fabric

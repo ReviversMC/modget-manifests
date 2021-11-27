@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+  - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: CaffeineMC.sodium
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "VOYxIjFI"
+    curseforge: "318440"
+  license: LGPL-3
+  fileType: jar
+  md5: a6df29b1ffa061083c6240a688234e4b
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/canvas/version/kNEAmsbK
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/files/3529363
+    sourceControl: https://github.com/vram-guild/canvas/releases/tag/mc117-1.0.2201-unstable
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/VOYxIjFI/versions/fabric-mc117-1.0.2202/canvas-fabric-mc117-1.0.2202.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/download/3529363/file
+    sourceControl: https://github.com/vram-guild/canvas/releases/download/mc117-1.0.2201-unstable/canvas-fabric-mc117-1.0.2201.jar
+    others: ~

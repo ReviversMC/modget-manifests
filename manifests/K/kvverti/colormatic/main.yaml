@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: kvverti
+iconUrls:
+  - https://cdn.modrinth.com//data/V4IQxkZC/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/207/705/64/64/636968572781427653.png
+status: active
+updatedAlternatives: ~
+name: Colormatic
+description: Adds the ability to customize colors hardcoded in vanilla.
+authors:
+  - name: kvverti
+home: https://github.com/kvverti/colormatic
+source: https://github.com/kvverti/colormatic
+issues: https://github.com/kvverti/colormatic/issues
+support: ~
+wiki: https://github.com/emilyploszaj/chime/wiki
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "2.3.1"
+  - version: "2.2.9"

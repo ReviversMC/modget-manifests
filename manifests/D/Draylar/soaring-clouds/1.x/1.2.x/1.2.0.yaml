@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+  - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: Chocohead.optifabric
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "390427"
+  license: CC0-1.0
+  fileType: jar
+  md5: fa6d455c93111a7363484249e5771be3
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/soaring-clouds/files/3022090
+    sourceControl: https://github.com/Draylar/soaring-clouds/releases/tag/1.2.0-1.16
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/soaring-clouds/download/3022090/file
+    sourceControl: https://github.com/Draylar/soaring-clouds/releases/download/1.2.0-1.16/soaring-clouds-1.2.0-1.16.jar 
+    others: ~

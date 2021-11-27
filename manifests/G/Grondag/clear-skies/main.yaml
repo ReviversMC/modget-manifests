@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: Grondag
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/215/643/64/64/636998432658345950.png
+status: active
+updatedAlternatives: ~
+name: Clear Skies
+description: Makes horizon and fog colors match the sky
+authors:
+  - name: Grondag
+home: https://www.curseforge.com/minecraft/mc-mods/clear-skies
+source: https://github.com/grondag/clear-skies
+issues: https://github.com/grondag/clear-skies/issues
+support: https://discord.gg/7NaqR2e
+wiki: ~
+chats:
+  discord: https://discord.gg/7NaqR2e
+  irc: ~
+  others: ~
+versions:
+  - version: "1.5.70"
+  - version: "1.5.57"

@@ -1,0 +1,38 @@
+  # yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+  - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: Chocohead.optifabric
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "404491"
+  license: MIT
+  fileType: jar
+  md5: 9fbd101c8fa646a425fc8efa1f7fcb81
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/raised-clouds/files/3041857
+    sourceControl: https://github.com/haykam821/Raised-Clouds/releases/tag/1.0.0
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://github.com/haykam821/Raised-Clouds/releases/download/1.0.0/raisedclouds-1.0.0.jar
+    sourceControl: https://github.com/haykam821/Raised-Clouds/releases/download/1.0.0/raisedclouds-1.0.0.jar
+    others: ~

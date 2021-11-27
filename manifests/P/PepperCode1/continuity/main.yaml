@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: PepperCode1
+iconUrls:
+  - https://cdn.modrinth.com/data/1IjD5062/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/437/816/64/64/637682110255957193.png
+status: active
+updatedAlternatives: ~
+name: Continuity
+description: Continuity is a Fabric mod built around modern APIs to allow for the most efficient connected textures experience possible. It is designed to provide full Optifine parity for all resource packs that use the Optifine/MCPatcher CTM format.
+authors:
+  - name: Pepper_Bell
+home: https://www.curseforge.com/minecraft/mc-mods/continuity
+source: https://github.com/PepperCode1/Continuity
+issues: https://github.com/PepperCode1/Continuity/issues
+support: https://discord.com/invite/7rnTYXu
+wiki: ~
+chats:
+  discord: https://discord.com/invite/7rnTYXu
+  irc: ~
+  others: ~
+versions:
+  - version: "1.0.2"

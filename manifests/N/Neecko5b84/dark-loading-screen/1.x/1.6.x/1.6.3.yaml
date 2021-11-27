@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+  - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: ">1.0.0"
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "408209"
+  license: MIT
+  fileType: jar
+  md5: e73b31977b7ba5ddbe86348f494c9ccc
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/dark-loading-screen/files/3185761
+    sourceControl: https://github.com/A5b84/dark-loading-screen/releases/tag/v1.6.3
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/dark-loading-screen/download/3185761/file
+    sourceControl: https://github.com/A5b84/dark-loading-screen/releases/download/v1.6.3/dark-loading-screen-1.6.3.jar
+    others: ~

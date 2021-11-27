@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
-    - fabric
+  - fabric
   minecraftVersions:
     - "1.17.1"
     - "1.17"
@@ -80,4 +80,4 @@
     modrinth: https://cdn.modrinth.com/data/PtjYWJkn/versions/mc.1.16.5-0.3.5/sodium-extra-mc1.16.5-0.3.5.jar
     curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium-extra/download/3517166/file
     sourceControl: https://github.com/FlashyReese/sodium-extra-fabric/releases/download/mc.1.16.5-0.3.5/sodium-extra-mc1.16.5-0.3.5.jar
-    others: ~
+    others:
