@@ -22,4 +22,5 @@ chats:
   others: ~
 versions:
   - version: "2.6.35"
+  - version: "1.24.36"
   - version: "1.24.35"

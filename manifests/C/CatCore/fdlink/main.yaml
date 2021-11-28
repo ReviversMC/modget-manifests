@@ -12,7 +12,7 @@ description: A mod to link Minecraft and Discord chats for Fabric.
 authors:
   - name: arthurbambou
   - name: AlanFoster
-home: ~
+home: https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link/files/3533183
 source: https://github.com/arthurbambou/Fabric---Discord-Link
 issues: https://github.com/arthurbambou/Fabric---Discord-Link/issues
 support: https://discord.gg/xTvWwzV
@@ -22,5 +22,6 @@ chats:
   irc: ~
   others: ~
 versions:
+  - version: "0.10.0"
   - version: "0.9.8"
   - version: "0.9.7"
