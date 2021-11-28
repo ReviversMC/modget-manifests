@@ -14,8 +14,8 @@
     client: required
   channel: release
   depends:
-    packageId: FabricMC.fabric-language-kotlin
-    version: ">=1.4.0"
+    - packageId: FabricMC.fabric-language-kotlin
+      version: ">=1.4.0"
   bundles: ~
   breaks: ~
   conflicts: ~
