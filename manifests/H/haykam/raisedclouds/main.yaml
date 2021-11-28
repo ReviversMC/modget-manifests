@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: haykam
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/296/154/64/64/637339603275442830.png
+status: unknown
+updatedAlternatives:
+  - packageId: misterslime.fabulousclouds
+name: Raised Clouds
+description: Allows changing the height at which clouds appear.
+authors:
+  - name: haykam821
+home: https://github.com/haykam821/Raised-Clouds
+source: https://github.com/haykam821/Raised-Clouds
+issues: https://github.com/haykam821/Raised-Clouds/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "1.0.0"

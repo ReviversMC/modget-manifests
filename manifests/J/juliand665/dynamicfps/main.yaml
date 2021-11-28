@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: juliand665
+iconUrls:
+  - https://cdn.modrinth.com/data/LQ3K71Q1/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/218/967/64/64/637013973797981040.png
+  - https://github.com/juliand665/Dynamic-FPS/raw/main/GitHub/logo.png
+status: active
+updatedAlternatives: ~
+name: Dynamic FPS
+description: Dynamically adjusts FPS so minecraft doesn't hog resources in background.
+authors:
+  - name: juliand665
+home: https://dapprgames.com/mods/
+source: https://github.com/juliand665/Dynamic-FPS
+issues: https://github.com/juliand665/Dynamic-FPS/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "2.0.6"
+  - version: "2.0.2"

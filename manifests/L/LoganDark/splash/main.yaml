@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: LoganDark
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/301/979/64/64/637365079925581816.png
+status: active
+updatedAlternatives: ~
+name: Splash
+description: Change your splash screen colors
+authors:
+  - name: LoganDark
+home: https://www.curseforge.com/minecraft/mc-mods/splash/files/3514952
+source: https://github.com/LoganDark/fabric-splash
+issues: https://github.com/LoganDark/fabric-splash/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "1.2.0-beta.1"
+  - version: "1.2.0"

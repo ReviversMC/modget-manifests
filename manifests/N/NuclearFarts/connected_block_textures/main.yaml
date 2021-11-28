@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: NuclearFarts
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/270/673/64/64/637245862944212312.png
+status: eol
+updatedAlternatives:
+  - packageId: PepperCode1.continuity
+name: Connected Block Textures
+description: Support for MCPatcher/Optifine-format connected textures.
+authors:
+  - name: NuclearFarts
+home: https://www.curseforge.com/minecraft/mc-mods/connected-block-textures
+source: https://github.com/Nuclearfarts/connected-block-textures
+issues: https://github.com/Nuclearfarts/connected-block-textures/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "0.1.2"

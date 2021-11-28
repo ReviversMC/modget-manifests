@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: Neecko5b84
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/260/839/64/64/637215973844837319.png
+status: active
+updatedAlternatives: ~
+name: Dark Loading Screen
+description: Makes the loading screen darker, In-game configuration requires Mod Menu and Cloth Config
+authors:
+  - name: Neecko5b84
+home: https://www.curseforge.com/minecraft/mc-mods/dark-loading-screen
+source: https://github.com/A5b84/dark-loading-screen
+issues: https://github.com/A5b84/dark-loading-screen/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "1.6.11"
+  - version: "1.6.3"

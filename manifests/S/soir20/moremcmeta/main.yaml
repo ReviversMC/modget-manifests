@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: soir20
+iconUrls:
+  - https://cdn.modrinth.com/data/HFlxNpln/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/408/490/64/64/637622383987019408.png
+status: active
+updatedAlternatives: ~
+name: "MoreMCmeta"
+description: Animate almost any Minecraft texture with more options.
+authors:
+  - name: soir20
+home: https://www.curseforge.com/minecraft/mc-mods/moremcmeta
+source: https://github.com/soir20/MoreMcmeta
+issues: https://github.com/soir20/MoreMcmeta/issues
+support: ~
+wiki: https://github.com/soir20/MoreMcmeta/wiki
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "3.0.0"

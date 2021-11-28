@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: Trikzon
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/281/901/64/64/637287072374869279.png
+status: active
+updatedAlternatives: ~
+name: Transparent
+description: Allows resource packs to make entities support transparency.
+authors:
+  - name: Trikzon
+home: https://www.curseforge.com/minecraft/mc-mods/transparent-fabric
+source: https://github.com/trikzon/transparent
+issues: https://github.com/trikzon/transparent/issues
+support: https://discord.gg/aqXkvbJ
+wiki: ~
+chats:
+  discord: https://discord.gg/aqXkvbJ
+  irc: ~
+  others: ~
+versions:
+  - version: "2.1.0"

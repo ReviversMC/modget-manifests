@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: ">=0.42.2"
+    - packageId: shedaniel.cloth-config2
+      version: "5.1.40"
+  bundles: ~
+  breaks:
+    - packageId: chocohead.optifabric
+      version: "*"
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: "2.0.14"
+  thirdPartyIds:
+    modrinth: "V4IQxkZC"
+    curseforge: "325092"
+  license: LGPL-3
+  fileType: jar
+  md5: db6b7bb52438fdef2bd990213d359251
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/colormatic/version/yLkWjL0T
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/colormatic/files/3522012
+    sourceControl: https://github.com/kvverti/colormatic/releases/tag/2.3.1
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/V4IQxkZC/versions/2.3.1/colormatic-2.3.1+mc.1.17.1.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/colormatic/download/3522012/file
+    sourceControl: https://github.com/kvverti/colormatic/releases/download/2.3.1/colormatic-2.3.1+mc.1.17.1.jar
+    others: ~

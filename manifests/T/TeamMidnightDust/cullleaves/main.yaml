@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: TeamMidnightDust
+iconUrls:
+  - https://cdn.modrinth.com/data/GNxdLCoP/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/317/425/64/64/637421841207570214.png
+status: active
+updatedAlternatives: ~
+name: Cull Leaves
+description: Adds culling to leaf blocks, providing a huge performance boost over vanilla.
+authors:
+  - name: Motschen
+  - name: TeamMidnightDust
+home: https://www.midnightdust.eu/
+source: https://github.com/TeamMidnightDust/CullLeaves
+issues: https://github.com/TeamMidnightDust/CullLeaves/issues
+support: https://discord.com/invite/jAGnWYHm3r
+wiki: ~
+chats:
+  discord: https://discord.com/invite/jAGnWYHm3r
+  irc: ~
+  others: ~
+versions:
+  - version: "2.3.2"
+  - version: "2.1.0"

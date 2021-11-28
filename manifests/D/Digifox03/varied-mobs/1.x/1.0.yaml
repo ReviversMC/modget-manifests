@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric-language-kotlin
+      version: ">=1.4.0"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "399578"
+  license: GPL-3.0
+  fileType: jar
+  md5: 0f5eee45da1ffa7e09615f78b8812345
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/varied-mob-textures/files/3113381
+    sourceControl: https://github.com/Digifox03/variedMobs/releases/tag/v1.0
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/varied-mob-textures/download/3113381/file
+    sourceControl: https://github.com/Digifox03/variedMobs/releases/download/v1.0/varied-mobs-1.0.0.jar
+    others: ~

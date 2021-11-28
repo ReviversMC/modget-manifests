@@ -1,4 +1,6 @@
-- loader:
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
     - fabric
   minecraftVersions:
     - "1.17.1"
