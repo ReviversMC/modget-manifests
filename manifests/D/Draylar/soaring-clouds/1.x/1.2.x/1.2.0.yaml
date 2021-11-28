@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
   - fabric
@@ -34,5 +34,5 @@
   fileUrls:
     modrinth: ~
     curseforge: https://www.curseforge.com/minecraft/mc-mods/soaring-clouds/download/3022090/file
-    sourceControl: https://github.com/Draylar/soaring-clouds/releases/download/1.2.0-1.16/soaring-clouds-1.2.0-1.16.jar 
+    sourceControl: https://github.com/Draylar/soaring-clouds/releases/download/1.2.0-1.16/soaring-clouds-1.2.0-1.16.jar
     others: ~
