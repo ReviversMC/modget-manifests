@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: NuclearFarts.connected_block_textures
+      version: "*"
+    - packageId: CaffeineMC.sodium
+      version: "<=0.1.0"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "ZfQ3kTvR"
+    curseforge: "472772"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 65a8f831893c9f1c6fb85e35e8a26224
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/dashloader/version/h1VgG4ob
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3539453
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/3.0-beta4/dashloader-def-3.0-beta4.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3539453/file
+    sourceControl: ~
+    others: ~
