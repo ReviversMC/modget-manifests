@@ -22,17 +22,6 @@
     - packageId: architectury.architectury
       loaders:
         - fabric
-- id: fdlink
-  alternativeNames:
-    - fabric-discord-link
-  tags:
-    - utility
-    - miscellaneous
-    - information
-  packages:
-    - packageId: arthurbambou.fdlink
-      loaders:
-        - fabric
 - id: recipecache
   alternativeNames:
     - recipe-cache
@@ -110,6 +99,17 @@
     - optifine-alternative
   packages:
     - packageId: CaffeineMC.sodium
+      loaders:
+        - fabric
+- id: fdlink
+  alternativeNames:
+    - fabric-discord-link
+  tags:
+    - utility
+    - miscellaneous
+    - information
+  packages:
+    - packageId: CatCore.fdlink
       loaders:
         - fabric
 - id: optifabric
