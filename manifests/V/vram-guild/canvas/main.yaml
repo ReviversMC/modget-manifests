@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
 
 manifestSpecVersion: "4.0"
 publisher: vram-guild
@@ -21,5 +21,6 @@ chats:
   irc: ~
   others: ~
 versions:
+  - version: "1.0.2207"
   - version: "1.0.2202"
   - version: "1.0.1511"

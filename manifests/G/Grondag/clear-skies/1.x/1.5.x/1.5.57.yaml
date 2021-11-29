@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
     - fabric
@@ -31,6 +31,6 @@
     others: ~
   fileUrls:
     modrinth: ~
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/clear-skies/files/3319590
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/clear-skies/download/3319590/file
     sourceControl: ~
     others: ~

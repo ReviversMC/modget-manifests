@@ -1,7 +1,7 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
-  - fabric
+    - fabric
   minecraftVersions:
     - "1.17.1"
     - "1.17"
@@ -23,7 +23,7 @@
   thirdPartyIds:
     modrinth: ~
     curseforge: "409628"
-  license: GPLv3
+  license: GPL-3.0
   fileType: jar
   md5: 90708a923588fa99da0236da23b11494
   downloadPageUrls:

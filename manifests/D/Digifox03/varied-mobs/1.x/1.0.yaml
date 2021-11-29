@@ -1,7 +1,7 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/version-manifest.json
+# yaml-language-server: $schema=../../../../../doc/validation-schemas/4.0/version-manifest.json
 
 - loaders:
-  - fabric
+    - fabric
   minecraftVersions:
     - "1.16.5"
     - "1.16.4"
@@ -14,8 +14,8 @@
     client: required
   channel: release
   depends:
-    packageId: FabricMC.fabric-language-kotlin
-    version: ">=1.4.0"
+    - packageId: FabricMC.fabric-language-kotlin
+      version: ">=1.4.0"
   bundles: ~
   breaks: ~
   conflicts: ~
