@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "356461"
+  license: MIT
+  fileType: jar
+  md5: 4226ee989324895fa0c1efb0619a523d
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/logical-zoom/files/3542015
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/logical-zoom/download/3542015/file
+    sourceControl: ~
+    others: ~
