@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18"
+  environment:
+    server: required
+    client: optional
+  channel: alpha
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "FIlZB9L0"
+    curseforge: "450465"
+  license: GPL-3.0
+  fileType: jar
+  md5: ce5c06fb996d1b35e682c075eb17b8d5
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/terra/version/jL9oD6Ms
+    curseforge: ~
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/FIlZB9L0/versions/6.0.0+2b2255a5/Terra-fabric-6.0.0-BETA+2b2255a5-shaded-mapped.jar
+    curseforge: ~
+    sourceControl: ~
+    others: ~
