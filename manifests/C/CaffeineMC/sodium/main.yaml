@@ -23,5 +23,6 @@ chats:
   others: ~
 versions:
   - version: "0.4.0-alpha5"
+  - version: "0.3.3"
   - version: "0.3.2"
   - version: "0.2.0"
