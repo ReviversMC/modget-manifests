@@ -45,7 +45,7 @@ The only exceptions are the modid, if it contains these special characters (whic
   packages:
     # The package id, so `publisher.modid`
     # (both formatted to contain no periods, spaces or non-ASCII characters)
-    - packageId: arthurbambou.fdlink
+    - packageId: CatCore.fdlink
       # All mod loaders the package supports
       loaders:
         - fabric
