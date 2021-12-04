@@ -1,0 +1,69 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: PaperMC.starlight
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "hEOCdOgW"
+    curseforge: "372124"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: e1a763a8de84c41770728cbf5f0214e5
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/phosphor/version/7cdD4A3A
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/phosphor/files/3537802
+    sourceControl: https://github.com/CaffeineMC/phosphor-fabric/releases/tag/mc1.17.x-0.8.0
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/hEOCdOgW/versions/mc1.17.x-0.8.0/phosphor-fabric-mc1.17.x-0.8.0.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/phosphor/download/3537802/file
+    sourceControl: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc1.17.x-0.8.0/phosphor-fabric-mc1.17.x-0.8.0.jar
+    others: ~
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: PaperMC.starlight
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "hEOCdOgW"
+    curseforge: "372124"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: cf891a10f399aefbbd80856f11657ec6
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/phosphor/version/nZsp5YpW
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/phosphor/files/3537800
+    sourceControl: https://github.com/CaffeineMC/phosphor-fabric/releases/tag/mc1.16.2-0.8.0
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/hEOCdOgW/versions/mc1.16.2-0.8.0/phosphor-fabric-mc1.16.2-0.8.0.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/phosphor/download/3537800/file
+    sourceControl: https://github.com/CaffeineMC/phosphor-fabric/releases/download/mc1.16.2-0.8.0/phosphor-fabric-mc1.16.2-0.8.0.jar
+    others: ~

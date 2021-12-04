@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18"
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: beta
+  depends:
+    - packageId: FabricMC.fabric
+      version: ">=0.34.0"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: ">=2.0.0"
+  thirdPartyIds:
+    modrinth: "aXf2OSFU"
+    curseforge: "354047"
+  license: MIT
+  fileType: jar
+  md5: 466ef40f80e077bfbd701cea64530498
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/ok-zoomer/version/esyBJPbU
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer/files/3538853
+    sourceControl: https://github.com/EnnuiL/OkZoomer/releases/tag/5.0.0-beta.3%2B1.17.1
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.3+1.17.1/okzoomer-5.0.0-beta.3+1.17.1.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ok-zoomer/download/3538853/file
+    sourceControl: https://github.com/EnnuiL/OkZoomer/releases/download/5.0.0-beta.3%2B1.17.1/okzoomer-5.0.0-beta.3+1.17.1.jar
+    others: ~

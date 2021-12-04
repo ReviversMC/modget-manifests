@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+    - packageId: CaffeineMC.sodium
+      version: "0.3.x"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: FlashyReese.reeses-sodium-options
+      version: "*"
+  thirdPartyIds:
+    modrinth: "PtjYWJkn"
+    curseforge: "447673"
+  license: LGPL-3.0
+  fileType: jar
+  md5: 289e6b10ff68304c591409474765f027
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/sodium-extra/version/H7MDUukG
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium-extra/files/3528157
+    sourceControl: https://github.com/FlashyReese/sodium-extra-fabric/releases/tag/mc1.17.1-0.3.6
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/PtjYWJkn/versions/mc1.17.1-0.3.6/sodium-extra-mc1.17.1-0.3.6.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium-extra/download/3528157/file
+    sourceControl: https://github.com/FlashyReese/sodium-extra-fabric/releases/download/mc1.17.1-0.3.6/sodium-extra-mc1.17.1-0.3.6.jar
+    others: ~

@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18"
+  environment:
+    server: unsupported
+    client: required
+  channel: alpha
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: Chocohead.optifabric
+      version: "*"
+    - packageId: vram-guild.canvas
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "AANobbMI"
+    curseforge: "394468"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 94f45dbaa6b93e7ae6f9454fdc3a6bb8
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/sodium/version/6YGRDUVT
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium/files/3542074
+    sourceControl: https://github.com/CaffeineMC/sodium-fabric/releases/tag/mc1.18-0.4.0-alpha5
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/AANobbMI/versions/mc1.18-0.40-alpha5/sodium-fabric-mc1.18-0.4.0-alpha5+build.9.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium/download/3542074/file
+    sourceControl: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.18-0.4.0-alpha5/sodium-fabric-mc1.18-0.4.0-alpha5+build.9.jar
+    others: ~

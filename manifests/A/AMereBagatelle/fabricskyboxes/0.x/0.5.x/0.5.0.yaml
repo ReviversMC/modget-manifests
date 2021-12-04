@@ -22,7 +22,7 @@
   recommends: ~
   thirdPartyIds:
     modrinth: "YBz7DOs8"
-    curseforge: "408209"
+    curseforge: ~
   license: MIT
   fileType: jar
   md5: d466521df989e5b9f7289c0f732980e9

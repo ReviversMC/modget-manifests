@@ -22,4 +22,6 @@ chats:
   irc: ~
   others: ~
 versions:
+  - version: "1.12.7"
+  - version: "1.12.6"
   - version: "1.11.20"
