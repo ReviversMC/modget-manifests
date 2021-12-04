@@ -18,7 +18,7 @@
   recommends: ~
   thirdPartyIds:
     modrinth: "YBz7DOs8"
-    curseforge: "408209"
+    curseforge: ~
   license: MIT
   fileType: jar
   md5: d04cd0d610c50e41b0cdd42c2c1e5fd7
