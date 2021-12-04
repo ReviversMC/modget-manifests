@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: Draylar
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/280/121/64/64/637280265643426720.png
+status: unknown
+updatedAlternatives:
+  - packageId: misterslime.fabulousclouds
+name: Soaring Clouds
+description: Allows you to configure the height of clouds in the world.
+authors:
+  - name: Draylar
+home: https://www.curseforge.com/minecraft/mc-mods/soaring-clouds
+source: https://github.com/Draylar/soaring-clouds
+issues: https://github.com/Draylar/soaring-clouds/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "1.2.0"

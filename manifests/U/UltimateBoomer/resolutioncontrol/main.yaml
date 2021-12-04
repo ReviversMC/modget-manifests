@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: UltimateBoomer
+iconUrls:
+  - https://cdn.modrinth.com/data/rqTgDmc8/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/343/908/64/64/637489558915200580.png
+  - https://github.com/UltimateBoomer/Resolution-Control/raw/1.17/GitHub/logo.png
+status: active
+updatedAlternatives: ~
+name: "ResolutionControl+"
+description: Gives you more control over minecraft's render resolution.
+authors:
+  - name: juliand665
+  - name: UltimateBoomer
+home: https://ultimateboomer.github.io/
+source: https://github.com/UltimateBoomer/Resolution-Control
+issues: https://github.com/UltimateBoomer/Resolution-Control/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "3.0.0"
+  - version: "2.0.1"

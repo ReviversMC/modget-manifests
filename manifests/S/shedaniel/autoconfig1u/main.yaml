@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: shedaniel
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/263/673/64/64/637224469254640637.png
+status: unknown
+updatedAlternatives: ~
+name: Auto Config v1 Updated
+description: Annotation based API for mod configs, with Cloth Config GUI integration
+authors:
+  - name: sargunv
+  - name: shedaniel
+home: https://gitlab.com/sargunv-mc-mods/auto-config/wikis/home
+source: https://github.com/shedaniel/AutoConfig
+issues: https://github.com/shedaniel/AutoConfig/issues
+support: ~
+wiki: https://gitlab.com/sargunv-mc-mods/auto-config/wikis/home
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "3.3.1"

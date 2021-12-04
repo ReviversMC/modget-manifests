@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: unsupported
+    client: required
+  channel: beta
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: "*"
+  thirdPartyIds:
+    modrinth: "ubxU84eR"
+    curseforge: "432776"
+  license: MIT
+  fileType: jar
+  md5: e4081473cdaf645cd20c63cc1b31854c
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/chime/version/NmWEi0dZ
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/chime-fabric/files/3285347
+    sourceControl: https://github.com/emilyploszaj/chime/releases/tag/1.1.3
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/ubxU84eR/versions/1.1.3/chime-1.1.3.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/chime-fabric/download/3285347/file
+    sourceControl: https://github.com/emilyploszaj/chime/releases/download/1.1.3/chime-1.1.3.jar
+    others: ~

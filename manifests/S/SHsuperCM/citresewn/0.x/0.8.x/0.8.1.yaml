@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: beta
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: "*"
+  thirdPartyIds:
+    modrinth: "otVJckYQ"
+    curseforge: "521427"
+  license: MIT
+  fileType: jar
+  md5: 8fc70f0c0f6c4627626204f3e52fb0c2
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/cit-resewn/version/Zhnavk8e
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/cit-resewn/files/3498887
+    sourceControl: https://github.com/SHsuperCM/CITResewn/releases/tag/v0.8.1
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/otVJckYQ/versions/0.8.1/CITResewn-0.8.1.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/cit-resewn/download/3498887/file
+    sourceControl: https://github.com/SHsuperCM/CITResewn/releases/download/v0.8.1/CITResewn-0.8.1.jar
+    others: ~

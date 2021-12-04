@@ -1,0 +1,71 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "HFlxNpln"
+    curseforge: "506079"
+  license: LGPL-3.0
+  fileType: jar
+  md5: 6fecdf4d41c22fe8ed17630b40d63f96
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/moremcmeta/version/ipQ7DeG5
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/moremcmeta-fabric/files/3426814
+    sourceControl: https://github.com/soir20/MoreMcmeta/releases/tag/v1.17.1-3.0.0
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/HFlxNpln/versions/v1.17.1-3.0.0-fabric/moremcmeta-1.17.1-3.0.0-fabric.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/moremcmeta-fabric/download/3426814/file
+    sourceControl: https://github.com/soir20/MoreMcmeta/releases/download/v1.17.1-3.0.0/moremcmeta-1.17.1-3.0.0-fabric.jar
+    others: ~
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "HFlxNpln"
+    curseforge: "506079"
+  license: LGPL-3.0
+  fileType: jar
+  md5: 2ffe375b1a7bd5f7fc72a55d1b4eb99d
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/moremcmeta/version/2GQft5hc
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/moremcmeta-fabric/files/3393153
+    sourceControl: https://github.com/soir20/MoreMcmeta/releases/tag/v1.16.5-3.0.0
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/HFlxNpln/versions/v1.16.5-3.0.0-fabric/moremcmeta-1.16.5-3.0.0-fabric.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/moremcmeta-fabric/download/3393153/file
+    sourceControl: https://github.com/soir20/MoreMcmeta/releases/download/v1.16.5-3.0.0/moremcmeta-1.16.5-3.0.0-fabric.jar
+    others: ~

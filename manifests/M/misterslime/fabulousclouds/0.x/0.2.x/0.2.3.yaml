@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: ">2.0.0"
+    - packageId: shedaniel.cloth-config2
+      version: ">5.0.0"
+  thirdPartyIds:
+    modrinth: "Dx7R69WU"
+    curseforge: "514625"
+  license: LGPL
+  fileType: jar
+  md5: 26ce82b9ea86f1c8c3ba8d4e98867103
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/fabulousclouds/version/RUQzER41
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabulous-clouds/files/3443250
+    sourceControl: https://github.com/misterslime/fabulousclouds-fabric/releases/tag/v0.2.3
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/Dx7R69WU/versions/0.2.3/fabulousclouds-0.2.3.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabulous-clouds/download/3443250/file
+    sourceControl: https://github.com/misterslime/fabulousclouds-fabric/releases/download/v0.2.3/fabulousclouds-0.2.3.jar
+    others: ~

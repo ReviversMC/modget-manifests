@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "rqTgDmc8"
+    curseforge: "332523"
+  license: MIT
+  fileType: jar
+  md5: 4f33c3e0c10a2aceb30622c5260528d2
+  downloadPageUrls:
+    modrinth:
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/resolutioncontrol/files/3354692
+    sourceControl: https://github.com/UltimateBoomer/Resolution-Control/releases/tag/3.0.0
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/resolutioncontrol/download/3354692/file
+    sourceControl: https://github.com/UltimateBoomer/Resolution-Control/releases/download/3.0.0/resolution-control-plus-3.0.0.jar
+    others: ~
