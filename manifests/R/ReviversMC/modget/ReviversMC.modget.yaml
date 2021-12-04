@@ -17,7 +17,7 @@ thirdPartyIds:
   modrinth: 2NpFE0R3
   curseforge: "533960"
 downloads:
-  - version: 0.2.3
+  - version: 0.3.0
     loaders:
       - fabric
     depends:
@@ -35,18 +35,19 @@ downloads:
       - 1.16.5
       - 1.17.0
       - 1.17.1
-    md5: 8abc7f03c6ef253e86e1a78c8f5c2cad
+      - 1.18.0
+    md5: 32edb716621af5a4e4cb6dcf10a89967
     downloadPageUrls:
       - name: Modrinth
-        url: https://modrinth.com/mod/modget/version/5G0EmJKY
+        url: https://modrinth.com/mod/modget/version/nf8VhTHk
       - name: GitHub
-        url: https://github.com/ReviversMC/modget-minecraft/releases/tag/0.2.3
+        url: https://github.com/ReviversMC/modget-minecraft/releases/tag/0.3.0
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3506810
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/files/3548707
     fileUrls:
       - name: Modrinth
-        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.2.3/modget-0.2.3.jar
+        url: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.3.0/modget-0.3.0.jar
       - name: GitHub
-        url: https://github.com/ReviversMC/modget-minecraft/releases/download/0.2.3/modget-0.2.3.jar
+        url: https://github.com/ReviversMC/modget-minecraft/releases/download/0.3.0/modget-0.3.0.jar
       - name: CurseForge
-        url: https://www.curseforge.com/minecraft/mc-mods/modget/download/3506810/file
+        url: https://www.curseforge.com/minecraft/mc-mods/modget/download/3548707/file
