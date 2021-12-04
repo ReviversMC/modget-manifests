@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "P7dR8mSH"
+    curseforge: "306612"
+  license: Apache-2.0
+  fileType: jar
+  md5: a991bbd20e2051ce33249c18db4b5e68
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/fabric-api/version/ONHLJRj5
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3537000
+    sourceControl: https://github.com/FabricMC/fabric/releases/tag/0.43.1%2B1.17
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.43.1+1.17/fabric-api-0.43.1+1.17.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3537000/file
+    sourceControl: https://github.com/FabricMC/fabric/releases/download/0.43.1%2B1.17/fabric-api-0.43.1+1.17.jar
+    others: ~

@@ -22,5 +22,6 @@ chats:
   irc: ~
   others: ~
 versions:
+  - version: "5.0.0-beta.3"
   - version: "5.0.0-beta.2"
   - version: "4.0.1"

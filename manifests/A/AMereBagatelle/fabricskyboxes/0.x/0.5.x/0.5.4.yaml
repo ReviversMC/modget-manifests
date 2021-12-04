@@ -3,8 +3,7 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - "1.17.1"
-    - "1.17"
+    - "1.18"
   environment:
     server: unsupported
     client: required
@@ -21,14 +20,14 @@
     curseforge: ~
   license: MIT
   fileType: jar
-  md5: d04cd0d610c50e41b0cdd42c2c1e5fd7
+  md5: c0e7e9a6e3d47f72348210f8bf7e9c49
   downloadPageUrls:
-    modrinth: https://modrinth.com/mod/fabricskyboxes/version/aY5ERIZf
+    modrinth: https://modrinth.com/mod/fabricskyboxes/version/TXjtXxm7
     curseforge: ~
-    sourceControl: https://github.com/AMereBagatelle/fabricskyboxes/releases/tag/0.5.3
+    sourceControl: https://github.com/AMereBagatelle/fabricskyboxes/releases/tag/0.5.4
     others: ~
   fileUrls:
-    modrinth: https://cdn.modrinth.com/data/YBz7DOs8/versions/0.5.3/fabricskyboxes-1.17.1-0.5.3.jar
+    modrinth: https://cdn.modrinth.com/data/YBz7DOs8/versions/0.5.4/fabricskyboxes-1.18-0.5.4.jar
     curseforge: ~
-    sourceControl: https://github.com/AMereBagatelle/fabricskyboxes/releases/download/0.5.3/fabricskyboxes-1.17.1-0.5.3.jar
+    sourceControl: https://github.com/AMereBagatelle/fabricskyboxes/releases/download/0.5.4/fabricskyboxes-1.18-0.5.4.jar
     others: ~

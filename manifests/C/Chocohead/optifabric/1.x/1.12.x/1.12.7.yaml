@@ -3,6 +3,7 @@
 - loaders:
     - fabric
   minecraftVersions:
+    - "1.18"
     - "1.17.1"
     - "1.17"
     - "1.16.5"
@@ -38,14 +39,14 @@
     curseforge: "322385"
   license: MPL-2.0
   fileType: jar
-  md5: b67ea83febc8f06240e15641836d942e
+  md5: 4dfee3b1ad3c02b576a8e8f8959a72e4
   downloadPageUrls:
     modrinth: ~
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/optifabric/files/3422922
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/optifabric/files/3544490
     sourceControl: ~
     others: ~
   fileUrls:
     modrinth: ~
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/optifabric/download/3422922/file
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/optifabric/download/3544490/file
     sourceControl: ~
     others: ~
