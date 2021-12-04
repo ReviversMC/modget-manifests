@@ -488,7 +488,7 @@
     - cosmetic
     - optifine-alternative
   packages:
-    - packageId: shedaniel.customsplashscreen
+    - packageId: TeamMidnightDust.customsplashscreen
       loaders:
         - fabric
 - id: modmenu
