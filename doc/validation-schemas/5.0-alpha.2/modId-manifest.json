@@ -1,0 +1,59 @@
+{
+  "$id": "com.github.reviversmc.modget.manifests.schemas.spec5_0_alpha_2.modId_manifest",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A representation of a Modget modId manifest following the v5.0-alpha.2 specification.",
+  "type": "object",
+  "properties": {
+    "manifestSpecVersion": {
+      "type": "string",
+      "default": "\"5.0-alpha.2\"",
+      "const": "5.0-alpha.2",
+      "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+      "title": "Current manifest specification"
+    },
+    "tags": {
+      "type": "array",
+      "description": "Take the tags from Modrinth/CurseForge",
+      "items": {
+        "type": "string",
+        "pattern": "^(-|[a-z])+$"
+      },
+      "examples": [
+        "utility",
+        "information",
+        "performance"
+      ],
+      "uniqueItems": true
+    },
+    "packages": {
+      "type": "array",
+      "description": "All packages which have the aforementioned modid",
+      "items": {
+        "type": "object",
+        "properties": {
+          "publisher": {
+            "type": "string",
+            "title": "The publisher of this package",
+            "description": "ASCII (without periods and non-URL characters) representation of the publisher name",
+            "pattern": "^([-_0-9a-zA-Z]+)$",
+            "examples": [
+              "CaffeineMC",
+              "malte0811"
+            ]
+          }
+        },
+        "required": [
+          "publisher"
+        ],
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "manifestSpecVersion",
+    "tags",
+    "packages"
+  ],
+  "additionalProperties": false
+}
