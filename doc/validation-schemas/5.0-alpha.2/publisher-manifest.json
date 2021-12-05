@@ -78,13 +78,35 @@
       },
       "uniqueItems": true
     },
-    "name": {
-      "type": "string",
-      "description": "Name of the mod, see CurseForge/Modrinth or fabric.mod.json",
-      "examples": [
-        "Sodium",
-        "Not Enough Crashes"
-      ]
+    "names": {
+      "type": "object",
+      "description": "Names of the mod",
+      "properties": {
+        "official": {
+          "type": "string",
+          "description": "Official name of the mod, see fabric.mod.json or CurseForge/Modrinth",
+          "examples": [
+            "Sodium",
+            "Not Enough Crashes"
+          ]
+        },
+        "others": {
+          "type": ["array", "null"],
+          "description": "Potentially differing Modrinth/CurseForge names, the mod's slugs on these platforms etc.",
+          "items": {
+            "type": "string",
+            "examples": [
+              "sodium-fabric"
+            ]
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "official",
+        "others"
+      ],
+      "additionalProperties": false
     },
     "alternativeNames": {
       "type": ["array", "null"],
@@ -229,7 +251,7 @@
     "status",
     "updatedAlternatives",
     "loaders",
-    "name",
+    "names",
     "description",
     "authors",
     "home",
