@@ -14,7 +14,7 @@ To submit a package to this repository, you should follow these steps:
 5. [Submit](#submitting-your-pr) your pull request (PR).
 6. Respond to any feedback in your PR.
 
-> Note: 
+> Note:
 > - Only submit mods which are considered stable. This disallows all mods which are marked as `Alpha` on CurseForge/Modrinth and mods, which haven't been published to these platforms yet if the reasoning behind this is that they're too unstable (see C2ME for example).
 > - Please check the package's manifest you intend to submit does not already exist in the repository, and there are no open PRs for it in order to avoid duplicates.
 
@@ -50,13 +50,14 @@ The PR request will go through a validation process. During the process, the cor
 ### Respond to PR feedback
 If the PR has been assigned to you, a timer is triggered. You will have 7 days to resolve the issue, or the PR will be closed automatically by the bot.
 
-Submissions to the repository are reviewed by Modget administrators and/or community moderators.
+Submissions to the repository are reviewed by Modget administrators and/or moderators.
 
-#### Modget administrators:
+#### Administrators:
 - [@NebelNidas](https://github.com/NebelNidas)
 
-<!-- #### Community administrators:
-- ... -->
+
+#### Maintainers:
+- [@thefirethirteen](https://github.com/thefirethirteen)
 
 
 # Contributing
