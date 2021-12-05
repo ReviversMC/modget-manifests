@@ -99,7 +99,7 @@ chats:
       url: https://gitter.im/Open-Shell
 
 # All versions of the mod we support. Copy them from fabric.mod.json, and only modify them
-# if they aren't semver compliant!
+# if they aren't server compliant!
 versions:
   # Sort from latest to oldest
   - version: 0.3.2+build.7
