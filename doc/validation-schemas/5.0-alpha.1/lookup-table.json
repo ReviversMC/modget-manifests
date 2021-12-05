@@ -1,0 +1,57 @@
+{
+  "$id": "com.github.reviversmc.modget.manifests.schemas.spec5_0_alpha_2.lookup-table",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A representation of a Modget lookup table following the v5.0-alpha.2 specification.",
+  "type": "object",
+  "properties": {
+    "manifestSpecVersion": {
+      "type": "string",
+      "default": "\"5.0-alpha.2\"",
+      "const": "5.0-alpha.2",
+      "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+      "title": "Current manifest specification"
+    },
+    "mods": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "modId": {
+            "type": "string",
+            "pattern": "^([-_0-9a-zA-Z]+)$",
+            "description": "The ID of the mod, see fabric.mod.json",
+            "examples": [
+              "sodium",
+              "fdlink",
+              "discerning_furnace"
+            ]
+          },
+          "oldModIds": {
+            "type": ["array", "null"],
+            "description": "If existent, older and outdated IDs of the same mod",
+            "items": {
+              "type": "string",
+              "pattern": "^([-_0-9a-zA-Z]+)$",
+              "examples": [
+                "sodium",
+                "fdlink",
+                "discerning_furnace"
+              ]
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "modId",
+          "oldModIds"
+        ],
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "manifestSpecVersion",
+    "mods"
+  ]
+}
