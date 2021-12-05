@@ -61,11 +61,11 @@ The PR request will go through a validation process. During the process, the cor
 ### Respond to PR feedback
 If the PR has been assigned to you, a timer is triggered. You will have 7 days to resolve the issue, or the PR will be closed automatically by the bot.
 
-Submissions to the repository are reviewed by Modget administrators and/or community moderators.
+Submissions to the repository are reviewed by Modget administrators and/or moderators.
 
-#### Modget administrators:
+#### Administrators:
 - [@NebelNidas](https://github.com/NebelNidas)
 
-#### Community administrators:
+#### Maintainers:
 - [@thefirethirteen](https://github.com/thefirethirteen)
 
