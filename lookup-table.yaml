@@ -566,3 +566,13 @@
     - packageId: vram-guild.canvas
       loaders:
         - fabric
+- id: bettersleeping
+  alternativeNames:
+    - better-sleeping
+  tags:
+    - miscellaneous
+    - information
+  packages:
+    - packageId: ReviversMC.bettersleeping
+      loaders:
+        - fabric

@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18"
+  environment:
+    server: required
+    client: unsupported
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "WRzU60Pt"
+    curseforge: "552358"
+  license: CC-BY-NC-SA-4.0
+  fileType: jar
+  md5: f97380e0048f2d1c2395501cdf247aae
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/bettersleeping-revived/version/1k4QSXZi
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/bettersleeping-revived/files/3549539
+    sourceControl: https://github.com/ReviversMC/better-sleeping/releases/tag/0.5.1+1.17
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/WRzU60Pt/versions/0.5.1+1.18/bettersleeping-0.5.1+1.18.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/bettersleeping-revived/download/3549539/file
+    sourceControl: https://github.com/ReviversMC/better-sleeping/releases/download/0.5.1+1.18/bettersleeping-0.5.1+1.18.jar
+    others: ~
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: required
+    client: unsupported
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "WRzU60Pt"
+    curseforge: "552358"
+  license: CC-BY-NC-SA-4.0
+  fileType: jar
+  md5: 8ec399f51c2ccafa389f03494309a655
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/bettersleeping-revived/version/1k4QSXZi
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/bettersleeping-revived/files/3549537
+    sourceControl: https://github.com/ReviversMC/better-sleeping/releases/tag/0.5.1+1.17
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/WRzU60Pt/versions/0.5.1+1.17.1/bettersleeping-0.5.1+1.17.1.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/bettersleeping-revived/download/3549537/file
+    sourceControl: https://github.com/ReviversMC/better-sleeping/releases/download/0.5.1+1.17/bettersleeping-0.5.1+1.17.1.jar
+    others: ~
