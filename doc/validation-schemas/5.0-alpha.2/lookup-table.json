@@ -53,5 +53,6 @@
   "required": [
     "manifestSpecVersion",
     "mods"
-  ]
+  ],
+  "additionalProperties": false
 }
