@@ -402,6 +402,16 @@
     - packageId: ramidzkh.fabrishot
       loaders:
         - fabric
+- id: bettersleeping
+  alternativeNames:
+    - better-sleeping
+  tags:
+    - miscellaneous
+    - information
+  packages:
+    - packageId: ReviversMC.bettersleeping
+      loaders:
+        - fabric
 - id: modget
   alternativeNames: ~
   tags:
@@ -564,15 +574,5 @@
     - optifine-alternative
   packages:
     - packageId: vram-guild.canvas
-      loaders:
-        - fabric
-- id: bettersleeping
-  alternativeNames:
-    - better-sleeping
-  tags:
-    - miscellaneous
-    - information
-  packages:
-    - packageId: ReviversMC.bettersleeping
       loaders:
         - fabric
