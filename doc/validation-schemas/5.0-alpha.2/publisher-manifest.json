@@ -108,19 +108,6 @@
       ],
       "additionalProperties": false
     },
-    "alternativeNames": {
-      "type": ["array", "null"],
-      "description": "Potentially differing Modrinth/CurseForge names and their slugs etc.\nIf a name equals the modId, omit it!\nIf this leads to an empty list, set `alternativeNames` to `~` or `null`.",
-      "items": {
-        "type": "string",
-        "pattern": "^((?![A-Z]).)*$",
-        "examples": [
-          "sodium-fabric",
-          "fabric-discord-link"
-        ]
-      },
-      "uniqueItems": true
-    },
     "description": {
       "type": ["string", "null"],
       "description": "Short description from CurseForge/Modrinth/Github or fabric.mod.json"
