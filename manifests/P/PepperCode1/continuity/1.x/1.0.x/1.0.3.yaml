@@ -1,0 +1,66 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17"
+    - "1.17.1"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMc.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "1IjD5062"
+    curseforge: "531351"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 7cf0fd1be493a3d93f55ec2ef984eb19
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/continuity/version/27YRAXEt
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/continuity/files/3549414
+    sourceControl: https://github.com/PepperCode1/Continuity/releases/tag/v1.0.3%2B1.17
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/1IjD5062/versions/1.0.3+1.17/continuity-1.0.3+1.17.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/continuity/download/3549414/file
+    sourceControl: https://github.com/PepperCode1/Continuity/releases/download/v1.0.3%2B1.17/continuity-1.0.3+1.17.jar
+    others: ~
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMc.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "1IjD5062"
+    curseforge: "531351"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: b66db2a7926c7ab17a0c5dc3b8e60d2d
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/continuity/version/SffGs8Ro
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/continuity/files/3549420
+    sourceControl: https://github.com/PepperCode1/Continuity/releases/tag/v1.0.3%2B1.18
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/1IjD5062/versions/1.0.3+1.18/continuity-1.0.3+1.18.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/continuity/download/3549420/file
+    sourceControl: https://github.com/PepperCode1/Continuity/releases/download/v1.0.3%2B1.18/continuity-1.0.3+1.18.jar
+    others: ~

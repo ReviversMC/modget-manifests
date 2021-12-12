@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "YBz7DOs8"
+    curseforge: "408209"
+  license: MIT
+  fileType: jar
+  md5: c0e7e9a6e3d47f72348210f8bf7e9c49
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/fabricskyboxes/version/TXjtXxm7
+    curseforge: ~
+    sourceControl: https://github.com/AMereBagatelle/fabricskyboxes/releases/tag/0.5.4
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/YBz7DOs8/versions/0.5.4/fabricskyboxes-1.18-0.5.4.jar
+    curseforge: ~
+    sourceControl: https://github.com/AMereBagatelle/fabricskyboxes/releases/download/0.5.4/fabricskyboxes-1.18-0.5.4.jar
+    others: ~

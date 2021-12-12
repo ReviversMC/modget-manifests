@@ -20,5 +20,8 @@ chats:
   irc: ~
   others: ~
 versions:
+  - version: "6.1.48"
+  - version: "5.2.47"
   - version: "5.1.40"
+  - version: "4.13.49"
   - version: "4.12.41"
