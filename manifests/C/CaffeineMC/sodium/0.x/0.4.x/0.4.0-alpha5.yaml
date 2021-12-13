@@ -30,6 +30,6 @@
     others: ~
   fileUrls:
     modrinth: https://cdn.modrinth.com/data/AANobbMI/versions/mc1.18-0.40-alpha5/sodium-fabric-mc1.18-0.4.0-alpha5+build.9.jar
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium/download/3542074
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/sodium/download/3542074/file
     sourceControl: https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.18-0.4.0-alpha5/sodium-fabric-mc1.18-0.4.0-alpha5+build.9.jar
     others: ~

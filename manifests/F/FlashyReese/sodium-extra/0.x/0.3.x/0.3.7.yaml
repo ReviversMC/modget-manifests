@@ -12,13 +12,13 @@
     - packageId: FabricMC.fabric
       version: "*"
     - packageId: CaffeineMC.sodium
-      version: "0.3.x"
+      version: "0.4.0-alpha5"
   bundles: ~
   breaks: ~
   conflicts: ~
   recommends:
     - packageId: FlashyReese.reeses-sodium-options
-      version: "*"
+      version: ">=1.2.3"
   thirdPartyIds:
     modrinth: "PtjYWJkn"
     curseforge: "447673"
