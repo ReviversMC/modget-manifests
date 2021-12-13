@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: ReviversMC
+iconUrls:
+  - https://cdn.modrinth.com/data/WRzU60Pt/icon.png
+  - https://media.forgecdn.net/avatars/462/792/637742328282309510.png
+  - https://raw.githubusercontent.com/ReviversMC/better-sleeping/1.18.x/src/main/resources/assets/bettersleeping/icon.png
+status: active
+updatedAlternatives: ~
+name: BetterSleeping
+description: This mod adds sleep notifications, gives sleeping players buffs and debuffs to the ones who haven't slept in a long time!
+authors:
+  - name: NebelNidas
+  - name: TacoMonkey
+  - name: thefirethirteen
+  - name: ExtraCrafTX
+home: https://github.com/ReviversMC/better-sleeping
+source: https://github.com/ReviversMC/better-sleeping
+issues: https://github.com/ReviversMC/better-sleeping/issues
+support: https://discord.gg/nVDXfCRyMk
+wiki: https://github.com/ReviversMC/better-sleeping/blob/master/README.md
+chats:
+  discord: https://discord.gg/nVDXfCRyMk
+  irc: ~
+  others: ~
+versions:
+  - version: "0.5.1"

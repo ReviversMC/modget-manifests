@@ -402,6 +402,16 @@
     - packageId: ramidzkh.fabrishot
       loaders:
         - fabric
+- id: bettersleeping
+  alternativeNames:
+    - better-sleeping
+  tags:
+    - miscellaneous
+    - information
+  packages:
+    - packageId: ReviversMC.bettersleeping
+      loaders:
+        - fabric
 - id: modget
   alternativeNames: ~
   tags:
@@ -488,7 +498,7 @@
     - cosmetic
     - optifine-alternative
   packages:
-    - packageId: shedaniel.customsplashscreen
+    - packageId: TeamMidnightDust.customsplashscreen
       loaders:
         - fabric
 - id: modmenu

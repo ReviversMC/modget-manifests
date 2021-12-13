@@ -26,6 +26,6 @@
     others: ~
   fileUrls:
     modrinth: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.43.1+1.17/fabric-api-0.43.1+1.17.jar
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3537000/file
-    sourceControl: https://github.com/FabricMC/fabric/releases/download/0.42.1%2B1.17/fabric-api-0.42.1+1.17.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3537000/file
+    sourceControl: https://github.com/FabricMC/fabric/releases/download/0.43.1%2B1.17/fabric-api-0.43.1+1.17.jar
     others: ~
