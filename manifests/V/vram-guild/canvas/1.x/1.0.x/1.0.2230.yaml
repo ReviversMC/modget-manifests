@@ -11,14 +11,10 @@
   channel: release
   depends: ~
   bundles:
-    - packageId: Grondag.frex
-      version: "6.0.175"
     - packageId: CottonMC.jankson
-      version: "3.0.1"
+      version: "1.2.1"
     - packageId: shedaniel.cloth-config2
-      version: "5.0.34"
-    - packageId: Grondag.json-model-extensions
-      version: "1.22.218"
+      version: "5.1.40"
   breaks:
     - packageId: CaffeineMC.sodium
       version: "*"
