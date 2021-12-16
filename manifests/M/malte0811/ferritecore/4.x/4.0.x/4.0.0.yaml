@@ -1,0 +1,61 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18"
+  environment:
+    server: optional
+    client: optional
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "uXXizFIs"
+    curseforge: "459857"
+  license: MIT
+  fileType: jar
+  md5: 3e64d85e982a2f0f507842f1b8a5d73e
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/ferrite-core/version/1FrNtQTK
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/files/3550048
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/uXXizFIs/versions/4.0.0/ferritecore-4.0.0-fabric.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric/download/3550048/file
+    sourceControl: ~
+    others: ~
+
+- loaders:
+    - forge
+  minecraftVersions:
+    - "1.18"
+  environment:
+    server: optional
+    client: optional
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "429235"
+  license: MIT
+  fileType: jar
+  md5: 7285abe0869cfb4862b8ab33985627fa
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ferritecore/files/3550045
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/ferritecore/download/3550045/file
+    sourceControl: ~
+    others: ~

@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: ">2.0.0"
+    - packageId: shedaniel.cloth-config2
+      version: ">5.0.0"
+  thirdPartyIds:
+    modrinth: "3qsfQtE9"
+    curseforge: "404870"
+  license: MIT
+  fileType: jar
+  md5: cc350cb48be8df3dc0f31879e96c83e2
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/fabrishot/version/wgN02P41
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabrishot/files/3542922
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/3qsfQtE9/versions/1.6.0/fabrishot-1.6.0.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabrishot/download/3542922/file
+    sourceControl: ~
+    others: ~

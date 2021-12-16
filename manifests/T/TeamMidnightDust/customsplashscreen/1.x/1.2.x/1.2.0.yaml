@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1"
+    - "1.18"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: shedaniel.cloth-config2
+      version: ">5.0.0"
+  bundles: ~
+  breaks:
+    - packageId: Neecko5b84.darkloadingscreen
+      version: "*"
+    - packageId: LoganDark.splash
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+      modrinth: "BwFQLeCh"
+      curseforge: "438252"
+  license: MIT
+  fileType: jar
+  md5: c53aa4d681539758fdf9743d7e7bfdd8
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/custom-splash-screen/version/XZW5p8M0
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/custom-splash-screen/files/3558587
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: hhttps://cdn.modrinth.com/data/BwFQLeCh/versions/1.2.0/customsplashscreen-1.2.0.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/custom-splash-screen/download/3558587/file
+    sourceControl: ~
+    others: ~
