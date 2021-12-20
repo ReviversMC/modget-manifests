@@ -8,7 +8,7 @@
   environment:
     server: optional
     client: optional
-  channel: beta
+  channel: release
   depends: ~
   bundles: ~
   breaks:
