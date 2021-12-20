@@ -22,5 +22,6 @@ chats:
   irc: irc://irc.esper.net:6667/fabric
   others: ~
 versions:
+  - version: "1.7.1"
   - version: "1.7.0"
   - version: "1.6.4"
