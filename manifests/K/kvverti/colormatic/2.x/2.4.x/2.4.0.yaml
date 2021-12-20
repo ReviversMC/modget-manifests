@@ -3,6 +3,7 @@
 - loaders:
     - fabric
   minecraftVersions:
+    - "1.18.1"
     - "1.18"
   environment:
     server: unsupported

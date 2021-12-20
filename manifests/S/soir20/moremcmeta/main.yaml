@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
 
 manifestSpecVersion: "4.0"
 publisher: soir20

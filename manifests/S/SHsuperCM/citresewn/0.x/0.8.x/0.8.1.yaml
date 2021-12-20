@@ -34,9 +34,7 @@
     curseforge: https://www.curseforge.com/minecraft/mc-mods/cit-resewn/download/3498887/file
     sourceControl: https://github.com/SHsuperCM/CITResewn/releases/download/v0.8.1/CITResewn-0.8.1.jar
     others: ~
-
-# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
-
+    
 - loaders:
     - fabric
   minecraftVersions:
