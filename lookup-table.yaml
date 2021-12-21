@@ -228,6 +228,17 @@
     - packageId: FoundationGames.animatica
       loaders:
         - fabric
+- id: advancementinfo
+  alternativeNames:
+    - advancement-info
+  tags:
+    - utility
+    - miscellaneous
+    - information
+  packages:
+    - packageId: Giselbaer.advancementinfo
+      loaders:
+        - fabric
 - id: clear-skies
   alternativeNames: ~
   tags:
