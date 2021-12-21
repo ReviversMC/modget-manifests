@@ -1,0 +1,23 @@
+manifestSpecVersion: "4.0"
+publisher: PlasmoApp
+iconUrls:
+  - https://cdn.modrinth.com/data/1bZhdhsH/icon.png
+  - https://raw.githubusercontent.com/plasmoapp/plasmo-voice/client-1.18-1.2.x/common/src/main/resources/assets/plasmo_voice/icon.png
+status: active
+updatedAlternatives: ~
+name: "Plasmo Voice"
+description: A proximity voice chat mod with audio positioning and lots of features.
+authors:
+  - name: kpids
+  - name: Apehum
+home: https://github.com/plasmoapp/plasmo-voice
+source: https://github.com/plasmoapp/plasmo-voice
+issues: https://github.com/UltimateBoomer/Resolution-Control/issues
+support: ~
+wiki: https://github.com/plasmoapp/plasmo-voice/wiki
+chats:
+  discord: https://discord.gg/uueEqzwCJJ
+  irc: ~
+  others: ~
+versions:
+  - version: "1.2.9"
