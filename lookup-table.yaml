@@ -587,3 +587,15 @@
     - packageId: vram-guild.canvas
       loaders:
         - fabric
+- id: plasmo_voice
+  alternativeNames:
+    - plasmo-voice
+  tags:
+    - adventure
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: plasmoapp.plasmo_voice
+      loaders:
+        - fabric
+        
