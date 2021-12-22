@@ -14,7 +14,9 @@
   bundles: ~
   breaks: ~
   conflicts: ~
-  recommends: ~
+  recommends:
+     - packageId: vlad2305m.soundphysics
+       version: "*"
   thirdPartyIds:
     modrinth: "1bZhdhsH"
     curseforge: ~
@@ -46,7 +48,9 @@
   bundles: ~
   breaks: ~
   conflicts: ~
-  recommends: ~
+  recommends:
+    - packageId: vlad2305m.soundphysics
+      version: "*"
   thirdPartyIds:
     modrinth: "1bZhdhsH"
     curseforge: ~
@@ -63,6 +67,7 @@
     curseforge: ~
     sourceControl: https://github.com/plasmoapp/plasmo-voice/releases/download/1.2.9/plasmovoice-fabric-1.17.1-1.2.9.jar
     others: ~
+
 #1.16
 - loaders:
     - fabric
