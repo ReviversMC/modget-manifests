@@ -393,6 +393,17 @@
     - packageId: PepperCode1.continuity
       loaders:
         - fabric
+- id: plasmo_voice
+  alternativeNames:
+    - plasmo-voice
+  tags:
+    - adventure
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: plasmoapp.plasmo_voice
+      loaders:
+        - fabric
 - id: dashloader
   alternativeNames: ~
   tags:
