@@ -4,7 +4,7 @@ manifestSpecVersion: "4.0"
 publisher: Trikzon
 iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/281/901/64/64/637287072374869279.png
-status: active
+status: unknown
 updatedAlternatives: ~
 name: Transparent
 description: Allows resource packs to make entities support transparency.
