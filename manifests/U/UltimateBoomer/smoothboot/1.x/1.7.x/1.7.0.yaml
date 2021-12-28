@@ -8,7 +8,9 @@
     server: optional
     client: optional
   channel: release
-  depends: ~
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
   bundles: ~
   breaks: ~
   conflicts: ~
