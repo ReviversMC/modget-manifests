@@ -17,7 +17,7 @@
   thirdPartyIds:
     modrinth: ~
     curseforge: "319057"
-  license: GNU LGPLv3
+  license: LGPL-3.0
   fileType: jar
   md5: 69f39bd98eb558825368daddafdb5114
   downloadPageUrls:
