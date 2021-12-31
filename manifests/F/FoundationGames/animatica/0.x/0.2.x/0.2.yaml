@@ -1,0 +1,67 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1"
+    - "1.18"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "PRN43VSY"
+    curseforge: "533006"
+  license: LGPL-3.0
+  fileType: jar
+  md5: 84f07e2e1a468c83b3ee37cc50eb3838
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/animatica/version/u8LKZ5Ko
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/animatica/files/3577480
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/PRN43VSY/versions/0.2+1.18/animatica-0.2+1.18.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/animatica/download/3577480/file
+    sourceControl: ~
+    others: ~
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "PRN43VSY"
+    curseforge: "533006"
+  license: LGPL-3.0
+  fileType: jar
+  md5: fe3ce9cbc8a803d192cf35c9493df498
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/animatica/version/QEMvNfIT
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/animatica/files/3577477
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/PRN43VSY/versions/0.2+1.17/animatica-0.2+1.17.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/animatica/download/3577477/file
+    sourceControl: ~
+    others: ~
