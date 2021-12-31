@@ -8,7 +8,7 @@
   environment:
     server: unsupported
     client: required
-  channel: release
+  channel: beta
   depends: ~
   bundles:
     - packageId: CottonMC.jankson
