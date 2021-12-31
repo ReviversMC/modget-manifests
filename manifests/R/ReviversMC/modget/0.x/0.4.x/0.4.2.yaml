@@ -1,0 +1,85 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1"
+    - "1.18"
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: optional
+    client: optional
+  channel: beta
+  depends:
+    - packageId: shedaniel.cloth-config2
+      version: "5.1.40"
+  bundles:
+    - packageId: shedaniel.cloth-config2
+      version: "5.1.40"
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: CatCore.server_translations
+      version: "*"
+    - packageId: TerraformersMC.modmenu
+      version: "2.0.14"
+  thirdPartyIds:
+    modrinth: "2NpFE0R3"
+    curseforge: "533960"
+  license: LGPL-3.0-or-later
+  fileType: jar
+  md5: 7cf49624cdf3f175d29966a3703e7d68
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/modget/version/NNm7VW4j
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/files/3578364
+    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/tag/0.4.2
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.4.2+1.17/modget-minecraft-0.4.2+1.17.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/download/3578364/file
+    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/download/0.4.2/modget-minecraft-0.4.2+1.17.jar
+    others: ~
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: optional
+    client: optional
+  channel: beta
+  depends:
+    - packageId: shedaniel.cloth-config2
+      version: "4.12.41"
+  bundles:
+    - packageId: shedaniel.cloth-config2
+      version: "4.12.41"
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: CatCore.server_translations
+      version: "*"
+    - packageId: TerraformersMC.modmenu
+      version: "1.16.22"
+  thirdPartyIds:
+    modrinth: "2NpFE0R3"
+    curseforge: "533960"
+  license: LGPL-3.0-or-later
+  fileType: jar
+  md5: 84255f64228c605f532a365f49f038d4
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/modget/version/kjYSSMYj
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/files/3559969
+    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/tag/0.3.1
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.3.1+1.16/modget-minecraft-0.3.1+1.16.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/download/3559969/file
+    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/download/0.3.1/modget-minecraft-0.3.1+1.16.jar
+    others: ~
