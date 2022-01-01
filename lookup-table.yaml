@@ -542,6 +542,15 @@
     - packageId: tfarcenim.cullparticles
       loaders: 
         - fabric
+- id: entityculling
+  alternativeNames: ~
+  tags: 
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: tr7zw.entityculling
+      loaders:
+        - "fabric"
 - id: transparent
   alternativeNames: ~
   tags:
