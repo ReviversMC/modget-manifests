@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: tfarcenim
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/249/807/64/64/637175514278678064.png
+status: eol
+updatedAlternatives:
+  - packageId: CaffeineMC.sodium
+name: Cull Particles
+description: Don't render particles that can't be seen
+authors:
+  - name: tfarcenim
+home: https://www.curseforge.com/minecraft/mc-mods/cull-particles-fabric
+source: https://github.com/Tfarcenim/CullParticlesFabric
+issues: https://github.com/Tfarcenim/CullParticlesFabric/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "2.0"

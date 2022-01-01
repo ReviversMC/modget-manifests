@@ -533,6 +533,24 @@
     - packageId: TerraformersMC.modmenu
       loaders:
         - fabric
+- id: cullparticles
+  alternativeNames: 
+    - "cull-particles"
+  tags:
+    - miscellaneous
+  packages:
+    - packageId: tfarcenim.cullparticles
+      loaders: 
+        - fabric
+- id: entityculling
+  alternativeNames: ~
+  tags: 
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: tr7zw.entityculling
+      loaders:
+        - "fabric"
 - id: transparent
   alternativeNames: ~
   tags:
