@@ -74,12 +74,12 @@
   fileType: jar
   md5: 84255f64228c605f532a365f49f038d4
   downloadPageUrls:
-    modrinth: https://modrinth.com/mod/modget/version/kjYSSMYj
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/files/3559969
-    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/tag/0.3.1
+    modrinth: https://modrinth.com/mod/modget/version/DIkj0wv9
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/files/3578360
+    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/tag/0.4.2
     others: ~
   fileUrls:
-    modrinth: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.3.1+1.16/modget-minecraft-0.3.1+1.16.jar
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/download/3559969/file
-    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/download/0.3.1/modget-minecraft-0.3.1+1.16.jar
+    modrinth: https://cdn.modrinth.com/data/2NpFE0R3/versions/0.4.2+1.16/modget-minecraft-0.4.2+1.16.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modget/download/3578360/file
+    sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/download/0.4.2/modget-minecraft-0.4.2+1.16.jar
     others: ~
