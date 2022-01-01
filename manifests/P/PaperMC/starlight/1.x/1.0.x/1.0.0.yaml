@@ -3,6 +3,39 @@
 - loaders:
     - fabric
   minecraftVersions:
+    - "1.18.1"
+    - "1.18"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: CaffeineMC.phosphor
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "H8CaAYZC"
+    curseforge: "521783"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 8f2e0293b96da3ec63ee55560ed8a6e3
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/starlight/version/p26lbcyI
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight/files/3554912
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/H8CaAYZC/versions/Starlight%201.0.0%201.18.x/starlight-1.0.0+fabric.d0a3220.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight/download/3554912/file
+    sourceControl: ~
+    others: ~
+
+- loaders:
+    - fabric
+  minecraftVersions:
     - "1.17.1"
     - "1.17"
   environment:
@@ -61,38 +94,5 @@
   fileUrls:
     modrinth: https://cdn.modrinth.com//data/iRfIGC1s/versions/Starlight%201.0.0%201.17.x/starlight-1.0.0+forge.5d16647.jar
     curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight-forge/download/3457784/file
-    sourceControl: ~
-    others: ~
-
-- loaders:
-    - fabric
-  minecraftVersions:
-    - "1.18.1"
-    - "1.18"
-  environment:
-    server: optional
-    client: optional
-  channel: release
-  depends: ~
-  bundles: ~
-  breaks:
-    - packageId: CaffeineMC.phosphor
-      version: "*"
-  conflicts: ~
-  recommends: ~
-  thirdPartyIds:
-    modrinth: "H8CaAYZC"
-    curseforge: "521783"
-  license: LGPL-3.0-only
-  fileType: jar
-  md5: 8f2e0293b96da3ec63ee55560ed8a6e3
-  downloadPageUrls:
-    modrinth: https://modrinth.com/mod/starlight/version/p26lbcyI
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight/files/3554912
-    sourceControl: ~
-    others: ~
-  fileUrls:
-    modrinth: https://cdn.modrinth.com/data/H8CaAYZC/versions/Starlight%201.0.0%201.18.x/starlight-1.0.0+fabric.d0a3220.jar
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/starlight/download/3554912/file
     sourceControl: ~
     others: ~

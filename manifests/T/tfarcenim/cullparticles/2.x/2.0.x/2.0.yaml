@@ -3,8 +3,8 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - "1.18.1"
-    - "1.18"
+    - "1.16.5"
+    - "1.16.4"
   environment:
     server: unsupported
     client: required
@@ -16,17 +16,17 @@
   recommends: ~
   thirdPartyIds:
     modrinth: ~
-    curseforge: "319057"
-  license: LGPL-3.0
+    curseforge: "363269"
+  license: CC0-1.0
   fileType: jar
-  md5: 69f39bd98eb558825368daddafdb5114
+  md5: b6c48bedad4e5f65605d741d3622db30
   downloadPageUrls:
     modrinth: ~
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/cloth-config/files/3559638
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/cull-particles-fabric/files/3158003
     sourceControl: ~
     others: ~
   fileUrls:
     modrinth: ~
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/cloth-config/download/3559638/file
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modmenu/download/3158003/file
     sourceControl: ~
     others: ~

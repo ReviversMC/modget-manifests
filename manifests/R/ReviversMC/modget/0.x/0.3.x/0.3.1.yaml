@@ -35,8 +35,6 @@
     sourceControl: https://github.com/ReviversMC/modget-minecraft/releases/download/0.3.1/modget-minecraft-0.3.1+1.17.jar
     others: ~
 
-# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
-
 - loaders:
     - fabric
   minecraftVersions:

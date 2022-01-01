@@ -228,6 +228,17 @@
     - packageId: FoundationGames.animatica
       loaders:
         - fabric
+- id: advancementinfo
+  alternativeNames:
+    - advancement-info
+  tags:
+    - utility
+    - miscellaneous
+    - information
+  packages:
+    - packageId: Giselbaer.advancementinfo
+      loaders:
+        - fabric
 - id: clear-skies
   alternativeNames: ~
   tags:
@@ -382,6 +393,17 @@
     - packageId: PepperCode1.continuity
       loaders:
         - fabric
+- id: plasmo_voice
+  alternativeNames:
+    - plasmo-voice
+  tags:
+    - adventure
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: plasmoapp.plasmo_voice
+      loaders:
+        - fabric
 - id: dashloader
   alternativeNames: ~
   tags:
@@ -511,6 +533,24 @@
     - packageId: TerraformersMC.modmenu
       loaders:
         - fabric
+- id: cullparticles
+  alternativeNames: 
+    - "cull-particles"
+  tags:
+    - miscellaneous
+  packages:
+    - packageId: tfarcenim.cullparticles
+      loaders: 
+        - fabric
+- id: entityculling
+  alternativeNames: ~
+  tags: 
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: tr7zw.entityculling
+      loaders:
+        - "fabric"
 - id: transparent
   alternativeNames: ~
   tags:

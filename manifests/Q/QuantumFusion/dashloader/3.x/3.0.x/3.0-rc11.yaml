@@ -3,6 +3,40 @@
 - loaders:
     - fabric
   minecraftVersions:
+    - "1.18"
+  environment:
+    server: unsupported
+    client: required
+  channel: beta
+  depends: ~
+  bundles: ~
+  breaks:
+    - packageId: NuclearFarts.connected_block_textures
+      version: "*"
+    - packageId: CaffeineMC.sodium
+      version: "<=0.1.0"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "ZfQ3kTvR"
+    curseforge: "472772"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 2462634a9baddf507a589d002ac01c2c
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/dashloader/version/QaDgUeVV
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3553491
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/3.0-rc11-1.18/dashloader-def-3.0-rc11-1.18.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3553491/file
+    sourceControl: ~
+    others: ~
+
+- loaders:
+    - fabric
+  minecraftVersions:
     - "1.17.1"
     - "1.17"
   environment:
@@ -32,39 +66,5 @@
   fileUrls:
     modrinth: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/3.0-rc11-1.17/dashloader-def-3.0-rc.11-1.17.jar
     curseforge: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3553490/file
-    sourceControl: ~
-    others: ~
-
-- loaders:
-    - fabric
-  minecraftVersions:
-    - "1.18"
-  environment:
-    server: unsupported
-    client: required
-  channel: beta
-  depends: ~
-  bundles: ~
-  breaks:
-    - packageId: NuclearFarts.connected_block_textures
-      version: "*"
-    - packageId: CaffeineMC.sodium
-      version: "<=0.1.0"
-  conflicts: ~
-  recommends: ~
-  thirdPartyIds:
-    modrinth: "ZfQ3kTvR"
-    curseforge: "472772"
-  license: LGPL-3.0-only
-  fileType: jar
-  md5: 2462634a9baddf507a589d002ac01c2c
-  downloadPageUrls:
-    modrinth: https://modrinth.com/mod/dashloader/version/QaDgUeVV
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/dashloader/files/3553491
-    sourceControl: ~
-    others: ~
-  fileUrls:
-    modrinth: https://cdn.modrinth.com/data/ZfQ3kTvR/versions/3.0-rc11-1.18/dashloader-def-3.0-rc11-1.18.jar
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/dashloader/download/3553491/file
     sourceControl: ~
     others: ~

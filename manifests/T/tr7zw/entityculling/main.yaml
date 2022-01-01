@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: tr7zw
+iconUrls:
+  - https://media.forgecdn.net/avatars/thumbnails/345/318/64/64/637492631463701682.png
+status: active
+updatedAlternatives: ~
+name: Entity Culling
+description: This mod uses async path-tracing to hide Tiles/Entities that are not visible.
+authors:
+  - name: tr7zw
+home: https://github.com/tr7zw/EntityCulling-Fabric
+source: https://github.com/tr7zw/EntityCulling-Fabric
+issues: https://github.com/tr7zw/EntityCulling-Fabric/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "1.3.3"
+  - version: "1.3.0"
