@@ -3,12 +3,15 @@
 - loaders:
     - fabric
   minecraftVersions:
-    - "1.17.1"
+    - "1.18.1"
+    - "1.18"
   environment:
     server: optional
     client: optional
   channel: release
-  depends: ~
+  depends:
+    - packageId: FabricMC.fabric
+      version: ">=0.44.0"
   bundles: ~
   breaks: ~
   conflicts: ~
@@ -18,14 +21,14 @@
     curseforge: "419697"
   license: LGPL-3.0
   fileType: jar
-  md5: fae1d2ac8628133cb46c33656cb65e7c
+  md5: da2456decf2ed08e1daa9e192e0bad7f
   downloadPageUrls:
     modrinth: ~
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/3570508
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/3582323
     sourceControl: ~
     others: ~
   fileUrls:
     modrinth: ~
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/download/3570508/file
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/download/3582323/file
     sourceControl: ~
     others: ~

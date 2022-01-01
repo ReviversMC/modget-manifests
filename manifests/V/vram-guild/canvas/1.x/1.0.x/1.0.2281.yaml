@@ -4,7 +4,6 @@
     - fabric
   minecraftVersions:
     - "1.18.1"
-    - "1.18"
   environment:
     server: unsupported
     client: required
@@ -14,7 +13,7 @@
     - packageId: CottonMC.jankson
       version: "1.2.1"
     - packageId: shedaniel.cloth-config2
-      version: "6.0.45"
+      version: "6.1.48"
   breaks:
     - packageId: CaffeineMC.sodium
       version: "*"
@@ -27,14 +26,14 @@
     curseforge: "318440"
   license: LGPL-3.0
   fileType: jar
-  md5: 3c325c3f38e4798f5fbb53b19e23ef89
+  md5: cb57abf8a4b269c40d1b8923516a767a
   downloadPageUrls:
-    modrinth: https://modrinth.com/mod/canvas/version/few5jTvK
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/files/3559216
-    sourceControl: https://github.com/vram-guild/canvas/releases/tag/1.0.2256
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/files/3581859
+    sourceControl: https://github.com/vram-guild/canvas/releases/tag/fabric-mc118-1.0.2281
     others: ~
   fileUrls:
-    modrinth: https://cdn.modrinth.com/data/VOYxIjFI/versions/fabric-mc118-1.0.2256/canvas-fabric-mc118-1.0.2256.jar
-    curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/download/3559216/file
-    sourceControl: https://github.com/vram-guild/canvas/releases/download/1.0.2256/canvas-fabric-mc118-1.0.2256.jar
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer/download/3581859/file
+    sourceControl: https://github.com/vram-guild/canvas/releases/download/fabric-mc118-1.0.2281/canvas-fabric-mc118-1.0.2281.jar
     others: ~
