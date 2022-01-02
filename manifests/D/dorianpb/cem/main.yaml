@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: Digifox03
+iconUrls:
+  - https://cdn.modrinth.com/data/YOQCucah/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/376/508/64/64/637553120425124546.png
+status: active
+updatedAlternatives: ~
+name: Custom Entity Models
+description: Allows for loading custom models into the game as defined by .jem and .jpm files in a resource pack.
+authors:
+  - name: dorianpb
+home: https://github.com/dorianpb/cem
+source: https://github.com/dorianpb/cem
+issues: https://github.com/dorianpb/cem/issues
+support: https://discord.gg/3qxFZm7Ycw
+wiki: ~
+chats:
+  discord: https://discord.gg/3qxFZm7Ycw
+  irc: ~
+  others: ~
+versions:
+  - version: "0.7.0"
+  - version: "0.6.2"
+  - version: "0.1.3"
