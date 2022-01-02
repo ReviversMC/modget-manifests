@@ -190,6 +190,17 @@
     - packageId: EmilyPloszaj.chime
       loaders:
         - fabric
+- id: quilt-loading-screen
+  alternativeNames: ~
+  tags:
+    - cosmetic
+    - decoration
+    - miscellaneous
+    - utility
+  packages:
+    - packageId: Emmaffle.quilt-loading-screen
+      loaders:
+        - fabric
 - id: okzoomer
   alternativeNames:
     - ok-zoomer
