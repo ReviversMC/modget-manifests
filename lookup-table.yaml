@@ -165,6 +165,17 @@
     - packageId: Draylar.soaring-clouds
       loaders:
         - fabric
+- id: antixray
+  alternativeNames:
+    - anti-xray
+  tags:
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: DrexHD.antixray
+      loaders:
+        - fabric
+        # also for forge, but not added yet!
 - id: chime
   alternativeNames: ~
   tags:
@@ -534,17 +545,17 @@
       loaders:
         - fabric
 - id: cullparticles
-  alternativeNames: 
+  alternativeNames:
     - "cull-particles"
   tags:
     - miscellaneous
   packages:
     - packageId: tfarcenim.cullparticles
-      loaders: 
+      loaders:
         - fabric
 - id: entityculling
   alternativeNames: ~
-  tags: 
+  tags:
     - utility
     - miscellaneous
   packages:

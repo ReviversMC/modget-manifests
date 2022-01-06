@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: DrexHD
+iconUrls:
+  - https://cdn.modrinth.com/data/sml2FMaA/icon.png
+  - https://media.forgecdn.net/avatars/415/33/637637940207096854.png
+status: active
+updatedAlternatives: ~
+name: AntiXray
+description: "This mod implements Papers 0367-Anti-Xray.patch!"
+authors:
+  - name: Drex
+home: ~
+source: https://github.com/DrexHD/FabricAntiXray
+issues: https://github.com/DrexHD/FabricAntiXray/issues
+support: https://discord.gg/HeZayd6SxF
+wiki: ~
+chats:
+  discord: https://discord.gg/HeZayd6SxF
+  irc: ~
+  others: ~
+versions:
+  - version: "1.2.0"
