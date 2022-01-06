@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
 
 manifestSpecVersion: "4.0"
-publisher: Digifox03
+publisher: dorianpb
 iconUrls:
   - https://cdn.modrinth.com/data/YOQCucah/icon.png
   - https://media.forgecdn.net/avatars/thumbnails/376/508/64/64/637553120425124546.png
