@@ -155,6 +155,19 @@
     - packageId: Digifox03.varied-mobs
       loaders:
         - fabric
+- id: cem
+  alternativeNames:
+    - customentitymodels
+    - custom-entity-models
+  tags:
+    - optifine-alternative
+    - library
+    - api
+    - cosmetic
+  packages:
+    - packageId: dorianpb.cem
+      loaders:
+        - fabric
 - id: soaring-clouds
   alternativeNames: ~
   tags:
@@ -186,6 +199,17 @@
     - optifine-alternative
   packages:
     - packageId: EmilyPloszaj.chime
+      loaders:
+        - fabric
+- id: quilt-loading-screen
+  alternativeNames: ~
+  tags:
+    - cosmetic
+    - decoration
+    - miscellaneous
+    - utility
+  packages:
+    - packageId: Emmaffle.quilt-loading-screen
       loaders:
         - fabric
 - id: okzoomer

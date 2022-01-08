@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1"
+    - "1.18"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: Lortseam.completeconfig
+      version: "*"
+    - packageId: shedaniel.cloth-config2
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts:
+    - packageId: Chocohead.optifabric
+      version: "*"
+  recommends: ~
+  thirdPartyIds:
+    modrinth: YOQCucah
+    curseforge: "477078"
+  license: LGPL-3.0-only
+  fileType: jar
+  md5: 8d17984306c7837be50cb476227a6fbb
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/cem/version/Z42auxMF
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-cem/files/3561474
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/YOQCucah/versions/0.7.0/cem-0.7.0.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/varied-mob-textures/download/3561474/file
+    sourceControl: ~
+    others: ~
