@@ -1,11 +1,15 @@
 manifestSpecVersion:
+loaders:
+  -
 publisher:
 iconUrls:
   -
 status:
 updatedAlternatives:
   - packageId:
-name:
+names:
+  official:
+  others:
 description:
 authors:
   - name:
