@@ -1,18 +1,24 @@
-manifestSpecVersion:
-loaders:
-  -
-publisher:
-iconUrls:
-  -
-status:
-updatedAlternatives:
-  - packageId:
+# schema goes here
+
+manifestSpecVersion: 5.0-alpha.3 # we'll change it to 5.0 when considered final
+
 names:
   official:
   others:
-description:
+publisher:
 authors:
   - name:
+description:
+iconUrls:
+  -
+
+status:
+updatedAlternatives:
+  - packageId:
+
+loaders:
+  -
+
 home:
 source:
 issues:
@@ -24,9 +30,10 @@ chats:
   others:
     - name:
       url:
-releasePlatforms:
+
+releasePlatforms: # Why did we initially move it to the version level? (We should really document stuff!) Also, it should be removed from the versions if moved back here.
   curseforge: #Project ID
   modrinth: #Project ID
   github: #Full URL
 versions:
-  - version: #Set this to be the same name as Modrinth, CF, or GH, in that order.
+  - version: #Set this to be the same name as Modrinth, CF, or GH, in that order. #(fire): So... we won't be taking it from `fabric.mod.json`? huuh

@@ -1,5 +1,8 @@
+# schema goes here
 
-manifestSpecVersion:
-tags:
+manifestSpecVersion: 5.0-alpha.3 # we'll change it to 5.0 when considered final
+
 packages:
   - publisher:
+
+tags:

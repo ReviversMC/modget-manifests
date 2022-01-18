@@ -1,4 +1,7 @@
-manifestSpecVersion:
+# schema goes here
+
+manifestSpecVersion: 5.0-alpha.3 # we'll change it to 5.0 when considered final
+
 variants:
   - loaders:
       -
@@ -34,6 +37,8 @@ variants:
       curseforge:
       sourceControl:
       others:
+        - name:
+          url:
     fileUrls:
       modrinth:
       curseforge:
