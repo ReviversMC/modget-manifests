@@ -24,5 +24,9 @@ chats:
   others:
     - name:
       url:
+releasePlatforms:
+  curseforge: #Project ID
+  modrinth: #Project ID
+  github: #Full URL
 versions:
   - version: #Set this to be the same name as Modrinth, CF, or GH, in that order.

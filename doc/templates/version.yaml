@@ -1,4 +1,4 @@
-manifestSpecVersion: 
+manifestSpecVersion:
 variants:
   - loaders:
       -
@@ -23,7 +23,7 @@ variants:
     recommends:
       - packageId:
         version:
-    thirdPartyIds:
+    thirdPartyFileIds:
       modrinth:
       curseforge:
     license:
