@@ -25,4 +25,4 @@ chats:
     - name:
       url:
 versions:
-  - version:
+  - version: #Set this to be the same name as Modrinth, CF, or GH, in that order.
