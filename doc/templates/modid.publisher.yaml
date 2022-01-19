@@ -1,40 +1,45 @@
 # schema goes here
 
-manifestSpecVersion: 5.0-alpha.4 # we'll change it to 5.0 when considered final
+manifestSpecVersion: 5.0-alpha.5 # we'll change it to 5.0 when considered final
 
-names:
-  official:
-  others:
-    -
-publisher:
-authors:
-  -
+names: #(Names!)
+  official: #(String!)
+  others: #(List<String!>?)
+    - #(String!)
+publisher: #(String!)
+authors: #(List<String!>?)
+  - #(String!)
 description:
 iconUrls:
-  -
+  -  #Prefer Modrinth, then CF, then source control (String?)
 
-home:
-source:
-issues:
-support:
-wiki:
-chats:
-  discord:
-  irc:
-  others:
-    - name:
-      url:
+home: #(String?)
+source: #(String?)
+issues: #(String?)
+support: #(String?)
+wiki: #(String?)
+chats: #(Chats!)
+  discord: #(String?)
+  irc: #(String?)
+  others: #(Other?)
+    - name: #(String!)
+      url: #(String!)
 
 status:
 updatedAlternatives:
   - packageId:
 
-loaders:
-  -
+loaders: #(cloud: replace open array with fixed loaders, as MG is only supposed to support Fabric and Forge.)
+  fabric: #(Boolean!)
+  forge: #(Boolean!)
 
 releasePlatforms: # Why did we initially move it to the version level? (We should really document stuff!) Also, it should be removed from the versions if moved back here.
-  curseforge: #Project ID (string!)
-  modrinth: #Project ID (string!)
-  github: #Full URL ((fire): does it matter or not if the `.git` is present at the end?)
+  curseforge: #Project ID (String?)
+  modrinth: #Project ID (String?)
+  sourceControl: #Full URL (String?) Is this even neccessary, as we have source listed as a field?
+   #((fire): does it matter or not if the `.git` is present at the end?) (cloud: Let's standardise on having `.git`?)
 versions:
-  - version: #Set this to be the same name as Modrinth, CF, or GH, in that order. #(fire): So... we won't be taking it from `fabric.mod.json`? huuh
+  fabric: #(Version?)
+    - version: #Version extracted from fabric.mod.json (String!) 
+  forge: #(Version?)
+    - version: #Version extracted from mods.toml (String!)

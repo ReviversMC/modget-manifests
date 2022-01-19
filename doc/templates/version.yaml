@@ -1,15 +1,13 @@
 # schema goes here
 
-manifestSpecVersion: 5.0-alpha.4 # we'll change it to 5.0 when considered final
+manifestSpecVersion: 5.0-alpha.5 # we'll change it to 5.0 when considered final
 
 variants:
-  - loaders:
-      -
     minecraftVersions:
-      -
+      - #(String!)
     environment:
-      server:
-      client:
+      server: #(String!)
+      client: #(String!)
     channel:
     depends:
       - packageId:
@@ -26,7 +24,7 @@ variants:
     recommends:
       - packageId:
         version:
-    thirdPartyFileIds:
+    thirdPartyFileIds: #Is this even neccessary if we have downloadPageUrls?
       modrinth:
       curseforge:
     license:
