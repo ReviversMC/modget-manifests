@@ -24,7 +24,7 @@ variants:
     recommends:
       - packageId:
         version:
-    thirdPartyFileIds: #Is this even neccessary if we have downloadPageUrls?
+    thirdPartyFileIds: #Is this even neccessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
       modrinth:
       curseforge:
     license:
