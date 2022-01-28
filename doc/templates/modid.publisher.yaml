@@ -1,6 +1,6 @@
 # schema goes here
 
-manifestSpecVersion: 5.0-alpha.5 # we'll change it to 5.0 when considered final
+manifestSpecVersion: 5.0-alpha.6 # we'll change it to 5.0 when considered final
 
 names: #(Names!)
   official: #(String!)
@@ -29,17 +29,23 @@ status:
 updatedAlternatives:
   - packageId:
 
-loaders: #(cloud: replace open array with fixed loaders, as MG is only supposed to support Fabric and Forge.)
+loaders: #(cloud: replace open array with fixed loaders, as MG is only supposed to support Fabric and Forge. fire: and liteloader and rift)
   fabric: #(Boolean!)
   forge: #(Boolean!)
+  liteloader: #(Boolean!)
+  rift: #(Boolean!)
 
-releasePlatforms: # Why did we initially move it to the version level? (We should really document stuff!) Also, it should be removed from the versions if moved back here.
+releasePlatforms: # It should be removed from the versions if moved back here.
   curseforge: #Project ID (String?)
   modrinth: #Project ID (String?)
   sourceControl: #Full URL (String?) Is this even neccessary, as we have source listed as a field?
-   #((fire): does it matter or not if the `.git` is present at the end?) (cloud: Let's standardise on having `.git`?)
+   # (cloud: Let's standardise on having `.git`?) (fire: sure)
 versions:
   fabric: #(Version?)
     - version: #Version extracted from fabric.mod.json (String!) 
   forge: #(Version?)
     - version: #Version extracted from mods.toml (String!)
+  liteloader:
+    - version:
+  rift:
+    - version:
