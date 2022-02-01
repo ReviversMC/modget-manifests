@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+# 1.17-1.18
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1" # tested by @thefirethirteen
+    - "1.18"
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: required
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "t01BRUXb"
+    curseforge: ~
+  license: MIT
+  fileType: jar
+  md5: 3f4b1631040724bab102ef10df25dd11
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/antishulkerdupe/version/QTO9GKwy
+    curseforge: ~
+    sourceControl: https://github.com/PotatoPresident/AntiShulkerDupe/releases/tag/v1.0.0
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/t01BRUXb/versions/1.0.0/antishulkerdupe-1.0.0.jar
+    curseforge: ~
+    sourceControl: https://github.com/PotatoPresident/AntiShulkerDupe/releases/download/v1.0.0/antishulkerdupe-1.0.0.jar
+    others: ~

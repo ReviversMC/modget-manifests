@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: PotatoPresident
+iconUrls:
+  - https://cdn.modrinth.com/data/t01BRUXb/icon.png
+  - https://github.com/PotatoPresident/AntiShulkerDupe/blob/master/src/main/resources/assets/antishulkerdupe/icon.png?raw=true
+status: active
+updatedAlternatives: ~
+name: "AntiShulkerDupe"
+description: "Patches 1.17.1 shulker dupe"
+authors:
+  - name: Potatoboy9999
+home: https://modrinth.com/mod/antishulkerdupe
+source: https://github.com/PotatoPresident/AntiShulkerDupe
+issues: https://github.com/PotatoPresident/AntiShulkerDupe/issues
+support: ~
+wiki: ~
+chats:
+  discord: ~
+  irc: ~
+  others: ~
+versions:
+  - version: "1.0.0"

@@ -439,6 +439,16 @@
     - packageId: plasmoapp.plasmo_voice
       loaders:
         - fabric
+- id: antishulkerdupe
+  alternativeNames:
+    - anti-shulker-dupe
+  tags:
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: PotatoPresident.antishulkerdupe
+      loaders:
+        - fabric
 - id: dashloader
   alternativeNames: ~
   tags:
