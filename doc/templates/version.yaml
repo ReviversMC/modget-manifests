@@ -1,8 +1,138 @@
 # schema goes here
 
-manifestSpecVersion: 5.0-alpha.6 # we'll change it to 5.0 when considered final
+manifestSpecVersion: 5.0-alpha.7 # we'll change it to 5.0 when considered final
 
-variants:
+fabric:
+    releaseDate:
+    minecraftVersions:
+      - #(String!)
+    environment:
+      server: #(String!)
+      client: #(String!)
+    channel:
+    depends:
+      - packageId:
+        version:
+    bundles:
+      - packageId:
+        version:
+    breaks:
+      - packageId:
+        version:
+    conflicts:
+      - packageId:
+        version:
+    recommends:
+      - packageId:
+        version:
+    thirdPartyFileIds: #Is this even neccessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
+      modrinth:
+      curseforge:
+    license:
+    fileType:
+    md5:
+    downloadPageUrls:
+      modrinth:
+      curseforge:
+      sourceControl:
+      others:
+        - name:
+          url:
+    fileUrls:
+      modrinth:
+      curseforge:
+      sourceControl:
+      others:
+        - name:
+          url:
+forge:
+    releaseDate:
+    minecraftVersions:
+      - #(String!)
+    environment:
+      server: #(String!)
+      client: #(String!)
+    channel:
+    depends:
+      - packageId:
+        version:
+    bundles:
+      - packageId:
+        version:
+    breaks:
+      - packageId:
+        version:
+    conflicts:
+      - packageId:
+        version:
+    recommends:
+      - packageId:
+        version:
+    thirdPartyFileIds: #Is this even neccessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
+      modrinth:
+      curseforge:
+    license:
+    fileType:
+    md5:
+    downloadPageUrls:
+      modrinth:
+      curseforge:
+      sourceControl:
+      others:
+        - name:
+          url:
+    fileUrls:
+      modrinth:
+      curseforge:
+      sourceControl:
+      others:
+        - name:
+          url:
+liteloader:
+    releaseDate:
+    minecraftVersions:
+      - #(String!)
+    environment:
+      server: #(String!)
+      client: #(String!)
+    channel:
+    depends:
+      - packageId:
+        version:
+    bundles:
+      - packageId:
+        version:
+    breaks:
+      - packageId:
+        version:
+    conflicts:
+      - packageId:
+        version:
+    recommends:
+      - packageId:
+        version:
+    thirdPartyFileIds: #Is this even neccessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
+      modrinth:
+      curseforge:
+    license:
+    fileType:
+    md5:
+    downloadPageUrls:
+      modrinth:
+      curseforge:
+      sourceControl:
+      others:
+        - name:
+          url:
+    fileUrls:
+      modrinth:
+      curseforge:
+      sourceControl:
+      others:
+        - name:
+          url:
+rift:
+    releaseDate:
     minecraftVersions:
       - #(String!)
     environment:
