@@ -1,6 +1,6 @@
 # schema goes here
 
-manifestSpecVersion: 5.0-alpha.7 # we'll change it to 5.0 when considered final
+manifestSpecVersion: 5.0-beta.1 # we'll change it to 5.0 when considered final
 
 fabric:
     releaseDate:
