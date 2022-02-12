@@ -1,15 +1,18 @@
 # schema goes here
 
-manifestSpecVersion: 5.0-beta.1 # we'll change it to 5.0 when considered final
+manifestSpecVersion: 5.0-beta.2 # we'll change it to 5.0 when considered final
 
 fabric:
-    releaseDate:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
+
     minecraftVersions:
       - #(String!)
     environment:
       server: #(String!)
       client: #(String!)
     channel:
+
     depends:
       - packageId:
         version:
@@ -25,12 +28,14 @@ fabric:
     recommends:
       - packageId:
         version:
-    thirdPartyFileIds: #Is this even neccessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
+
+    thirdPartyFileIds: #Is this even necessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
       modrinth:
       curseforge:
     license:
     fileType:
     md5:
+
     downloadPageUrls:
       modrinth:
       curseforge:
@@ -46,13 +51,16 @@ fabric:
         - name:
           url:
 forge:
-    releaseDate:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
+
     minecraftVersions:
       - #(String!)
     environment:
       server: #(String!)
       client: #(String!)
     channel:
+
     depends:
       - packageId:
         version:
@@ -68,12 +76,14 @@ forge:
     recommends:
       - packageId:
         version:
-    thirdPartyFileIds: #Is this even neccessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
+
+    thirdPartyFileIds: #Is this even necessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
       modrinth:
       curseforge:
     license:
     fileType:
     md5:
+
     downloadPageUrls:
       modrinth:
       curseforge:
@@ -89,13 +99,16 @@ forge:
         - name:
           url:
 liteloader:
-    releaseDate:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
+
     minecraftVersions:
       - #(String!)
     environment:
       server: #(String!)
       client: #(String!)
     channel:
+
     depends:
       - packageId:
         version:
@@ -111,12 +124,14 @@ liteloader:
     recommends:
       - packageId:
         version:
-    thirdPartyFileIds: #Is this even neccessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
+
+    thirdPartyFileIds: #Is this even necessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
       modrinth:
       curseforge:
     license:
     fileType:
     md5:
+
     downloadPageUrls:
       modrinth:
       curseforge:
@@ -132,13 +147,16 @@ liteloader:
         - name:
           url:
 rift:
-    releaseDate:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
+
     minecraftVersions:
       - #(String!)
     environment:
       server: #(String!)
       client: #(String!)
     channel:
+
     depends:
       - packageId:
         version:
@@ -154,12 +172,14 @@ rift:
     recommends:
       - packageId:
         version:
-    thirdPartyFileIds: #Is this even neccessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
+
+    thirdPartyFileIds: #Is this even necessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
       modrinth:
       curseforge:
     license:
     fileType:
     md5:
+
     downloadPageUrls:
       modrinth:
       curseforge:

@@ -1,6 +1,6 @@
 # schema goes here
 
-manifestSpecVersion: 5.0-beta.1 # we'll change it to 5.0 when considered final
+manifestSpecVersion: 5.0-beta.2 # we'll change it to 5.0 when considered final
 
 names: #(Names!)
   official: #(String!)
@@ -42,7 +42,7 @@ releasePlatforms: # It should be removed from the versions if moved back here.
    # (cloud: Let's standardise on having `.git`?) (fire: sure)
 versions:
   fabric: #(Version?)
-    - version: #Version extracted from fabric.mod.json (String!) 
+    - version: #Version extracted from fabric.mod.json (String!)
   forge: #(Version?)
     - version: #Version extracted from mods.toml (String!)
   liteloader:
