@@ -3,15 +3,15 @@
 manifestSpecVersion: "5.0-beta.2"
 
 fabric:
-    semverVersion:
-    modrinthVersion:
-    sourceControlTag:
+    semverVersion: #(String!)
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
 
     minecraftVersions:
-      -
+      - #(String!)
     environment:
-      server:
-      client:
+      server: #(String!)
+      client: #(String!)
     channel:
 
     depends:
@@ -30,7 +30,7 @@ fabric:
       - packageId:
         version:
 
-    thirdPartyFileIds:
+    thirdPartyFileIds: #Is this even necessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
       modrinth:
       curseforge:
     license:
@@ -52,15 +52,15 @@ fabric:
         - name:
           url:
 forge:
-    semverVersion:
-    modrinthVersion:
-    sourceControlTag:
+    semverVersion: #(String!)
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
 
     minecraftVersions:
-      -
+      - #(String!)
     environment:
-      server:
-      client:
+      server: #(String!)
+      client: #(String!)
     channel:
 
     depends:
@@ -79,7 +79,7 @@ forge:
       - packageId:
         version:
 
-    thirdPartyFileIds:
+    thirdPartyFileIds: #Is this even necessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
       modrinth:
       curseforge:
     license:
@@ -101,15 +101,15 @@ forge:
         - name:
           url:
 liteloader:
-    semverVersion:
-    modrinthVersion:
-    sourceControlTag:
+    semverVersion: #(String!)
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
 
     minecraftVersions:
-      -
+      - #(String!)
     environment:
-      server:
-      client:
+      server: #(String!)
+      client: #(String!)
     channel:
 
     depends:
@@ -128,7 +128,7 @@ liteloader:
       - packageId:
         version:
 
-    thirdPartyFileIds:
+    thirdPartyFileIds: #Is this even necessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
       modrinth:
       curseforge:
     license:
@@ -150,15 +150,15 @@ liteloader:
         - name:
           url:
 rift:
-    semverVersion:
-    modrinthVersion:
-    sourceControlTag:
+    semverVersion: #(String!)
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
 
     minecraftVersions:
-      -
+      - #(String!)
     environment:
-      server:
-      client:
+      server: #(String!)
+      client: #(String!)
     channel:
 
     depends:
@@ -177,7 +177,7 @@ rift:
       - packageId:
         version:
 
-    thirdPartyFileIds:
+    thirdPartyFileIds: #Is this even necessary if we have downloadPageUrls? yes, to link users to the download page, not the direct download
       modrinth:
       curseforge:
     license:
