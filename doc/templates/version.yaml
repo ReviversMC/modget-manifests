@@ -1,6 +1,6 @@
 # schema goes here
 
-manifestSpecVersion: "5.0-beta.2"
+manifestSpecVersion: "5.0-beta.3"
 
 fabric:
     semverVersion:
@@ -30,9 +30,6 @@ fabric:
       - packageId:
         version:
 
-    thirdPartyFileIds:
-      modrinth:
-      curseforge:
     license:
     fileType:
     md5:
@@ -79,9 +76,6 @@ forge:
       - packageId:
         version:
 
-    thirdPartyFileIds:
-      modrinth:
-      curseforge:
     license:
     fileType:
     md5:
@@ -128,9 +122,6 @@ liteloader:
       - packageId:
         version:
 
-    thirdPartyFileIds:
-      modrinth:
-      curseforge:
     license:
     fileType:
     md5:
@@ -177,9 +168,6 @@ rift:
       - packageId:
         version:
 
-    thirdPartyFileIds:
-      modrinth:
-      curseforge:
     license:
     fileType:
     md5:
