@@ -1,0 +1,51 @@
+# schema goes here
+
+manifestSpecVersion: "5.0"
+
+names: #(Names!)
+  official: #(String!)
+  others: #(List<String!>?)
+    - #(String!)
+publisher: #(String!)
+authors: #(List<String!>?)
+  - #(String!)
+description:
+iconUrls:
+  -  #Prefer Modrinth, then CF, then source control (String?)
+
+home: #(String?)
+source: #(String?)
+issues: #(String?)
+support: #(String?)
+wiki: #(String?)
+chats: #(Chats!)
+  discord: #(String?)
+  irc: #(String?)
+  others: #(Other?)
+    - name: #(String!)
+      url: #(String!)
+
+status:
+updatedAlternatives:
+  - packageId:
+
+loaders: #(cloud: replace open array with fixed loaders, as MG is only supposed to support Fabric and Forge. fire: and liteloader and rift)
+  fabric: #(Boolean!)
+  forge: #(Boolean!)
+  liteloader: #(Boolean!)
+  rift: #(Boolean!)
+
+releasePlatforms: # It should be removed from the versions if moved back here.
+  curseforge: #Project ID (String?)
+  modrinth: #Project ID (String?)
+  sourceControl: #Full URL (String?) Is this even neccessary, as we have source listed as a field?
+   # (cloud: Let's standardise on having `.git`?) (fire: sure)
+versions:
+  fabric: #(Version?)
+    - version: #Version extracted from fabric.mod.json (String!)
+  forge: #(Version?)
+    - version: #Version extracted from mods.toml (String!)
+  liteloader:
+    - version:
+  rift:
+    - version:
