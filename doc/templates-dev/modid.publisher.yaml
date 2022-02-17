@@ -1,6 +1,6 @@
 # schema goes here
 
-manifestSpecVersion: "5.0-beta.4"
+manifestSpecVersion: "5.0-beta.5"
 
 names: #(Names!)
   official: #(String!)
@@ -24,6 +24,12 @@ chatUrls: #(ChatUrls!)
   otherUrls: #(Other?)
     - name: #(String!)
       url: #(String!)
+donationUrls:
+  patreonUrl:
+  kofiUrl:
+  otherUrls:
+    - name:
+      url:
 
 status:
 updatedAlternatives:
@@ -38,8 +44,8 @@ loaders: #(cloud: replace open array with fixed loaders, as MG is only supposed 
 releasePlatforms: # It should be removed from the versions if moved back here.
   curseforgeID: #Project ID (String?)
   modrinthID: #Project ID (String?)
-  sourceControlUrl: #Full URL (String?) Is this even neccessary, as we have source listed as a field?
-   # (cloud: Let's standardise on having `.git`?) (fire: sure)
+  sourceControlUrl: #Full URL (String?) Is this even necessary, as we have source listed as a field?
+   # (cloud: Let's standardize on having `.git`?) (fire: sure)
 versions:
   fabric: #(Version?)
     - version: #Version extracted from fabric.mod.json (String!)
