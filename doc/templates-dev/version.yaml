@@ -1,6 +1,6 @@
 # schema goes here
 
-manifestSpecVersion: "5.0-beta.3"
+manifestSpecVersion: "5.0-beta.4"
 
 fabric:
     semverVersion: #(String!)
@@ -35,17 +35,17 @@ fabric:
     md5:
 
     downloadPageUrls:
-      modrinth:
-      curseforge:
-      sourceControl:
-      others:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
         - name:
           url:
     fileUrls:
-      modrinth:
-      curseforge:
-      sourceControl:
-      others:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
         - name:
           url:
 forge:
@@ -81,17 +81,17 @@ forge:
     md5:
 
     downloadPageUrls:
-      modrinth:
-      curseforge:
-      sourceControl:
-      others:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
         - name:
           url:
     fileUrls:
-      modrinth:
-      curseforge:
-      sourceControl:
-      others:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
         - name:
           url:
 liteloader:
@@ -127,17 +127,17 @@ liteloader:
     md5:
 
     downloadPageUrls:
-      modrinth:
-      curseforge:
-      sourceControl:
-      others:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
         - name:
           url:
     fileUrls:
-      modrinth:
-      curseforge:
-      sourceControl:
-      others:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
         - name:
           url:
 rift:
@@ -173,16 +173,16 @@ rift:
     md5:
 
     downloadPageUrls:
-      modrinth:
-      curseforge:
-      sourceControl:
-      others:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
         - name:
           url:
     fileUrls:
-      modrinth:
-      curseforge:
-      sourceControl:
-      others:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
         - name:
           url:

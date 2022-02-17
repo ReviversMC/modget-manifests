@@ -1,6 +1,6 @@
 # schema goes here
 
-manifestSpecVersion: "5.0-beta.3"
+manifestSpecVersion: "5.0-beta.4"
 
 names: #(Names!)
   official: #(String!)
@@ -13,15 +13,15 @@ description:
 iconUrls:
   -  #Prefer Modrinth, then CF, then source control (String?)
 
-home: #(String?)
-source: #(String?)
-issues: #(String?)
-support: #(String?)
-wiki: #(String?)
-chats: #(Chats!)
-  discord: #(String?)
-  irc: #(String?)
-  others: #(Other?)
+homeUrl: #(String?)
+sourceUrl: #(String?)
+issuesUrl: #(String?)
+supportUrl: #(String?)
+wikiUrl: #(String?)
+chatUrls: #(ChatUrls!)
+  discordUrl: #(String?)
+  ircUrl: #(String?)
+  otherUrls: #(Other?)
     - name: #(String!)
       url: #(String!)
 
@@ -36,9 +36,9 @@ loaders: #(cloud: replace open array with fixed loaders, as MG is only supposed 
   rift: #(Boolean!)
 
 releasePlatforms: # It should be removed from the versions if moved back here.
-  curseforge: #Project ID (String?)
-  modrinth: #Project ID (String?)
-  sourceControl: #Full URL (String?) Is this even neccessary, as we have source listed as a field?
+  curseforgeID: #Project ID (String?)
+  modrinthID: #Project ID (String?)
+  sourceControlUrl: #Full URL (String?) Is this even neccessary, as we have source listed as a field?
    # (cloud: Let's standardise on having `.git`?) (fire: sure)
 versions:
   fabric: #(Version?)
