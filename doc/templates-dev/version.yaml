@@ -32,6 +32,8 @@ fabric:
         version:
 
     license:
+      id:
+      customLicenseUrl:
     fileType:
     md5:
 
@@ -80,6 +82,8 @@ forge:
         version:
 
     license:
+      id:
+      customLicenseUrl:
     fileType:
     md5:
 
@@ -128,6 +132,8 @@ rift:
         version:
 
     license:
+      id:
+      customLicenseUrl:
     fileType:
     md5:
 
@@ -176,6 +182,8 @@ meddle:
         version:
 
     license:
+      id:
+      customLicenseUrl:
     fileType:
     md5:
 
@@ -224,6 +232,8 @@ m3l:
         version:
 
     license:
+      id:
+      customLicenseUrl:
     fileType:
     md5:
 
@@ -272,6 +282,8 @@ rope:
         version:
 
     license:
+      id:
+      customLicenseUrl:
     fileType:
     md5:
 
@@ -320,6 +332,8 @@ blazeloader:
         version:
 
     license:
+      id:
+      customLicenseUrl:
     fileType:
     md5:
 
@@ -368,6 +382,8 @@ liteloader:
         version:
 
     license:
+      id:
+      customLicenseUrl:
     fileType:
     md5:
 
@@ -416,6 +432,8 @@ risugami:
         version:
 
     license:
+      id:
+      customLicenseUrl:
     fileType:
     md5:
 
