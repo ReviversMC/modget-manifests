@@ -53,9 +53,24 @@ versions:
   forge: #(Version?)
     - version: #Version extracted from mods.toml (String!)
       semverVersion:
+  rift:
+    - version:
+      semverVersion:
+  meddle:
+    - version:
+      semverVersion:
+  m3l:
+    - version:
+      semverVersion:
+  rope:
+    - version:
+      semverVersion:
+  blazeloader:
+    - version:
+      semverVersion:
   liteloader:
     - version:
       semverVersion:
-  rift:
+  risugami:
     - version:
       semverVersion:

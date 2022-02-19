@@ -47,6 +47,7 @@ fabric:
       otherUrls:
         - name:
           url:
+
 forge:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
@@ -92,6 +93,237 @@ forge:
       otherUrls:
         - name:
           url:
+
+rift:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
+
+    minecraftVersions:
+      - #(String!)
+    environment:
+      server: #(String!)
+      client: #(String!)
+    channel:
+
+    depends:
+      - packageId:
+        version:
+    bundles:
+      - packageId:
+        version:
+    breaks:
+      - packageId:
+        version:
+    conflicts:
+      - packageId:
+        version:
+    recommends:
+      - packageId:
+        version:
+
+    license:
+    fileType:
+    md5:
+
+    downloadPageUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
+    fileUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
+
+meddle:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
+
+    minecraftVersions:
+      - #(String!)
+    environment:
+      server: #(String!)
+      client: #(String!)
+    channel:
+
+    depends:
+      - packageId:
+        version:
+    bundles:
+      - packageId:
+        version:
+    breaks:
+      - packageId:
+        version:
+    conflicts:
+      - packageId:
+        version:
+    recommends:
+      - packageId:
+        version:
+
+    license:
+    fileType:
+    md5:
+
+    downloadPageUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
+    fileUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
+
+m3l:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
+
+    minecraftVersions:
+      - #(String!)
+    environment:
+      server: #(String!)
+      client: #(String!)
+    channel:
+
+    depends:
+      - packageId:
+        version:
+    bundles:
+      - packageId:
+        version:
+    breaks:
+      - packageId:
+        version:
+    conflicts:
+      - packageId:
+        version:
+    recommends:
+      - packageId:
+        version:
+
+    license:
+    fileType:
+    md5:
+
+    downloadPageUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
+    fileUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
+
+rope:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
+
+    minecraftVersions:
+      - #(String!)
+    environment:
+      server: #(String!)
+      client: #(String!)
+    channel:
+
+    depends:
+      - packageId:
+        version:
+    bundles:
+      - packageId:
+        version:
+    breaks:
+      - packageId:
+        version:
+    conflicts:
+      - packageId:
+        version:
+    recommends:
+      - packageId:
+        version:
+
+    license:
+    fileType:
+    md5:
+
+    downloadPageUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
+    fileUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
+
+blazeloader:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
+
+    minecraftVersions:
+      - #(String!)
+    environment:
+      server: #(String!)
+      client: #(String!)
+    channel:
+
+    depends:
+      - packageId:
+        version:
+    bundles:
+      - packageId:
+        version:
+    breaks:
+      - packageId:
+        version:
+    conflicts:
+      - packageId:
+        version:
+    recommends:
+      - packageId:
+        version:
+
+    license:
+    fileType:
+    md5:
+
+    downloadPageUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
+    fileUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
+
 liteloader:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
@@ -137,7 +369,8 @@ liteloader:
       otherUrls:
         - name:
           url:
-rift:
+
+risugami:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
 
