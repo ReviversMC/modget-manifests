@@ -6,6 +6,8 @@ fabric:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
 
+    changelog:
+
     minecraftVersions:
       - #(String!)
     environment:
@@ -51,6 +53,8 @@ fabric:
 forge:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
+
+    changelog:
 
     minecraftVersions:
       - #(String!)
@@ -98,6 +102,8 @@ rift:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
 
+    changelog:
+
     minecraftVersions:
       - #(String!)
     environment:
@@ -143,6 +149,8 @@ rift:
 meddle:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
+
+    changelog:
 
     minecraftVersions:
       - #(String!)
@@ -190,6 +198,8 @@ m3l:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
 
+    changelog:
+
     minecraftVersions:
       - #(String!)
     environment:
@@ -235,6 +245,8 @@ m3l:
 rope:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
+
+    changelog:
 
     minecraftVersions:
       - #(String!)
@@ -282,6 +294,8 @@ blazeloader:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
 
+    changelog:
+
     minecraftVersions:
       - #(String!)
     environment:
@@ -328,6 +342,8 @@ liteloader:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
 
+    changelog:
+
     minecraftVersions:
       - #(String!)
     environment:
@@ -373,6 +389,8 @@ liteloader:
 risugami:
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
+
+    changelog:
 
     minecraftVersions:
       - #(String!)
