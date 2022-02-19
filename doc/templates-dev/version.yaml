@@ -3,7 +3,6 @@
 manifestSpecVersion: "5.0-beta.5"
 
 fabric:
-    semverVersion: #(String!)
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
 
@@ -49,7 +48,6 @@ fabric:
         - name:
           url:
 forge:
-    semverVersion: #(String!)
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
 
@@ -95,7 +93,6 @@ forge:
         - name:
           url:
 liteloader:
-    semverVersion: #(String!)
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
 
@@ -141,7 +138,6 @@ liteloader:
         - name:
           url:
 rift:
-    semverVersion: #(String!)
     modrinthVersion: #(String!)
     sourceControlTag: #(String!)
 

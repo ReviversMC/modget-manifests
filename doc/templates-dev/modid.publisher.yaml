@@ -49,9 +49,13 @@ releasePlatforms: # It should be removed from the versions if moved back here.
 versions:
   fabric: #(Version?)
     - version: #Version extracted from fabric.mod.json (String!)
+      semverVersion:
   forge: #(Version?)
     - version: #Version extracted from mods.toml (String!)
+      semverVersion:
   liteloader:
     - version:
+      semverVersion:
   rift:
     - version:
+      semverVersion:
