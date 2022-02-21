@@ -7,7 +7,7 @@ sourceControlTag: #(String!)
 
 changelog:
 
-loaders:
+supportedLoaders:
   fabric: #(Boolean!)
   forge: #(Boolean!)
   rift: #(Boolean!)

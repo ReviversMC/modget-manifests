@@ -35,7 +35,7 @@ status:
 updatedAlternatives:
   - packageId:
 
-loaders: #(cloud: replace open array with fixed loaders, as MG is only supposed to support Fabric and Forge. fire: and liteloader and rift)
+supportedLoaders: #(cloud: replace open array with fixed loaders, as MG is only supposed to support Fabric and Forge. fire: and liteloader and rift)
   fabric: #(Boolean!)
   forge: #(Boolean!)
   rift: #(Boolean!)
