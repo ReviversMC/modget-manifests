@@ -1,50 +1,54 @@
 # schema goes here
 
-manifestSpecVersion: "5.0-beta.3"
+manifestSpecVersion: "5.0-beta.15"
 
 names:
   official:
   others:
-    -
 publisher:
 authors:
-  -
 description:
 iconUrls:
   -
 
-home:
-source:
-issues:
-support:
-wiki:
-chats:
-  discord:
-  irc:
-  others:
-    - name:
-      url:
+releasePlatforms:
+  curseforgeID:
+  modrinthID:
+  sourceControlUrl:
 
 status:
 updatedAlternatives:
   - packageId:
 
-loaders:
-  fabric:
-  forge:
-  liteloader:
-  rift:
+homeUrl:
+sourceUrl:
+issuesUrl:
+supportUrl:
+wikiUrl:
+chatUrls:
+  discordUrl:
+  ircUrl:
+  otherUrls:
+    - name:
+      url:
+donationUrls:
+  patreonUrl:
+  kofiUrl:
+  otherUrls:
+    - name:
+      url:
 
-releasePlatforms:
-  curseforge:
-  modrinth:
-  sourceControl:
-versions:
+supportedLoaders:
   fabric:
-    - version:
   forge:
-    - version:
-  liteloader:
-    - version:
   rift:
-    - version:
+  meddle:
+  m3l:
+  rope:
+  blazeloader:
+  liteloader:
+  risugami:
+
+versions:
+  - version:
+    semverVersion:
