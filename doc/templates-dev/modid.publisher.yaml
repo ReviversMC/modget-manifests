@@ -52,30 +52,5 @@ releasePlatforms: # It should be removed from the versions if moved back here.
   sourceControlUrl: #Full URL (String?) Is this even necessary, as we have source listed as a field?
    # (cloud: Let's standardize on having `.git`?) (fire: sure)
 versions:
-  fabric: #(Version?)
-    - version: #Version extracted from fabric.mod.json (String!)
-      semverVersion:
-  forge: #(Version?)
-    - version: #Version extracted from mods.toml (String!)
-      semverVersion:
-  rift:
-    - version:
-      semverVersion:
-  meddle:
-    - version:
-      semverVersion:
-  m3l:
-    - version:
-      semverVersion:
-  rope:
-    - version:
-      semverVersion:
-  blazeloader:
-    - version:
-      semverVersion:
-  liteloader:
-    - version:
-      semverVersion:
-  risugami:
-    - version:
-      semverVersion:
+  - version: #Version extracted from fabric.mod.json (String!)
+    semverVersion:
