@@ -23,6 +23,8 @@ chats:
   irc: ~
   others: ~
 versions:
+  - version: "0.7.6"
+  - version: "0.7.6-rc1"
   - version: "0.7.5"
   - version: "0.7.4"
   - version: "0.7.3"

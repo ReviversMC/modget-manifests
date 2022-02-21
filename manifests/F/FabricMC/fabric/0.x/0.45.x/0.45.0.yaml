@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1"
+    - "1.18"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "P7dR8mSH"
+    curseforge: "306612"
+  license: Apache-2.0
+  fileType: jar
+  md5: f23fd6e4b81bb02b532ad0aaa1af59c1
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/fabric-api/version/qh9BpS0Q
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3577046
+    sourceControl: https://github.com/FabricMC/fabric/releases/tag/0.45.0%2B1.18
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.45.0+1.18/fabric-api-0.45.0+1.18.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3577046/file
+    sourceControl: https://github.com/FabricMC/fabric/releases/download/0.45.0%2B1.18/fabric-api-0.45.0+1.18.jar
+    others: ~
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "P7dR8mSH"
+    curseforge: "306612"
+  license: Apache-2.0
+  fileType: jar
+  md5: 832d5ffb918563c090414f971544e0da
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/fabric-api/version/1rPtAM25
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/3577042
+    sourceControl: https://github.com/FabricMC/fabric/releases/tag/0.45.0%2B1.17
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/P7dR8mSH/versions/0.45.0+1.17/fabric-api-0.45.0+1.17.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3577042/file
+    sourceControl: https://github.com/FabricMC/fabric/releases/download/0.45.0%2B1.17/fabric-api-0.45.0+1.17.jar
+    others: ~

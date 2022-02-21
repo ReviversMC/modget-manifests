@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: "*"
+  thirdPartyIds:
+    modrinth: "VPU6VYVP"
+    curseforge: ~
+  license: MIT
+  fileType: jar
+  md5: 348ed1b91f2dea2dc8fc79ac9f120a05
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/quilt-loading-screen/version/8fdt0Hxw
+    curseforge: ~
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/VPU6VYVP/versions/1.3.0+1.16.5/quilt-loading-screen-1.3.0+1.16.5.jar
+    curseforge: ~
+    sourceControl: ~
+    others: ~

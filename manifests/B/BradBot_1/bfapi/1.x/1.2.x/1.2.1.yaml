@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1"
+    - "1.18"
+  environment:
+    server: required
+    client: unsupported
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "toILlMg6"
+    curseforge: "501198"
+  license: Apache-2.0
+  fileType: jar
+  md5: 09f15b36a92d6bbbfbebf94ab95742d6
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/bfapi/version/DQ8ZYC3C
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/bfapi/files/3561709
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/toILlMg6/versions/v1.2.1/bfapi.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/bfapi/download/3561709/file
+    sourceControl: ~
+    others: ~

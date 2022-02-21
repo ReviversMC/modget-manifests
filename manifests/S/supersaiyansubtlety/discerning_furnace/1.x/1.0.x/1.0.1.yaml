@@ -10,7 +10,7 @@
     - "1.16.1"
   environment:
     server: required
-    client: optional
+    client: unsupported
   channel: release
   depends: ~
   bundles: ~

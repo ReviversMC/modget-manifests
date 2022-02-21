@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
+
+manifestSpecVersion: "4.0"
+publisher: Emmaffle
+iconUrls:
+  - https://cdn.modrinth.com/data/VPU6VYVP/icon.png
+  - https://media.forgecdn.net/avatars/thumbnails/412/297/64/64/637631569051518164.png
+status: active
+updatedAlternatives: ~
+name: Quilt Loading Screen
+description: Makes Minecraft loading screen look like the banner of the QuiltMC Community Server.
+authors:
+  - name: Emmaffle
+  - name: darkerbit
+home: https://modrinth.com/mod/quilt-loading-screen/
+source: https://github.com/wafflecoffee/quilt-loading-screen
+issues: https://github.com/wafflecoffee/quilt-loading-screen/issues
+support: https://discord.gg/EES4w9qbtk
+wiki: ~
+chats:
+  discord: https://discord.gg/EES4w9qbtk  
+  irc: ~
+  others: ~
+versions:
+  - version: "2.2.1"
+  - version: "1.3.0"

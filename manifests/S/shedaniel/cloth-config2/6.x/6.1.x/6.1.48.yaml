@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1"
+    - "1.18"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: ~
+    curseforge: "319057"
+  license: LGPL-3.0
+  fileType: jar
+  md5: 69f39bd98eb558825368daddafdb5114
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/cloth-config/files/3559638
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/cloth-config/download/3559638/file
+    sourceControl: ~
+    others: ~

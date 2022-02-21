@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1"
+    - "1.18"
+    - "1.17.1"
+    - "1.17"
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+    - "1.15.2"
+    - "1.15.1"
+    - "1.15"
+    - "1.14.4"
+    - "1.14.3"
+    - "1.14.2"
+    - "1.14.1"
+    - "1.14"
+  environment:
+    server: required
+    client: unsupported
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "FCmig1C9"
+    curseforge: "318315"
+  license: MIT
+  fileType: jar
+  md5: 6688e029fbb40f70b00c22b5cb761dec
+  downloadPageUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link/files/3549212
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: ~
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link/download/3549212/file
+    sourceControl: ~
+    others: ~

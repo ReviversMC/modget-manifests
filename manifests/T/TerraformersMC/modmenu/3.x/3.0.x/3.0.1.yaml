@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1"
+    - "1.18"
+  environment:
+    server: unsupported
+    client: required
+  channel: release
+  depends:
+    - packageId: FabricMC.fabric
+      version: ">=0.35.0+1.17"
+  bundles: ~
+  breaks:
+    - packageId: FabricMC.fabric
+      version: "<0.30.0"
+    - packageId: Minenash.better_mod_button
+      version: "*"
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "mOgUt4GM"
+    curseforge: "308702"
+  license: MIT
+  fileType: jar
+  md5: 9411d9c800ef983de97aa641e791f276
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/modmenu/version/eueI9czw
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3570652
+    sourceControl: https://github.com/TerraformersMC/ModMenu/releases/tag/v3.0.1
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/mOgUt4GM/versions/3.0.1/modmenu-3.0.1.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/modmenu/download/3570652/file
+    sourceControl: https://github.com/TerraformersMC/ModMenu/releases/download/v3.0.1/modmenu-3.0.1.jar
+    others: ~

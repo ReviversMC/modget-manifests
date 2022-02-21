@@ -1,0 +1,105 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+#1.18
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.1"
+    - "1.18"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+     - packageId: vlad2305m.soundphysics
+       version: "*"
+  thirdPartyIds:
+    modrinth: "1bZhdhsH"
+    curseforge: ~
+  license: ARR
+  fileType: jar
+  md5: 14549a5f4cef6ca6f781d0847fa54e44
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/plasmo-voice/version/apgep7HE
+    curseforge: ~
+    sourceControl: https://github.com/plasmoapp/plasmo-voice/releases/tag/1.2.9
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/1bZhdhsH/versions/fabric-1.18-1.2.9/plasmovoice-fabric-1.18.1-1.2.9.jar
+    curseforge: ~
+    sourceControl: https://github.com/plasmoapp/plasmo-voice/releases/download/1.2.9/plasmovoice-fabric-1.18.1-1.2.9.jar
+    others: ~
+
+#1.17
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.17.1"
+    - "1.17"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: vlad2305m.soundphysics
+      version: "*"
+  thirdPartyIds:
+    modrinth: "1bZhdhsH"
+    curseforge: ~
+  license: ARR
+  fileType: jar
+  md5: 5a7a9de38fd70ed6b2fa83b0ab9cacb6
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/plasmo-voice/version/CXkLNwxe
+    curseforge: ~
+    sourceControl: https://github.com/plasmoapp/plasmo-voice/releases/tag/1.2.9
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/1bZhdhsH/versions/fabric-1.17-1.2.9/plasmovoice-fabric-1.17.1-1.2.9.jar
+    curseforge: ~
+    sourceControl: https://github.com/plasmoapp/plasmo-voice/releases/download/1.2.9/plasmovoice-fabric-1.17.1-1.2.9.jar
+    others: ~
+
+#1.16
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.16.5"
+    - "1.16.4"
+    - "1.16.3"
+    - "1.16.2"
+    - "1.16.1"
+    - "1.16"
+  environment:
+    server: optional
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "1bZhdhsH"
+    curseforge: ~
+  license: ARR
+  fileType: jar
+  md5: 7aeefbaecaf453baaab64f7b3443040e
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/plasmo-voice/version/5PxfQIvr
+    curseforge: ~
+    sourceControl: https://github.com/plasmoapp/plasmo-voice/releases/tag/1.2.9
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/1bZhdhsH/versions/fabric-1.16-1.2.9/plasmovoice-fabric-1.16.5-1.2.9.jar
+    curseforge: ~
+    sourceControl: https://github.com/plasmoapp/plasmo-voice/releases/download/1.2.9/plasmovoice-fabric-1.16.5-1.2.9.jar
+    others: ~

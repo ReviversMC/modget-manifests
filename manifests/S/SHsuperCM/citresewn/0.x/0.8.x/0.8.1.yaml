@@ -3,6 +3,40 @@
 - loaders:
     - fabric
   minecraftVersions:
+    - "1.18"
+  environment:
+    server: unsupported
+    client: required
+  channel: beta
+  depends:
+    - packageId: FabricMC.fabric
+      version: "*"
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends:
+    - packageId: TerraformersMC.modmenu
+      version: "*"
+  thirdPartyIds:
+    modrinth: "otVJckYQ"
+    curseforge: "521427"
+  license: MIT
+  fileType: jar
+  md5: 8b44fc5cc7f48364fdab19e4854a9935
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/cit-resewn/version/n2100b4k
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/cit-resewn/files/3543705
+    sourceControl: ~
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/otVJckYQ/versions/0.8.1-1.18/CITResewn-0.8.1-1.18.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/cit-resewn/download/3543705/file
+    sourceControl: ~
+    others: ~
+
+- loaders:
+    - fabric
+  minecraftVersions:
     - "1.17.1"
     - "1.17"
   environment:

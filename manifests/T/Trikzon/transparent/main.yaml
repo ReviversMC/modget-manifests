@@ -1,10 +1,10 @@
-# yaml-language-server: $schema=https://raw.github.com/ReviversMC/modget-manifests/v4-review/doc/validation-schemas/4.0/main-manifest.json
+# yaml-language-server: $schema=../../../../doc/validation-schemas/4.0/main-manifest.json
 
 manifestSpecVersion: "4.0"
 publisher: Trikzon
 iconUrls:
   - https://media.forgecdn.net/avatars/thumbnails/281/901/64/64/637287072374869279.png
-status: active
+status: unknown
 updatedAlternatives: ~
 name: Transparent
 description: Allows resource packs to make entities support transparency.

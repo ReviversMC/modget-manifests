@@ -155,6 +155,19 @@
     - packageId: Digifox03.varied-mobs
       loaders:
         - fabric
+- id: cem
+  alternativeNames:
+    - customentitymodels
+    - custom-entity-models
+  tags:
+    - optifine-alternative
+    - library
+    - api
+    - cosmetic
+  packages:
+    - packageId: dorianpb.cem
+      loaders:
+        - fabric
 - id: soaring-clouds
   alternativeNames: ~
   tags:
@@ -165,6 +178,17 @@
     - packageId: Draylar.soaring-clouds
       loaders:
         - fabric
+- id: antixray
+  alternativeNames:
+    - anti-xray
+  tags:
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: DrexHD.antixray
+      loaders:
+        - fabric
+        # also for forge, but not added yet!
 - id: chime
   alternativeNames: ~
   tags:
@@ -175,6 +199,17 @@
     - optifine-alternative
   packages:
     - packageId: EmilyPloszaj.chime
+      loaders:
+        - fabric
+- id: quilt-loading-screen
+  alternativeNames: ~
+  tags:
+    - cosmetic
+    - decoration
+    - miscellaneous
+    - utility
+  packages:
+    - packageId: Emmaffle.quilt-loading-screen
       loaders:
         - fabric
 - id: okzoomer
@@ -226,6 +261,17 @@
     - optifine-alternative
   packages:
     - packageId: FoundationGames.animatica
+      loaders:
+        - fabric
+- id: advancementinfo
+  alternativeNames:
+    - advancement-info
+  tags:
+    - utility
+    - miscellaneous
+    - information
+  packages:
+    - packageId: Giselbaer.advancementinfo
       loaders:
         - fabric
 - id: clear-skies
@@ -382,6 +428,27 @@
     - packageId: PepperCode1.continuity
       loaders:
         - fabric
+- id: plasmo_voice
+  alternativeNames:
+    - plasmo-voice
+  tags:
+    - adventure
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: plasmoapp.plasmo_voice
+      loaders:
+        - fabric
+- id: antishulkerdupe
+  alternativeNames:
+    - anti-shulker-dupe
+  tags:
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: PotatoPresident.antishulkerdupe
+      loaders:
+        - fabric
 - id: dashloader
   alternativeNames: ~
   tags:
@@ -400,6 +467,16 @@
     - miscellaneous
   packages:
     - packageId: ramidzkh.fabrishot
+      loaders:
+        - fabric
+- id: bettersleeping
+  alternativeNames:
+    - better-sleeping
+  tags:
+    - miscellaneous
+    - information
+  packages:
+    - packageId: ReviversMC.bettersleeping
       loaders:
         - fabric
 - id: modget
@@ -501,6 +578,24 @@
     - packageId: TerraformersMC.modmenu
       loaders:
         - fabric
+- id: cullparticles
+  alternativeNames:
+    - "cull-particles"
+  tags:
+    - miscellaneous
+  packages:
+    - packageId: tfarcenim.cullparticles
+      loaders:
+        - fabric
+- id: entityculling
+  alternativeNames: ~
+  tags:
+    - utility
+    - miscellaneous
+  packages:
+    - packageId: tr7zw.entityculling
+      loaders:
+        - "fabric"
 - id: transparent
   alternativeNames: ~
   tags:
@@ -564,15 +659,5 @@
     - optifine-alternative
   packages:
     - packageId: vram-guild.canvas
-      loaders:
-        - fabric
-- id: bettersleeping
-  alternativeNames:
-    - better-sleeping
-  tags:
-    - miscellaneous
-    - information
-  packages:
-    - packageId: ReviversMC.bettersleeping
       loaders:
         - fabric

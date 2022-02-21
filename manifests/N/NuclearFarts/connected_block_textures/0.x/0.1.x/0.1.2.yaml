@@ -12,9 +12,9 @@
   environment:
     server: unsupported
     client: required
-  channel: release
+  channel: beta
   depends:
-    - packageId: FabricMc.fabric
+    - packageId: FabricMC.fabric
       version: "*"
   bundles: ~
   breaks: ~
@@ -23,7 +23,7 @@
   thirdPartyIds:
     modrinth: ~
     curseforge: "382022"
-  license: LGPLv3
+  license: LGPL-3.0
   fileType: jar
   md5: bfa79200708b887024cbb6f2be4621b2
   downloadPageUrls:
