@@ -2,452 +2,62 @@
 
 manifestSpecVersion: "5.0-beta.10"
 
-fabric:
-    modrinthVersion: #(String!)
-    sourceControlTag: #(String!)
+modrinthVersion: #(String!)
+sourceControlTag: #(String!)
 
-    changelog:
+changelog:
 
-    minecraftVersions:
-      - #(String!)
-    environment:
-      server: #(String!)
-      client: #(String!)
-    channel:
+loaders:
+  fabric: #(Boolean!)
+  forge: #(Boolean!)
+  rift: #(Boolean!)
+  meddle: #(Boolean!)
+  m3l: #(Boolean!)
+  rope: #(Boolean!)
+  blazeloader: #(Boolean!)
+  liteloader: #(Boolean!)
+  risugami: #(Boolean!)
 
-    depends:
-      - packageId:
-        version:
-    bundles:
-      - packageId:
-        version:
-    breaks:
-      - packageId:
-        version:
-    conflicts:
-      - packageId:
-        version:
-    recommends:
-      - packageId:
-        version:
+minecraftVersions:
+  - #(String!)
+environment:
+  server: #(String!)
+  client: #(String!)
+channel:
 
-    license:
-      id:
-      customLicenseUrl:
-    fileType:
-    md5:
+depends:
+  - packageId:
+    version:
+bundles:
+  - packageId:
+    version:
+breaks:
+  - packageId:
+    version:
+conflicts:
+  - packageId:
+    version:
+recommends:
+  - packageId:
+    version:
 
-    downloadPageUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-    fileUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
+license:
+  id:
+  customLicenseUrl:
+fileType:
+md5:
 
-forge:
-    modrinthVersion: #(String!)
-    sourceControlTag: #(String!)
-
-    changelog:
-
-    minecraftVersions:
-      - #(String!)
-    environment:
-      server: #(String!)
-      client: #(String!)
-    channel:
-
-    depends:
-      - packageId:
-        version:
-    bundles:
-      - packageId:
-        version:
-    breaks:
-      - packageId:
-        version:
-    conflicts:
-      - packageId:
-        version:
-    recommends:
-      - packageId:
-        version:
-
-    license:
-      id:
-      customLicenseUrl:
-    fileType:
-    md5:
-
-    downloadPageUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-    fileUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-
-rift:
-    modrinthVersion: #(String!)
-    sourceControlTag: #(String!)
-
-    changelog:
-
-    minecraftVersions:
-      - #(String!)
-    environment:
-      server: #(String!)
-      client: #(String!)
-    channel:
-
-    depends:
-      - packageId:
-        version:
-    bundles:
-      - packageId:
-        version:
-    breaks:
-      - packageId:
-        version:
-    conflicts:
-      - packageId:
-        version:
-    recommends:
-      - packageId:
-        version:
-
-    license:
-      id:
-      customLicenseUrl:
-    fileType:
-    md5:
-
-    downloadPageUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-    fileUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-
-meddle:
-    modrinthVersion: #(String!)
-    sourceControlTag: #(String!)
-
-    changelog:
-
-    minecraftVersions:
-      - #(String!)
-    environment:
-      server: #(String!)
-      client: #(String!)
-    channel:
-
-    depends:
-      - packageId:
-        version:
-    bundles:
-      - packageId:
-        version:
-    breaks:
-      - packageId:
-        version:
-    conflicts:
-      - packageId:
-        version:
-    recommends:
-      - packageId:
-        version:
-
-    license:
-      id:
-      customLicenseUrl:
-    fileType:
-    md5:
-
-    downloadPageUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-    fileUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-
-m3l:
-    modrinthVersion: #(String!)
-    sourceControlTag: #(String!)
-
-    changelog:
-
-    minecraftVersions:
-      - #(String!)
-    environment:
-      server: #(String!)
-      client: #(String!)
-    channel:
-
-    depends:
-      - packageId:
-        version:
-    bundles:
-      - packageId:
-        version:
-    breaks:
-      - packageId:
-        version:
-    conflicts:
-      - packageId:
-        version:
-    recommends:
-      - packageId:
-        version:
-
-    license:
-      id:
-      customLicenseUrl:
-    fileType:
-    md5:
-
-    downloadPageUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-    fileUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-
-rope:
-    modrinthVersion: #(String!)
-    sourceControlTag: #(String!)
-
-    changelog:
-
-    minecraftVersions:
-      - #(String!)
-    environment:
-      server: #(String!)
-      client: #(String!)
-    channel:
-
-    depends:
-      - packageId:
-        version:
-    bundles:
-      - packageId:
-        version:
-    breaks:
-      - packageId:
-        version:
-    conflicts:
-      - packageId:
-        version:
-    recommends:
-      - packageId:
-        version:
-
-    license:
-      id:
-      customLicenseUrl:
-    fileType:
-    md5:
-
-    downloadPageUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-    fileUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-
-blazeloader:
-    modrinthVersion: #(String!)
-    sourceControlTag: #(String!)
-
-    changelog:
-
-    minecraftVersions:
-      - #(String!)
-    environment:
-      server: #(String!)
-      client: #(String!)
-    channel:
-
-    depends:
-      - packageId:
-        version:
-    bundles:
-      - packageId:
-        version:
-    breaks:
-      - packageId:
-        version:
-    conflicts:
-      - packageId:
-        version:
-    recommends:
-      - packageId:
-        version:
-
-    license:
-      id:
-      customLicenseUrl:
-    fileType:
-    md5:
-
-    downloadPageUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-    fileUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-
-liteloader:
-    modrinthVersion: #(String!)
-    sourceControlTag: #(String!)
-
-    changelog:
-
-    minecraftVersions:
-      - #(String!)
-    environment:
-      server: #(String!)
-      client: #(String!)
-    channel:
-
-    depends:
-      - packageId:
-        version:
-    bundles:
-      - packageId:
-        version:
-    breaks:
-      - packageId:
-        version:
-    conflicts:
-      - packageId:
-        version:
-    recommends:
-      - packageId:
-        version:
-
-    license:
-      id:
-      customLicenseUrl:
-    fileType:
-    md5:
-
-    downloadPageUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-    fileUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-
-risugami:
-    modrinthVersion: #(String!)
-    sourceControlTag: #(String!)
-
-    changelog:
-
-    minecraftVersions:
-      - #(String!)
-    environment:
-      server: #(String!)
-      client: #(String!)
-    channel:
-
-    depends:
-      - packageId:
-        version:
-    bundles:
-      - packageId:
-        version:
-    breaks:
-      - packageId:
-        version:
-    conflicts:
-      - packageId:
-        version:
-    recommends:
-      - packageId:
-        version:
-
-    license:
-      id:
-      customLicenseUrl:
-    fileType:
-    md5:
-
-    downloadPageUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
-    fileUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
-        - name:
-          url:
+downloadPageUrls:
+  modrinthUrl:
+  curseforgeUrl:
+  sourceControlUrl:
+  otherUrls:
+    - name:
+      url:
+fileUrls:
+  modrinthUrl:
+  curseforgeUrl:
+  sourceControlUrl:
+  otherUrls:
+    - name:
+      url:
