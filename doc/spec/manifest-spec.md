@@ -1,3 +1,6 @@
+## WARNING
+This file is WIP!
+
 Modget uses manifests (YAML files) to locate and install packages. This specification provides
 a guide to writing these manifests as well as best practices.
 
@@ -9,25 +12,25 @@ Manifest Specification
   3. [Main file](#main-file)
   4. [Version files](#version-files)
   5. [Best Practices](#best-practices)
-  6. [Migration from v3](#migration-from-the-v3-spec)
+  6. [Migration from v4](#migration-from-the-v4-spec)
 
 
 
-# Manifest Specification Version 4
+# Manifest Specification Version 5.0-alpha.15
 
 
 ## File names and folder structure
 Manifests shall be added to the repository with the following folder structure:<br>
-`manifests / P / publisher / modid / main.yaml`
+`manifests / P / <modid> / <publisher> / <modid>.<publisher>.yaml`
 
 Example:<br>
-`manifests / R / ReviversMC / modget / main.yaml`
+`manifests / M / modget / ReviversMC / modget.ReviversMC.yaml`
 
-- Manifests are partitioned by the first letter of the publisher name (in upper case). For example: `R`. (The partitioning scheme was added to help with GitHub's UX. Folders with thousands of children do not render well in the browser.)
+- Manifests are partitioned by the first letter of the modid (in upper case). For example: `M`. (The partitioning scheme was added to help with GitHub's UX. Folders with thousands of children do not render well in the browser.)
 - A publisher is the name of the individual or group that publishes the tool. For example: `ReviversMC`.
-- The child folder `modid` is the id of the corresponding mod. For example: `modget`. It can be found in its `fabric.mod.json`.
+- The child folder `<modid>` is the id of the corresponding mod. For example: `modget`. It can be found in its `fabric.mod.json` (for the fabric modloader).
 
-The `publisher` and `modid` folders **must** match the values used in the lookup table. See the [lookup table spec](./lookup-table-spec.md). They must also match the values defined in the manifest itself.
+The `modid` folder **must** match the value used in the lookup table. See the [lookup table spec](./lookup-table-spec.md).
 
 **Neither the publisher nor the modid strings are allowed to contain periods, spaces or non-ASCII characters!**
 
@@ -43,7 +46,7 @@ This example manifest mixes together metadata from various different mods to sho
 
 ```YAML
 # Current manifest specification
-manifestSpecVersion: 4
+manifestSpecVersion: "5.0-alpha.15"
 
 # GitHub organization name, otherwise name of the main uploader on CurseForge/Modrinth.
 # Only here is it allowed for the publisher name to contain periods, spaces or non-ASCII characters!
@@ -114,7 +117,7 @@ For collections with sub-tags like `chats`, only set the sub-tags to `~` or `nul
 
 
 ## Version files
-Version files are located in the same directory as the main manifest file, but are further partitioned into subfolders to enhance readability, but with two subfolders at most. See this example:
+Version files are located in the `versions` directory, and are further partitioned into subfolders to enhance readability, but with two subfolders at most. See this example:
 ```
 publisher/
 ├──modid/
@@ -224,13 +227,13 @@ The following example file mixes together metadata from various different mods t
         url: https://example.com/
 ```
 
-As with the main file, tags/arrays like `depends` or `breaks` have to be set to `~` or `null` if no such thing exists for the given mod. If the mod doesn't have strict dependencies for example, simply set the `depends` array to `~` or `null`!
-For collections with sub-tags like `thirdPartyIds`, only set the sub-tags to `~` or `null`, not the whole collection (e.g.: `modrinth: ~`).
+As with the main file, tags/arrays like `depends` or `breaks` have to be set to `~` if no such thing exists for the given mod. If the mod doesn't have strict dependencies for example, simply set the `depends` array to `~`!
+For collections with sub-tags like `thirdPartyIds`, only set the sub-tags to `~` not the whole collection (e.g.: `modrinth: ~`).
 
 
 
 ## Best Practices
-The package identifier (`publisher.modid`) must be unique. Only one pull request per package version is allowed.
+The package identifier (`<modid>.<publisher>`) must be unique. Only one pull request per package version is allowed.
 
 Avoid creating multiple publisher folders. For example, do not create a `JellySquid3` if there is already a `JellySquid` folder.
 
@@ -238,5 +241,5 @@ Provide as many fields as possible. The more metadata you provide, the better th
 
 
 
-## Migration from the v3 spec
-You can find all changes from v3 summarized in [this](https://github.com/ReviversMC/modget-manifests/issues/8) issue.
+## Migration from the v4 spec
+You can find all changes from v4 summarized in [this](https://github.com/404) file (pending).
