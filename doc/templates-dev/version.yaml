@@ -2,62 +2,63 @@
 
 manifestSpecVersion: "5.0-beta.14"
 
-modrinthVersion: #(String!)
-sourceControlTag: #(String!)
+variants:
+  - supportedLoaders:
+      fabric: #(Boolean!)
+      forge: #(Boolean!)
+      rift: #(Boolean!)
+      meddle: #(Boolean!)
+      m3l: #(Boolean!)
+      rope: #(Boolean!)
+      blazeloader: #(Boolean!)
+      liteloader: #(Boolean!)
+      risugami: #(Boolean!)
+    minecraftVersions:
+      - #(String!)
 
-changelog:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
 
-supportedLoaders:
-  fabric: #(Boolean!)
-  forge: #(Boolean!)
-  rift: #(Boolean!)
-  meddle: #(Boolean!)
-  m3l: #(Boolean!)
-  rope: #(Boolean!)
-  blazeloader: #(Boolean!)
-  liteloader: #(Boolean!)
-  risugami: #(Boolean!)
+    changelog:
 
-minecraftVersions:
-  - #(String!)
-environment:
-  server: #(String!)
-  client: #(String!)
-channel:
+    environment:
+      server: #(String!)
+      client: #(String!)
+    channel:
 
-depends:
-  - packageId:
-    version:
-bundles:
-  - packageId:
-    version:
-breaks:
-  - packageId:
-    version:
-conflicts:
-  - packageId:
-    version:
-recommends:
-  - packageId:
-    version:
+    depends:
+      - packageId:
+        version:
+    bundles:
+      - packageId:
+        version:
+    breaks:
+      - packageId:
+        version:
+    conflicts:
+      - packageId:
+        version:
+    recommends:
+      - packageId:
+        version:
 
-license:
-  id:
-  customLicenseUrl:
-fileType:
-md5:
+    license:
+      id:
+      customLicenseUrl:
+    fileType:
+    md5:
 
-downloadPageUrls:
-  modrinthUrl:
-  curseforgeUrl:
-  sourceControlUrl:
-  otherUrls:
-    - name:
-      url:
-fileUrls:
-  modrinthUrl:
-  curseforgeUrl:
-  sourceControlUrl:
-  otherUrls:
-    - name:
-      url:
+    downloadPageUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
+    fileUrls:
+      modrinthUrl:
+      curseforgeUrl:
+      sourceControlUrl:
+      otherUrls:
+        - name:
+          url:
