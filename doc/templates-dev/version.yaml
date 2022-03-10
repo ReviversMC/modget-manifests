@@ -6,6 +6,7 @@ variants:
   - supportedLoaders:
       fabric: #(Boolean!)
       forge: #(Boolean!)
+      quilt: #(Boolean!)
       rift: #(Boolean!)
       meddle: #(Boolean!)
       m3l: #(Boolean!)

@@ -44,6 +44,7 @@ donationUrls:
 supportedLoaders: #(cloud: replace open array with fixed loaders, as MG is only supposed to support Fabric and Forge. fire: and liteloader and rift)
   fabric: #(Boolean!)
   forge: #(Boolean!)
+  quilt: #(Boolean!)
   rift: #(Boolean!)
   meddle: #(Boolean!)
   m3l: #(Boolean!)
