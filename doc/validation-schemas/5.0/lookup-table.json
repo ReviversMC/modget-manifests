@@ -1,0 +1,34 @@
+{
+  "$id": "com.github.reviversmc.modget.manifests.schemas.spec5_0.lookup-table",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A representation of a Modget lookup table following the v5.0 specification.",
+  "type": "object",
+  "properties": {
+    "manifestSpecVersion": {
+      "type": "string",
+      "default": "\"5.0.0\"",
+      "const": "5.0.0",
+      "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+      "title": "Current manifest specification"
+    },
+    "modIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^([-_0-9a-zA-Z]+)$",
+        "description": "The ID of the mod, see fabric.mod.json",
+        "examples": [
+          "sodium",
+          "fdlink",
+          "discerning_furnace"
+        ]
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "manifestSpecVersion",
+    "modIds"
+  ],
+  "additionalProperties": false
+}
