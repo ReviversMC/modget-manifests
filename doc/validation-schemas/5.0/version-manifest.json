@@ -1,13 +1,13 @@
 {
-  "$id": "com.github.reviversmc.modget.manifests.schemas.spec5_0_alpha_2.version_manifest",
+  "$id": "com.github.reviversmc.modget.manifests.schemas.spec5_0_0.version_manifest",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "A representation of a Modget version manifest following the v5.0-alpha.2 specification.",
+  "description": "A representation of a Modget version manifest following the v5.0.0 specification.",
   "type": "object",
   "properties": {
-    "manifestSpecVersion": {
+    "schemaVersion": {
       "type": "string",
-      "default": "\"5.0-alpha.2\"",
-      "const": "5.0-alpha.2",
+      "default": "\"5.0.0\"",
+      "const": "5.0.0",
       "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
       "title": "Current manifest specification"
     },
@@ -17,17 +17,25 @@
       "items": {
         "type": "object",
         "properties": {
-          "loaders": {
+          "modLoaders": {
             "type": "array",
-            "description": "All mod loaders this version supports",
+            "description": "All mod loaders the version supports",
             "items": {
               "type": "string",
               "enum": [
-                "fabric",
+                "risugami",
                 "forge",
-                "liteloader"
+                "liteloader",
+                "blazeloader",
+                "rope",
+                "m3l",
+                "meddle",
+                "rift",
+                "fabric",
+                "quilt"
               ]
-            }
+            },
+            "uniqueItems": true
           },
           "minecraftVersions": {
             "type": "array",
@@ -78,6 +86,10 @@
               "beta",
               "release"
             ]
+          },
+          "changelog": {
+            "type": ["string", "null"],
+            "description": "Changelog since the last version. Can contain inline MarkDown!"
           },
           "depends": {
             "type": ["array", "null"],
@@ -248,7 +260,7 @@
             },
             "uniqueItems": true
           },
-          "thirdPartyIds": {
+          "thirdPartyProjectIds": {
             "type": "object",
             "description": "Which CurseForge/Modrinth project IDs has this version been released under?",
             "properties": {
@@ -276,12 +288,28 @@
             "additionalProperties": false
           },
           "license": {
-            "type": "string",
-            "description": "The version's license ID. See its fabric.mod.json or, of not specified there, its GitHub/Curseforge/Modrinth page.",
-            "examples": [
-              "LGPL-3-or-later",
-              "ARR"
-            ]
+            "type": "object",
+            "description": "The version's license. See its fabric.mod.json or, of not specified there, its GitHub/Curseforge/Modrinth page. If can't find anything there too, it's ARR by default.",
+            "properties": {
+              "id": {
+                "type": ["string", "null"],
+                "description": "SPDX license identifier or `ARR`. If it's a custom license, set it to `~` or `null`",
+                "examples": [
+                  "LGPL-3-or-later"
+                ]
+              },
+              "customLicenseUrl": {
+                "type": ["string", "null"],
+                "description": "If no custom license is used, set this to `~` or `null`. Otherwise, add a link to the license.",
+                "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+
+              }
+            },
+            "required": [
+              "id",
+              "customLicenseUrl"
+            ],
+            "additionalProperties": false
           },
           "fileType": {
             "type": "string",
@@ -412,16 +440,17 @@
           }
         },
         "required": [
-          "loaders",
+          "modLoaders",
           "minecraftVersions",
           "environment",
           "channel",
+          "changelog",
           "depends",
           "bundles",
           "breaks",
           "conflicts",
           "recommends",
-          "thirdPartyIds",
+          "thirdPartyProjectIds",
           "license",
           "fileType",
           "md5",
@@ -434,7 +463,7 @@
     }
   },
   "required": [
-    "manifestSpecVersion",
+    "schemaVersion",
     "variants"
   ],
   "additionalProperties": false

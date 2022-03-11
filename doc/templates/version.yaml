@@ -3,17 +3,16 @@
 schemaVersion:
 
 variants:
-  - supportedLoaders:
+  - modLoaders:
       -
     minecraftVersions:
       -
-
-    changelog:
 
     environment:
       server:
       client:
     channel:
+    changelog:
 
     depends:
       - packageId:
