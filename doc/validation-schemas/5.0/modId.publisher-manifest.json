@@ -4,7 +4,7 @@
   "description": "A representation of a Modget modId.publisher manifest following the v5.0.0 specification.",
   "type": "object",
   "properties": {
-    "manifestSpecVersion": {
+    "schemaVersion": {
       "type": "string",
       "default": "\"5.0.0\"",
       "const": "5.0.0",
@@ -295,7 +295,7 @@
     }
   },
   "required": [
-    "manifestSpecVersion",
+    "schemaVersion",
     "names",
     "publisherName",
     "authors",
