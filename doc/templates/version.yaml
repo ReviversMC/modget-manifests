@@ -17,9 +17,6 @@ variants:
     minecraftVersions:
       -
 
-    modrinthVersion:
-    sourceControlTag:
-
     changelog:
 
     environment:
