@@ -1,8 +1,7 @@
 # schema goes here
 
 manifestSpecVersion: "5.0"
-
+tags:
+  -
 publishers:
   -
-
-tags:

@@ -1,7 +1,7 @@
 {
-  "$id": "com.github.reviversmc.modget.manifests.schemas.spec5_0.lookup-table",
+  "$id": "com.github.reviversmc.modget.manifests.schemas.spec5_0_0.lookup-table",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "A representation of a Modget lookup table following the v5.0 specification.",
+  "description": "A representation of a Modget lookup table following the v5.0.0 specification.",
   "type": "object",
   "properties": {
     "manifestSpecVersion": {

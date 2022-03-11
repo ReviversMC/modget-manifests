@@ -1,0 +1,62 @@
+{
+  "$id": "com.github.reviversmc.modget.manifests.schemas.spec5_0_0.modId_manifest",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A representation of a Modget modId manifest following the v5.0.0 specification.",
+  "type": "object",
+  "properties": {
+    "manifestSpecVersion": {
+      "type": "string",
+      "default": "\"5.0.0\"",
+      "const": "5.0.0",
+      "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+      "title": "Current manifest specification"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^(-|[a-z])+$",
+        "enum": [
+          "adventure",
+          "biomes",
+          "cosmetic",
+          "decoration",
+          "dimensions",
+          "information",
+          "library",
+          "miscellaneous",
+          "mobs",
+          "optifine-alternative",
+          "performance",
+          "redstone",
+          "structures",
+          "technology",
+          "utility",
+          "vanilla-plus",
+          "worldgen"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "publishers": {
+      "type": "array",
+      "description": "The publishers of the different packages of this mod",
+      "items": {
+        "type": "string",
+        "description": "ASCII (without periods and non-URL characters) representation of the publisher name",
+        "pattern": "^([-_0-9a-zA-Z]+)$",
+        "examples": [
+          "CaffeineMC",
+          "malte0811"
+        ]
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "manifestSpecVersion",
+    "tags",
+    "publishers"
+  ],
+  "additionalProperties": false
+}
