@@ -4,16 +4,7 @@ manifestSpecVersion: "5.0"
 
 variants:
   - supportedLoaders:
-      fabric:
-      forge:
-      quilt:
-      rift:
-      meddle:
-      m3l:
-      rope:
-      blazeloader:
-      liteloader:
-      risugami:
+      -
     minecraftVersions:
       -
 

@@ -36,16 +36,7 @@ donationUrls:
       url:
 
 supportedLoaders:
-  fabric:
-  forge:
-  quilt:
-  rift:
-  meddle:
-  m3l:
-  rope:
-  blazeloader:
-  liteloader:
-  risugami:
+  -
 
 versions:
   - version:
