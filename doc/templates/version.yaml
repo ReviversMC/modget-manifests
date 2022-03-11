@@ -43,6 +43,9 @@ variants:
       - packageId:
         version:
 
+    thirdPartyProjectIds:
+      modrinth:
+      curseforge:
     license:
       id:
       customLicenseUrl:
