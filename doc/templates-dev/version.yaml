@@ -1,30 +1,30 @@
 # schema goes here
 
-manifestSpecVersion: "5.0"
+manifestSpecVersion: "5.0-beta.16"
 
 variants:
   - supportedLoaders:
-      fabric:
-      forge:
-      quilt:
-      rift:
-      meddle:
-      m3l:
-      rope:
-      blazeloader:
-      liteloader:
-      risugami:
+      fabric: #(Boolean!)
+      forge: #(Boolean!)
+      quilt: #(Boolean!)
+      rift: #(Boolean!)
+      meddle: #(Boolean!)
+      m3l: #(Boolean!)
+      rope: #(Boolean!)
+      blazeloader: #(Boolean!)
+      liteloader: #(Boolean!)
+      risugami: #(Boolean!)
     minecraftVersions:
-      -
+      - #(String!)
 
-    modrinthVersion:
-    sourceControlTag:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
 
     changelog:
 
     environment:
-      server:
-      client:
+      server: #(String!)
+      client: #(String!)
     channel:
 
     depends:
