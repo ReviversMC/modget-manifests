@@ -1,12 +1,14 @@
 # schema goes here
 
-manifestSpecVersion: "5.0-beta.15"
+manifestSpecVersion: "5.0"
 
 names:
   official:
   others:
+    -
 publisher:
 authors:
+  -
 description:
 iconUrls:
   -
@@ -41,6 +43,7 @@ donationUrls:
 supportedLoaders:
   fabric:
   forge:
+  quilt:
   rift:
   meddle:
   m3l:
