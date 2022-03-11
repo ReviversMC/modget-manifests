@@ -1,12 +1,12 @@
 # schema goes here
 
-manifestSpecVersion: "5.0"
+manifestSpecVersion:
 
 names:
   official:
   others:
     -
-publisher:
+publisherName:
 authors:
   -
 description:
@@ -17,25 +17,25 @@ status:
 updatedAlternatives:
   - packageId:
 
-homeUrl:
-sourceUrl:
-issuesUrl:
-supportUrl:
-wikiUrl:
+homePageUrl:
+sourcePageUrl:
+issuesPageUrl:
+supportPageUrl:
+wikiPageUrl:
 chatUrls:
   discord:
   irc:
   others:
     - name:
       url:
-donationUrls:
+donationPageUrls:
   patreon:
   kofi:
   others:
     - name:
       url:
 
-supportedLoaders:
+modLoaders:
   -
 
 versions:

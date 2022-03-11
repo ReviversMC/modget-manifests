@@ -1,17 +1,48 @@
 {
-  "$id": "com.github.reviversmc.modget.manifests.schemas.spec5_0_alpha_2.publisher_manifest",
+  "$id": "com.github.reviversmc.modget.manifests.schemas.spec5_0_0.modId.publisher_manifest",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "A representation of a Modget publisher manifest following the v5.0-alpha.2 specification.",
+  "description": "A representation of a Modget modId.publisher manifest following the v5.0.0 specification.",
   "type": "object",
   "properties": {
     "manifestSpecVersion": {
       "type": "string",
-      "default": "\"5.0-alpha.2\"",
-      "const": "5.0-alpha.2",
+      "default": "\"5.0.0\"",
+      "const": "5.0.0",
       "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
       "title": "Current manifest specification"
     },
-    "publisher": {
+    "names": {
+      "type": "object",
+      "description": "Name(s) of the mod",
+      "properties": {
+        "official": {
+          "type": "string",
+          "description": "Official name of the mod, see fabric.mod.json or CurseForge/Modrinth",
+          "examples": [
+            "Sodium",
+            "BFAPI"
+          ]
+        },
+        "others": {
+          "type": ["array", "null"],
+          "description": "Potentially differing Modrinth/CurseForge names, the mod's slugs on these platforms etc.",
+          "items": {
+            "type": "string",
+            "examples": [
+              "sodium-fabric",
+              "BradsFabricApi"
+            ]
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "official",
+        "others"
+      ],
+      "additionalProperties": false
+    },
+    "publisherName": {
       "type": "string",
       "description": "GitHub organization name, otherwise name of the main uploader on CurseForge/Modrinth",
       "examples": [
@@ -19,6 +50,31 @@
         "FabricMC",
         "malte0811"
       ]
+    },
+    "authors": {
+      "type": ["array", "null"],
+      "description": "Authors listed in fabric.mod.json",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "examples": [
+              "JellySquid",
+              "2No2Name"
+            ]
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    },
+    "description": {
+      "type": ["string", "null"],
+      "description": "Short description from CurseForge/Modrinth/Github or fabric.mod.json"
     },
     "iconUrls": {
       "type": ["array", "null"],
@@ -65,105 +121,37 @@
       },
       "uniqueItems": true
     },
-    "loaders": {
-      "type": "array",
-      "description": "All mod loaders the package supports",
-      "items": {
-        "type": "string",
-        "enum": [
-          "fabric",
-          "forge",
-          "liteloader"
-        ]
-      },
-      "uniqueItems": true
-    },
-    "names": {
-      "type": "object",
-      "description": "Names of the mod",
-      "properties": {
-        "official": {
-          "type": "string",
-          "description": "Official name of the mod, see fabric.mod.json or CurseForge/Modrinth",
-          "examples": [
-            "Sodium",
-            "Not Enough Crashes"
-          ]
-        },
-        "others": {
-          "type": ["array", "null"],
-          "description": "Potentially differing Modrinth/CurseForge names, the mod's slugs on these platforms etc.",
-          "items": {
-            "type": "string",
-            "examples": [
-              "sodium-fabric"
-            ]
-          },
-          "uniqueItems": true
-        }
-      },
-      "required": [
-        "official",
-        "others"
-      ],
-      "additionalProperties": false
-    },
-    "description": {
-      "type": ["string", "null"],
-      "description": "Short description from CurseForge/Modrinth/Github or fabric.mod.json"
-    },
-    "authors": {
-      "type": ["array", "null"],
-      "description": "Authors listed in fabric.mod.json",
-      "items": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "examples": [
-              "JellySquid",
-              "2No2Name"
-            ]
-          }
-        },
-        "required": [
-          "name"
-        ],
-        "additionalProperties": false
-      },
-      "uniqueItems": true
-    },
-    "home": {
+    "homePageUrl": {
       "type": ["string", "null"],
       "format": "iri",
       "description": "Homepage listed in fabric.mod.json",
       "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
     },
-    "source": {
+    "sourcePageUrl": {
       "type": ["string", "null"],
       "format": "iri",
       "description": "Website containing the source code listed in fabric.mod.json",
       "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
     },
-    "issues": {
+    "issuesPageUrl": {
       "type": ["string", "null"],
       "format": "iri",
       "description": "Issues page of the project listed in fabric.mod.json",
       "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
     },
-    "support": {
+    "supportPageUrl": {
       "type": ["string", "null"],
       "format": "iri",
       "description": "An official website where users can get support from the developers",
       "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
     },
-    "wiki": {
+    "wikiPageUrl": {
       "type": ["string", "null"],
       "format": "iri",
       "description": "Link to an official wiki (no third-party one!)",
       "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
     },
-    "chats": {
+    "chatUrls": {
       "type": ["object", "null"],
       "description": "Links to official chats provided by the mod developers",
       "properties": {
@@ -207,6 +195,70 @@
       ],
       "additionalProperties": false
     },
+    "donationPageUrls": {
+      "type": ["object", "null"],
+      "description": "Links to official sites where you can donate to the developers",
+      "properties": {
+        "patreon": {
+          "type": ["string", "null"],
+          "format": "iri",
+          "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+        },
+        "kofi": {
+          "type": ["string", "null"],
+          "format": "iri",
+          "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+        },
+        "others": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "iri",
+                "pattern": "^(http(s)?:\\\/\\\/([!#$&-;=?-_a-zA-Z~\\[\\]]|%[0-9a-fA-F]{2})+)$"
+              }
+            },
+            "required": [
+              "name",
+              "url"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "patreon",
+        "kofi",
+        "others"
+      ],
+      "additionalProperties": false
+    },
+    "modLoaders": {
+      "type": "array",
+      "description": "All mod loaders the package supports",
+      "items": {
+        "type": "string",
+        "enum": [
+          "risugami",
+          "forge",
+          "liteloader",
+          "blazeloader",
+          "rope",
+          "m3l",
+          "meddle",
+          "rift",
+          "fabric",
+          "quilt"
+        ]
+      },
+      "uniqueItems": true
+    },
     "versions": {
       "type": "array",
       "description": "All versions of the mod we support. Copy them from fabric.mod.json, and only modify them if they aren't semver compliant!",
@@ -215,6 +267,16 @@
         "properties": {
           "version": {
             "type": "string",
+            "description": "The version number defined in fabric.mod.json, or, if that is wrong, Modrinth/CurseForge",
+            "examples": [
+              "1.0.0",
+              "2.5.3-alpha.1",
+              "0.1.4+1.16.5"
+            ]
+          },
+          "normalizedVersion": {
+            "type": "string",
+            "description": "A SemVer-y representation of the real version number",
             "pattern": "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)?(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
             "examples": [
               "1.0.0",
@@ -224,7 +286,8 @@
           }
         },
         "required": [
-          "version"
+          "version",
+          "normalizedVersion"
         ],
         "additionalProperties": false
       },
@@ -233,20 +296,21 @@
   },
   "required": [
     "manifestSpecVersion",
-    "publisher",
+    "names",
+    "publisherName",
+    "authors",
+    "description",
     "iconUrls",
     "status",
     "updatedAlternatives",
-    "loaders",
-    "names",
-    "description",
-    "authors",
-    "home",
-    "source",
-    "issues",
-    "support",
-    "wiki",
-    "chats",
+    "homePageUrl",
+    "sourcePageUrl",
+    "issuesPageUrl",
+    "supportPageUrl",
+    "wikiPageUrl",
+    "chatUrls",
+    "donationPageUrls",
+    "modLoaders",
     "versions"
   ],
   "additionalProperties": false
