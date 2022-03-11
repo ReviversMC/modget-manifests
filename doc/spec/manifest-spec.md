@@ -46,7 +46,7 @@ This example manifest mixes together metadata from various different mods to sho
 
 ```YAML
 # Current manifest specification
-manifestSpecVersion: "5.0-alpha.15"
+schemaVersion: "5.0-alpha.15"
 
 # GitHub organization name, otherwise name of the main uploader on CurseForge/Modrinth.
 # Only here is it allowed for the publisher name to contain periods, spaces or non-ASCII characters!

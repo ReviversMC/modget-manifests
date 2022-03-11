@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./doc/validation-schemas/5.0/lookup-table.json
 
-manifestSpecVersion: "5.0.0"
+schemaVersion: "5.0.0"
 modIds:
 - "fabricskyboxes"
 - "architectury"

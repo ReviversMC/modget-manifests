@@ -1,6 +1,6 @@
 # schema goes here
 
-manifestSpecVersion:
+schemaVersion:
 
 names:
   official:
