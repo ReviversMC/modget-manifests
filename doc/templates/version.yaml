@@ -4,27 +4,27 @@ manifestSpecVersion: "5.0"
 
 variants:
   - supportedLoaders:
-      fabric:
-      forge:
-      quilt:
-      rift:
-      meddle:
-      m3l:
-      rope:
-      blazeloader:
-      liteloader:
-      risugami:
+      fabric: #(Boolean!)
+      forge: #(Boolean!)
+      quilt: #(Boolean!)
+      rift: #(Boolean!)
+      meddle: #(Boolean!)
+      m3l: #(Boolean!)
+      rope: #(Boolean!)
+      blazeloader: #(Boolean!)
+      liteloader: #(Boolean!)
+      risugami: #(Boolean!)
     minecraftVersions:
-      -
+      - #(String!)
 
-    modrinthVersion:
-    sourceControlTag:
+    modrinthVersion: #(String!)
+    sourceControlTag: #(String!)
 
     changelog:
 
     environment:
-      server:
-      client:
+      server: #(String!)
+      client: #(String!)
     channel:
 
     depends:

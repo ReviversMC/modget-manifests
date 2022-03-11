@@ -3,36 +3,37 @@
 manifestSpecVersion: "5.0"
 
 names:
-  official:
+  official: #(String!)
   others:
-    -
-publisher:
+    - #(String!)
+publisher: #(String!)
 authors:
-  -
+  - #(String!)
 description:
 iconUrls:
-  -
+  - #Prefer Modrinth, then CF, then source control (String?)
 
-releasePlatforms:
-  curseforgeID:
-  modrinthID:
-  sourceControlUrl:
+releasePlatforms: # It should be removed from the versions if moved back here.
+  curseforgeID: #Project ID (String?)
+  modrinthID: #Project ID (String?)
+  sourceControlUrl: #Full URL (String?) Is this even necessary, as we have source listed as a field?
+   # (cloud: Let's standardize on having `.git`?) (fire: sure)
 
 status:
 updatedAlternatives:
   - packageId:
 
-homeUrl:
-sourceUrl:
-issuesUrl:
-supportUrl:
-wikiUrl:
-chatUrls:
-  discordUrl:
-  ircUrl:
-  otherUrls:
-    - name:
-      url:
+homeUrl: #(String?)
+sourceUrl: #(String?)
+issuesUrl: #(String?)
+supportUrl: #(String?)
+wikiUrl: #(String?)
+chatUrls: #(ChatUrls!)
+  discordUrl: #(String?)
+  ircUrl: #(String?)
+  otherUrls: #(Other?)
+    - name: #(String!)
+      url: #(String!)
 donationUrls:
   patreonUrl:
   kofiUrl:
@@ -40,18 +41,18 @@ donationUrls:
     - name:
       url:
 
-supportedLoaders:
-  fabric:
-  forge:
-  quilt:
-  rift:
-  meddle:
-  m3l:
-  rope:
-  blazeloader:
-  liteloader:
-  risugami:
+supportedLoaders: #(cloud: replace open array with fixed loaders, as MG is only supposed to support Fabric and Forge. fire: and liteloader and rift)
+  fabric: #(Boolean!)
+  forge: #(Boolean!)
+  quilt: #(Boolean!)
+  rift: #(Boolean!)
+  meddle: #(Boolean!)
+  m3l: #(Boolean!)
+  rope: #(Boolean!)
+  blazeloader: #(Boolean!)
+  liteloader: #(Boolean!)
+  risugami: #(Boolean!)
 
 versions:
-  - version:
+  - version: #Version extracted from fabric.mod.json (String!)
     semverVersion:
