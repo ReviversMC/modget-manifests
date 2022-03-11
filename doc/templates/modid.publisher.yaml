@@ -28,15 +28,15 @@ issuesUrl:
 supportUrl:
 wikiUrl:
 chatUrls:
-  discordUrl:
-  ircUrl:
-  otherUrls:
+  discord:
+  irc:
+  others:
     - name:
       url:
 donationUrls:
-  patreonUrl:
-  kofiUrl:
-  otherUrls:
+  patreon:
+  kofi:
+  others:
     - name:
       url:
 

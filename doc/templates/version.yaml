@@ -50,16 +50,16 @@ variants:
     md5:
 
     downloadPageUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
+      modrinth:
+      curseforge:
+      sourceControl:
+      others:
         - name:
           url:
     fileUrls:
-      modrinthUrl:
-      curseforgeUrl:
-      sourceControlUrl:
-      otherUrls:
+      modrinth:
+      curseforge:
+      sourceControl:
+      others:
         - name:
           url:
