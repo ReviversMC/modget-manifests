@@ -15,9 +15,9 @@
   breaks:
     - packageId:
       version:
+  conflicts:
     - packageId:
       version:
-  conflicts:
   recommends:
     - packageId:
       version:
