@@ -32,6 +32,8 @@
     curseforge:
     sourceControl:
     others:
+      - name:
+        url:
   fileUrls:
     modrinth:
     curseforge:
