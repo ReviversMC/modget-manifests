@@ -40,4 +40,4 @@ modLoaders:
 
 versions:
   - version:
-    semverVersion:
+    normalizedVersion:
