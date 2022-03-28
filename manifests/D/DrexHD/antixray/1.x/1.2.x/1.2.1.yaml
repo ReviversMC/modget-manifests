@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../../../../doc/validation-schemas/4.0/version-manifest.json
+
+- loaders:
+    - fabric
+  minecraftVersions:
+    - "1.18.2"
+    # >=1.18.2 in fabric.mod.json
+  environment:
+    server: required
+    client: optional
+  channel: release
+  depends: ~
+  bundles: ~
+  breaks: ~
+  conflicts: ~
+  recommends: ~
+  thirdPartyIds:
+    modrinth: "sml2FMaA"
+    curseforge: "511697"
+  license: MIT
+  fileType: jar
+  md5: 5cfcdcbf7a52c051c4cea45647a75ca9
+  downloadPageUrls:
+    modrinth: https://modrinth.com/mod/anti-xray/version/mc1.18.2-1.2.1-fabric
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/antixray/files/3668700
+    sourceControl: https://github.com/DrexHD/AntiXray/releases/tag/1.2.1
+    others: ~
+  fileUrls:
+    modrinth: https://cdn.modrinth.com/data/sml2FMaA/versions/mc1.18.2-1.2.1-fabric/anti-xray-1.2.1-Fabric-1.18.2.jar
+    curseforge: https://www.curseforge.com/minecraft/mc-mods/antixray/download/3668700/file
+    sourceControl: https://github.com/DrexHD/AntiXray/releases/download/1.2.1/anti-xray-1.2.1-Fabric-1.18.2.jar
+    others: ~
